@@ -1,0 +1,748 @@
+﻿media/script/nut/a0122h.nut
+main
+main
+endfile
+scene
+this
+this
+media/script/nut/a0122h.nut
+main
+PrevPreview
+
+CrntPreview
+NextPreview
+MainInit
+GetCheckReadPreview
+scene
+endfile
+this
+this
+media/script/nut/a0122h.nut
+endfile
+RegisterCGvar
+eva0122みゆイラマチオ_a
+eva0122みゆイラマチオ_a2
+eva0122みゆイラマチオ_a3
+eva0122みゆイラマチオ_b
+eva0122みゆイラマチオ_b2
+eva0122みゆイラマチオ_c
+eva0122みゆイラマチオ_d
+eva0122みゆイラマチオ_e
+eva0122みゆイラマチオ_f
+eva0122みゆイラマチオ_f2
+eva0122みゆイラマチオ_g
+eva0122みゆイラマチオ_h
+PreGameName
+GameName
+a0122h_01.nut
+MainEnd
+this
+this
+media/script/nut/a0122h.nut
+scene
+SceneInit
+PreGameName
+
+CheckRootSkipExpress
+PrintGO
+上背景
+CreateFrame
+CreateEyelids
+CreateCameraOrtho
+カメラ01
+SCREEN_WIDTH
+SCREEN_HEIGHT
+RandomShakeStart3D
+CreateTextureSP
+XBg01A
+cg/ep/sl/xbg200010_32_みゆ自室_b1.png
+Move3D
+SetCamera
+XSt01B
+GetPosition
+y
+cg/ep/sl/xstみゆ_私服_fear_32.png
+GetSize
+SetCenter
+XBg01B
+Center
+cg/ep/sl/xbg200010_32_みゆ自室_b2.png
+CreateColorSP
+絵選択肢用色黒
+BLACK
+BLEND_MODE_NORMAL
+Transition
+cg/data/zzex_eye_01_00_0.png
+CreateSpriteSP
+絵選択肢用スクリーンブラー
+Middle
+SCREEN
+CreateSpriteEX
+絵選択肢用黒いふち
+cg/data/効果_暗四隅01.png
+Fade
+絵選択肢用角膜
+cg/sys/select/効果_角膜.png
+BLEND_MODE_MULTIPLE
+Scale
+AxlDxl1
+repeat
+round
+RandomShake
+絵選択肢用血管
+cg/sys/select/効果_血管.png
+Rotate
+CreateSE
+SE選択肢用99
+se環境_雰囲気_ノイズL
+MusicStart
+SE選択肢用頭痛a
+se人体_動作_心臓L
+FadeDelete
+CreateEFTxtSuf
+絵心サフ01a
+絵心サフ01b
+CreateEFTxt
+絵心文字01
+讨厌，讨厌\n 讨厌
+我又要，被弄脏了吗？
+不要看我，
+想大声呼喊，但是发不出声…
+絵心文字02
+肮脏的脸，\n 变得更肮脏了
+可怕，可怕，\n 可怕
+絵心文字03
+絵心文字010
+絵心文字011
+絵心文字012
+絵心文字013
+絵心文字020
+絵心文字021
+絵心文字030
+絵心文字031
+CreateScreenRGB
+FaceUpPerformance_UP
+FadeScreenRGB
+Dxl1
+CreateEFTxtProcess
+Wait
+FadeDeleteScreenRGB
+FadeEFTxt
+DeleteEFTxt
+SoundPlay
+bgm001
+SetVolumeEX
+SE*
+WaitEFTxt
+絵心文字04
+我一点也，
+不想来\n 照顾种崎同学啊…
+但是，没办法啊
+絵心文字040
+絵心文字041
+絵心文字042
+StStockNum
+St
+C
+stみゆ_私服_fear_32
+C_
+FadeSt
+絵心文字05
+因为，
+如果违反了九鬼的\n   命令的话
+絵心文字050
+絵心文字051
+絵心文字06
+就会落到最底层了
+我会变成奴隶的
+拜托了，帮帮我
+絵心文字07
+要我降到最底层还不如去死
+不想变成\n 种崎同学这样
+絵心文字060
+絵心文字061
+絵心文字062
+絵心文字070
+絵心文字071
+CreateSprite
+絵板
+Move
+TypeBegin
+Print
+\r\n#{・・・}最底层#。\r\n
+TextBoxDelete
+\r\n班级的地位分布不是金字塔形。\r\n
+\r\n而是正八面体。\r\n
+\r\n最多的是「普通」人。\r\n
+\r\n顶部是尖的，底部也在逐渐变尖。\r\n
+CreateColorEX
+絵色黒
+SetShadingPower
+SHADE_LEVE_LOW
+SetErase
+\r\n最底下的是种崎舍。\r\n
+\r\n往上一层，就是双叶实忧。\r\n
+\r\n为什么她要对我这么好？\r\n
+\r\n不言而喻。\r\n
+絵心文字10
+絵心文字11
+絵心文字100
+絵心文字101
+絵心文字102
+絵心文字110
+絵心文字111
+\r\n如果我崩溃了，\r\n
+\r\n她就是最底层了。\r\n
+Request
+Disused
+\r\n她也知道。\r\n
+\r\n知道我沉溺于她虚假的温柔。\r\n
+\r\n知道她是我活下去的支柱。\r\n
+CreateTextureEX
+絵EV01a
+cg/ev/m/eva0122みゆイラマチオ_a2_m.png
+Dxl1a
+SetDirectionalBlur
+\r\n我，深知你的丑陋。\r\n
+bgm*
+bgm002
+絵心文字12
+好痛！
+好怕！
+不要啊！
+絵心文字120
+絵心文字121
+絵心文字122
+BgCopy
+SE01
+se人体_衝撃_風切り02
+SetRadialBlur
+Delete
+X*
+DeleteSt
+絵心サフ01*
+MoveVertex
+SE02
+se人体_動作_掴む手首ひねり
+RandomShakeShadeLoopTPro
+eye*
+RegisterCGvar
+eva0122みゆイラマチオ_a2
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200010a01'>\r\n「呀！！」\r\n
+\r\n自己在什么位置。\r\n
+絵EV01b
+cg/ev/eva0122みゆイラマチオ_a.png
+絵EV01c
+cg/ev/eva0122みゆイラマチオ_a2キャラのみ.png
+\r\n谁才是最底层的。\r\n
+\r\n让你好好知道知道。\r\n
+絵心サフ01c
+絵心文字20
+头发，好痛啊
+不要，不要过来
+这根本就不是\n 人类的脸
+好恶心的脸
+絵心文字21
+好臭，好臭
+丑得看不下去
+絵心文字200
+絵心文字201
+絵心文字202
+絵心文字203
+絵心文字210
+絵心文字211
+se人体_動作_衣擦れ01
+絵EV01*
+DeleteEFTxtSuf
+\r\n你知道吗？\r\n
+\r\n你知道的吧？\r\n
+\r\n因为你也一直遭到欺凌啊。\r\n
+\r\n你被九鬼那些人折磨过吧？\r\n
+\r\n头发被揪住就逃不了了。\r\n
+\r\n给我老实坐着，\r\n
+\r\n当我的奴隶就好了。\r\n
+\r\n//【種崎捨】\r\n「拿出来」\r\n
+絵EV01d
+cg/ev/eva0122みゆイラマチオ_aキャラのみ.png
+eva0122みゆイラマチオ_a
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200020a01'>\r\n「哎……」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200030a01'>\r\n「什么意思……？」\r\n
+\r\n//【種崎捨】\r\n「你懂的吧？」\r\n
+絵EV01e
+cg/ev/eva0122みゆイラマチオ_a3キャラのみ.png
+eva0122みゆイラマチオ_a3
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200040a01'>\r\n「…………」\r\n
+絵心文字22
+把#{・・}那里#拿出来…\n 的意思吗？
+又要像那时用手指\n 帮他撸硬那样…
+絵心文字220
+\r\n//【種崎捨】\r\n「快点」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200050a01'>\r\n「…………」\r\n
+絵心文字23
+那么肮脏的东西，\n 我才不要…
+为什么一定要\n 让我做这种事呢？
+絵心文字230
+絵心文字231
+絵心文字24
+絵心文字240
+絵心文字241
+CreatePlainSP
+絵板写01
+cg/ev/m/eva0122みゆイラマチオ_a3_m.png
+\r\n//【種崎捨】\r\n「还是说，你想让我现在就把真相告诉九鬼？」\r\n
+絵心文字25
+真相…？
+絵心文字250
+cg/ev/m/eva0122みゆイラマチオ_a_m.png
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200060a01'>\r\n「呃……」\r\n
+\r\n//【種崎捨】\r\n「双叶实忧，在告白之后——」\r\n
+\r\n//【種崎捨】\r\n「帮我把阴茎撸到射了」\r\n
+絵心文字26
+不要！
+绝对不行！
+这是我\n 好不容易才瞒下的！
+如果说出去了，\n 我—
+真的会落到最底层的！
+絵心文字260
+絵心文字261
+絵心文字262
+絵心文字263
+絵心文字264
+絵EV02a
+cg/ev/m/eva0122みゆイラマチオ_b_m.png
+eva0122みゆイラマチオ_b
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200070a01'>\r\n「————！」\r\n
+絵心文字27
+只有这件事不行
+我绝对不想\n 落到最底层
+不想变得那么凄惨
+最底层我受不了的
+只有这个\n 我无法忍受
+絵心文字28
+必须把那天的事\n 变成秘密
+不能暴露
+絵心文字270
+絵心文字271
+絵心文字272
+絵心文字273
+絵心文字274
+絵心文字280
+絵心文字281
+絵EV02b
+cg/ev/eva0122みゆイラマチオ_b.png
+絵EV02c
+cg/ev/eva0122みゆイラマチオ_bキャラのみ.png
+\r\n实忧一直在最近的位置见证我遭受的欺凌。\r\n
+\r\n真是效果十足。\r\n
+絵心文字29
+絵心文字290
+絵心文字291
+\r\n不想落到班级的最底层。\r\n
+se人体_動作_ベルトを外す
+\r\n恐惧驱使着实忧。\r\n
+\r\n用颤抖的手指伸向我的皮带。\r\n
+se人体_動作_ジッパー下ろす
+\r\n拉开拉链的同时，她想别过头去。\r\n
+絵心文字30
+好痛！！
+絵心文字300
+se人体_動作_髪を引っ張る
+SE99
+se人体_動作_首絞めL
+eva0122みゆイラマチオ_b2
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200080a01'>\r\n「————呜！！」\r\n
+\r\n不可容忍。\r\n
+\r\n竟然敢把视线从我的阴茎上移开？\r\n
+\r\n看来还没明白。\r\n
+\r\n你现在到底是什么地位，让我好好教教你。\r\n
+絵心文字31
+已经在变大了
+好臭
+奇形怪状的
+絵心文字32
+一点也不想碰
+好讨厌啊，\n 这种东西…
+絵心文字310
+絵心文字311
+絵心文字312
+絵心文字320
+絵心文字321
+絵EV03a
+cg/ev/eva0122みゆイラマチオ_c.png
+絵EV03b
+cg/ev/eva0122みゆイラマチオ_cキャラのみ.png
+\r\n脱下裤子，\r\n
+絵EV03c
+cg/ev/l/eva0122みゆイラマチオ_c_l.png
+\r\n拉下内裤，\r\n
+\r\n阴茎露了出来。\r\n
+絵心文字33
+絵心文字330
+絵心文字331
+\r\n抓住她的头。\r\n
+\r\n绝对不许别开眼神。\r\n
+絵心文字34
+虽然很讨厌，但是…
+要快点结束
+絵心文字340
+絵心文字341
+\r\n//【種崎捨】\r\n「不准碰」\r\n
+絵心文字35
+哎…？
+絵心文字350
+\r\n我对正打算伸手的实优下令。\r\n
+\r\n//【種崎捨】\r\n「给我含住」\r\n
+絵心文字36
+这么肮脏的东西\n 要我用嘴？
+是在…\n 叫我口交吗？
+不、不会吧？
+是哪里搞错了吧？
+絵心文字37
+竟然要我把\n 这样肮脏的东西含住
+这是，\n 不可能的吧？
+絵心文字360
+絵心文字361
+絵心文字362
+絵心文字363
+絵心文字370
+絵心文字371
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200090a01'>\r\n「含住……？」\r\n
+\r\n不愿意吗？\r\n
+\r\n应该是吧？\r\n
+\r\n讨厌到想吐吧？\r\n
+\r\n世界上最丑的人的阴茎。\r\n
+\r\n世界上最该被蔑视的人的，\r\n
+\r\n世界上最该被蔑视的部位。\r\n
+\r\n咦？\r\n
+\r\n咦咦？\r\n
+\r\n很奇怪啊。\r\n
+\r\n连最该被蔑视的人，\r\n
+\r\n都在蔑视你，\r\n
+\r\n那你，到底算什么？\r\n
+絵心文字38
+！？
+絵心文字380
+絵心文字381
+絵心文字382
+絵心文字383
+絵心文字384
+絵心文字385
+絵心文字386
+絵心文字387
+\r\n//【種崎捨】\r\n「我告诉你」\r\n
+絵EV04a
+cg/ev/l/eva0122みゆイラマチオ_d_l.png
+\r\n//【種崎捨】\r\n「你」\r\n
+\r\n//【種崎捨】\r\n「已经是」\r\n
+\r\n//【種崎捨】\r\n「我的」\r\n
+\r\n//【種崎捨】\r\n「奴隶了」\r\n
+奴隶…？
+Axl1
+CreateBGV
+Voiceloop01
+voice/a01/2200110a01ex
+双葉みゆ
+VoicePlay
+eva0122みゆイラマチオ_d
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200100a01'>\r\n「——————呜！！」\r\n
+讨厌讨厌
+好痛苦，好痛苦
+\r\n我一口气塞入。\r\n
+\r\n好奇怪的感觉。\r\n
+\r\n他人口腔里的感觉。\r\n
+\r\n舒服吗？\r\n
+\r\n搞不明白。\r\n
+\r\n虽然搞不明白，\r\n
+\r\n但是有种满足感。\r\n
+什么？什么？\n 什么？
+好痛苦，好痛苦\n 好痛苦好痛苦
+喘不过气来了
+求你了，不要啊，不要这样
+讨厌讨厌\n 讨厌讨厌
+好臭，好恶心
+絵心文字043
+絵EV04b
+cg/ev/eva0122みゆイラマチオ_d.png
+絵EV04c
+cg/ev/eva0122みゆイラマチオ_dキャラのみ.png
+\r\n她的嘴唇，我曾经连远观都不敢。\r\n
+\r\n甚至都不敢想象和她接吻的，她的小嘴，\r\n
+\r\n现在插入了我用来散播小便和精子的肉棒。\r\n
+\r\n征服。\r\n
+\r\n我在征服她。\r\n
+\r\n一目了然。\r\n
+\r\n//【種崎捨】\r\n「奴隶」\r\n
+\r\n//【種崎捨】\r\n「快让我爽爽」\r\n
+救救我…
+拜托了…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200140a01'>\r\n「嗯、嗯嗯、嗯嗯嗯嗯嗯嗯！！」\r\n
+\r\n阴茎在嘴里动个不停。\r\n
+\r\n她好像没听见我说的话。\r\n
+絵EV04d
+se人体_動作_衣擦れ12
+\r\n那我就，\r\n
+絵EV04e
+cg/ev/m/eva0122みゆイラマチオ_d_m.png
+\r\n只顾着自己舒服好了。\r\n
+好痛
+絵心文字072
+絵心文字073
+se人体_衝撃_髪をつかまれる
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200150a01'>\r\n「唔呜呜呜呜！！」\r\n
+絵心文字08
+不要，头发，
+被扯住了！
+絵心文字080
+絵心文字081
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200160a01'>\r\n「咿呀呀呀呀呀！！」\r\n
+絵EV04f
+cg/ep/ev/epeva0122みゆイラマチオ_d.png
+se人体_動作_衣擦れ11
+SE03
+se人体_動作_衣擦れ03
+SE04
+se人体_動作_衣擦れ05
+\r\n右……左……前……后……\r\n
+\r\n只要抓住了头发，头就得跟着动。\r\n
+\r\n和她的主观意志没有关系。\r\n
+\r\n就像飞机的操纵杆一样。\r\n
+AxlDxl1d
+\r\n冲啊！　起飞！　攀升！\r\n
+se人体_動作_衣擦れ10
+\r\n嘣！　嗡！！　轰！！！\r\n
+\r\n哈哈。\r\n
+絵心文字09
+絵心文字090
+絵心文字091
+絵心文字092
+絵心文字093
+\r\n我没开过飞机，一点也不懂。\r\n
+好、好痛苦…\n 太难受了…
+喘不过气来，\n 要死了…
+我要死了…
+絵心文字113
+干脆，
+咬断吧…
+！
+絵EV05a
+cg/ev/m/eva0122みゆイラマチオ_e_m.png
+se人体_衝撃_払いのける
+絵EV04*
+VoiceloopA
+voice/a01/2200180a01ex
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200170a01'>\r\n「嗯呜呜呜呜呜呜呜呜呜呜呜！！」\r\n
+里面！不行！\n 不行！不行！
+吞了！\n 要吞下去了！
+好痛苦！好痛苦！\n 好痛苦！
+要死了！要死了！\n 这样要死的！
+停下来！\n 求求你！
+絵心文字022
+絵EV05b
+cg/ev/eva0122みゆイラマチオ_e.png
+絵EV05c
+cg/ev/eva0122みゆイラマチオ_eキャラのみ.png
+\r\n看得一清二楚。\r\n
+\r\n看得出心声，就能先发制人。\r\n
+\r\n反抗的想法一萌芽，我就能立刻碾碎。\r\n
+絵EV05d
+cg/ev/l/eva0122みゆイラマチオ_e_l.png
+\r\n绝对无法违抗我的命令。\r\n
+\r\n让你彻底明白自己到底什么地位。\r\n
+这样下去\n 要死的！
+好痛苦！好痛苦！好痛苦！
+\r\n话说回来，啊，真爽。\r\n
+\r\n这种征服的感觉。\r\n
+\r\n这种蹂躏的感觉。\r\n
+\r\n好像都能品尝出喉咙深处的味道了。\r\n
+\r\n实忧想呕吐，颤抖着身体，我强行按住她。\r\n
+\r\n喉咙紧紧地绞住我。\r\n
+\r\n阴茎和嘴严丝合缝。\r\n
+\r\n唾液也因为作呕逐渐分泌起来。\r\n
+BgCopy02
+啊…不行…
+已经…\n 不行了…
+好痛苦…\n 要死了…
+se人体_衝撃_羽交い締め
+se人体_動作_掴む足首
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200210a01'>\r\n「啊……啊……啊，嗯……嗯咳，嚯……呕……」\r\n
+我，还活着吗…？
+咳嗽，停不下来
+要保持呼吸、呼吸、呼吸
+这样，\n 太难受了…
+太痛苦了…\n 太痛苦了…
+絵心文字082
+絵EV06a
+cg/ev/eva0122みゆイラマチオ_f.png
+絵EV06b
+cg/ev/eva0122みゆイラマチオ_fキャラのみ.png
+VoiceloopB
+voice/a01/2200240a01ex
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200220a01'>\r\n「咳哈！」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200230a01'>\r\n「咳哈！　唔嚯！　咳嚯！　哈，哈，哈……」\r\n
+\r\n我拔出阴茎，实忧大口地喘着气。\r\n
+\r\n我把满是体液的阴茎按在她脸上。\r\n
+\r\n但是她只顾着喘气，\r\n
+\r\n甚至没工夫去管贴到她脸上的阴茎。\r\n
+se人体_動作_ペチペチペニス04
+\r\n//【種崎捨】\r\n「知道自己什么地位了？」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200270a01'>\r\n「啊……那……那、个……咳、咳！」\r\n
+地位
+我的，地位？
+\r\n//【種崎捨】\r\n「你是我的什么？」\r\n
+我，
+我是…
+我是…奴隶？
+我是，我是
+奴隶？
+\r\n//【種崎捨】\r\n「张嘴，说说看」\r\n
+不，
+要…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200280a01'>\r\n「嗯，唔嗯，嗯……嗯……」\r\n
+不要…
+\r\n//【種崎捨】\r\n「那我说出去咯」\r\n
+cg/ev/eva0122みゆイラマチオ_f2.png
+不行
+如果告诉\n 九鬼同学的话
+就会落到\n 最底层了！
+我就不能\n 活下去了！
+絵心文字063
+eva0122みゆイラマチオ_f2
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200290a01'>\r\n「…………！！」\r\n
+说吧
+只是嘴上敷衍也行，\n  开口吧
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200300a01'>\r\n「奴、奴、奴，…………咳」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200310a01'>\r\n「奴隶……」\r\n
+\r\n打碎了。\r\n
+\r\n束缚着我的，这个世界的规则。\r\n
+\r\n开始龟裂，分崩离析。\r\n
+\r\n好啊。\r\n
+\r\n真好啊。\r\n
+\r\n兴奋到打颤。\r\n
+\r\n就这样推进吧。\r\n
+\r\n把这个世界打个粉碎。\r\n
+只是嘴上敷衍也行
+絵EV06c
+cg/ev/m/eva0122みゆイラマチオ_f_m.png
+se人体_動作_ペチペチペニス01
+\r\n//【種崎捨】\r\n「这个是什么？」\r\n
+这个说的是…
+絵EV06d
+cg/ev/m/eva0122みゆイラマチオ_f2_m.png
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200320a01'>\r\n「呃……？」\r\n
+se人体_動作_ペチペチペニス03
+\r\n阴茎拍在她脸上。\r\n
+\r\n//【種崎捨】\r\n「在你脸上的这个是什么？」\r\n
+好羞耻…
+但是…
+絵心文字03a
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200330a01'>\r\n「那个……那个是……」\r\n
+赶紧张口，\n 不然他会说出去…
+我就会落到，\n 班上的最底层的…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200340a01'>\r\n「是种崎同学的……那里」\r\n
+这样要死的！
+好痛苦！好痛苦！
+絵EV07a
+cg/ev/l/eva0122みゆイラマチオ_g_l.png
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200350a01'>\r\n「咿咕唔唔唔唔唔！！」\r\n
+絵EV07b
+cg/ev/eva0122みゆイラマチオ_g.png
+絵EV07c
+cg/ev/eva0122みゆイラマチオ_gキャラのみ.png
+\r\n你是笨蛋？　你是笨蛋吗？　这么笨的吗？\r\n
+\r\n那里？　那里？　那里是哪里？　说什么呢？\r\n
+\r\n你可是我的奴隶。\r\n
+\r\n你以为这种话能让我兴奋？\r\n
+\r\n你以为我对着你的照片撸了多少次？\r\n
+\r\n你以为我想让你怎么称呼我这里？\r\n
+\r\n「小鸡鸡」有点轻飘飘了吧？\r\n
+\r\n「鸡巴」又好像太淫乱了点？\r\n
+\r\n还是「鸡鸡」最好吗。\r\n
+\r\n嗯，「鸡鸡」。\r\n
+\r\n「鸡鸡」「鸡鸡」「鸡鸡」「鸡鸡」\r\n
+\r\n那么，这次应该能好好说了吧？\r\n
+救、救救我…
+要死了…\n  啊…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200360a01'>\r\n「嘎……嘎，哈……啊……咳……嗯……」\r\n
+说吧…
+我什么，\n 都愿意说的…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200370a01'>\r\n「嘎……啊……啊……啊啊…………啊……」\r\n
+SetPriority
+絵EV07*
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200380a01'>\r\n「咳嚯！」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200390a01'>\r\n「咳嚯！　咳嚯，咳嚯……咳嚯……嗯哼」\r\n
+\r\n//【種崎捨】\r\n「再给你一次机会」\r\n
+\r\n//【種崎捨】\r\n「贴在你脸上的这个是什么？」\r\n
+好羞耻，\n   但是…
+cg/ev/eva0122みゆイラマチオ_f2キャラのみ.png
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200400a01'>\r\n「嗯，唔唔……唔……唔……」\r\n
+不说的话，\n  又要…
+又要被折磨…\n  所以…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200410a01'>\r\n「种、种……种崎同学的……的……的、的……」\r\n
+太羞耻了，\n 太羞耻了啊…
+拜托了不要听下去…
+为什么非要…\n 让我说这个…？
+絵心文字032
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200420a01'>\r\n「鸡鸡……」\r\n
+又，又来？
+为什么？\n 为什么？
+明明我都已经说了\n 鸡鸡了
+絵EV06*
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200430a01'>\r\n「唔姆咕！！」\r\n
+哪里搞错了吗？
+救救我啊
+\r\n为什么会受到这种对待？\r\n
+\r\n你难道还没有明白吗？\r\n
+\r\n//【種崎捨】\r\n「好好想想自己的地位」\r\n
+我的地位？
+\r\n//【種崎捨】\r\n「听好了，我再说一遍」\r\n
+不要再用鸡鸡拍我了
+不要，讨厌，不要啊
+啪啪地…拍打着，\n 我的脸…
+种崎同学是班里\n 最底层的
+要我做奴隶，不可能
+好过分，太过分了啊
+我不是还比种崎同学好一点吗
+絵心文字023
+絵心文字024
+絵EV08a
+cg/ev/eva0122みゆイラマチオ_h.png
+絵EV08b
+cg/ev/eva0122みゆイラマチオ_hキャラのみ.png
+se人体_動作_ペチペチペニス02
+絵EV08*
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200440a01'>\r\n「噗哈！　咳嚯，咳嚯！」\r\n
+\r\n//【種崎捨】\r\n「奴隶应该怎么叫我？」\r\n
+应，应该是…
+\r\n//【種崎捨】\r\n「怎么称呼比自己高贵的人？」\r\n
+比奴隶\n 高贵的人…
+\r\n//【種崎捨】\r\n「怎么称呼自己服侍的人？」\r\n
+主人？
+我，\n 一定要…
+把种崎同学，
+称呼为\n 主人吗？
+絵心文字00
+不说的话，
+絵心文字000
+絵EV08c
+cg/ev/l/eva0122みゆイラマチオ_h_l.png
+\r\n//【種崎捨】\r\n「快回答我！」\r\n
+\r\n//【種崎捨】\r\n「贴在你脸上的这个，是谁的什么？」\r\n
+说谎就说谎吧
+不是真心的也\n 无所谓了
+因为不能，\n 惹怒种崎同学
+如果事情暴露，\n 我就完了
+口头敷衍也行\n 就这样说吧
+撒谎吧
+这、这
+这个是…
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200450a01'>\r\n「这、这、这个是……」\r\n
+种崎同学的，
+鸡…
+鸡鸡
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/a01/2200460a01'>\r\n「是主人的，鸡鸡……」\r\n
+SceneEnd
+this
+Stnum
+EFTxtPara02
+EFTxtPara01
+this

@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="7" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="8" duration="500" show="0"/>
+		<chgbg @l="9" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<chgbg @l="10" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg01a" type="99"/>
+		<play_sound @l="12" buf="1" fadeout="0" intro="0" src="se113" type="1"
+		   volume="0.5"/>
+		<face src="f"/>
+		<msg @l="14" char="11" flags="0" index="0" line="14" name="亮"
+		   text="「これでよし、と。今日のおすすめの看板を出すと、\n:１日が始まるって感じがしてくるぜ」" timeout="" voices=""/>
+		<play_sound @l="16" buf="1" fadeout="1500" type="1"/>
+		<face src=""/>
+		<msg @l="18" char="-1" flags="0" index="2" line="18" name=""
+		   text="ゴミひとつないお店の前を見回して、労働の汗をぬぐう。" timeout="" voices=""/>
+		<play_sound @l="20" buf="0" fadeout="500" intro="-1" src="bgm22" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="kan02b"
+		   transparency="256" x="1110"/>
+		<waitbs @l="21" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="22" char="0" flags="17" index="4" line="22" name="花音"
+		   text="「亮くんお疲れさま\x;note:　今日は朝からあったかいね～」" timeout="" voices="kan15100"/>
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="23" flags="0" screen="0"/>
+		<wait @l="26" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="27" flags="-2147483648" screen="0"/>
+		<setface @l="28" src="fkan10b"/>
+		<pause @l="29" flags="-2147483648" index="6" timeout=""/>
+		<face src=""/>
+		<msg @l="32" char="-1" flags="0" index="7" line="32" name=""
+		   text="店から顔を出した花音が、隣に並んで僕と一緒に空を見上げる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="33" char="-1" flags="0" index="9" line="33" name=""
+		   text="お互いに何も言わなくても、自然と目が合って手を繋ぐ。\n:朝のふたりのお約束だ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="35" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="36" char="0" flags="0" index="11" line="36" name="花音"
+		   text="「しばらく天気がいいみたいだし、\n:今度のお休みはふたりでお出かけとかどうかな？」" timeout=""
+		   voices="kan15101"/>
+		<face src="f"/>
+		<msg @l="38" char="11" flags="0" index="13" line="38" name="亮"
+		   text="「花音はどこか行きたいとこあるか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="40" flags="0" screen="0"/>
+		<face src="fkan08b"/>
+		<msg @l="41" char="0" flags="17" index="15" line="41" name="花音"
+		   text="「あなたと一緒だったら、ど・こ・で・も！　\n:なんちゃってなんちゃってぇ～っ\x;heart:」" timeout=""
+		   voices="kan15102"/>
+		<emotion @l="42" id="kan" loop="1" screen="0" src="emotion_04z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="43" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="44" flags="0" screen="0"/>
+		<wait @l="47" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan21bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="48" flags="-2147483648" screen="0"/>
+		<setface @l="49" src="fkan21b"/>
+		<emotion @l="50" id="kan" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<pause @l="51" flags="-2147483648" index="17" timeout=""/>
+		<clremt @l="53" id="kan" screen="0"/>
+		<face src="f"/>
+		<msg @l="55" char="11" flags="0" index="18" line="55" name="亮"
+		   text="「おぉ、今のはなかなかグッときたぞ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="61441" screen="0" src="kan31bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="57" flags="0" screen="0"/>
+		<face src="fkan31b"/>
+		<msg @l="58" char="0" flags="17" index="20" line="58" name="花音"
+		   text="「本当？　やったね！」" timeout="" voices="kan15103"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="59" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="60" flags="0" screen="0"/>
+		<wait @l="63" flags="5" time="500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="64" flags="-2147483648" screen="0"/>
+		<setface @l="65" src="fkan10b"/>
+		<pause @l="66" flags="-2147483648" index="22" timeout=""/>
+		<chgbs async="0" duration="0" priority="61442" screen="0" src="usi15bs"
+		   transparency="256" x="1692"/>
+		<waitbs @l="69" flags="0" screen="0"/>
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1542" y="0"/>
+		<waitbs @l="70" flags="0" screen="0"/>
+		<face src="fusi15b"/>
+		<msg @l="72" char="1" flags="17" index="23" line="72" name="汐"
+		   text="「あはは……またやってるよ」" timeout="" voices="usi15700"/>
+		<pause @l="74" flags="0" index="25" timeout=""/>
+		<clremt @l="75" id="usi" screen="0"/>
+		<showmsg @l="77" duration="500" show="0"/>
+		<chgbg @l="78" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src=""/>
+		<msg @l="80" char="-1" flags="0" index="26" line="80" name=""
+		   text="いつも通りの朝の始まりと、花音の笑顔。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="81" char="-1" flags="0" index="28" line="81" name=""
+		   text="マシュマロツリーに彼女がいる日常が戻ってきたことを、\n:僕はしみじみと実感した。" timeout="" voices=""/>
+		<play_sound @l="86" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="87" duration="500" show="0"/>
+		<chgbg @l="88" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="89" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg02a" type="201"/>
+		<play_sound @l="90" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="92" char="11" flags="0" index="30" line="92" name="亮"
+		   text="「電話注文入りました。\n:今日の５時までにケーキを３０個欲しいそうです」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="61441" screen="0" src="usi14b"
+		   transparency="0" x="1492"/>
+		<waitbs @l="94" flags="0" screen="0"/>
+		<face src="fusi14b"/>
+		<msg @l="95" char="1" flags="17" index="32" line="95" name="汐"
+		   text="「３０個ぉ！？　わ、わかった」" timeout="" voices="usi15701"/>
+		<emotion @l="96" id="usi" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="97" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="98" flags="0" screen="0"/>
+		<wait @l="101" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi24b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="102" flags="-2147483648" screen="0"/>
+		<setface @l="103" src="fusi24b"/>
+		<pause @l="104" flags="-2147483648" index="34" timeout=""/>
+		<clremt @l="106" id="usi" screen="0"/>
+		<chgbs async="0" duration="0" priority="61443" screen="0" src="kan11b"
+		   transparency="256" x="1110"/>
+		<waitbs @l="108" flags="0" screen="0"/>
+		<face src="fkan11b"/>
+		<msg @l="109" char="0" flags="17" index="35" line="109" name="花音"
+		   text="「亮くん、メモを汐ちゃんに渡してあげて。\n:礼羽さんは汐ちゃんが作業してる間、\n:レギュラーメニューの方をお願い」"
+		   timeout="" voices="kan15104"/>
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="110" flags="0" screen="0"/>
+		<pause @l="111" flags="0" index="37" timeout=""/>
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="rai27b"
+		   transparency="0" x="428"/>
+		<waitbs @l="113" flags="0" screen="0"/>
+		<face src="frai27b"/>
+		<msg @l="114" char="3" flags="17" index="38" line="114" name="礼羽"
+		   text="「うん、まかせて」" timeout="" voices="rai15300"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="115" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="116" flags="0" screen="0"/>
+		<pause @l="117" flags="0" index="40" timeout=""/>
+		<showmsg @l="119" duration="500" show="0"/>
+		<chgbg @l="120" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="121" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg03a" type="201"/>
+		<face src="f"/>
+		<msg @l="124" char="9" flags="0" index="41" line="124" name="小学生Ａ"
+		   text="「紗々お姉ちゃん、のどかわいたー」" timeout="" voices="momb05500b"/>
+		<lock @l="127"/>
+		<chgbs @l="128" async="-1" duration="200" priority="61441" screen="0"
+		   src="sas02b" transparency="0" x="428"/>
+		<face src="fsas02b"/>
+		<msg @l="129" char="2" flags="17" index="43" line="129" name="紗々"
+		   text="「すぐに新しいジュース持っていくから、ちょっと待っててね」" timeout="" voices="sas13600"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="130" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="131" flags="0" screen="0"/>
+		<pause @l="132" flags="0" index="45" timeout=""/>
+		<chgbs async="0" duration="0" priority="61443" screen="0" src="kan01b"
+		   transparency="256" x="810"/>
+		<waitbs @l="134" flags="0" screen="0"/>
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="135" flags="0" screen="0"/>
+		<face src="fkan01b"/>
+		<msg @l="136" char="0" flags="0" index="46" line="136" name="花音"
+		   text="「ＪＣさん、ジュースの残量確認をお願い。\n:少なくなってたら足しておいてもらえるかな？」" timeout=""
+		   voices="kan15105"/>
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="jcc10b"
+		   transparency="0" x="1492"/>
+		<waitbs @l="138" flags="0" screen="0"/>
+		<face src="fjcc10b"/>
+		<msg @l="139" char="4" flags="17" index="48" line="139" name="ＪＣ"
+		   text="「了解っス！」" timeout="" voices="jei12800"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="140" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="141" flags="0" screen="0"/>
+		<pause @l="142" flags="0" index="50" timeout=""/>
+		<face src=""/>
+		<msg @l="144" char="-1" flags="0" index="51" line="144" name=""
+		   text="マシュマロツリーは今日も大賑わいだ。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="145" char="-1" flags="0" index="53" line="145" name=""
+		   text="花音が復帰したことで、店内の導線もうまく機能している。" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="148" flags="0" screen="0"/>
+		<play_sound @l="149" buf="1" fadeout="0" intro="-1" src="se221" type="1"
+		   volume="1."/>
+		<lock @l="151"/>
+		<chgbs @l="152" async="-1" duration="0" priority="61442" screen="0"
+		   src="kaz01a" transparency="256" x="1210"/>
+		<chgbs @l="153" async="-1" duration="0" priority="61441" screen="0"
+		   src="mar01a" transparency="256" x="1642"/>
+		<chgbs async="0" duration="200" priority="61443" screen="0" src="kan02b"
+		   transparency="0" x="428"/>
+		<waitbs @l="154" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="155" char="0" flags="17" index="55" line="155" name="花音"
+		   text="「いらっしゃいませ……あっ、所沢さんと寛三郎さん。\n:おふたり一緒にお越しだなんて、珍しいですね」" timeout=""
+		   voices="kan15106"/>
+		<lock @l="156"/>
+		<movebs @l="157" duration="1000" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1060" y="0"/>
+		<movebs duration="1000" flags="0" id="mar" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1492" y="0"/>
+		<waitbs @l="158" flags="0" screen="0"/>
+		<wait @l="161" flags="5" time="500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="162" flags="-2147483648" screen="0"/>
+		<setface @l="163" src="fkan06b"/>
+		<wait @l="165" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="166" flags="-2147483648" screen="0"/>
+		<setface @l="167" src="fkan10b"/>
+		<pause @l="168" flags="-2147483648" index="57" timeout=""/>
+		<play_sound @l="170" buf="1" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar21a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="172" flags="0" screen="0"/>
+		<face src="fmar21a"/>
+		<msg @l="173" char="5" flags="0" index="58" line="173" name="まりん"
+		   text="「たまたまさ。このじじいが店の中のぞき込んでたから、\n:連れてきただけだよ」" timeout=""
+		   voices="mar02900"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="175" flags="0" screen="0"/>
+		<face src="fkaz22a"/>
+		<msg @l="176" char="6" flags="17" index="60" line="176" name="寛三郎"
+		   text="「前を通ったら、楽しそうな声がもれてきたんで気になってな。\n:客が客を呼ぶって言うだろ？　今のオレっちがそんな感じだ」"
+		   timeout="" voices="kaz03100"/>
+		<wait @l="179" flags="5" time="4300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="180" flags="-2147483648" screen="0"/>
+		<setface @l="181" src="fkaz01a"/>
+		<pause @l="182" flags="-2147483648" index="62" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="185" flags="0" screen="0"/>
+		<face src="fkaz02a"/>
+		<msg @l="186" char="6" flags="17" index="63" line="186" name="寛三郎"
+		   text="「ひと頃は閑古鳥が鳴いてやがったのに、てぇしたもんだ。\n:にぎわいって意味じゃ前以上かもしれねぇな」" timeout=""
+		   voices="kaz03101"/>
+		<wait @l="189" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="190" flags="-2147483648" screen="0"/>
+		<setface @l="191" src="fkaz10a"/>
+		<pause @l="192" flags="-2147483648" index="65" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="195" flags="0" screen="0"/>
+		<face src="fmar02a"/>
+		<msg @l="196" char="5" flags="17" index="66" line="196" name="まりん"
+		   text="「ホントにね。\n:最近じゃついでにうちに寄ってくれるお客さんも増えてて、\n:マシュマロツリー様々さ」" timeout=""
+		   voices="mar02901"/>
+		<wait @l="199" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="200" flags="-2147483648" screen="0"/>
+		<setface @l="201" src="fmar10a"/>
+		<pause @l="202" flags="-2147483648" index="68" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="205" flags="0" screen="0"/>
+		<face src="fkan30b"/>
+		<msg @l="206" char="0" flags="0" index="69" line="206" name="花音"
+		   text="「…………」" timeout="" voices="kan15107"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="208" flags="0" screen="0"/>
+		<face src="fmar06a"/>
+		<msg @l="209" char="5" flags="17" index="71" line="209" name="まりん"
+		   text="「どうしたんだい、花音ちゃん？」" timeout="" voices="mar02902"/>
+		<emotion @l="210" id="mar" loop="1" screen="0" src="emotion_14" time="-1"
+		   type="mar_1" x="0" y="0"/>
+		<pause @l="211" flags="0" index="73" timeout=""/>
+		<clremt @l="212" id="mar" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="214" flags="0" screen="0"/>
+		<face src="fkan06b"/>
+		<msg @l="215" char="0" flags="17" index="74" line="215" name="花音"
+		   text="「あ、いえ、なんでもないです！　\n:お二人とも、当店のケーキを楽しんでいってくださいねっ」" timeout=""
+		   voices="kan15108"/>
+		<emotion @l="216" id="kan" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="kan_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="217" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="218" flags="0" screen="0"/>
+		<wait @l="221" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="222" flags="-2147483648" screen="0"/>
+		<setface @l="223" src="fkan10b"/>
+		<pause @l="224" flags="-2147483648" index="76" timeout=""/>
+		<clremt @l="226" id="kan" screen="0"/>
+		<play_sound @l="231" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="232" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="233" duration="500" show="0"/>
+		<chgbg @l="234" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<chgbg @l="235" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="236" duration="4000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17c" type="99"/>
+		<play_sound @l="237" buf="0" fadeout="500" intro="-1" src="bgm05" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="239" char="-1" flags="0" index="77" line="239" name=""
+		   text="それからも営業は順調に続き、終業となった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="240" char="-1" flags="0" index="79" line="240" name=""
+		   text="花音は終始笑顔だったが、\n:所沢さんたちの前で一瞬見せた物憂げな表情が気になる。" timeout="" voices=""/>
+		<play_sound @l="245" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="246" duration="500" show="0"/>
+		<loadimage @l="247" bg="0" fit="0" screen="1" src="bg05c"/>
+		<lock @l="248"/>
+		<chgbs @l="249" async="-1" duration="0" priority="61441" screen="1"
+		   src="usi01b" transparency="0" x="1342"/>
+		<chgbs @l="250" async="-1" duration="0" priority="61442" screen="1"
+		   src="jcc01b" transparency="0" x="578"/>
+		<chgbs @l="251" async="-1" duration="0" priority="61443" screen="1"
+		   src="sas01b" transparency="0" x="1692"/>
+		<chgbs @l="252" async="-1" duration="0" priority="61444" screen="1"
+		   src="rai01b" transparency="0" x="228"/>
+		<chgbs async="0" duration="0" priority="61445" screen="1" src="kan01b"
+		   transparency="0" x="960"/>
+		<waitbs @l="253" flags="0" screen="1"/>
+		<chgscrn @l="254" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="255" buf="0" fadeout="500" intro="-1" src="bgm21" type="0"
+		   volume="1."/>
+		<face src="fkan01b"/>
+		<msg @l="257" char="0" flags="0" index="81" line="257" name="花音"
+		   text="「……というわけで、みんなお疲れさま」" timeout="" voices="kan15109"/>
+		<face src=""/>
+		<msg @l="259" char="-1" flags="0" index="83" line="259" name=""
+		   text="花音がみんなを集めて、終業後のミーティングを行う。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="261" flags="0" screen="0"/>
+		<face src="fkan00b"/>
+		<msg @l="262" char="0" flags="17" index="85" line="262" name="花音"
+		   text="「今日が私の復帰初日ということで\n:みんなには迷惑かけちゃってたかもしれないけど、ありがとうね」" timeout=""
+		   voices="kan15110"/>
+		<wait @l="265" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="266" flags="-2147483648" screen="0"/>
+		<setface @l="267" src="fkan01b"/>
+		<pause @l="268" flags="-2147483648" index="87" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="271" flags="0" screen="0"/>
+		<face src="fjcc10b"/>
+		<msg @l="272" char="4" flags="17" index="88" line="272" name="ＪＣ"
+		   text="「礼を言うのはこっちっスよ。\n:久々だってのに、あっちこっちフォローしてもらって\n:助かりまくリングだったんで」"
+		   timeout="" voices="jei12801"/>
+		<wait @l="275" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="276" flags="-2147483648" screen="0"/>
+		<setface @l="277" src="fjcc02b"/>
+		<pause @l="278" flags="-2147483648" index="90" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="281" flags="0" screen="0"/>
+		<face src="fsas02b"/>
+		<msg @l="282" char="2" flags="0" index="91" line="282" name="紗々"
+		   text="「オーナーがいなかった間、\n:どこかチグハグでなんだかんだ大変でしたからね」" timeout=""
+		   voices="sas13601"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="284" flags="0" screen="0"/>
+		<face src="frai02b"/>
+		<msg @l="285" char="3" flags="17" index="93" line="285" name="礼羽"
+		   text="「花音が戻ってきて、\n:これでマシュマロツリーも万全な体勢になったってことだね。\n:完全復活ってやつ？」" timeout=""
+		   voices="rai15301"/>
+		<wait @l="288" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="289" flags="-2147483648" screen="0"/>
+		<setface @l="290" src="frai25b"/>
+		<pause @l="291" flags="-2147483648" index="95" timeout=""/>
+		<face src="f"/>
+		<msg @l="294" char="11" flags="0" index="96" line="294" name="亮"
+		   text="「寛三郎さんたちも、\n:先代以上のにぎわいだって褒めてくれたしな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="296" flags="0" screen="0"/>
+		<face src="frai00b"/>
+		<msg @l="297" char="3" flags="0" index="98" line="297" name="礼羽"
+		   text="「でも、花音のおばあちゃんに言われたけど、\n:もっと精進しないといけないよね」" timeout=""
+		   voices="rai15302"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="299" flags="0" screen="0"/>
+		<face src="fusi02b"/>
+		<msg @l="300" char="1" flags="17" index="100" line="300" name="汐"
+		   text="「それって、うちのケーキの味がまだまだだってことでしょ。\n:もっと頑張っておいしくしていかないとね」" timeout=""
+		   voices="usi15702"/>
+		<wait @l="303" flags="5" time="3800"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="304" flags="-2147483648" screen="0"/>
+		<setface @l="305" src="fusi28b"/>
+		<pause @l="306" flags="-2147483648" index="102" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="309" flags="0" screen="0"/>
+		<face src="fkan06b"/>
+		<msg @l="310" char="0" flags="17" index="103" line="310" name="花音"
+		   text="「そっか！　それで精進が必要だったんだ！！」" timeout="" voices="kan15111"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="311" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="312" flags="0" screen="0"/>
+		<wait @l="315" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="316" flags="-2147483648" screen="0"/>
+		<setface @l="317" src="fkan10b"/>
+		<pause @l="318" flags="-2147483648" index="105" timeout=""/>
+		<face src=""/>
+		<msg @l="321" char="-1" flags="0" index="106" line="321" name=""
+		   text="花音がぽんと手を叩いて納得したような顔をする。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="323" char="11" flags="0" index="108" line="323" name="亮"
+		   text="「？　なにが？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="325" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="326" char="0" flags="0" index="110" line="326" name="花音"
+		   text="「私ねおばあちゃんに指摘されてからずっと考えてたの。\n:とても優しい味ってどういうものなんだろう？　って」" timeout=""
+		   voices="kan15112"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="328" flags="0" screen="0"/>
+		<face src="fkan00b"/>
+		<msg @l="329" char="0" flags="0" index="112" line="329" name="花音"
+		   text="「美味しかったとかじゃなくて、\n:優しい味っていう言い方って変わってるなあって」" timeout=""
+		   voices="kan15113"/>
+		<face src="f"/>
+		<msg @l="331" char="11" flags="0" index="114" line="331" name="亮"
+		   text="「たしかにそうだな。イメージはわかるけど、\n:具体的にどういうものかって聞かれるとちょっと困っちゃうよな」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="333" flags="0" screen="0"/>
+		<face src="fkan11b"/>
+		<msg @l="334" char="0" flags="0" index="116" line="334" name="花音"
+		   text="「それはね、きっとお父さんたちのザッハトルテに\n:あると思うんだ」" timeout="" voices="kan15114"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai06b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="336" flags="0" screen="0"/>
+		<face src="frai06b"/>
+		<msg @l="337" char="3" flags="17" index="118" line="337" name="礼羽"
+		   text="「どういうこと？　\n:ザッハトルテなら今もメニューにあるじゃない」" timeout="" voices="rai15303"/>
+		<pause @l="339" flags="0" index="120" timeout=""/>
+		<clremt @l="340" id="rai" screen="0"/>
+		<play_sound @l="342" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="343" duration="500" show="0"/>
+		<chgbg @l="344" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<chgbg @l="345" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg01c" type="99"/>
+		<play_sound @l="347" buf="0" fadeout="500" intro="-1" src="bgm14" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="349" char="-1" flags="0" index="121" line="349" name=""
+		   text="不思議そうな顔をするライライに、今までのことを説明する。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="350" char="-1" flags="0" index="123" line="350" name=""
+		   text="かつてこの店の名物だったザッハトルテのこと。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="351" char="-1" flags="0" index="125" line="351" name=""
+		   text="そして、朝霞さんが何度も再現しようと挑戦してきたが、\n:お店が安定するまでずっと保留にしてきたこと。" timeout=""
+		   voices=""/>
+		<showmsg @l="353" duration="500" show="0"/>
+		<loadimage @l="354" bg="0" fit="0" screen="1" src="bg05c"/>
+		<lock @l="355"/>
+		<chgbs @l="356" async="-1" duration="0" priority="61441" screen="1"
+		   src="usi01b" transparency="0" x="1342"/>
+		<chgbs @l="357" async="-1" duration="0" priority="61442" screen="1"
+		   src="jcc01b" transparency="0" x="578"/>
+		<chgbs @l="358" async="-1" duration="0" priority="61443" screen="1"
+		   src="sas01b" transparency="0" x="1692"/>
+		<chgbs @l="359" async="-1" duration="0" priority="61444" screen="1"
+		   src="rai01b" transparency="0" x="228"/>
+		<chgbs async="0" duration="0" priority="61445" screen="1" src="kan01b"
+		   transparency="0" x="960"/>
+		<waitbs @l="360" flags="0" screen="1"/>
+		<chgscrn @l="361" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="363" flags="0" screen="0"/>
+		<face src="fkan04b"/>
+		<msg @l="364" char="0" flags="0" index="127" line="364" name="花音"
+		   text="「今のでもじゅうぶん美味しいんだよ。\n:味も近い、でもちょっとだけ違うというか……」" timeout=""
+		   voices="kan15115"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="366" flags="0" screen="0"/>
+		<face src="fusi04b"/>
+		<msg @l="367" char="1" flags="0" index="129" line="367" name="汐"
+		   text="「うん。それは私が一番よくわかってる。\n:おじさんから作り方を教わってレシピも何度も見返したけど\n:うまくいかなくて」"
+		   timeout="" voices="usi15703"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="369" flags="0" screen="0"/>
+		<face src="fusi11b"/>
+		<msg @l="370" char="1" flags="0" index="131" line="370" name="汐"
+		   text="「なぜかあのケーキだけ再現できないままなんだよね」" timeout="" voices="usi15704"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="372" flags="0" screen="0"/>
+		<face src="fkan00b"/>
+		<msg @l="373" char="0" flags="0" index="133" line="373" name="花音"
+		   text="「今もみんなやたくさんのお客さまに囲まれてるけど、\n:そこにお父さんとお母さんが作り上げたザッハトルテ」" timeout=""
+		   voices="kan15116"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="375" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="376" char="0" flags="0" index="135" line="376" name="花音"
+		   text="「それが好きだったお客さまたちも集まってくれたら\n:ステキだと思うんだ」" timeout="" voices="kan15117"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="378" flags="0" screen="0"/>
+		<face src="fusi10b"/>
+		<msg @l="379" char="1" flags="0" index="137" line="379" name="汐"
+		   text="「そうだね。このマシュマロの木の下にみんなが集まってこそ、\n:おじさんたちの夢も叶えられると思う」" timeout=""
+		   voices="usi15705"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="381" flags="0" screen="0"/>
+		<face src="frai00b"/>
+		<msg @l="382" char="3" flags="0" index="139" line="382" name="礼羽"
+		   text="「なるほど、ご両親の想いが込められたザッハトルテ……\n:それを復活させる、か」" timeout=""
+		   voices="rai15304"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="384" flags="0" screen="0"/>
+		<face src="fkan11b"/>
+		<msg @l="385" char="0" flags="0" index="141" line="385" name="花音"
+		   text="「うん。そうじゃないと、本当の意味でみんなの笑顔が集まる\n:お店にならないような気がするの」" timeout=""
+		   voices="kan15118"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="387" flags="0" screen="0"/>
+		<face src="fjcc01b"/>
+		<msg @l="388" char="4" flags="0" index="143" line="388" name="ＪＣ"
+		   text="「それが精進しろってことっスか」" timeout="" voices="jei12802"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="390" flags="0" screen="0"/>
+		<face src="frai02b"/>
+		<msg @l="391" char="3" flags="0" index="145" line="391" name="礼羽"
+		   text="「ケーキってさ、作った人の思いが込められてるんだよね。\n:私は、みんなのおかげでそれを取り戻すことが出来た」" timeout=""
+		   voices="rai15305"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="393" flags="0" screen="0"/>
+		<face src="frai10b"/>
+		<msg @l="394" char="3" flags="0" index="147" line="394" name="礼羽"
+		   text="「だから今度は私の番。\n:花音たちの思い出のザッハトルテ作りを手伝いたい」" timeout=""
+		   voices="rai15306"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="396" flags="0" screen="0"/>
+		<face src="fkan10b"/>
+		<msg @l="397" char="0" flags="17" index="149" line="397" name="花音"
+		   text="「ありがとう礼羽さん！」" timeout="" voices="kan15119"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="398" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="399" flags="0" screen="0"/>
+		<pause @l="400" flags="0" index="151" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi22b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="402" flags="0" screen="0"/>
+		<face src="fusi22b"/>
+		<msg @l="403" char="1" flags="17" index="152" line="403" name="汐"
+		   text="「よーしっ、そうと決まればがんばるぞっ！！」" timeout="" voices="usi15706"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="404" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="405" flags="0" screen="0"/>
+		<pause @l="406" flags="0" index="154" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="408" flags="0" screen="0"/>
+		<face src="fjcc04b"/>
+		<msg @l="409" char="4" flags="0" index="155" line="409" name="ＪＣ"
+		   text="「でも勝算はあるんスか？　\n:だって、今までもパイセンの記憶を頼りに\n:何度も試作してきたじゃないっスか」" timeout=""
+		   voices="jei12803"/>
+		<face src="f"/>
+		<msg @l="411" char="11" flags="0" index="157" line="411" name="亮"
+		   text="「今までは朝霞さんひとりの記憶でしたけど、\n:これからは花音のおばあさんにも協力してもらうと\n:いいかもしれません」"
+		   timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="413" flags="0" screen="0"/>
+		<face src="frai02b"/>
+		<msg @l="414" char="3" flags="0" index="159" line="414" name="礼羽"
+		   text="「それならより再現出来る確率がアップしそうだよね」" timeout="" voices="rai15307"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan23b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="416" flags="0" screen="0"/>
+		<face src="fkan23b"/>
+		<msg @l="417" char="0" flags="17" index="161" line="417" name="花音"
+		   text="「そしてさらに！　じゃじゃーん！　じつは秘密兵器もあるの」" timeout="" voices="kan15120"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="418" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="419" flags="0" screen="0"/>
+		<pause @l="420" flags="0" index="163" timeout=""/>
+		<play_sound @l="422" buf="0" fadeout="2500" type="0"/>
+		<face src=""/>
+		<msg @l="424" char="-1" flags="0" index="164" line="424" name=""
+		   text="そう言って取り出したのは古い日記帳だった。" timeout="" voices=""/>
+		<play_sound @l="427" buf="0" fadeout="500" intro="-1" src="bgm20" type="0"
+		   volume="1."/>
+		<loadimage @l="429" bg="0" fit="0" screen="1" src="bg05cz"/>
+		<chgbs async="0" duration="0" priority="61445" screen="1" src="kan10bz"
+		   transparency="0" x="960"/>
+		<waitbs @l="430" flags="0" screen="1"/>
+		<chgscrn @l="431" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="fkan10b"/>
+		<msg @l="433" char="0" flags="0" index="166" line="433" name="花音"
+		   text="「鷲宮のお屋敷の中を探検した時に、\n:お母さんが昔使ってたお部屋で見つけたんだ」" timeout=""
+		   voices="kan15121"/>
+		<face src="f"/>
+		<msg @l="435" char="11" flags="0" index="168" line="435" name="亮"
+		   text="「探検っていうのがじつに花音らしいな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan21bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="437" flags="0" screen="0"/>
+		<face src="fkan21b"/>
+		<msg @l="438" char="0" flags="17" index="170" line="438" name="花音"
+		   text="「えへへ、褒められちゃったぁ」" timeout="" voices="kan15122"/>
+		<emotion @l="439" id="kan" loop="1" screen="0" src="emotion_08z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<pause @l="440" flags="0" index="172" timeout=""/>
+		<clremt @l="441" id="kan" screen="0"/>
+		<lock @l="443"/>
+		<chgbs @l="444" async="-1" duration="200" priority="0" screen="0"
+		   src="kan21b" transparency="0" x="2147483648"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi17b"
+		   transparency="0" x="1492"/>
+		<waitbs @l="445" flags="0" screen="0"/>
+		<face src="fusi17b"/>
+		<msg @l="446" char="1" flags="17" index="173" line="446" name="汐"
+		   text="「褒めてないよね！？　どっちかっていうと\n:呆れたニュアンスが２割くらい入ってたよね！？」" timeout=""
+		   voices="usi15707"/>
+		<emotion @l="447" id="usi" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="448" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="449" flags="0" screen="0"/>
+		<pause @l="450" flags="0" index="175" timeout=""/>
+		<clremt @l="451" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="453" char="11" flags="0" index="176" line="453" name="亮"
+		   text="「や、１００パーセント褒めてます」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi20b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="455" flags="0" screen="0"/>
+		<face src="fusi20b"/>
+		<msg @l="456" char="1" flags="17" index="178" line="456" name="汐"
+		   text="「あっれー！？　\n:このふたりの会話のツボ、難しくてわけがわからないよー！」" timeout=""
+		   voices="usi15708"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="457" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="458" flags="0" screen="0"/>
+		<pause @l="459" flags="0" index="180" timeout=""/>
+		<face src=""/>
+		<msg @l="461" char="-1" flags="0" index="181" line="461" name=""
+		   text="頭を抱えている朝霞さんの前にライライがずずいと出てくる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai06b"
+		   transparency="0" x="428"/>
+		<waitbs @l="463" flags="0" screen="0"/>
+		<face src="frai06b"/>
+		<msg @l="464" char="3" flags="0" index="183" line="464" name="礼羽"
+		   text="「もしかして、\n:その日記帳にザッハトルテの秘密が書かれてるってこと？」" timeout="" voices="rai15308"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="466" flags="0" screen="0"/>
+		<face src="fkan11b"/>
+		<msg @l="467" char="0" flags="0" index="185" line="467" name="花音"
+		   text="「ううん、残念ながら\n:そこまでハッキリしたことは書いてないみたいなんだけど……」" timeout=""
+		   voices="kan15123"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="469" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="470" char="0" flags="0" index="187" line="470" name="花音"
+		   text="「でもお父さんと一緒にケーキの試作をしていたときのことや、\n:メモなんかもあったから、なにかヒントになるかもって思うんだ」"
+		   timeout="" voices="kan15124"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="472" flags="0" screen="0"/>
+		<face src="fusi06b"/>
+		<msg @l="473" char="1" flags="17" index="189" line="473" name="汐"
+		   text="「もしかしたら、\n:レシピに書かれていないことが見つかるかもしれないんだね！？」" timeout=""
+		   voices="usi15709"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="474" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="475" flags="0" screen="0"/>
+		<pause @l="476" flags="0" index="191" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="478" flags="0" screen="0"/>
+		<face src="fkan10b"/>
+		<msg @l="479" char="0" flags="17" index="192" line="479" name="花音"
+		   text="「うんっ。だから調べてみるよ」" timeout="" voices="kan15125"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="75"/>
+		<waitbs @l="480" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="481" flags="0" screen="0"/>
+		<pause @l="482" flags="0" index="194" timeout=""/>
+		<play_sound @l="489" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="490" duration="500" show="0"/>
+		<chgbg @l="491" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="492" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg30c" type="201"/>
+		<play_sound @l="493" buf="0" fadeout="500" intro="-1" src="bgm05" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="495" char="-1" flags="0" index="195" line="495" name=""
+		   text="ミーティングが終わり、花音の部屋へとやってきた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="496" char="-1" flags="0" index="197" line="496" name=""
+		   text="件の日記を一緒に見て欲しいと言われたからだ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="498" char="11" flags="0" index="199" line="498" name="亮"
+		   text="「他人の、しかも恋人のお母さんの日記を見るっていうのは、\n:なんだか気が引けるな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan23a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="500" flags="0" screen="0"/>
+		<face src="fkan23a"/>
+		<msg @l="501" char="0" flags="17" index="201" line="501" name="花音"
+		   text="「そのへんは大丈夫、\n:ケーキ作りに関わる部分だけ抜粋するからさ。\n:それならあなたも安心して見られるでしょ？」"
+		   timeout="" voices="kan15126"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="502" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="503" flags="0" screen="0"/>
+		<pause @l="504" flags="0" index="203" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan13a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="506" flags="0" screen="0"/>
+		<face src="fkan13a"/>
+		<msg @l="507" char="0" flags="17" index="204" line="507" name="花音"
+		   text="「というより、その部分だけメモ代わりっていうか、\n:よくわからない記号や数字まで混じってて\n:私じゃわけが分からないんだよね」"
+		   timeout="" voices="kan15127"/>
+		<wait @l="510" flags="5" time="3700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan09a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="511" flags="-2147483648" screen="0"/>
+		<setface @l="512" src="fkan09a"/>
+		<pause @l="513" flags="-2147483648" index="206" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="516" flags="0" screen="0"/>
+		<face src="fkan11a"/>
+		<msg @l="517" char="0" flags="0" index="207" line="517" name="花音"
+		   text="「だから、亮くんの方で気づいたことがあったら\n:教えて欲しいんだ」" timeout="" voices="kan15128"/>
+		<face src=""/>
+		<msg @l="519" char="-1" flags="0" index="209" line="519" name=""
+		   text="ふたりで協力して気づいた部分をすり合わせしていけば、\n:なにかが分かるかもしれない。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="521" char="11" flags="0" index="211" line="521" name="亮"
+		   text="「よし、さっそく読んでみようか」" timeout="" voices=""/>
+		<showmsg @l="528" duration="500" show="0"/>
+		<chgbg @l="530" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg30cz" type="99"/>
+		<face src=""/>
+		<msg @l="533" char="-1" flags="0" index="213" line="533" name=""
+		   text="こうしてふたり並んで日記を調べ始めた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="534" char="-1" flags="0" index="215" line="534" name=""
+		   text="花音が該当するページをセレクトし、\n:それを僕がチェックしていく。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="536" flags="0" screen="0"/>
+		<face src="fkan06a"/>
+		<msg @l="537" char="0" flags="0" index="217" line="537" name="花音"
+		   text="「へー……お母さんってホラー映画が好きだったんだ。\n:意外だなー」" timeout="" voices="kan15129"/>
+		<face src=""/>
+		<msg @l="539" char="-1" flags="0" index="219" line="539" name=""
+		   text="や、意外もなにも花音もホラー好きだったような？　\n:だって見るとグッズを買いあさるって言ってたし。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="541" char="11" flags="0" index="221" line="541" name="亮"
+		   text="「花音、こっちは読み終わったぞ。\n:ザッハトルテじゃなくてタルトの成分分析のメモだったけどな」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="543" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="544" char="0" flags="17" index="223" line="544" name="花音"
+		   text="「ふふっ、初デートのお母さん、私そっくりだぁ……えへへぇ」" timeout="" voices="kan15130"/>
+		<wait @l="547" flags="5" time="2700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan21az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="548" flags="-2147483648" screen="0"/>
+		<setface @l="549" src="fkan21a"/>
+		<emotion @l="550" id="kan" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<pause @l="551" flags="-2147483648" index="225" timeout=""/>
+		<clremt @l="553" id="kan" screen="0"/>
+		<face src=""/>
+		<msg @l="555" char="-1" flags="0" index="226" line="555" name=""
+		   text="花音は日記を見ながらあれこれ楽しそうにつぶやいている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="556" char="-1" flags="0" index="228" line="556" name=""
+		   text="目的を考えたらまったくダメダメなのだが、花音のウキウキぶりがかわいすぎるのでもう少しこのままにしておこうっと。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="558" flags="0" screen="0"/>
+		<face src="fkan06a"/>
+		<msg @l="559" char="0" flags="17" index="230" line="559" name="花音"
+		   text="「……………！？」" timeout="" voices="kan15131"/>
+		<emotion @l="560" id="kan" loop="1" screen="0" src="emotion_09z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="561" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="562" flags="0" screen="0"/>
+		<pause @l="563" flags="0" index="232" timeout=""/>
+		<clremt @l="564" id="kan" screen="0"/>
+		<face src="f"/>
+		<msg @l="566" char="11" flags="0" index="233" line="566" name="亮"
+		   text="「いきなり固まったけど、どうした？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan14az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="568" flags="0" screen="0"/>
+		<face src="fkan14a"/>
+		<msg @l="569" char="0" flags="0" index="235" line="569" name="花音"
+		   text="「……宮原さん」" timeout="" voices="kan15132"/>
+		<face src="f"/>
+		<msg @l="571" char="11" flags="0" index="237" line="571" name="亮"
+		   text="「はい。急に改まってどうしました春日部さん」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="573" flags="0" screen="0"/>
+		<face src="fkan06a"/>
+		<msg @l="574" char="0" flags="17" index="239" line="574" name="花音"
+		   text="「あ、そうじゃなくてね。\n:お母さんの日記に宮原さんが出てきたんだよぉ！」" timeout=""
+		   voices="kan15133"/>
+		<emotion @l="575" id="kan" loop="1" screen="0" src="emotion_03z" time="-1"
+		   type="kan_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="576" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="577" flags="0" screen="0"/>
+		<wait @l="580" flags="5" time="800"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan27az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="581" flags="-2147483648" screen="0"/>
+		<setface @l="582" src="fkan27a"/>
+		<pause @l="583" flags="-2147483648" index="241" timeout=""/>
+		<clremt @l="585" id="kan" screen="0"/>
+		<face src="f"/>
+		<msg @l="587" char="11" flags="0" index="242" line="587" name="亮"
+		   text="「宮原さんって……じいさんのことか！」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan16az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="589" flags="0" screen="0"/>
+		<face src="fkan16a"/>
+		<msg @l="590" char="0" flags="0" index="244" line="590" name="花音"
+		   text="「たぶん、年齢的にもそうだと思うよ、ほら」" timeout="" voices="kan15134"/>
+		<face src=""/>
+		<msg @l="592" char="-1" flags="0" index="246" line="592" name=""
+		   text="日記をひろげ、じいさんのことが書かれている部分を指さす。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="593" char="-1" flags="0" index="248" line="593" name=""
+		   text="そこには鷲宮家の専属パティシエとして働いていた\n:花音のお父さんと、なぜか庭師として働いてた\n:じいさんのことが書かれていた。"
+		   timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="595" flags="0" screen="0"/>
+		<play_sound @l="596" buf="0" fadeout="500" intro="-1" src="bgm20" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="598" char="11" flags="0" index="250" line="598" name="亮"
+		   text="「……っていうか、\n:記述の度にじいさんの職業が違うんだけど！？」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="600" char="-1" flags="0" index="252" line="600" name=""
+		   text="このデタラメ具合は確実に僕のじいさんだ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="602" flags="0" screen="0"/>
+		<face src="fkan06a"/>
+		<msg @l="603" char="0" flags="17" index="254" line="603" name="花音"
+		   text="「すごいね、駆け落ちのときに逃走ルートを手配したり、\n:お店の建築費を値切ったりいろいろ協力してくれてたんだ」"
+		   timeout="" voices="kan15135"/>
+		<wait @l="606" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="607" flags="-2147483648" screen="0"/>
+		<setface @l="608" src="fkan10a"/>
+		<pause @l="609" flags="-2147483648" index="256" timeout=""/>
+		<face src="f"/>
+		<msg @l="612" char="11" flags="17" index="257" line="612" name="亮"
+		   text="「所沢さんも駆け落ちにかかわってるんだけど！！？」" timeout="" voices=""/>
+		<shakescrn @l="614" amp="20" cycle="100" duration="300" flags="2" screen="0"/>
+		<pause @l="615" flags="0" index="259" timeout=""/>
+		<play_sound @l="616" buf="1" fadeout="0" type="1"/>
+		<face src=""/>
+		<msg @l="618" char="-1" flags="0" index="260" line="618" name=""
+		   text="なんか色んな新事実がぽろぽろ出てくるぞおい。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="620" flags="0" screen="0"/>
+		<face src="fkan06a"/>
+		<msg @l="621" char="0" flags="17" index="262" line="621" name="花音"
+		   text="「あ、写真も出てきた。\n:これは、お店がオープンしたときのものみたいだね」" timeout=""
+		   voices="kan15136"/>
+		<wait @l="624" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="625" flags="-2147483648" screen="0"/>
+		<setface @l="626" src="fkan10a"/>
+		<pause @l="627" flags="-2147483648" index="264" timeout=""/>
+		<face src="f"/>
+		<msg @l="631" char="11" flags="0" index="265" line="631" name="亮"
+		   text="「なんでふんどし一丁で仁王立ちしてるんだよじじい！？」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="633" char="-1" flags="0" index="267" line="633" name=""
+		   text="写真には花音のご両親らしき若い男女と、\n:中央で誇らしげに腕組みしている老人の姿があった。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="635" char="11" flags="0" index="269" line="635" name="亮"
+		   text="「……っと、裏になにかメモ書きされているみたいだ」" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="638" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="640" char="-1" flags="0" index="271" line="640" name=""
+		   text="そこには“ましまろのような柔らかい笑顔で、\n:周りを幸せにできる人間になれ”と書かれていた。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="641" char="-1" flags="0" index="273" line="641" name=""
+		   text="それは、僕がじいさんからことあるごとに言われた言葉。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="643" flags="0" screen="0"/>
+		<face src="fkan02a"/>
+		<msg @l="644" char="0" flags="17" index="275" line="644" name="花音"
+		   text="「ましまろな笑顔か……うん、お父さんがいつも言ってたよ。\n:やわらかい笑顔のこと」" timeout=""
+		   voices="kan15137"/>
+		<wait @l="647" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="648" flags="-2147483648" screen="0"/>
+		<setface @l="649" src="fkan00a"/>
+		<pause @l="650" flags="-2147483648" index="277" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="653" flags="0" screen="0"/>
+		<face src="fkan30a"/>
+		<msg @l="654" char="0" flags="0" index="278" line="654" name="花音"
+		   text="「だからきっと、お店の名前をマシュマロの木ってつけたんだね」" timeout="" voices="kan15138"/>
+		<face src="f"/>
+		<msg @l="656" char="11" flags="0" index="280" line="656" name="亮"
+		   text="「まさか、こんな風に繋がってるなんてなあ。\n:世間って意外と狭いのかもな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="658" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="659" char="0" flags="17" index="282" line="659" name="花音"
+		   text="「ふふ、そうかもね。\n:だって施設にいたうさぎマンがあなただったわけだし」" timeout=""
+		   voices="kan15139"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="660" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="661" flags="0" screen="0"/>
+		<wait @l="664" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="665" flags="-2147483648" screen="0"/>
+		<setface @l="666" src="fkan08a"/>
+		<pause @l="667" flags="-2147483648" index="284" timeout=""/>
+		<face src="f"/>
+		<msg @l="670" char="11" flags="0" index="285" line="670" name="亮"
+		   text="「ははっ、そう言われたら運命とか巡り合わせってものを\n:信じたくなるな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="672" flags="0" screen="0"/>
+		<face src="fkan30a"/>
+		<msg @l="673" char="0" flags="0" index="287" line="673" name="花音"
+		   text="「私は運命だと思ってるよ……」" timeout="" voices="kan15140"/>
+		<play_sound @l="681" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="682" duration="500" show="0"/>
+		<loadimage @l="683" bg="0" fit="0" screen="1" src="bg30c"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="kan08az"
+		   transparency="0" x="960"/>
+		<waitbs @l="684" flags="0" screen="1"/>
+		<chgscrn @l="685" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="686" buf="0" fadeout="500" intro="-1" src="bgm14" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="688" char="-1" flags="0" index="289" line="688" name=""
+		   text="ふと僕の膝に重みがかかり、花音の髪にさらりと肩を撫でられた。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="690" flags="0" screen="0"/>
+		<face src="fkan30a"/>
+		<msg @l="691" char="0" flags="0" index="291" line="691" name="花音"
+		   text="「だって私、ずっと思ったもん、この出会いは運命だったって」" timeout="" voices="kan15141"/>
+		<face src=""/>
+		<msg @l="693" char="-1" flags="0" index="293" line="693" name=""
+		   text="僕の首に腕を巻きつけた花音は、恍惚と瞳を蕩けさせていた。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="695" flags="0" screen="0"/>
+		<face src="fkan00a"/>
+		<msg @l="696" char="0" flags="17" index="295" line="696" name="花音"
+		   text="「最初はきっと偶然で……でも、そんなたくさんの偶然が\n:たくさん重なったことで私たちは出会えたんだよね？」" timeout=""
+		   voices="kan15142"/>
+		<wait @l="699" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="700" flags="-2147483648" screen="0"/>
+		<setface @l="701" src="fkan08a"/>
+		<pause @l="702" flags="-2147483648" index="297" timeout=""/>
+		<face src="f"/>
+		<msg @l="705" char="11" flags="0" index="298" line="705" name="亮"
+		   text="「そうだな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="707" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="708" char="0" flags="0" index="300" line="708" name="花音"
+		   text="「だったらそれはきっと運命だと思う」" timeout="" voices="kan15143"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="710" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="712" char="-1" flags="0" index="302" line="712" name=""
+		   text="花音の柔らかな髪を撫でると、彼女は嬉しそうに目を細める。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="714" char="11" flags="0" index="304" line="714" name="亮"
+		   text="「偶然でも運命でもいい。僕に出会ってくれてありがとう」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="716" flags="0" screen="0"/>
+		<face src="fkan08a"/>
+		<msg @l="717" char="0" flags="0" index="306" line="717" name="花音"
+		   text="「そんな嬉しいこと言われたら、\n:もう調べ物を続けられなくなっちゃうよぉ」" timeout=""
+		   voices="kan15144"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="720" flags="0" screen="0"/>
+		<play_sound @l="721" buf="1" fadeout="0" intro="-1" src="se689" type="1"
+		   volume="0.5"/>
+		<effect @l="722" cycle="0" flags="16896" param="0" screen="0" type="9"/>
+		<fade @l="723" async="-1" degree="150" duration="1000" flags="16384"
+		   screen="0" wait_flags="0"/>
+		<face src=""/>
+		<msg @l="725" char="-1" flags="0" index="308" line="725" name=""
+		   text="彼女が抱きついてくると、そのまま唇が迫ってきた。" timeout="" voices=""/>
+		<play_sound @l="726" buf="1" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="728" flags="0" screen="0"/>
+		<face src="fkan12a"/>
+		<msg @l="729" char="0" flags="0" index="310" line="729" name="花音"
+		   text="「くぷぅっ、ちゅぶ、ふはあぁぁ\x;heart:　\n:ん～、んぅ、ちゅ、は……ん、ちゅくちゅく」" timeout=""
+		   voices="kan15145"/>
+		<play_sound @l="731" buf="5" fadeout="0" intro="0" src="kan80028" type="6"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="732" char="-1" flags="0" index="312" line="732" name=""
+		   text="感極まったような吐息をもらした花音が、\n:僕を抑えこんで唇を重ねてくる。" timeout="" voices=""/>
+		<play_sound @l="733" buf="5" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="735" flags="0" screen="0"/>
+		<face src="fkan30a"/>
+		<msg @l="736" char="0" flags="0" index="314" line="736" name="花音"
+		   text="「はふぅ、んちゅ……っ、ちゅっ、れろっ、れろれろぉ……っ」" timeout="" voices="kan15146"/>
+		<play_sound @l="738" buf="5" fadeout="0" intro="0" src="kan80029" type="6"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="739" char="-1" flags="0" index="316" line="739" name=""
+		   text="彼女の舌が絡まってきたので、僕もそれを舌で受け止める。" timeout="" voices=""/>
+		<play_sound @l="740" buf="5" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="742" flags="0" screen="0"/>
+		<face src="fkan12a"/>
+		<msg @l="743" char="0" flags="0" index="318" line="743" name="花音"
+		   text="「すきぃ……っ、れるっ、ちゅぷ……っ、ちゅるっ、れるるぅっ」" timeout="" voices="kan15147"/>
+		<face src="f"/>
+		<msg @l="745" char="11" flags="0" index="320" line="745" name="亮"
+		   text="「……ぷあっ。はぁはぁ、\n:息が続かないくらいすごいキスだった……っ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="747" flags="0" screen="0"/>
+		<face src="fkan08a"/>
+		<msg @l="748" char="0" flags="17" index="322" line="748" name="花音"
+		   text="「だって好きって気持ちが抑えきれなくなっちゃって、\n:そしたら唇が離れなくなっちゃったんだもん」" timeout=""
+		   voices="kan15148"/>
+		<wait @l="751" flags="5" time="4700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan05az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="752" flags="-2147483648" screen="0"/>
+		<setface @l="753" src="fkan05a"/>
+		<pause @l="754" flags="-2147483648" index="324" timeout=""/>
+		<face src="f"/>
+		<msg @l="757" char="11" flags="0" index="325" line="757" name="亮"
+		   text="「仕事終わったばっかりだし汗かいてるし、\n:シャワー浴びてきたいんだけど……」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan07az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="759" flags="0" screen="0"/>
+		<face src="fkan07a"/>
+		<msg @l="760" char="0" flags="17" index="327" line="760" name="花音"
+		   text="「だぁめ！　だってあなたのにおい好きなんだもん……\n:くんかくんか」" timeout="" voices="kan15149"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="761" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="762" flags="0" screen="0"/>
+		<wait @l="765" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="766" flags="-2147483648" screen="0"/>
+		<setface @l="767" src="fkan00a"/>
+		<pause @l="768" flags="-2147483648" index="329" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="771" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="773" char="-1" flags="0" index="330" line="773" name=""
+		   text="すうすうと鼻を鳴らすうちに、花音の身体はどんどん熱くなり、\n:重なった胸に鼓動も強く響いてくる。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="775" flags="0" screen="0"/>
+		<face src="fkan30a"/>
+		<msg @l="776" char="0" flags="17" index="332" line="776" name="花音"
+		   text="「それよりも電気が気になるよ……ちょっと待ってね？　\n:消してくるから」" timeout="" voices="kan15150"/>
+		<wait @l="779" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="780" flags="-2147483648" screen="0"/>
+		<setface @l="781" src="fkan08a"/>
+		<pause @l="782" flags="-2147483648" index="334" timeout=""/>
+		<face src="f"/>
+		<msg @l="785" char="11" flags="0" index="335" line="785" name="亮"
+		   text="「暗いの怖いだろ？　だからこのままつけたままにしておこう」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="787" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="788" char="0" flags="17" index="337" line="788" name="花音"
+		   text="「あなたと一緒だったら平気だよ。\n:それよりも見られちゃうほうが恥ずかしいよぅ」" timeout=""
+		   voices="kan15151"/>
+		<wait @l="791" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="792" flags="-2147483648" screen="0"/>
+		<setface @l="793" src="fkan25a"/>
+		<pause @l="794" flags="-2147483648" index="339" timeout=""/>
+		<face src="f"/>
+		<msg @l="797" char="11" flags="0" index="340" line="797" name="亮"
+		   text="「じゃあ消さない。だって花音をたくさん見てたいから」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan18az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="799" flags="0" screen="0"/>
+		<face src="fkan18a"/>
+		<msg @l="800" char="0" flags="0" index="342" line="800" name="花音"
+		   text="「ずるいよぅ、そんな言い方されたら断れないよぉー」" timeout="" voices="kan15152"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="802" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="804" char="-1" flags="0" index="344" line="804" name=""
+		   text="僕の腕の中で花音が身じろぎを止め、素直に体重を預けてくる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="805" char="-1" flags="0" index="346" line="805" name=""
+		   text="どんな風にでもいいと、\n:僕の耳たぶをくすぐる甘い息づかいが教えてくれた。" timeout="" voices=""/>
+		<return/>
+	</code>
+</xscript>

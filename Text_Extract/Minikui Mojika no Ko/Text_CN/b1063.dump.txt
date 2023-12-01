@@ -1,0 +1,448 @@
+﻿media/script/nut/b1063.nut
+main
+main
+endfile
+scene
+this
+this
+media/script/nut/b1063.nut
+main
+PrevPreview
+
+CrntPreview
+NextPreview
+MainInit
+GetCheckReadPreview
+scene
+endfile
+this
+this
+media/script/nut/b1063.nut
+endfile
+PreGameName
+GameName
+b1064h.nut
+MainEnd
+this
+this
+media/script/nut/b1063.nut
+scene
+SceneInit
+PreGameName
+
+CheckRootSkipExpress
+PrintGO
+上背景
+CreateFrame
+CreateEyelids
+CreateCameraOrtho
+カメラ01
+SCREEN_WIDTH
+SCREEN_HEIGHT
+RandomShakeStart3D
+CreateTextureSP
+XBg01A
+Center
+cg/ep/sl/xbg003010_20_学園生徒会室_b1.png
+Move3D
+SetCamera
+XSt01B
+GetPosition
+y
+cg/ep/sl/xst鳴子_制服_think_20.png
+GetSize
+XBg01B
+cg/ep/sl/xbg003010_20_学園生徒会室_b2.png
+CreateColorSP
+絵選択肢用色黒
+BLACK
+BLEND_MODE_NORMAL
+Transition
+cg/data/zzex_eye_01_00_0.png
+CreateSpriteSP
+絵選択肢用スクリーンブラー
+Middle
+SCREEN
+CreateSpriteEX
+絵選択肢用黒いふち
+cg/data/効果_暗四隅01.png
+Fade
+絵選択肢用角膜
+cg/sys/select/効果_角膜.png
+BLEND_MODE_MULTIPLE
+Scale
+AxlDxl1
+repeat
+round
+RandomShake
+絵選択肢用血管
+cg/sys/select/効果_血管.png
+Rotate
+CreateSE
+SE選択肢用99
+se環境_雰囲気_ノイズL
+MusicStart
+SE選択肢用頭痛a
+se人体_動作_心臓L
+FadeDelete
+CreateEFTxtSuf
+絵心サフ01
+絵心サフ02
+CreateEFTxt
+絵心文字00
+我要怎么向父亲解释\n  现在的情况…
+得想点办法遮掩过去…
+必须做点什么，\n 来维护学校的秩序
+这是我作为学生会长\n 应尽的职责
+要怎么做才好…？\n 要怎么才能掩饰过去？
+你要振作点，许斐鸣子！
+CreateScreenRGB
+FaceUpPerformance_UP
+FadeScreenRGB
+Dxl1
+CreateEFTxtProcess
+Wait
+FadeDeleteScreenRGB
+FadeEFTxt
+SetVolumeEX
+SE*
+SoundPlay
+bgm001
+TypeBegin
+Print
+\r\n没有。\r\n
+TextBoxDelete
+\r\n对于我的外貌的感想，一点都没有。\r\n
+\r\n许斐鸣子的意识已经转向了内心深处。\r\n
+\r\n现在只是在勉强维持学生会长的体面。\r\n
+\r\n甚至都顾不上去看和自己说话的人的脸。\r\n
+CreateSprite
+CreateColorEX
+絵色黒
+SetShadingPower
+SHADE_LEVE_LOW
+SetErase
+DeleteEFTxt
+Delete
+CreateSubSprite
+StStockNum
+St
+C
+st鳴子_制服_think_20
+C_
+FadeSt
+\r\n这样啊。\r\n
+\r\n她也不是什么特别的人。\r\n
+\r\n和其他人一样。\r\n
+\r\n装点外表，来掩饰内心的丑陋。\r\n
+絵心文字01
+Request
+Disused
+\r\n//【種崎捨】\r\n「许斐会长」\r\n
+\r\n//【種崎捨】\r\n「许斐会长，听得到我说话吗？」\r\n
+絵心文字10
+这是一张什么脸！？
+一看，我就有一股强烈的…
+你活着不觉得\n   羞耻吗？
+絵心文字100
+絵心文字101
+絵心文字102
+st鳴子_制服_shock_20
+WaitEFTxt
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300010a05'>\r\n「——怎、怎么了？」\r\n
+絵心文字20
+想要呕吐的冲动
+无法直视
+必须隐藏好厌恶
+丑陋的男人
+絵心文字200
+絵心文字201
+絵心文字202
+絵心文字203
+st鳴子_制服_fall_20
+\r\n恶意不留余地向我刺来。\r\n
+\r\n这也证明了，她现在在看我了。\r\n
+\r\n//【種崎捨】\r\n「您的难处，我非常理解」\r\n
+絵心文字21
+…什么？
+他，不是在\n 怀疑我…？
+絵心文字210
+絵心文字211
+st鳴子_制服_despise_20
+\r\n//【種崎捨】\r\n「您只和我一个人说过」\r\n
+\r\n//【種崎捨】\r\n「您非常讨厌父亲」\r\n
+絵心文字22
+啊，
+那天放学之后的话啊
+絵心文字220
+絵心文字221
+\r\n//【種崎捨】\r\n「所以必须要保护好这所学校」\r\n
+\r\n//【種崎捨】\r\n「作为学生会长，必须维持学校的秩序」\r\n
+絵心文字23
+他说话的走向—
+絵心文字230
+st鳴子_制服_normal_20
+\r\n//【種崎捨】\r\n「不能让父亲看到自己的软弱」\r\n
+絵心文字24
+他难道没觉得\n   是自己被人背叛了？
+絵心文字25
+不对，是不想认为\n 自己被背叛了？
+絵心文字240
+絵心文字250
+\r\n//【種崎捨】\r\n「利用我，是为了复仇」\r\n
+絵心文字26
+原来如此…
+我救了他
+絵心文字260
+絵心文字261
+st鳴子_制服_worry_20
+\r\n//【種崎捨】\r\n「您是迫于无奈，而利用了我」\r\n
+絵心文字27
+他被我拯救了
+絵心文字28
+所以，现在，他还是想\n    把我认作同伴
+絵心文字29
+啊，\n 真是可怜…
+絵心文字270
+絵心文字280
+絵心文字290
+\r\n//【種崎捨】\r\n「……是这样的吧？」\r\n
+絵心文字30
+那我就好好利用你吧
+絵心文字300
+絵心文字31
+尽量留下好印象
+不要撇开视线
+必须想办法\n 掩饰过去
+把他拉拢过来
+必须维持学校秩序
+絵心文字310
+絵心文字311
+絵心文字312
+絵心文字313
+絵心文字314
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300020a05'>\r\n「非常抱歉」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300030a05'>\r\n「让你……承受了如此痛苦的经历」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300040a05'>\r\n「其实我真的，很不想……这么做的」\r\n
+\r\n//【種崎捨】\r\n「您是迫于无奈吧」\r\n
+\r\n//【種崎捨】\r\n「您也有必须报的仇」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300050a01'>\r\n「主人，别被她骗了——！」\r\n
+\r\n//【種崎捨】\r\n「闭嘴奴隶！」\r\n
+絵心文字32
+很好，
+果然还相信我
+絵心文字320
+絵心文字321
+絵心文字33
+必须以他为中心，
+让学校的格局重归稳定—
+絵心文字330
+絵心文字331
+st鳴子_制服_think2_20
+\r\n还不行。\r\n
+絵心文字34
+絵心文字340
+絵心文字341
+絵心文字342
+絵心文字343
+絵心文字344
+\r\n复仇还为时尚早。\r\n
+\r\n我将我的真实想法遏制住。\r\n
+\r\n//【種崎捨】\r\n「那么——您，对我又有什么期待呢？」\r\n
+\r\n//【種崎捨】\r\n「并不是……想向上通报我吧」\r\n
+絵心文字35
+这不是越来越明白了嘛
+絵心文字350
+絵心文字36
+啊，笑容也好丑陋…
+絵心文字360
+st鳴子_制服_cool_20
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300060a05'>\r\n「树望学院可是省内最好的学校」\r\n
+絵心文字37
+絵心文字370
+絵心文字371
+絵心文字372
+絵心文字373
+絵心文字374
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300070a05'>\r\n「学校里的学生，心里都积累了许多压力」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300080a05'>\r\n「万一他们集体崩溃了呢？」\r\n
+\r\n//【種崎捨】\r\n「所以才怪我做得太过分？」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300090a05'>\r\n「学校的势力格局变动，自然会有风险」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300100a05'>\r\n「利用好九鬼绮罗罗，控制住压力」\r\n
+st鳴子_制服_shout_20
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300110a05'>\r\n「她要是崩溃了，我会很难办的」\r\n
+\r\n//【種崎捨】\r\n「让她作为阀门控制压力的释放？」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300120a05'>\r\n「没错」\r\n
+\r\n//【種崎捨】\r\n「代替过去的我？」\r\n
+絵心文字38
+与其说是「阀门」
+不如说是「祭品」
+絵心文字380
+絵心文字381
+bgm*
+\r\n#{・・}祭品#。\r\n
+絵心文字39
+絵心文字391
+絵心文字392
+絵心文字393
+絵心文字394
+絵心文字395
+\r\n这个没见过的词。\r\n
+\r\n不知怎么的，牵动了我的神经。\r\n
+\r\n在考虑是否妥当之前，我就脱口而出。\r\n
+\r\n//【種崎捨】\r\n「是祭品吗？」\r\n
+絵心文字40
+不可能—
+只有我和学校高层\n   才知道的—
+絵心文字400
+絵心文字401
+bgm009
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300130a05'>\r\n「……你是哪里听到这个词的？」\r\n
+絵心文字41
+许斐鸣子，冷静
+你要冷静下来
+必须保护好学校
+不把他拉拢过来\n  就糟了
+絵心文字410
+絵心文字411
+絵心文字412
+絵心文字413
+\r\n//【種崎捨】\r\n「因为我和他们之间没有任何关联，所以你想都没想到？」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300140a05'>\r\n「————」\r\n
+絵心文字42
+不会吧…
+应该，没有人\n  说漏嘴才对
+祭品这个角色曝光的话，\n   学校就会崩溃的
+絵心文字420
+絵心文字421
+絵心文字422
+\r\n学校就会崩溃？\r\n
+\r\n这也太夸张了。\r\n
+\r\n但是，许斐真的很震惊吗……？\r\n
+絵心文字43
+絵心文字430
+絵心文字431
+絵心文字432
+絵心文字433
+\r\n获得的信息还不够充分。\r\n
+\r\n所以我故意用含糊不清的暗示来表达。\r\n
+\r\n//【種崎捨】\r\n「要是曝光了，头疼的应该是你们吧？」\r\n
+st鳴子_制服_serious_20
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300150a05'>\r\n「——你在诈我」\r\n
+絵心文字44
+难道说…
+他在哪里找到了证据？
+絵心文字440
+絵心文字441
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300160a05'>\r\n「你只是不知道在哪里随便听了一耳朵吧」\r\n
+\r\n//【種崎捨】\r\n「您不知道吗？」\r\n
+絵心文字45
+难道是看到了自己的\n  入学申请表？
+絵心文字46
+不，不可能…
+絵心文字450
+絵心文字460
+\r\n//【種崎捨】\r\n「入学申请表啊」\r\n
+絵心文字47
+絵心文字470
+絵心文字471
+絵心文字472
+絵心文字473
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300170a05'>\r\n「什——！？」\r\n
+絵心文字48
+这么说来，
+他连自己没到分数线\n 这件事都知道吗？
+絵心文字480
+絵心文字481
+\r\n//【種崎捨】\r\n「我的成绩没到分数线」\r\n
+\r\n//【種崎捨】\r\n「为什么我还能进入这所名校，树望学院？」\r\n
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300180a05'>\r\n「谁知道呢。我怎么可能知道？」\r\n
+絵心文字49
+那是因为，你是
+以「祭品」的身份\n 获得批准录取入学的
+絵心文字490
+絵心文字491
+\r\n//【種崎捨】\r\n「理由是，我是以『祭品』的身份获得批准录取入学的」\r\n
+絵心文字50
+看来我也没法装傻了，
+毕竟他已经，
+知道他们自己\n 祭品的身份了
+絵心文字500
+絵心文字501
+絵心文字502
+st鳴子_制服_sad2_20
+\r\n//【許斐鳴子】\r\n<voice name='許斐鳴子' class='許斐鳴子' src='voice/b10/6300190a05'>\r\n「…………」\r\n
+\r\n#{・・・・}他们自己#。\r\n
+絵心文字51
+絵心文字510
+絵心文字511
+絵心文字512
+絵心文字513
+\r\n原来祭品不止我一个。\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300200a01'>\r\n「果然是这样」\r\n
+絵心文字52
+双叶实忧是什么人？
+不就是种崎舍的随从嘛？
+感觉就像是\n 变了个人似的
+不行，要冷静下来
+我只是在\n 履行我的职责
+絵心文字520
+絵心文字521
+絵心文字522
+絵心文字523
+絵心文字524
+\r\n而实忧也，再次——\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300210a01'>\r\n「我一直就觉得很奇怪」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300220a01'>\r\n「因为要霸凌别人，一般都是无缘无故就可以开始的」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300230a01'>\r\n「心情来了就换个人霸凌也很正常」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300240a01'>\r\n「让一个班级的生态链维持不变是很困难的」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300250a01'>\r\n「但是——这所学校，在有意控制」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300260a01'>\r\n「不管是我，还是主人，都只是牺牲品」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300270a01'>\r\n「获批入学就是为了做同学的出气筒」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300280a01'>\r\n「我是单亲家庭，所以很能承受压力」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300290a01'>\r\n「主人也理所当然会被周围的人欺负」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300300a01'>\r\n「学校就是冲着这点，才让我们入学的」\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300310a01'>\r\n「这就是，祭品」\r\n
+絵心文字53
+正如你所说
+絵心文字54
+所以，如果这些\n  被曝光的话—
+絵心文字530
+絵心文字540
+\r\n//【種崎捨】\r\n「实忧」\r\n
+絵心文字55
+骗人的吧，为什么…？
+絵心文字550
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300320a01'>\r\n「主人，怎么啦？」\r\n
+絵心文字56
+为什么
+絵心文字560
+\r\n//【種崎捨】\r\n「谢谢你」\r\n
+絵心文字57
+笑
+容
+会
+出现在她脸上？
+絵心文字570
+絵心文字571
+絵心文字572
+絵心文字573
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300330a01'>\r\n「嗯」\r\n
+\r\n不用回头也能看见。\r\n
+絵心文字58
+絵心文字580
+絵心文字581
+絵心文字582
+絵心文字583
+絵心文字584
+\r\n她现在，\r\n
+\r\n露出了#{・・・・}那种笑容#。\r\n
+\r\n//【双葉みゆ】\r\n<voice name='双葉みゆ' class='双葉みゆ' src='voice/b10/6300340a01'>\r\n「那么，接下来，要怎么做呢？」\r\n
+\r\n嗯。\r\n
+\r\n我知道的，实忧。\r\n
+SceneEnd
+this
+Stnum
+EFTxtPara02
+EFTxtPara01
+this

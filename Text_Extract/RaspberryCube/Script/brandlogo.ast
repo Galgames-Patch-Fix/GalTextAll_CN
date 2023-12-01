@@ -1,0 +1,19 @@
+ast = {
+{
+{"keyskip",key="MWCLICK",label="label_skip"},
+{"brandlogo",mode="white",time=1000,wait=2500},
+{"brandlogo",file="logo",sysvo="brand",movie=1,cond="s.android==0"},
+{"brandlogo",file="logo",sysvo="brand",movie=2,cond="s.android==1"},
+{"brandlogo",file="sys_warning_bg",cond="s.trial==0"},
+{"brandlogo",file="sys_warning_bgtr",cond="s.trial==1"},
+{"brandlogo",file="logo02",cond="s.cs==1"},
+{"brandlogo",file="logo01",cond="s.windows==0"},
+{"keyskip"},
+{"brandlogo"},
+},
+text={
+},
+label={
+label_skip={ block=1,label=9 },
+},
+}

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<label @l="4" id="scene_1_02"/>
+		<play_sound @l="8" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="9" duration="500" show="0"/>
+		<loadimage @l="14" bg="0" fit="0" screen="1" src="evusi09_01a"/>
+		<scroll @l="15" async="0" center_x="45" center_y="45" duration="0" flags="0"
+		   rev="0." screen="1" transparency="0" v0="0." v1="0." wait_flags="0" x="0"
+		   y="0" zoom="1."/>
+		<chgscrn @l="16" duration="2500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="10"/>
+		<play_sound @l="17" buf="0" fadeout="500" intro="-1" src="bgm18" type="0"
+		   volume="1."/>
+		<msg @l="24" char="11" flags="0" index="0" line="24" name="亮" text="「おおっ……」"
+		   timeout="" voices=""/>
+		<msg @l="26" char="-1" flags="0" index="2" line="26" name=""
+		   text="窓の外、地面がだんだんと遠ざかっていく。" timeout="" voices=""/>
+		<msg @l="27" char="-1" flags="0" index="4" line="27" name=""
+		   text="夜闇に包まれているせいか、この狭い空間だけが、ぽつんと宙に\n:浮いているように感じてしまう。" timeout=""
+		   voices=""/>
+		<msg @l="29" char="11" flags="0" index="6" line="29" name="亮"
+		   text="「にしても、ずいぶんゆっくり動くんですね」" timeout="" voices=""/>
+		<msg @l="31" char="1" flags="0" index="8" line="31" name="汐"
+		   text="「週末のこの時間は、通常の倍以上時間をかけて一周するんだよ。カップル向けの特別企画なんだって」" timeout=""
+		   voices="usi13400"/>
+		<msg @l="33" char="-1" flags="0" index="10" line="33" name=""
+		   text="そういえば僕たちの他に並んでたお客さんも、もれなく\n:恋人同士ぽかったし、大盛況の企画なんだろう。" timeout=""
+		   voices=""/>
+		<chgbg @l="36" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01f" type="99"/>
+		<msg @l="38" char="1" flags="0" index="12" line="38" name="汐"
+		   text="「あっ、あそこに見えるの銭湯の煙突じゃない？　ってことは……お店はあっちのほうかな？」" timeout=""
+		   voices="usi13401"/>
+		<msg @l="40" char="11" flags="0" index="14" line="40" name="亮"
+		   text="「たぶん、そうじゃないかと。さすがに場所までは\n:わかりませんけど」" timeout="" voices=""/>
+		<chgbg @l="42" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01a" type="99"/>
+		<msg @l="44" char="1" flags="0" index="16" line="44" name="汐"
+		   text="「ベタな感想だけど、街が小さくなっていくと、ちょっと\n:神様っぽい気分になっちゃうかも」" timeout=""
+		   voices="usi13402"/>
+		<msg @l="46" char="11" flags="0" index="18" line="46" name="亮"
+		   text="「見ろッ、人がゴミのようだ！　みたいなやつですよね」" timeout="" voices=""/>
+		<chgbg @l="49" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01f" type="99"/>
+		<msg @l="52" char="1" flags="0" index="20" line="52" name="汐"
+		   text="「そういうのはもうちょっと上に行ってからでないと」" timeout="" voices="usi13403"/>
+		<msg @l="54" char="11" flags="0" index="22" line="54" name="亮"
+		   text="「でも、意外と他のゴンドラの中って見えないんですね」" timeout="" voices=""/>
+		<msg @l="57" char="-1" flags="0" index="24" line="57" name=""
+		   text="ゴンドラ同士がわりと離れているし、夜の薄暗さも手伝ってか、思っていた以上にお隣さんの様子はわからない。" timeout=""
+		   voices=""/>
+		<chgbg @l="59" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01a" type="99"/>
+		<msg @l="61" char="1" flags="0" index="26" line="61" name="汐"
+		   text="「ここの観覧車は誰からも邪魔されず、二人きりの時間を\n:楽しめるっていうのも売りのひとつだからね」" timeout=""
+		   voices="usi13404"/>
+		<msg @l="63" char="1" flags="0" index="28" line="63" name="汐"
+		   text="「だからこそ、ゆっくり時間をかけて回るわけだし……でさ、\n:ここまで言えば私がこれに乗りたかった理由もわかるでしょ？」"
+		   timeout="" voices="usi13405"/>
+		<msg @l="64" char="11" flags="0" index="30" line="64" name="亮"
+		   text="「最後のお楽しみにとっといたワケがよくわかりました」" timeout="" voices=""/>
+		<msg @l="66" char="1" flags="0" index="32" line="66" name="汐" text="「えへへ」"
+		   timeout="" voices="usi13406"/>
+		<play_sound @l="68" buf="1" fadeout="0" intro="-1" src="se511" type="1"
+		   volume="0.6"/>
+		<msg @l="70" char="-1" flags="0" index="34" line="70" name=""
+		   text="はにかむように微笑んだ朝霞さんの手が、僕の膝に触れる。" timeout="" voices=""/>
+		<chgbg @l="72" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01b" type="99"/>
+		<msg @l="74" char="1" flags="0" index="36" line="74" name="汐"
+		   text="「なら……まずはキスして\x;heart:」" timeout="" voices="usi13407"/>
+		<play_sound @l="76" buf="1" fadeout="0" type="1"/>
+		<msg @l="78" char="-1" flags="0" index="38" line="78" name=""
+		   text="言うが早いか、唇を捧げるように軽く突き出す。" timeout="" voices=""/>
+		<msg @l="79" char="-1" flags="0" index="40" line="79" name=""
+		   text="だから僕も、そっと腰を浮かせてすぐさまそれに応えた。" timeout="" voices=""/>
+		<chgbg @l="81" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_01c" type="99"/>
+		<msg @l="83" char="1" flags="0" index="42" line="83" name="汐"
+		   text="「んぅ、ちゅっ……ふぅ、んっ……れろ、んむっ」" timeout="" voices="usi13408"/>
+		<chgbg @l="85" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02c" type="99"/>
+		<play_sound @l="87" buf="5" fadeout="0" intro="0" src="usi80029" type="6"
+		   volume="1."/>
+		<msg @l="88" char="-1" flags="0" index="44" line="88" name=""
+		   text="個室とはいえ外なわけだし軽く触れる程度かと思っていたら、\n:彼女は僕の服を掴み、しっかりと舌を絡めてきた。" timeout=""
+		   voices=""/>
+		<play_sound @l="89" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="91" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02b" type="99"/>
+		<msg @l="93" char="1" flags="0" index="46" line="93" name="汐"
+		   text="「ふぅ、んぅ……ねぇ？　もっといっぱいキスして\x;hearts:」" timeout="" voices="usi13409"/>
+		<msg @l="95" char="11" flags="0" index="48" line="95" name="亮"
+		   text="「でも、こんなところで大丈夫ですかね？」" timeout="" voices=""/>
+		<msg @l="97" char="1" flags="0" index="50" line="97" name="汐"
+		   text="「人目なら大丈夫。ここの観覧車って、さっきも言ったように\n:ゴンドラ同士はもちろん外からも覗かれないから」" timeout=""
+		   voices="usi13410"/>
+		<msg @l="99" char="11" flags="0" index="52" line="99" name="亮"
+		   text="「たしかに見づらい感じはしましたけど、そういうもの\n:なんですか？」" timeout="" voices=""/>
+		<chgbg @l="101" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02a" type="99"/>
+		<msg @l="103" char="1" flags="0" index="54" line="103" name="汐"
+		   text="「うん。例の本を貸してくれたお友達が教えてくれたんだ」" timeout="" voices="usi13411"/>
+		<msg @l="105" char="1" flags="0" index="56" line="105" name="汐"
+		   text="「だからキスはもちろん……それ以上のことも下に戻るまでは\n:したい放題だよ\x;heart:」" timeout=""
+		   voices="usi13412"/>
+		<play_sound @l="109" buf="1" fadeout="0" intro="-1" src="se560" type="1"
+		   volume="0.6"/>
+		<showmsg @l="110" duration="500" show="0"/>
+		<scrlangle @l="111" duration="2000" view="0" y="-1300"/>
+		<msg @l="113" char="-1" flags="0" index="58" line="113" name=""
+		   text="小さな声で囁くと同時に、彼女がそっと両足を開く。\n:いまの話を聞いていなければ、大慌てで止めていたところだ。" timeout=""
+		   voices=""/>
+		<play_sound @l="115" buf="1" fadeout="0" type="1"/>
+		<msg @l="117" char="11" flags="0" index="60" line="117" name="亮"
+		   text="「うおおぉ……っ、大胆すぎる！！」" timeout="" voices=""/>
+		<msg @l="119" char="1" flags="0" index="62" line="119" name="汐"
+		   text="「昨日、寝るまで……ううん、寝ても私とひとつになったまま\n:だったキミが、そういうこと言うんだ？」" timeout=""
+		   voices="usi13413"/>
+		<msg @l="121" char="11" flags="0" index="64" line="121" name="亮"
+		   text="「それを言われると、なにも言い返せませんね」" timeout="" voices=""/>
+		<msg @l="123" char="-1" flags="0" index="66" line="123" name=""
+		   text="現にあれだけ射精して今日は終日賢者タイムだなんて思って\n:いたのに、さっきムラムラしちゃったし。" timeout=""
+		   voices=""/>
+		<scrlangle @l="126" duration="2000" view="0" y="0"/>
+		<msg @l="128" char="1" flags="0" index="68" line="128" name="汐"
+		   text="「エッチがダメならキスだけでもいいから。初デートの記念に、いっぱいしよ？　……足は閉じないけどね」" timeout=""
+		   voices="usi13414"/>
+		<msg @l="130" char="-1" flags="0" index="70" line="130" name=""
+		   text="悪戯っぽく微笑んで、開いた足の膝で僕の膝を\n:ちょんちょんとつつく。" timeout="" voices=""/>
+		<chgbg @l="132" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02b" type="99"/>
+		<msg @l="134" char="1" flags="0" index="72" line="134" name="汐"
+		   text="「それとも……こういう場所でエッチをしたいって\n:彼氏に求めちゃうような子はイヤ？」" timeout=""
+		   voices="usi13415"/>
+		<msg @l="136" char="11" flags="0" index="74" line="136" name="亮"
+		   text="「まさか！　そこまで求めてもらえるなんて男冥利に尽きますよ」" timeout="" voices=""/>
+		<msg @l="138" char="-1" flags="0" index="76" line="138" name=""
+		   text="今日のデート、これまで二人きりの機会は何度もあった。" timeout="" voices=""/>
+		<msg @l="139" char="-1" flags="0" index="78" line="139" name=""
+		   text="そのとき朝霞さんがモーションをかけてこなかったのは、確実なチャンスが訪れることを知っていたからだろう。" timeout=""
+		   voices=""/>
+		<msg @l="140" char="-1" flags="0" index="80" line="140" name=""
+		   text="そしてそのチャンスこそ、まさに今というわけだ。" timeout="" voices=""/>
+		<msg @l="142" char="11" flags="0" index="82" line="142" name="亮"
+		   text="「ただ、下に戻るまでに終わらなかったらどうしようって\n:思いまして」" timeout="" voices=""/>
+		<msg @l="144" char="-1" flags="0" index="84" line="144" name=""
+		   text="気づけば一晩中愛し合っちゃった僕たちにとって、いくらのんびりとはいえ、観覧車一周という時間は少し心許ない。" timeout=""
+		   voices=""/>
+		<chgbg @l="146" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02a" type="99"/>
+		<msg @l="148" char="1" flags="0" index="86" line="148" name="汐"
+		   text="「そこは、お姉ちゃんと力をあわせて。ね？」" timeout="" voices="usi13416"/>
+		<msg @l="150" char="11" flags="0" index="88" line="150" name="亮"
+		   text="「一晩中の次は、ファストセックスですか」" timeout="" voices=""/>
+		<msg @l="152" char="1" flags="0" index="90" line="152" name="汐"
+		   text="「色々な体験ができてステキでしょ？」" timeout="" voices="usi13417"/>
+		<msg @l="154" char="11" flags="0" index="92" line="154" name="亮"
+		   text="「ははっ、たしかに……それじゃあ触りますね」" timeout="" voices=""/>
+		<play_sound @l="156" buf="1" fadeout="0" intro="-1" src="se511" type="1"
+		   volume="0.5"/>
+		<scrlangle @l="157" duration="2000" view="0" y="-1300"/>
+		<msg @l="159" char="1" flags="0" index="94" line="159" name="汐"
+		   text="「はぁ、んんっ……」" timeout="" voices="usi13418"/>
+		<play_sound @l="161" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="163" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="164" char="-1" flags="0" index="96" line="164" name=""
+		   text="小さな吐息は妙に艶やかで、つい腰が浮きそうになる。" timeout="" voices=""/>
+		<play_sound @l="165" buf="5" fadeout="0" type="1"/>
+		<msg @l="167" char="1" flags="0" index="98" line="167" name="汐"
+		   text="「もっと大胆にさわっても平気だよ？」" timeout="" voices="usi13419"/>
+		<msg @l="171" char="11" flags="0" index="100" line="171" name="亮"
+		   text="「わかってはいるんですけど、まだ状況に慣れてないというか」" timeout="" voices=""/>
+		<msg @l="173" char="-1" flags="0" index="102" line="173" name=""
+		   text="誰も見ていないとわかっていても、ドキドキしてしまう。" timeout="" voices=""/>
+		<scrlangle @l="175" duration="2000" view="0" y="0"/>
+		<msg @l="177" char="11" flags="0" index="104" line="177" name="亮"
+		   text="「それになんかこの状況……痴漢してるみたいで緊張します」" timeout="" voices=""/>
+		<msg @l="179" char="1" flags="0" index="106" line="179" name="汐"
+		   text="「痴漢されたことはないけど……でも、キミにだったら、そういうことをされてみたいかも」" timeout=""
+		   voices="usi13420"/>
+		<msg @l="183" char="1" flags="0" index="108" line="183" name="汐"
+		   text="「もちろん、痴漢したいぐらい魅力的ならだけど」" timeout="" voices="usi13421"/>
+		<msg @l="185" char="11" flags="0" index="110" line="185" name="亮"
+		   text="「そりゃ、言うまでもないですよ」" timeout="" voices=""/>
+		<chgbg @l="187" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02b" type="99"/>
+		<msg @l="189" char="1" flags="0" index="112" line="189" name="汐"
+		   text="「なら、もっと……ね？　スカートの中に手を入れて、\n:あそこさわってほしいな」" timeout=""
+		   voices="usi13422"/>
+		<showmsg @l="195" duration="500" show="0"/>
+		<scrlangle @l="196" duration="2000" view="0" y="-1300"/>
+		<msg @l="199" char="-1" flags="0" index="114" line="199" name=""
+		   text="僕の手がちょうど無理なく入るぐらい開いている足の付け根には、熱気と湿り気、なにより女の子の匂いが満ちている。" timeout=""
+		   voices=""/>
+		<msg @l="201" char="11" flags="0" index="116" line="201" name="亮"
+		   text="「……もしかして、もう濡れてます？」" timeout="" voices=""/>
+		<msg @l="203" char="1" flags="0" index="118" line="203" name="汐"
+		   text="「気になるなら、さわって確かめて」" timeout="" voices="usi13423"/>
+		<play_sound @l="205" buf="1" fadeout="0" intro="-1" src="se560" type="1"
+		   volume="1."/>
+		<play_sound @l="206" buf="1" fadeout="2000" type="1"/>
+		<msg @l="208" char="-1" flags="0" index="120" line="208" name=""
+		   text="どうぞ、というふうに朝霞さんが足をさらに少し開く。" timeout="" voices=""/>
+		<msg @l="210" char="11" flags="0" index="122" line="210" name="亮"
+		   text="「そんなに開かれると、股下に潜り込みたくなっちゃいます」" timeout="" voices=""/>
+		<chgbg @l="212" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02a" type="99"/>
+		<msg @l="214" char="1" flags="0" index="124" line="214" name="汐"
+		   text="「くすっ。私はそれでも構わないけど……あっ、でも、\n:ちゅーできないのは寂しいかも」" timeout=""
+		   voices="usi13424"/>
+		<msg @l="216" char="1" flags="0" index="126" line="216" name="汐"
+		   text="「だから、いざというときのために先払いでたっぷり――」" timeout="" voices="usi13425"/>
+		<chgbg @l="218" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02c" type="99"/>
+		<msg @l="220" char="1" flags="0" index="128" line="220" name="汐"
+		   text="「んまっ……はぁ、あむむ、ちゅっ……ふぅ、はぁ、れろれろっ、ちゅむむ、れーろ」" timeout=""
+		   voices="usi13426"/>
+		<chgbg @l="222" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02a" type="99"/>
+		<msg @l="224" char="1" flags="0" index="130" line="224" name="汐"
+		   text="「はふっ、んふふっ……。私もキミも、初めての頃に比べて、\n:だいぶキスが上手になったよね」" timeout=""
+		   voices="usi13427"/>
+		<msg @l="226" char="11" flags="0" index="132" line="226" name="亮"
+		   text="「昨日は夜通ししてたようなもんですからね、レベルアップ\n:してると思いますよ」" timeout="" voices=""/>
+		<msg @l="228" char="1" flags="0" index="134" line="228" name="汐"
+		   text="「すればするだけ上手になる、かぁ……。ケーキ作りと一緒だね。　くすっ……れろ、ちゅっ、ちゅむ」" timeout=""
+		   voices="usi13428"/>
+		<chgbg @l="230" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02c" type="99"/>
+		<msg @l="232" char="1" flags="0" index="136" line="232" name="汐"
+		   text="「それなら、あそこももっと、いじって……はぐっ、はあっ、あ、そうっ……んむぅ、ちゅっ……はぁ、はあんっ」" timeout=""
+		   voices="usi13429"/>
+		<loadimage @l="234" bg="0" fit="0" screen="1" src="evusi09_02b"/>
+		<scroll @l="235" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="236" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="238" buf="5" fadeout="0" intro="0" src="usi80028" type="6"
+		   volume="1."/>
+		<msg @l="239" char="-1" flags="0" index="138" line="239" name=""
+		   text="狭い空間で見つめ合ってキスを繰り返しながら、下着の上から\n:しっかりと秘裂をなぞっていく。" timeout=""
+		   voices=""/>
+		<msg @l="241" char="11" flags="0" index="140" line="241" name="亮"
+		   text="「えっと、そろそろ――」" timeout="" voices=""/>
+		<play_sound @l="242" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="244" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02b" type="99"/>
+		<msg @l="246" char="1" flags="0" index="142" line="246" name="汐"
+		   text="「うんっ、そろそろ……はぐっ、ふぅううんっ\x;hearts:」" timeout="" voices="usi13430"/>
+		<loadimage @l="251" bg="0" fit="0" screen="1" src="evusi09_02b"/>
+		<scroll @l="252" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="253" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="255" buf="1" fadeout="0" intro="-1" src="hse104" type="1"
+		   volume="0.7"/>
+		<loadimage @l="256" bg="0" fit="0" screen="1" src="evusi09_03b"/>
+		<scroll @l="257" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="258" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="260" buf="5" fadeout="0" intro="0" src="usi80016" type="6"
+		   volume="1."/>
+		<msg @l="261" char="-1" flags="0" index="144" line="261" name=""
+		   text="ぷるぷるっと震えた直後、指を割れ目にそって押し込むと、\n:じわっと蜜が染み出した。" timeout="" voices=""/>
+		<play_sound @l="262" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="264" buf="1" fadeout="0" type="1"/>
+		<msg @l="266" char="1" flags="0" index="146" line="266" name="汐"
+		   text="「はぁ、はぁ……キミはキミで、私の身体のこと、どんどん\n:覚えちゃってるんだね……んふっ、はあっ」" timeout=""
+		   voices="usi13431"/>
+		<play_sound @l="270" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="271" char="11" flags="0" index="148" line="271" name="亮"
+		   text="「そりゃもう、バッチリと。初めての頃より濡れやすく\n:なってますよね」" timeout="" voices=""/>
+		<play_sound @l="272" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="277" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02b" type="99"/>
+		<msg @l="279" char="1" flags="0" index="150" line="279" name="汐"
+		   text="「んぅ、もう……私が敏感になったのは、キミがたくさんいじってくれたからだよ？」" timeout=""
+		   voices="usi13432"/>
+		<chgbg @l="281" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_02a" type="99"/>
+		<msg @l="283" char="1" flags="0" index="152" line="283" name="汐"
+		   text="「それに、いまはそのほうが……ね？」" timeout="" voices="usi13433"/>
+		<msg @l="285" char="-1" flags="0" index="154" line="285" name=""
+		   text="彼女が含みを持たせたのは、観覧車が一周するまでの時間のことを言っているんだろう。" timeout="" voices=""/>
+		<msg @l="286" char="-1" flags="0" index="156" line="286" name=""
+		   text="今夜のエッチは、スピードも大切だ。" timeout="" voices=""/>
+		<play_sound @l="288" buf="1" fadeout="0" intro="-1" src="se560" type="1"
+		   volume="0.6"/>
+		<chgbg @l="289" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03e" type="99"/>
+		<msg @l="291" char="1" flags="0" index="158" line="291" name="汐"
+		   text="「さてさて、ちゃんと勃起してるかな……？」" timeout="" voices="usi13434"/>
+		<play_sound @l="293" buf="1" fadeout="0" type="1"/>
+		<msg @l="295" char="11" flags="0" index="160" line="295" name="亮"
+		   text="「く……っ、いきなり触ってくるとはっ」" timeout="" voices=""/>
+		<msg @l="297" char="-1" flags="0" index="162" line="297" name=""
+		   text="僕と同じように手を伸ばした彼女が、ズボンの上から股間を\n:優しく撫でる。" timeout="" voices=""/>
+		<chgbg @l="299" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03f" type="99"/>
+		<msg @l="301" char="1" flags="0" index="164" line="301" name="汐"
+		   text="「んっと……あ、ふふっ。服の上からでもわかるくらい、\n:ガチガチになってる……」" timeout=""
+		   voices="usi13435"/>
+		<chgbg @l="303" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03b" type="99"/>
+		<msg @l="305" char="1" flags="0" index="166" line="305" name="汐"
+		   text="「あぁ、すごく熱いよ……？　これってやっぱり、こういところでするスリルでドキドキしてるせい……？」" timeout=""
+		   voices="usi13436"/>
+		<msg @l="307" char="11" flags="0" index="168" line="307" name="亮"
+		   text="「それもありますけど、あなたとキスするだけで自然と\n:こうなっちゃうんです……ふぅ、はあっ……」" timeout=""
+		   voices=""/>
+		<chgbg @l="309" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03e" type="99"/>
+		<msg @l="311" char="1" flags="0" index="170" line="311" name="汐"
+		   text="「くすっ、キスだけで興奮しちゃうなんて……私とおんなじで、えっちなんだから\x;hearts:……れろ、んむっ」"
+		   timeout="" voices="usi13437"/>
+		<chgbg @l="313" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03c" type="99"/>
+		<play_sound @l="315" buf="5" fadeout="0" intro="0" src="usi80029" type="6"
+		   volume="1."/>
+		<msg @l="316" char="-1" flags="0" index="172" line="316" name=""
+		   text="キスをしながら軽く身を乗り出した彼女の小さな手が、もぞもぞと服越しに息子を撫でる。" timeout="" voices=""/>
+		<msg @l="317" char="-1" flags="0" index="174" line="317" name=""
+		   text="それは上向きに収納していた竿の裏筋を撫でる形になって、\n:なんともいえぬ快感に腰が自然と浮いてしまった。" timeout=""
+		   voices=""/>
+		<shakescrn @l="319" amp="20" cycle="10" duration="300" flags="2" screen="0"/>
+		<msg @l="320" char="-1" flags="0" index="176" line="320" name=""
+		   text="直後、ゴンドラが軽く揺れる。" timeout="" voices=""/>
+		<play_sound @l="321" buf="5" fadeout="0" type="1"/>
+		<msg @l="323" char="11" flags="0" index="178" line="323" name="亮"
+		   text="「おっ？　おおぉぉっ！？」" timeout="" voices=""/>
+		<msg @l="325" char="-1" flags="0" index="180" line="325" name=""
+		   text="前のめりになったので咄嗟にガラスに手をつくと、ちょうど\n:覆い被さるような形になった。" timeout="" voices=""/>
+		<chgbg @l="327" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_03b" type="99"/>
+		<msg @l="329" char="1" flags="0" index="182" line="329" name="汐"
+		   text="「……そのまま襲ってくれてもいいよ？」" timeout="" voices="usi13438"/>
+		<msg @l="331" char="-1" flags="0" index="184" line="331" name=""
+		   text="上目遣いに呟く姿があまりにも可愛いくて、ゴンドラと\n:同じように、理性がグラっと揺れる。" timeout="" voices=""/>
+		<msg @l="333" char="11" flags="0" index="186" line="333" name="亮"
+		   text="「……なら、お言葉に甘えて襲っちゃいますね」" timeout="" voices=""/>
+		<play_sound @l="335" buf="1" fadeout="0" intro="-1" src="se560" type="1"
+		   volume="1."/>
+		<loadimage @l="337" bg="0" fit="0" screen="1" src="evusi09_03b"/>
+		<scroll @l="338" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="339" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="341" buf="1" fadeout="1000" type="1"/>
+		<msg @l="343" char="-1" flags="0" index="188" line="343" name=""
+		   text="ゴンドラの中で膝をつくと、秘所が目の前にくるように\n:腰を落とす。" timeout="" voices=""/>
+		<msg @l="345" char="1" flags="0" index="190" line="345" name="汐"
+		   text="「わわっ？！　そ、それは聞いてないよっ……？！」" timeout="" voices="usi13439"/>
+		<play_sound @l="347" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="348" char="-1" flags="0" index="192" line="348" name=""
+		   text="さすがに直視は恥ずかしいらしく、彼女が身を捩るけど、\n:開いた足の間には僕が居座っているので閉じられない。" timeout=""
+		   voices=""/>
+		<msg @l="349" char="-1" flags="0" index="194" line="349" name=""
+		   text="狭いゴンドラ内では逃げ場もなく、やがて観念したふうに、\n:しゃがみこむ僕の頭にそっと手を置いた。" timeout=""
+		   voices=""/>
+		<play_sound @l="350" buf="5" fadeout="0" type="1"/>
+		<msg @l="352" char="1" flags="0" index="196" line="352" name="汐"
+		   text="「んんぅ……誰にも見られないけど、かわりにキミからは丸見えになっちゃった……はぁ、んんぅッ」" timeout=""
+		   voices="usi13440"/>
+		<play_sound @l="354" buf="5" fadeout="0" intro="0" src="usi80016" type="6"
+		   volume="1."/>
+		<msg @l="355" char="11" flags="0" index="198" line="355" name="亮"
+		   text="「まだ丸見えじゃないです」" timeout="" voices=""/>
+		<play_sound @l="356" buf="5" fadeout="0" type="1"/>
+		<msg @l="358" char="1" flags="0" index="200" line="358" name="汐"
+		   text="「えっ？　あ、ああっ……んぅ、ふぅ、んんぅ……ッ」" timeout="" voices="usi13441"/>
+		<play_sound @l="365" buf="1" fadeout="0" intro="-1" src="se511" type="1"
+		   volume="0.5"/>
+		<loadimage @l="366" bg="0" fit="0" screen="1" src="evusi09_04b"/>
+		<scroll @l="367" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="368" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<msg @l="370" char="-1" flags="0" index="202" line="370" name=""
+		   text="全身を強張らせる朝霞さんのパンツを横にズラすと、行儀良く閉じ合わさった縦のラインが現れる。" timeout="" voices=""/>
+		<msg @l="372" char="11" flags="0" index="204" line="372" name="亮"
+		   text="「ごくっ。……これは予想以上にエロい……」" timeout="" voices=""/>
+		<play_sound @l="374" buf="1" fadeout="0" type="1"/>
+		<showmsg @l="377" duration="500" show="0"/>
+		<scroll @l="378" async="-1" center_x="300" center_y="1600" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<msg @l="380" char="-1" flags="0" index="206" line="380" name=""
+		   text="お子様ボディにつるつるスジまんという最強タッグが、遊園地と\n:いうファンシーなスポットと合わさって、より完成度を\n:高めてしまった。"
+		   timeout="" voices=""/>
+		<msg @l="381" char="-1" flags="0" index="208" line="381" name=""
+		   text="観覧車のゴンドラという密室で、ちっちゃなお姉ちゃんの\n:おま○こに悪戯できるなんて――。" timeout="" voices=""/>
+		<msg @l="383" char="1" flags="0" index="210" line="383" name="汐"
+		   text="「人に見られたら、おまわりさん呼ばれちゃうね」" timeout="" voices="usi13442"/>
+		<play_sound @l="385" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="386" char="11" flags="0" index="212" line="386" name="亮"
+		   text="「誰にも見られてないから平気です」" timeout="" voices=""/>
+		<msg @l="388" char="-1" flags="0" index="214" line="388" name=""
+		   text="とは言ったけど、こんなに可愛い彼女と最高に愛し合っている\n:部分については、少し自慢したいかも、なんて思ってしまう。"
+		   timeout="" voices=""/>
+		<play_sound @l="389" buf="5" fadeout="0" type="1"/>
+		<msg @l="391" char="1" flags="0" index="216" line="391" name="汐"
+		   text="「はぁ、ふぅ……ねぇ、見てるばっかじゃなくて、指でも舌でも\n:いいから、さわって？　はぅ、ああっ……」" timeout=""
+		   voices="usi13443"/>
+		<play_sound @l="393" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="394" char="11" flags="0" index="218" line="394" name="亮"
+		   text="「もうちょっとだけ、このまま鑑賞したいです」" timeout="" voices=""/>
+		<play_sound @l="395" buf="5" fadeout="0" type="1"/>
+		<msg @l="397" char="1" flags="0" index="220" line="397" name="汐"
+		   text="「で、でもっ、そんなじっと見られてるのに、いじられない\n:なんて、そんな焦らし……はぁんっ」" timeout=""
+		   voices="usi13444"/>
+		<scroll @l="401" async="-1" center_x="400" center_y="1800" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<play_sound @l="405" buf="5" fadeout="0" intro="0" src="usi80016" type="6"
+		   volume="1."/>
+		<msg @l="406" char="-1" flags="0" index="222" line="406" name=""
+		   text="完璧な幼さを見せつける縦筋を拡げてしまうのがもったいなくて、指も添えずに、ただじっと一本のスジを見つめる。" timeout=""
+		   voices=""/>
+		<msg @l="407" char="-1" flags="0" index="224" line="407" name=""
+		   text="この割れ目を拡げると、僕のガチガチに勃起した息子ですら\n:飲み込んでしまう膣口が現れるなんて、かなりの反則技だ。"
+		   timeout="" voices=""/>
+		<play_sound @l="408" buf="5" fadeout="0" type="1"/>
+		<msg @l="410" char="1" flags="0" index="226" line="410" name="汐"
+		   text="「ふぅ、ふぅんっ……やだっ、見つめられるだけでこんなに\n:感じちゃうなんてっ……はぁ、ああっ」" timeout=""
+		   voices="usi13445"/>
+		<msg @l="412" char="1" flags="0" index="228" line="412" name="汐"
+		   text="「ふぅ、はあっ……ね、ねぇ？　お願いだから、指でくちゅくちゅしたり、舌でぺろぺろして？」" timeout=""
+		   voices="usi13446"/>
+		<msg @l="414" char="1" flags="0" index="230" line="414" name="汐"
+		   text="「見つめられてるだけじゃ、かえって切なくて……はぅ、はあっ、おま○こがどうにかなっちゃそうだよっ……」" timeout=""
+		   voices="usi13447"/>
+		<msg @l="416" char="1" flags="0" index="232" line="416" name="汐"
+		   text="「おねがい、もうすぐゴンドラがてっぺんにつくし、\n:そろそろっ……はぁ、はあっ」" timeout=""
+		   voices="usi13448"/>
+		<play_sound @l="418" buf="5" fadeout="0" intro="0" src="usi80017" type="6"
+		   volume="1."/>
+		<msg @l="419" char="-1" flags="0" index="234" line="419" name=""
+		   text="手を置いた僕の頭をわしわしなでなでしながら、必死に\n:懇願してくる。" timeout="" voices=""/>
+		<msg @l="420" char="-1" flags="0" index="236" line="420" name=""
+		   text="その声にドキドキしながらゆっくりと立ち上がると、さっきと同じように覆い被さった。" timeout="" voices=""/>
+		<play_sound @l="421" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="423" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_04f" type="99"/>
+		<msg @l="425" char="1" flags="0" index="238" line="425" name="汐"
+		   text="「あっ……」" timeout="" voices="usi13449"/>
+		<play_sound @l="427" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="428" char="11" flags="0" index="240" line="428" name="亮"
+		   text="「じゃあ、ちょうどてっぺんにきたところで行きます」" timeout="" voices=""/>
+		<msg @l="430" char="-1" flags="0" index="242" line="430" name=""
+		   text="揺れるゴンドラ内でバランスを取りながら、しっかりと息子の\n:セットアップを完了する。" timeout="" voices=""/>
+		<play_sound @l="431" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="433" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_04b" type="99"/>
+		<msg @l="435" char="1" flags="0" index="244" line="435" name="汐"
+		   text="「うん。じゃあ、ぎゅって、ぎゅーって……はぁ、はぁっ……\n:いっぱいくっつけるように、だっこして\x;heart:」"
+		   timeout="" voices="usi13450"/>
+		<play_sound @l="437" buf="5" fadeout="0" intro="0" src="usi80015" type="6"
+		   volume="1."/>
+		<msg @l="438" char="11" flags="0" index="246" line="438" name="亮"
+		   text="「なら、一緒にキスしてもいいですか？」" timeout="" voices=""/>
+		<play_sound @l="439" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="441" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_04c" type="99"/>
+		<msg @l="443" char="1" flags="0" index="248" line="443" name="汐"
+		   text="「んっ……れろ、ちゅっ、はむれろ、れろろっ……ふぅ、はぁ、\n:んちゅるる、ちゅっ、ちゅむむっ」" timeout=""
+		   voices="usi13451"/>
+		<play_sound @l="445" buf="1" fadeout="0" intro="-1" src="hse104" type="1"
+		   volume="1."/>
+		<play_sound @l="447" buf="5" fadeout="0" intro="0" src="usi80030" type="6"
+		   volume="1."/>
+		<msg @l="448" char="-1" flags="0" index="250" line="448" name=""
+		   text="しがみついてきた彼女を支えながら、唇同士、性器同士を\n:しっかりと組み合わせ、腰に力を入れていく。" timeout=""
+		   voices=""/>
+		<play_sound @l="449" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="451" buf="1" fadeout="0" type="1"/>
+		<loadimage @l="456" bg="0" fit="0" screen="1" src="evusi09_05c"/>
+		<scroll @l="457" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="458" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<loadimage @l="460" bg="0" fit="0" screen="1" src="evusi09_06c"/>
+		<scroll @l="461" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="462" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="463" buf="1" fadeout="0" intro="-1" src="hse107" type="1"
+		   volume="1."/>
+		<msg @l="465" char="1" flags="0" index="252" line="465" name="汐"
+		   text="「ひふぅ……はあッ、あぁ……こんな高いところで、おち○ちん、挿れてもらっちゃった\x;hearts:……んぅ、はあっ」"
+		   timeout="" voices="usi13452"/>
+		<shakescrn @l="470" amp="20" cycle="10" duration="300" flags="2" screen="0"/>
+		<play_sound @l="472" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="474" buf="5" fadeout="0" intro="0" src="usi80018" type="6"
+		   volume="1."/>
+		<msg @l="475" char="11" flags="0" index="254" line="475" name="亮"
+		   text="「うお……っ、また揺れて？！」" timeout="" voices=""/>
+		<play_sound @l="476" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="478" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06d" type="99"/>
+		<play_sound @l="479" buf="1" fadeout="0" intro="-1" src="hse108" type="1"
+		   volume="1."/>
+		<msg @l="481" char="1" flags="0" index="256" line="481" name="汐"
+		   text="「みゃふっっ\x;heart:\x;hearts:　やうっ、いきなりおぐっ……ひゃぐぐっ、\n:やあっ、んああっ……\x;heart:」"
+		   timeout="" voices="usi13453"/>
+		<play_sound @l="483" buf="5" fadeout="0" intro="0" src="usi80020" type="6"
+		   volume="1."/>
+		<msg @l="484" char="-1" flags="0" index="258" line="484" name=""
+		   text="挿入の瞬間に重心が傾いたらしく、ゴンドラがぐらりと揺れて、\n:結合が一足飛びで最奥まで到達してしまう。" timeout=""
+		   voices=""/>
+		<msg @l="485" char="-1" flags="0" index="260" line="485" name=""
+		   text="突然のことに彼女の声は一瞬濁ったけれど、その表情はむしろ、\n:快感にうっとりしているようだった。" timeout=""
+		   voices=""/>
+		<play_sound @l="487" buf="1" fadeout="0" type="1"/>
+		<msg @l="489" char="11" flags="0" index="262" line="489" name="亮"
+		   text="「だ、大丈夫ですか？」" timeout="" voices=""/>
+		<play_sound @l="490" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="492" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06b" type="99"/>
+		<msg @l="494" char="1" flags="0" index="264" line="494" name="汐"
+		   text="「ん、へーきっ……挿れた瞬間に揺れると思ってなくて、それで、びっくりしちゃった……」" timeout=""
+		   voices="usi13454"/>
+		<msg @l="496" char="1" flags="0" index="266" line="496" name="汐"
+		   text="「けど、ほら……おち○ちん、一瞬で子宮まで届いて……ふぅ、んぅ……すっごくきもちぃ……ふぅ、はぁ」" timeout=""
+		   voices="usi13455"/>
+		<msg @l="498" char="1" flags="0" index="268" line="498" name="汐"
+		   text="「乗ってるのは観覧車なのに、おち○ちんはジェットコースター\n:みたいだった……。んふふっ、はぁ、んああっ」" timeout=""
+		   voices="usi13456"/>
+		<play_sound @l="500" buf="5" fadeout="0" intro="0" src="usi80018" type="6"
+		   volume="1."/>
+		<msg @l="501" char="-1" flags="0" index="270" line="501" name=""
+		   text="甘えた声を漏らしながら、ジェットコースターの安全バーにしがみつくみたいに僕の身体をぎゅっと掴む。" timeout=""
+		   voices=""/>
+		<play_sound @l="502" buf="5" fadeout="0" type="1"/>
+		<showmsg @l="505" duration="500" show="0"/>
+		<scrlangle @l="506" duration="2000" view="0" y="-1300"/>
+		<msg @l="509" char="1" flags="0" index="272" line="509" name="汐"
+		   text="「はぁぅ、はあっ……だけど遊園地の観覧車でエッチしちゃう\n:なんて、めちゃめちゃドキドキするぅ\x;hearts:……はぁん」"
+		   timeout="" voices="usi13457"/>
+		<msg @l="511" char="1" flags="0" index="274" line="511" name="汐"
+		   text="「これがもし明るいうちだったら、私たちの姿、誰かに\n:見られちゃってるかもなんだよっ……？」" timeout=""
+		   voices="usi13458"/>
+		<play_sound @l="513" buf="5" fadeout="0" intro="0" src="usi80019" type="6"
+		   volume="1."/>
+		<msg @l="514" char="11" flags="0" index="276" line="514" name="亮"
+		   text="「見せつけたいなんて……朝霞さん、エロすぎますって」" timeout="" voices=""/>
+		<play_sound @l="515" buf="5" fadeout="0" type="1"/>
+		<msg @l="519" char="1" flags="0" index="278" line="519" name="汐"
+		   text="「ちちっ、ちがくてっ……！　そうじゃなくて、私はただ、\n:その……素敵な彼氏を、自慢したいなぁって……んはぁ」"
+		   timeout="" voices="usi13459"/>
+		<scrlangle @l="523" duration="2000" view="0" y="0"/>
+		<play_sound @l="528" buf="5" fadeout="0" intro="0" src="usi80020" type="6"
+		   volume="1."/>
+		<msg @l="529" char="-1" flags="0" index="280" line="529" name=""
+		   text="似たようなことを考えていたと知り、つい笑みが漏れる。" timeout="" voices=""/>
+		<msg @l="531" char="11" flags="0" index="282" line="531" name="亮"
+		   text="「僕も見られたら困りますけど、でも、そうなったらきっと\n:ドキドキするんだろうなって思います」" timeout=""
+		   voices=""/>
+		<play_sound @l="532" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="534" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06f" type="99"/>
+		<msg @l="536" char="1" flags="0" index="284" line="536" name="汐"
+		   text="「ほんと？」" timeout="" voices="usi13460"/>
+		<play_sound @l="538" buf="5" fadeout="0" intro="0" src="usi80018" type="6"
+		   volume="1."/>
+		<msg @l="539" char="11" flags="0" index="286" line="539" name="亮"
+		   text="「もちろんです。こんな可愛い彼女とイチャラブできて最高だぜ！　みたいな」" timeout="" voices=""/>
+		<play_sound @l="540" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="542" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06a" type="99"/>
+		<msg @l="544" char="1" flags="0" index="288" line="544" name="汐"
+		   text="「んぅ……そんなに褒めてもなんにも出ないよ？」" timeout="" voices="usi13461"/>
+		<play_sound @l="546" buf="5" fadeout="0" intro="0" src="usi80019" type="6"
+		   volume="1."/>
+		<msg @l="547" char="11" flags="0" index="290" line="547" name="亮"
+		   text="「今も十分に出てるから大丈夫です。あなたからダダ漏れする\n:愛情ってやつがね！」" timeout="" voices=""/>
+		<play_sound @l="548" buf="5" fadeout="0" type="1"/>
+		<msg @l="550" char="1" flags="0" index="292" line="550" name="汐"
+		   text="「やはっ、んふふっ。もう、調子良いんだから」" timeout="" voices="usi13462"/>
+		<msg @l="552" char="1" flags="0" index="294" line="552" name="汐"
+		   text="「……でも、ダダもれでもいいかな。自慢の彼氏なのも、\n:大好きなのも、ぜんぶぜんぶホントのことだし……」" timeout=""
+		   voices="usi13463"/>
+		<chgbg @l="554" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06b" type="99"/>
+		<msg @l="556" char="1" flags="0" index="296" line="556" name="汐"
+		   text="「だから下につくまでに、おま○このなかにたっぷりどぴゅって\n:してね？　んふふっ……ちゅっ、れろっ」" timeout=""
+		   voices="usi13464"/>
+		<chgbg @l="558" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06c" type="99"/>
+		<play_sound @l="560" buf="5" fadeout="0" intro="0" src="usi80030" type="6"
+		   volume="1."/>
+		<msg @l="561" char="11" flags="0" index="298" line="561" name="亮"
+		   text="「んぷっ？！　あ、あひゃかひゃんっ……！？」" timeout="" voices=""/>
+		<msg @l="565" char="-1" flags="0" index="300" line="565" name=""
+		   text="ちょっと離れていた距離を一気に詰め寄る電光石火の口づけに、\n:挿入したばかりの竿が暴れ出す。" timeout=""
+		   voices=""/>
+		<play_sound @l="566" buf="5" fadeout="0" type="1"/>
+		<msg @l="568" char="1" flags="0" index="302" line="568" name="汐"
+		   text="「今日はこのままっ……はむ、んっ……射精するまで、ぎゅーして離さないんだからっ……」" timeout=""
+		   voices="usi13465"/>
+		<msg @l="570" char="1" flags="0" index="304" line="570" name="汐"
+		   text="「好きだよ、だぁいすきっ。れろ、ちゅむむっ……んふふっ、しゅーき\x;hearts:だいしゅきしゅきぃ\x;heart:\x;hearts:……んはっ、ちゅむっ」"
+		   timeout="" voices="usi13466"/>
+		<play_sound @l="572" buf="5" fadeout="0" intro="0" src="usi80030" type="6"
+		   volume="1."/>
+		<msg @l="573" char="-1" flags="0" index="306" line="573" name=""
+		   text="思いの外しっかりとしがみついてくると、キスを利用して\n:僕の口内に甘い囁きと吐息を注ぎ込む。" timeout=""
+		   voices=""/>
+		<play_sound @l="574" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="576" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06d" type="99"/>
+		<msg @l="578" char="1" flags="0" index="308" line="578" name="汐"
+		   text="「はあっ、ああっ……んぅ、はぅ、はあっ……すごいね、\n:おち○ちん、どんどん熱くなってくっ……」" timeout=""
+		   voices="usi13467"/>
+		<msg @l="580" char="1" flags="0" index="310" line="580" name="汐"
+		   text="「こんな場所なのに、二人ともこんなに感じてっ……はあっ、\n:ああっ、んくっ、くぅんっ、はあっ」" timeout=""
+		   voices="usi13468"/>
+		<play_sound @l="582" buf="5" fadeout="0" intro="0" src="usi80031" type="6"
+		   volume="1."/>
+		<msg @l="583" char="11" flags="0" index="312" line="583" name="亮"
+		   text="「はあっ、ああっ……思ったよりこのシチュエーション、\n:やばいです……気持ちいいっ」" timeout="" voices=""/>
+		<loadimage @l="585" bg="0" fit="0" screen="1" src="evusi09_06d"/>
+		<scroll @l="586" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="587" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="589" buf="2" fadeout="0" intro="-1" src="hse105" type="1"
+		   volume="1."/>
+		<msg @l="591" char="-1" flags="0" index="314" line="591" name=""
+		   text="しがみつく彼女の膣内はただ竿を締め付けるだけでなく、挿抜に\n:あわせてしっかりと強弱をつけてくれる。" timeout=""
+		   voices=""/>
+		<msg @l="592" char="-1" flags="0" index="316" line="592" name=""
+		   text="奥まで押し込むときは撫でるように優しく、引き戻すときは\n:握るように強い。" timeout="" voices=""/>
+		<msg @l="593" char="-1" flags="0" index="318" line="593" name=""
+		   text="それはカリ首を捉えて快感を注ぐと同時に離れちゃイヤだって\n:訴えるかのようだった。" timeout="" voices=""/>
+		<msg @l="595" char="11" flags="0" index="320" line="595" name="亮"
+		   text="「はぁ、んんっ……おま○こ、めちゃ甘えん坊で\n:気持ちよすぎっ……」" timeout="" voices=""/>
+		<play_sound @l="596" buf="5" fadeout="0" type="1"/>
+		<msg @l="598" char="1" flags="0" index="322" line="598" name="汐"
+		   text="「そーいうおち○ちんだって、赤ちゃんのお部屋、めいっぱい\n:ノックしてるよ？」" timeout=""
+		   voices="usi13469"/>
+		<msg @l="600" char="1" flags="0" index="324" line="600" name="汐"
+		   text="「じゅぽじゅぽされるたび、おま○この奥がびくびくしてっ……\n:はぐっ、はあっ、ああっ……あ、ああっ」" timeout=""
+		   voices="usi13470"/>
+		<msg @l="602" char="1" flags="0" index="326" line="602" name="汐"
+		   text="「こんな場所で、こんなにいっぱい感じてっ……はぐっ、はあっ、あ、ああ、ああああっ……」" timeout=""
+		   voices="usi13471"/>
+		<msg @l="604" char="1" flags="0" index="328" line="604" name="汐"
+		   text="「んぅ、どーしよ、またきちゃいそうっ……」" timeout="" voices="usi13472"/>
+		<play_sound @l="606" buf="2" fadeout="300" type="1"/>
+		<chgbg @l="607" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_06d" type="99"/>
+		<play_sound @l="609" buf="5" fadeout="0" intro="0" src="usi80020" type="6"
+		   volume="1."/>
+		<msg @l="610" char="11" flags="0" index="330" line="610" name="亮"
+		   text="「それって、もしかして――」" timeout="" voices=""/>
+		<play_sound @l="611" buf="5" fadeout="0" type="1"/>
+		<msg @l="613" char="1" flags="0" index="332" line="613" name="汐"
+		   text="「う、うんっ。あの、ぷしゃーっていう感覚っ……イクときに、\n:射精みたいにでちゃうアレがまたっ……」" timeout=""
+		   voices="usi13473"/>
+		<msg @l="615" char="1" flags="0" index="334" line="615" name="汐"
+		   text="「ひゃぐぐぅ……んあっ？！　あ、だめっ、ほんくる、きちゃうっ……ぐっ、はあっ……！」" timeout=""
+		   voices="usi13474"/>
+		<loadimage @l="617" bg="0" fit="0" screen="1" src="evusi09_06d"/>
+		<scroll @l="618" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="619" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="621" buf="2" fadeout="0" intro="-1" src="hse105" type="1"
+		   volume="1."/>
+		<play_sound @l="623" buf="5" fadeout="0" intro="0" src="usi80021" type="6"
+		   volume="1."/>
+		<msg @l="624" char="11" flags="0" index="336" line="624" name="亮"
+		   text="「構わずそのまま、僕といっしょにびゅーってしましょう」" timeout="" voices=""/>
+		<play_sound @l="625" buf="5" fadeout="0" type="1"/>
+		<msg @l="627" char="1" flags="0" index="338" line="627" name="汐"
+		   text="「んぅッ、でもこれ、いっぱい出そうっ……そしたらこのへん、\n:びしゃびしゃになっちゃうよっ……？」" timeout=""
+		   voices="usi13475"/>
+		<play_sound @l="629" buf="5" fadeout="0" intro="0" src="usi80022" type="6"
+		   volume="1."/>
+		<msg @l="630" char="11" flags="0" index="340" line="630" name="亮"
+		   text="「大丈夫、僕がなんとかしますからっ！　こんなこともあろうかとティッシュ多めに持ってきてますし」" timeout=""
+		   voices=""/>
+		<play_sound @l="631" buf="5" fadeout="0" type="1"/>
+		<msg @l="633" char="1" flags="0" index="342" line="633" name="汐"
+		   text="「ぅんッ……！！　なら、このままっ……あ、ああっ……やふぅ、やあっ、あ、ああっ……！」" timeout=""
+		   voices="usi13476"/>
+		<play_sound @l="637" buf="5" fadeout="0" intro="0" src="usi80023" type="6"
+		   volume="1."/>
+		<msg @l="638" char="-1" flags="0" index="344" line="638" name=""
+		   text="もし誰かがこのゴンドラを外から見ていたら、高所恐怖症の\n:女の子を宥めているように見えたかもしれない。" timeout=""
+		   voices=""/>
+		<msg @l="639" char="-1" flags="0" index="346" line="639" name=""
+		   text="潤んだ瞳でしっかりとしがみつく彼女の膣圧は、ゆっくりと降りていくゴンドラの高度と反比例して増していった。" timeout=""
+		   voices=""/>
+		<play_sound @l="641" buf="2" fadeout="0" type="1"/>
+		<msg @l="643" char="11" flags="0" index="348" line="643" name="亮"
+		   text="「ぐっ……このまま奥に出しますっ……！！」" timeout="" voices=""/>
+		<play_sound @l="644" buf="5" fadeout="0" type="1"/>
+		<scrlangle @l="647" duration="2000" view="0" y="1300"/>
+		<play_sound @l="648" buf="2" fadeout="0" intro="-1" src="hse110" type="1"
+		   volume="1."/>
+		<msg @l="650" char="1" flags="0" index="350" line="650" name="汐"
+		   text="「んむぅっ、はあっ……ぅんっ、おくしゅき\x;heart:おくだぁいしゅき\n:だから、ちょーらいっ、せーし、せーしぃっ\x;heart:\x;hearts:……ッ」"
+		   timeout="" voices="usi13477"/>
+		<msg @l="652" char="1" flags="0" index="352" line="652" name="汐"
+		   text="「とろとろせーしで、私のおま○こ、とっぷとぷにしてっ、\n:してっ、してっ……？！」" timeout=""
+		   voices="usi13478"/>
+		<msg @l="654" char="1" flags="0" index="354" line="654" name="汐"
+		   text="「おねーちゃんのおま○こ、今日もいっぱい、まっしろにっ……\n:ひぐっ、ぐぅうんんっ、あ、あああっ……！」" timeout=""
+		   voices="usi13479"/>
+		<play_sound @l="656" buf="5" fadeout="0" intro="0" src="usi80024" type="6"
+		   volume="1."/>
+		<msg @l="657" char="11" flags="0" index="356" line="657" name="亮"
+		   text="「あッ……くぅっ、で、出る……っ！！」" timeout="" voices=""/>
+		<play_sound @l="658" buf="5" fadeout="0" type="1"/>
+		<msg @l="662" char="1" flags="0" index="358" line="662" name="汐"
+		   text="「んやあっ\x;heart:\x;hearts:　ああっ、きたっ、せーしといっしょにおもらしもいっしょっ、いっしょにでりゅうううッ\x;heart:\x;heart:\x;hearts:……！」"
+		   timeout="" voices="usi13480"/>
+		<play_sound @l="664" buf="1" fadeout="300" type="1"/>
+		<play_sound @l="665" buf="2" fadeout="300" type="1"/>
+		<loadimage @l="667" bg="0" fit="0" screen="1" src="evusi09_06d"/>
+		<scroll @l="668" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="669" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<showmsg @l="675" duration="300" show="0"/>
+		<effect @l="676" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="677" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="678" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<effect @l="679" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="680" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="681" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<play_sound @l="682" buf="1" fadeout="0" intro="-1" src="hse125" type="1"
+		   volume="1."/>
+		<loadimage @l="684" bg="0" fit="0" screen="1" src="evusi09_07d"/>
+		<scroll @l="685" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="686" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<msg @l="688" char="1" flags="0" index="360" line="688" name="汐"
+		   text="「ふひゃああああああっ……？！　やあっ、あああっ、でる、\n:らめぇっ、とまんなッ……んんッ、ぐっ、んぅッ」" timeout=""
+		   voices="usi13481"/>
+		<msg @l="690" char="1" flags="0" index="362" line="690" name="汐"
+		   text="「やううっ、出る、おしおでちゃうっ、しおふきらめぇ、やあっ、あ、あああっ、もれちゃうよぅっ……！」" timeout=""
+		   voices="usi13482"/>
+		<showmsg @l="692" duration="300" show="0"/>
+		<effect @l="693" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="694" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="695" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<effect @l="696" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="697" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="698" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<play_sound @l="699" buf="1" fadeout="0" intro="-1" src="hse112" type="1"
+		   volume="1."/>
+		<loadimage @l="701" bg="0" fit="0" screen="1" src="evusi09_07d"/>
+		<scroll @l="702" async="0" center_x="0" center_y="1300" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="703" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="705" buf="5" fadeout="0" intro="0" src="usi80024" type="6"
+		   volume="1."/>
+		<msg @l="706" char="11" flags="0" index="364" line="706" name="亮"
+		   text="「うわっ、わぷぷぷ……っ？！」" timeout="" voices=""/>
+		<msg @l="708" char="-1" flags="0" index="366" line="708" name=""
+		   text="抱き寄せた彼女の秘裂から間欠泉のように何度も勢いよく\n:噴き出す、きらきらした大量のおつゆ。" timeout=""
+		   voices=""/>
+		<msg @l="709" char="-1" flags="0" index="368" line="709" name=""
+		   text="射精のタイミングとばっちり重なったそれを眺めながら、\n:僕も精一杯、彼女の一番奥に子種を注ぎ込んだ。" timeout=""
+		   voices=""/>
+		<play_sound @l="710" buf="5" fadeout="0" type="1"/>
+		<showmsg @l="712" duration="300" show="0"/>
+		<effect @l="713" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="714" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="715" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<effect @l="716" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="717" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="718" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<play_sound @l="719" buf="1" fadeout="0" intro="-1" src="hse125" type="1"
+		   volume="1."/>
+		<chgbg @l="721" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_07d" type="99"/>
+		<msg @l="723" char="1" flags="0" index="370" line="723" name="汐"
+		   text="「ふぐっ、あぁ……せーし、びゅくびゅく出てるぅ\x;hearts:……はぁ、\n:私の潮吹きより、しゅっごいげんきぃ……んふぅ\x;heart:」"
+		   timeout="" voices="usi13483"/>
+		<play_sound @l="725" buf="5" fadeout="0" intro="0" src="usi80025" type="6"
+		   volume="1."/>
+		<msg @l="726" char="-1" flags="0" index="372" line="726" name=""
+		   text="ついさっきまで強くしがみついていた全身が、電池切れみたいに、力なく椅子に寄りかかる。" timeout="" voices=""/>
+		<play_sound @l="727" buf="5" fadeout="0" type="1"/>
+		<msg @l="729" char="1" flags="0" index="374" line="729" name="汐"
+		   text="「んぅ、ふぅ……はうッ、ふるるっ……ふぅ、ふぅ」" timeout="" voices="usi13484"/>
+		<chgbg @l="732" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_07b" type="99"/>
+		<msg @l="734" char="1" flags="0" index="376" line="734" name="汐"
+		   text="「たっぷり中出しされると、イッてる最中も気持ちよくて……んぅ、はぁ……意識、飛んじゃうかと思った……」" timeout=""
+		   voices="usi13485"/>
+		<play_sound @l="736" buf="5" fadeout="0" intro="0" src="usi80026" type="6"
+		   volume="1."/>
+		<msg @l="737" char="11" flags="0" index="378" line="737" name="亮"
+		   text="「だ、大丈夫ですか？」" timeout="" voices=""/>
+		<play_sound @l="738" buf="5" fadeout="0" type="1"/>
+		<msg @l="740" char="1" flags="0" index="380" line="740" name="汐"
+		   text="「うん、なんとか……。けど、降りるときは支えてもらわないと\n:立てないかも……」" timeout=""
+		   voices="usi13486"/>
+		<play_sound @l="742" buf="5" fadeout="0" intro="0" src="usi80027" type="6"
+		   volume="1."/>
+		<msg @l="743" char="11" flags="0" index="382" line="743" name="亮"
+		   text="「なら腕を組みましょう。それでも不安ならおんぶでも\n:いいですよ」" timeout="" voices=""/>
+		<play_sound @l="744" buf="5" fadeout="0" type="1"/>
+		<msg @l="746" char="1" flags="0" index="384" line="746" name="汐"
+		   text="「おんぶは魅力的だけど……さすがに、それはちょっと\n:恥ずかしいかなぁ……」" timeout=""
+		   voices="usi13487"/>
+		<msg @l="748" char="1" flags="0" index="386" line="748" name="汐"
+		   text="「とりあえず、腕を組んでくれれば……ふぅ、はぁ……」" timeout="" voices="usi13488"/>
+		<showmsg @l="751" duration="500" show="0"/>
+		<scrlangle @l="752" duration="2000" view="0" y="-1300"/>
+		<msg @l="756" char="1" flags="0" index="388" line="756" name="汐"
+		   text="「って……あっ、あぁ……ごっ、ごめんね？　キミの服に\n:いっぱい、その……おもらしの染みつけちゃった……」" timeout=""
+		   voices="usi13489"/>
+		<msg @l="758" char="11" flags="0" index="390" line="758" name="亮"
+		   text="「外はもう暗いし、服の色も染みが目立つ系統じゃないんで\n:大丈夫です。そのうち乾くと思いますし」" timeout=""
+		   voices=""/>
+		<msg @l="762" char="1" flags="0" index="392" line="762" name="汐"
+		   text="「ん、ありがと……。愛がだだ漏れるだけじゃなくて、違うもの\n:までだだ漏れちゃった……んぅ、えへへ……」" timeout=""
+		   voices="usi13490"/>
+		<scrlangle @l="765" duration="2000" view="0" y="0"/>
+		<msg @l="770" char="1" flags="0" index="394" line="770" name="汐"
+		   text="\h;60:\s;40:「けど、今日もまた、おもらししちゃうなんて……この前もだし、おもらしの癖が\n:ついちゃったのかな……」\s:\h:"
+		   timeout="" voices="usi13491"/>
+		<msg @l="772" char="11" flags="0" index="396" line="772" name="亮"
+		   text="「それだけ気持ちいいってことだから問題ないです。あと、\n:おもらしじゃなくて潮吹きですから」" timeout=""
+		   voices=""/>
+		<msg @l="774" char="1" flags="0" index="398" line="774" name="汐"
+		   text="「んッ……わ、わかってるよぅ。でも、やっぱり潮吹きって名前はちょっと恥ずかしいんだもん……」" timeout=""
+		   voices="usi13492"/>
+		<msg @l="776" char="11" flags="0" index="400" line="776" name="亮"
+		   text="「おもらしって響きも、潮吹きと同じぐらい恥ずかしいと\n:思うんですけど」" timeout="" voices=""/>
+		<msg @l="778" char="1" flags="0" index="402" line="778" name="汐"
+		   text="「うぅ……不公平だよっ。男の子は射精なのに、女の子だと\n:潮吹きになるなんてぇ……」" timeout=""
+		   voices="usi13493"/>
+		<msg @l="780" char="-1" flags="0" index="404" line="780" name=""
+		   text="とろんとした瞳で呟く拗ねた文句があまりにも可愛いので、思わずその頭を撫でてしまう。" timeout="" voices=""/>
+		<msg @l="782" char="11" flags="0" index="406" line="782" name="亮"
+		   text="「とりあえず、床に飛び散った分を拭きましょう」" timeout="" voices=""/>
+		<chgbg @l="784" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evusi09_07a" type="99"/>
+		<goto script="汐_15_H3_1"/>
+	</code>
+</xscript>

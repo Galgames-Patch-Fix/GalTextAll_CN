@@ -1,0 +1,31 @@
+ast = {
+	{
+		{"bg", file="bg_01_1a", path=":bg/", time=250},
+		{"text"},
+		line=4,
+	},
+	{
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", file="white", path=":bg/", time=3000},
+		{"cacheclear"},
+		{"ex", time=0, func="wait"},
+		{"staffroll", ch="綾希"},
+		{"excall", file="_help"},
+		line=5,
+	},
+	text={
+		[1]={
+			ja={
+				{
+					"スタッフロールテスト",
+				},
+			},
+		},
+	},
+	label={
+	},
+}

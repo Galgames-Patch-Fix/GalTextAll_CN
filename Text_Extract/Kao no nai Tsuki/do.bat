@@ -1,0 +1,1 @@
+for %%a in (*.scw) do GsWinScriptEditor.exe %%a

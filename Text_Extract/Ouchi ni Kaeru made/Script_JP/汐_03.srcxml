@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="7" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="8" duration="500" show="0"/>
+		<play_sound @l="9" buf="0" fadeout="500" intro="-1" src="bgm07" type="0"
+		   volume="1."/>
+		<loadimage @l="11" bg="0" fit="0" screen="1" src="bg37a"/>
+		<scroll @l="12" async="0" center_x="1041" center_y="613" duration="0"
+		   flags="0" rev="0." screen="1" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<scroll @l="13" async="-1" center_x="816" center_y="613" duration="3000"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<chgscrn @l="14" duration="0" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<scroll @l="16" async="0" center_x="760" center_y="613" duration="2000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<scroll @l="18" async="0" center_x="100" center_y="321" duration="0"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<scroll @l="19" async="0" center_x="100" center_y="81" duration="3000"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<scroll @l="21" async="0" center_x="100" center_y="20" duration="2000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="2."/>
+		<scroll @l="23" async="0" center_x="286" center_y="183" duration="0"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<scroll @l="24" async="0" center_x="45" center_y="45" duration="2000"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<loadimage @l="26" bg="0" fit="0" screen="1" src="bg37a"/>
+		<lock @l="27"/>
+		<chgbs @l="28" async="-1" duration="0" priority="61445" screen="1"
+		   src="kan06a" transparency="0" x="960"/>
+		<chgbs @l="29" async="-1" duration="0" priority="61442" screen="1"
+		   src="sas01a" transparency="0" x="578"/>
+		<chgbs @l="30" async="-1" duration="0" priority="61441" screen="1"
+		   src="usi01a" transparency="0" x="1342"/>
+		<chgbs @l="31" async="-1" duration="0" priority="61444" screen="1"
+		   src="rai01a" transparency="0" x="228"/>
+		<chgbs async="0" duration="0" priority="61443" screen="1" src="jcc01a"
+		   transparency="0" x="1692"/>
+		<waitbs @l="32" flags="0" screen="1"/>
+		<chgscrn @l="33" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="fkan06a"/>
+		<msg @l="35" char="0" flags="0" index="0" line="35" name="花音"
+		   text="「ふわぁ、おっきいね……」" timeout="" voices="kan10600"/>
+		<face src=""/>
+		<msg @l="37" char="-1" flags="0" index="2" line="37" name=""
+		   text="ライライの案内で到着した研修施設は、山奥だって言われなきゃ\n:わからないぐらい、しっかりと整備されていた。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="39" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="40" char="2" flags="0" index="4" line="40" name="紗々"
+		   text="「確かに立派です。まるで一流のホテルみたいですね」" timeout="" voices="sas09600"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="42" flags="0" screen="0"/>
+		<face src="fusi04a"/>
+		<msg @l="43" char="1" flags="0" index="6" line="43" name="汐"
+		   text="「ねえ礼羽さん。これ、ホテルじゃなくて\n:ほんとに研修用の建物なの？」" timeout="" voices="usi10200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="45" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="46" char="3" flags="0" index="8" line="46" name="礼羽"
+		   text="「っていうか、建物だけじゃなくて、この辺りの土地ぜーんぶ、\n:スヴニールグループのものだから」" timeout=""
+		   voices="rai10100"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc00a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="48" flags="0" screen="0"/>
+		<face src="fjcc00a"/>
+		<msg @l="49" char="4" flags="0" index="10" line="49" name="ＪＣ"
+		   text="「あるとこにはあるんだなあマネーって　ｂｙＪＣ」" timeout="" voices="jei09400"/>
+		<face src="f"/>
+		<msg @l="51" char="11" flags="0" index="12" line="51" name="亮"
+		   text="（しかしそれにしても――）" timeout="" voices=""/>
+		<showmsg @l="56" duration="500" show="0"/>
+		<scroll @l="57" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="58" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src="f"/>
+		<msg @l="60" char="11" flags="0" index="14" line="60" name="亮"
+		   text="（まさかここが昔、僕が暮らしてた児童養護施設の近所だとは\n:思いもしなかった）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="62" char="-1" flags="0" index="16" line="62" name=""
+		   text="再開発された土地は、僕が見知ってるそれとはまるで違っている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="63" char="-1" flags="0" index="18" line="63" name=""
+		   text="近代的な建物に整理されたキャンプ場には、昔の面影\n:ひとつ残ってない。" timeout="" voices=""/>
+		<showmsg @l="70" duration="500" show="0"/>
+		<scroll @l="71" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="45" zoom="1."/>
+		<chgbg @l="72" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37a" type="99"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="usi15a"
+		   transparency="256" x="1110"/>
+		<waitbs @l="74" flags="0" screen="0"/>
+		<face src="fusi15a"/>
+		<msg @l="75" char="1" flags="17" index="20" line="75" name="汐"
+		   text="「大丈夫？　なんだか険しい顔してない？」" timeout="" voices="usi10201"/>
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="76" flags="0" screen="0"/>
+		<pause @l="77" flags="0" index="22" timeout=""/>
+		<face src=""/>
+		<msg @l="79" char="-1" flags="0" index="23" line="79" name=""
+		   text="指摘され、ハッとする。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="80" char="-1" flags="0" index="25" line="80" name=""
+		   text="あまりいい思い出がない場所だから、無意識に\n:眉が寄ってたかもな。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="82" char="11" flags="0" index="27" line="82" name="亮"
+		   text="（住所を聞いたときはマジで来るのを躊躇ったけど、\n:実際来てみればなんてことはなかった）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="84" char="-1" flags="0" index="29" line="84" name=""
+		   text="思ったより平気だったのは、きっとこれまで\n:沢山の人に支えられてきて僕自身が変わったからだ。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="85" char="-1" flags="0" index="31" line="85" name="" text="特に今は――"
+		   timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="87" flags="0" screen="0"/>
+		<face src="fusi11a"/>
+		<msg @l="88" char="1" flags="17" index="33" line="88" name="汐" text="「？？」"
+		   timeout="" voices="usi10202"/>
+		<emotion @l="89" id="usi" loop="1" screen="0" src="emotion_14" time="-1"
+		   type="usi_2" x="0" y="0"/>
+		<pause @l="90" flags="0" index="35" timeout=""/>
+		<clremt @l="91" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="93" char="11" flags="0" index="36" line="93" name="亮"
+		   text="「い、いやぁ～、あまりにも大きい施設にびっくりしちゃって」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="95" flags="0" screen="0"/>
+		<face src="fusi02a"/>
+		<msg @l="96" char="1" flags="17" index="38" line="96" name="汐"
+		   text="「そうなんだ。いつも達観したところがあるキミでも、\n:そんなこともあるんだねえ」" timeout=""
+		   voices="usi10203"/>
+		<wait @l="99" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="100" flags="-2147483648" screen="0"/>
+		<setface @l="101" src="fusi28a"/>
+		<pause @l="102" flags="-2147483648" index="40" timeout=""/>
+		<face src="f"/>
+		<msg @l="105" char="11" flags="0" index="41" line="105" name="亮"
+		   text="「僕でもって……僕って、そんなに不遜なヤツでした？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="107" flags="0" screen="0"/>
+		<face src="fusi01a"/>
+		<msg @l="108" char="1" flags="17" index="43" line="108" name="汐"
+		   text="「不遜っていうか、いつも堂々としてるよね。\n:緊張とも無縁っぽいイメージだしさ」" timeout=""
+		   voices="usi10204"/>
+		<wait @l="111" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="112" flags="-2147483648" screen="0"/>
+		<setface @l="113" src="fusi10a"/>
+		<pause @l="114" flags="-2147483648" index="45" timeout=""/>
+		<lock @l="117"/>
+		<chgbs @l="118" async="-1" duration="0" priority="61441" screen="0"
+		   src="usi10a" transparency="0" x="960"/>
+		<chgbs @l="119" async="-1" duration="0" priority="61442" screen="0"
+		   src="sas00a" transparency="0" x="578"/>
+		<chgbs @l="120" async="-1" duration="0" priority="61445" screen="0"
+		   src="kan00a" transparency="0" x="1342"/>
+		<chgbs @l="121" async="-1" duration="0" priority="61444" screen="0"
+		   src="rai00a" transparency="0" x="228"/>
+		<chgbs async="0" duration="0" priority="61443" screen="0" src="jcc00a"
+		   transparency="0" x="1692"/>
+		<waitbs @l="122" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="123" char="10" flags="17" index="46" line="123" name="みんな"
+		   text="「うんうん」" timeout="" voices="kan10601|sas09601|rai10101"/>
+		<lock @l="124"/>
+		<movebs @l="125" duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs @l="126" duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs @l="127" duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="128" flags="0" screen="0"/>
+		<lock @l="129"/>
+		<movebs @l="130" duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs @l="131" duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs @l="132" duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="133" flags="0" screen="0"/>
+		<lock @l="134"/>
+		<movebs @l="135" duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs @l="136" duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs @l="137" duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="138" flags="0" screen="0"/>
+		<lock @l="139"/>
+		<movebs @l="140" duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs @l="141" duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs @l="142" duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="143" flags="0" screen="0"/>
+		<pause @l="144" flags="0" index="48" timeout=""/>
+		<face src=""/>
+		<msg @l="147" char="-1" flags="0" index="49" line="147" name=""
+		   text="みんな頷いてるってことは、どうやら僕は\n:そういう風に見られてるらしい。" timeout="" voices=""/>
+		<play_sound @l="152" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="153" duration="500" show="0"/>
+		<chgbg @l="155" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37az" type="99"/>
+		<play_sound @l="157" buf="0" fadeout="500" intro="-1" src="bgm26" type="0"
+		   volume="1."/>
+		<face src="fkyu01c"/>
+		<msg @l="160" char="9" flags="0" index="51" line="160" name="久太郎"
+		   text="「ようっ！　それで今日の予定はどうするんだ？」" timeout="" voices="mome00700"/>
+		<face src="f"/>
+		<msg @l="162" char="11" flags="0" index="53" line="162" name="亮"
+		   text="「とりあえず荷物を部屋に置いて――って、\n:なんでモロキュウがいるんだよ！？」" timeout="" voices=""/>
+		<face src="fkyu01c"/>
+		<msg @l="165" char="9" flags="0" index="55" line="165" name="久太郎"
+		   text="「や、お前たちを見かけたから挨拶しに来たわけだ。\n:どうやら、俺の店と研修の日程が一緒だったみたいだな」" timeout=""
+		   voices="mome00701"/>
+		<face src=""/>
+		<msg @l="167" char="-1" flags="0" index="57" line="167" name=""
+		   text="そういやコイツのバイト先ってスヴニールグループの\n:アイス屋だったっけ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="169" char="11" flags="0" index="59" line="169" name="亮"
+		   text="「なるほど、連休だもんな。そういうこともあるか」" timeout="" voices=""/>
+		<face src="fkyu01c"/>
+		<msg @l="172" char="9" flags="17" index="61" line="172" name="久太郎"
+		   text="「ちなみにミエちゃんも一緒だが、お前には会わせない！！」" timeout="" voices="mome00702"/>
+		<shakescrn @l="173" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="174" flags="0" index="63" timeout=""/>
+		<face src="f"/>
+		<msg @l="176" char="11" flags="0" index="64" line="176" name="亮"
+		   text="「なんでだよ、紹介くらいしろよ気になるじゃねーか」" timeout="" voices=""/>
+		<face src="fkyu01c"/>
+		<msg @l="179" char="9" flags="0" index="66" line="179" name="久太郎"
+		   text="「だってお前が色目使うかもしれないしぃー？」" timeout="" voices="mome00703"/>
+		<face src="f"/>
+		<msg @l="181" char="11" flags="17" index="68" line="181" name="亮"
+		   text="「使わねぇよ！」" timeout="" voices=""/>
+		<shakescrn @l="183" amp="20" cycle="100" duration="300" flags="2" screen="0"/>
+		<pause @l="184" flags="0" index="70" timeout=""/>
+		<play_sound @l="185" buf="1" fadeout="0" type="1"/>
+		<face src="fkyu01c"/>
+		<msg @l="189" char="9" flags="0" index="71" line="189" name="久太郎"
+		   text="「でもやっぱり会わせない！　なぜならお前は\n:モテ光線を発射できる男だからだ！」" timeout=""
+		   voices="mome00704"/>
+		<face src="fkyu01c"/>
+		<msg @l="192" char="9" flags="0" index="73" line="192" name="久太郎"
+		   text="「恨むんなら自分のモテモテ体質を恨むんだな」" timeout="" voices="mome00705"/>
+		<chgbs async="0" duration="0" priority="61443" screen="0" src="sas07a"
+		   transparency="256" x="810"/>
+		<waitbs @l="194" flags="0" screen="0"/>
+		<face src="fsas07a"/>
+		<msg @l="195" char="2" flags="17" index="75" line="195" name="紗々"
+		   text="「やっぱりそうですよね！　センパイはナゾのフェロモンを\n:発してますよね」" timeout=""
+		   voices="sas09602"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="196" flags="0" screen="0"/>
+		<pause @l="199" flags="0" index="77" timeout=""/>
+		<chgbs async="0" duration="0" priority="61442" screen="0" src="rai26a"
+		   transparency="256" x="278"/>
+		<waitbs @l="201" flags="0" screen="0"/>
+		<face src="frai26a"/>
+		<msg @l="202" char="3" flags="17" index="78" line="202" name="礼羽"
+		   text="「毛呂、そのへん詳しく。ほらさっさと語って」" timeout="" voices="rai10102"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="428" y="0"/>
+		<waitbs @l="203" flags="0" screen="0"/>
+		<pause @l="204" flags="0" index="80" timeout=""/>
+		<chgbs async="0" duration="0" priority="61441" screen="0" src="siz24a"
+		   transparency="256" x="1642"/>
+		<waitbs @l="206" flags="0" screen="0"/>
+		<face src="fsiz24a"/>
+		<msg @l="207" char="8" flags="17" index="81" line="207" name="しずか"
+		   text="「おにーさんのモテモテ話が聞けるときいて、飛んできました！」" timeout="" voices="siz03300"/>
+		<movebs duration="1000" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1492" y="0"/>
+		<waitbs @l="208" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="209" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="210" flags="0" screen="0"/>
+		<pause @l="211" flags="0" index="83" timeout=""/>
+		<face src="fkyu01c"/>
+		<msg @l="214" char="9" flags="17" index="84" line="214" name="久太郎"
+		   text="「やっぱりモテてるじゃねーか！　お前の話をしただけで、\n:すぐに女の子たちが集まってきたぞ」" timeout=""
+		   voices="mome00706"/>
+		<shakescrn @l="215" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="216" flags="0" index="86" timeout=""/>
+		<face src="f"/>
+		<msg @l="218" char="11" flags="0" index="87" line="218" name="亮"
+		   text="「それは誤解だ。みんな仕事仲間だって」" timeout="" voices=""/>
+		<face src="fkyu01c"/>
+		<msg @l="221" char="9" flags="0" index="89" line="221" name="久太郎"
+		   text="「フッ、それをいったらミエちゃんと俺だって仕事仲間だ！　\n:だが俺はミエちゃんと恋仲になる！！」" timeout=""
+		   voices="mome00707"/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="223" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="225" char="10" flags="0" index="91" line="225" name="ミエ"
+		   text="「毛呂くーん！　そろそろ研修はじまるよー！！」" timeout="" voices="mowa04000"/>
+		<face src=""/>
+		<msg @l="227" char="-1" flags="0" index="93" line="227" name=""
+		   text="その時、遠くからミエちゃんと思われる声が聞こえてきた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="228" char="-1" flags="0" index="95" line="228" name=""
+		   text="おっ、この声がミエちゃんか？　どれどれ――" timeout="" voices=""/>
+		<play_sound @l="230" buf="1" fadeout="0" intro="-1" src="se803" type="1"
+		   volume="1."/>
+		<effect @l="231" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="232" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<fade @l="233" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="0"/>
+		<face src="fkyu01c"/>
+		<msg @l="236" char="9" flags="0" index="97" line="236" name="久太郎"
+		   text="「毛呂ブロック！！」" timeout="" voices="mome00708"/>
+		<play_sound @l="240" buf="1" fadeout="0" intro="-1" src="se645" type="1"
+		   volume="1."/>
+		<shakescrn @l="241" amp="20" cycle="40" duration="200" flags="2" screen="0"/>
+		<chgbg @l="242" duration="200" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<face src="f"/>
+		<msg @l="244" char="11" flags="0" index="99" line="244" name="亮"
+		   text="「うおわっ！？　なんでいきなり視界塞ぐんだよっ！？」" timeout="" voices=""/>
+		<play_sound @l="245" buf="1" fadeout="0" type="1"/>
+		<face src="fkyu01c"/>
+		<msg @l="248" char="9" flags="0" index="101" line="248" name="久太郎"
+		   text="「言ったはずだ、おまえにミエちゃんは見せないとな！」" timeout="" voices="mome00709"/>
+		<face src="f"/>
+		<msg @l="250" char="10" flags="0" index="103" line="250" name="ミエ"
+		   text="「毛呂くーんっ！　はやくぅー！」" timeout="" voices="mowa04001"/>
+		<face src="fkyu01c"/>
+		<msg @l="253" char="9" flags="0" index="105" line="253" name="久太郎"
+		   text="「はぁーい、すぐいきまぁすぅーん\x;note:」" timeout="" voices="mome00710"/>
+		<showmsg @l="259" duration="500" show="0"/>
+		<loadimage @l="260" bg="0" fit="0" screen="1" src="bg37a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai22a"
+		   transparency="0" x="960"/>
+		<waitbs @l="261" flags="0" screen="1"/>
+		<chgscrn @l="262" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="frai22a"/>
+		<msg @l="264" char="3" flags="0" index="107" line="264" name="礼羽"
+		   text="「モロなのにブロックとはこれいかに。つってね」" timeout="" voices="rai10103"/>
+		<face src="f"/>
+		<msg @l="266" char="11" flags="17" index="109" line="266" name="亮"
+		   text="「キモッ！？　あの巨体をくねくね揺らしながら\n:駆けてったぞおい」" timeout="" voices=""/>
+		<shakescrn @l="267" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="268" flags="0" index="111" timeout=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="270" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="272" char="-1" flags="0" index="112" line="272" name=""
+		   text="結局、人が多すぎてどの子がミエちゃんだかわからなかった。" timeout="" voices=""/>
+		<play_sound @l="278" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="279" duration="500" show="0"/>
+		<loadimage @l="280" bg="0" fit="0" screen="1" src="bg37az"/>
+		<chgbs async="0" duration="0" priority="61441" screen="1" src="tai06az"
+		   transparency="0" x="578"/>
+		<waitbs @l="281" flags="0" screen="1"/>
+		<chgbs async="0" duration="0" priority="61442" screen="1" src="siz01az"
+		   transparency="0" x="1342"/>
+		<waitbs @l="282" flags="0" screen="1"/>
+		<chgscrn @l="283" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="285" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<face src="ftai06a"/>
+		<msg @l="287" char="7" flags="17" index="114" line="287" name="太一"
+		   text="「それにしてもすげー人多いな！　そして建物もでけぇ！」" timeout="" voices="tai03500"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="288" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="289" flags="0" screen="0"/>
+		<pause @l="290" flags="0" index="116" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai21az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="292" flags="0" screen="0"/>
+		<face src="ftai21a"/>
+		<msg @l="293" char="7" flags="17" index="117" line="293" name="太一"
+		   text="「すげぇ！　でけぇ！　すげぇでけぇ！」" timeout="" voices="tai03501"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="294" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="295" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="296" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="297" flags="0" screen="0"/>
+		<pause @l="298" flags="0" index="119" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="303" flags="0" screen="0"/>
+		<face src="fsiz06a"/>
+		<msg @l="304" char="8" flags="17" index="120" line="304" name="しずか"
+		   text="「なんで２回言ったの！？」" timeout="" voices="siz03301"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="305" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="306" flags="0" screen="0"/>
+		<pause @l="307" flags="0" index="122" timeout=""/>
+		<face src="fkan06a"/>
+		<msg @l="314" char="0" flags="0" index="123" line="314" name="花音"
+		   text="「同じバスに乗ってた時から気になってたんだけどね。\n:誰も触れないから流してたんだけどさ」" timeout=""
+		   voices="kan10602"/>
+		<face src="fkan15a"/>
+		<msg @l="318" char="0" flags="0" index="125" line="318" name="花音"
+		   text="「なんでしずかちゃんたちが、ここにいるのかな？」" timeout="" voices="kan10603"/>
+		<face src="fjcc06a"/>
+		<msg @l="326" char="4" flags="0" index="127" line="326" name="ＪＣ"
+		   text="「オーナーが誘ったんじゃねーんスか？」" timeout="" voices="jei09401"/>
+		<face src="fkan06a"/>
+		<msg @l="330" char="0" flags="0" index="129" line="330" name="花音"
+		   text="「や、私はてっきり紗々ちゃんかと」" timeout="" voices="kan10604"/>
+		<face src="fsas06a"/>
+		<msg @l="339" char="2" flags="0" index="131" line="339" name="紗々"
+		   text="「礼羽さんと仲良く話してたので、礼羽さんが\n:連れてきたんじゃ……？」" timeout="" voices="sas09603"/>
+		<face src="frai04a"/>
+		<msg @l="349" char="3" flags="0" index="133" line="349" name="礼羽"
+		   text="「タカシの話しを聞いてただけで、そういうわけじゃないよ」" timeout="" voices="rai10104"/>
+		<face src="fusi04a"/>
+		<msg @l="360" char="1" flags="0" index="135" line="360" name="汐"
+		   text="「えっと、どういうことなの？」" timeout="" voices="usi10205"/>
+		<face src=""/>
+		<msg @l="362" char="-1" flags="0" index="137" line="362" name=""
+		   text="みんなの顔を見ても、ただ首を振るばかり。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="363" char="-1" flags="0" index="139" line="363" name=""
+		   text="ってことは――" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz04az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="365" flags="0" screen="0"/>
+		<face src="fsiz04a"/>
+		<msg @l="366" char="8" flags="17" index="141" line="366" name="しずか"
+		   text="「ごめんなさいっ！！　じつは偶然、みなさんが\n:研修に行くというお話を聞いてしまって」" timeout=""
+		   voices="siz03302"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="367" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="368" flags="0" screen="0"/>
+		<pause @l="369" flags="0" index="143" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz09az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="371" flags="0" screen="0"/>
+		<face src="fsiz09a"/>
+		<msg @l="372" char="8" flags="17" index="144" line="372" name="しずか"
+		   text="「それで、いいなぁ楽しそうだなぁ……って、お兄ちゃんが」" timeout="" voices="siz03303"/>
+		<wait @l="375" flags="5" time="4000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz15az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="376" flags="-2147483648" screen="0"/>
+		<setface @l="377" src="fsiz15a"/>
+		<pause @l="378" flags="-2147483648" index="146" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai06az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="381" flags="0" screen="0"/>
+		<face src="ftai06a"/>
+		<msg @l="382" char="7" flags="17" index="147" line="382" name="太一"
+		   text="「ええっ？！　違うだろ！　一緒に行きたいって言ったの\n:しずか――もごもごもご！！？」" timeout=""
+		   voices="tai03502"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="383" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="384" flags="0" screen="0"/>
+		<wait @l="387" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz26az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="388" flags="-2147483648" screen="0"/>
+		<movebs duration="300" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="910" y="0"/>
+		<waitbs @l="389" flags="-2147483648" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai20az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="390" flags="-2147483648" screen="0"/>
+		<setface @l="391" src="ftai20a"/>
+		<shakebs @l="392" cycle="100" height="4" id="tai" screen="0" width="3"/>
+		<pause @l="393" flags="-2147483648" index="149" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai18az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="396" flags="0" screen="0"/>
+		<movebs duration="500" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1342" y="0"/>
+		<waitbs @l="397" flags="0" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="399" flags="0" screen="0"/>
+		<face src="fsiz10a"/>
+		<msg @l="400" char="8" flags="17" index="150" line="400" name="しずか"
+		   text="「すみません、お兄ちゃんがお騒がせしたようで」" timeout="" voices="siz03304"/>
+		<movebs duration="200" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="401" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="402" flags="0" screen="0"/>
+		<pause @l="403" flags="0" index="152" timeout=""/>
+		<face src="f"/>
+		<msg @l="405" char="11" flags="0" index="153" line="405" name="亮"
+		   text="「まあ、ついてきてしまったものはしょうがない。\n:とりあえず親父さんに連絡を――」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz23az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="407" flags="0" screen="0"/>
+		<face src="fsiz23a"/>
+		<msg @l="408" char="8" flags="17" index="155" line="408" name="しずか"
+		   text="「それなら大丈夫です。ちゃんと許可はもらってきましたから」" timeout="" voices="siz03305"/>
+		<emotion @l="409" id="siz" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="siz_1z" x="0" y="0"/>
+		<pause @l="410" flags="0" index="157" timeout=""/>
+		<clremt @l="411" id="siz" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="413" flags="0" screen="0"/>
+		<face src="ftai10a"/>
+		<msg @l="414" char="7" flags="17" index="158" line="414" name="太一"
+		   text="「だから父ちゃん、やっと腰の湯治に行けたんだ。\n:ほら、ああいう所って、子供がいると行きづらいからさ」" timeout=""
+		   voices="tai03503"/>
+		<wait @l="417" flags="5" time="3200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai01az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="418" flags="-2147483648" screen="0"/>
+		<setface @l="419" src="ftai01a"/>
+		<pause @l="420" flags="-2147483648" index="160" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="423" flags="0" screen="0"/>
+		<face src="ftai02a"/>
+		<msg @l="424" char="7" flags="17" index="161" line="424" name="太一"
+		   text="「それにせっかくの連休だから、しずかに楽しい思い出を\n:作ってやろうと思ったんだけど。やっぱり無理かな？」" timeout=""
+		   voices="tai03504"/>
+		<wait @l="427" flags="5" time="4500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="tai04az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="428" flags="-2147483648" screen="0"/>
+		<setface @l="429" src="ftai04a"/>
+		<pause @l="430" flags="-2147483648" index="163" timeout=""/>
+		<face src="f"/>
+		<msg @l="433" char="11" flags="0" index="164" line="433" name="亮"
+		   text="「なるほどな。そういう事情があるなら\n:僕からジェイクさんに相談してみよう」" timeout="" voices=""/>
+		<play_sound @l="435" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="436" duration="500" show="0"/>
+		<chgbg @l="437" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37a" type="99"/>
+		<play_sound @l="439" buf="0" fadeout="500" intro="-1" src="bgm26" type="0"
+		   volume="1."/>
+		<face src="fjei01a"/>
+		<msg @l="442" char="9" flags="0" index="166" line="442" name="ジェイク"
+		   text="「ん？　呼んだかね？？」" timeout="" voices="momd02400"/>
+		<face src="fkan26a"/>
+		<msg @l="445" char="0" flags="0" index="168" line="445" name="花音"
+		   text="「うぇぇぇっ！？　本庄さん？？」" timeout="" voices="kan10605"/>
+		<face src=""/>
+		<msg @l="447" char="-1" flags="0" index="170" line="447" name=""
+		   text="本庄さんがいつの間にか輪の中に混ざっていた。" timeout="" voices=""/>
+		<face src="fjei01a"/>
+		<msg @l="450" char="9" flags="0" index="172" line="450" name="ジェイク"
+		   text="「やあ、マシュマロツリーの諸君。今回は我が社の\n:ＡＲＣＳモデルを踏まえた研修プログラムによく来てくれたね」" timeout=""
+		   voices="momd02401"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai26az"
+		   transparency="256" x="1110"/>
+		<waitbs @l="453" flags="0" screen="0"/>
+		<movebs duration="800" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="454" flags="0" screen="0"/>
+		<face src="frai26a"/>
+		<msg @l="455" char="3" flags="0" index="174" line="455" name="礼羽"
+		   text="「なにしに来たの？　消えて」" timeout="" voices="rai10105"/>
+		<face src="fjei01a"/>
+		<msg @l="458" char="9" flags="17" index="176" line="458" name="ジェイク"
+		   text="「挨拶くらいさせてよ礼羽ちゅわーーん！！　\n:せっかくこうやって会いに来たんだからさあ！」" timeout=""
+		   voices="momd02402"/>
+		<shakescrn @l="459" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="460" flags="0" index="178" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai21az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="462" flags="0" screen="0"/>
+		<face src="frai21a"/>
+		<msg @l="463" char="3" flags="0" index="179" line="463" name="礼羽"
+		   text="「いつも挨拶は不要って言うのに？」" timeout="" voices="rai10106"/>
+		<face src="fjei01a"/>
+		<msg @l="466" char="9" flags="0" index="181" line="466" name="ジェイク"
+		   text="「なかなか鋭い返しだね！　さすが礼羽ちゅわん！　\n:今回特別講師を引き受けてくれてありがとー！！！」" timeout=""
+		   voices="momd02403"/>
+		<face src="fjei01a"/>
+		<msg @l="469" char="9" flags="0" index="183" line="469" name="ジェイク"
+		   text="「というわけで、なんでも頼ってくれたまえ。\n:善処するように努めよう」" timeout="" voices="momd02404"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai13az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="471" flags="0" screen="0"/>
+		<face src="frai13a"/>
+		<msg @l="472" char="3" flags="0" index="185" line="472" name="礼羽"
+		   text="「じゃ、この子たちも参加させてあげて」" timeout="" voices="rai10107"/>
+		<face src="f"/>
+		<msg @l="474" char="11" flags="0" index="187" line="474" name="亮"
+		   text="「急なお願いで申しわけありませんが、お願いします」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="476" char="-1" flags="0" index="189" line="476" name=""
+		   text="みんなを代表し、急遽メンバーが増えたことを説明する。" timeout="" voices=""/>
+		<face src="fjei01a"/>
+		<msg @l="479" char="9" flags="0" index="191" line="479" name="ジェイク"
+		   text="「アジャイルしてアジェンダしよう。ここはグループ中から研修に\n:くるからね。宿泊施設にも余裕があるし、いろんなクラスがある」"
+		   timeout="" voices="momd02405"/>
+		<face src="fjei01a"/>
+		<msg @l="482" char="9" flags="0" index="193" line="482" name="ジェイク"
+		   text="「キミたちは酒屋だったかな。お酒について\n:学べるクラスもあるから、興味があるなら\n:ぜひレクチャーを受けてブラッシュアップするといい」"
+		   timeout="" voices="momd02406"/>
+		<loadimage @l="485" bg="0" fit="0" screen="1" src="bg37az"/>
+		<chgbs @l="486" async="-1" duration="200" priority="61441" screen="1"
+		   src="siz10a" transparency="0" x="1342"/>
+		<chgbs async="0" duration="200" priority="61442" screen="1" src="tai10a"
+		   transparency="0" x="578"/>
+		<waitbs @l="487" flags="0" screen="1"/>
+		<chgscrn @l="488" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="f"/>
+		<msg @l="490" char="9" flags="17" index="195" line="490" name="太一・しずか"
+		   text="「はいっ！　ありがとうございます」" timeout="" voices="tai03505|siz03306"/>
+		<lock @l="491"/>
+		<movebs @l="492" duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="493" flags="0" screen="0"/>
+		<lock @l="494"/>
+		<movebs @l="495" duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<movebs duration="150" flags="0" id="tai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="496" flags="0" screen="0"/>
+		<pause @l="497" flags="0" index="197" timeout=""/>
+		<face src=""/>
+		<msg @l="499" char="-1" flags="0" index="198" line="499" name=""
+		   text="嬉しそうに大きく首を縦に振るふたり。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="500" char="-1" flags="0" index="200" line="500" name=""
+		   text="子供が無邪気に喜んでいる姿ってのはいいものだ。" timeout="" voices=""/>
+		<lock @l="502"/>
+		<movebs @l="503" duration="0" flags="128" id="tai" screen="0" v0="0."
+		   v1="1.5" x="2147483648"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz12a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="504" flags="0" screen="0"/>
+		<face src="fsiz12a"/>
+		<msg @l="505" char="8" flags="17" index="202" line="505" name="しずか"
+		   text="\h;60:\s;40:「……ふふっ。でも、まさかこんなにうまくいくなんて思いませんでした」\s:\h:" timeout=""
+		   voices="siz03307"/>
+		<movebs duration="1000" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="506" flags="0" screen="0"/>
+		<pause @l="507" flags="0" index="204" timeout=""/>
+		<face src="f"/>
+		<msg @l="509" char="11" flags="0" index="205" line="509" name="亮"
+		   text="「ん？　なんか言ったか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="511" flags="0" screen="0"/>
+		<face src="fsiz22a"/>
+		<msg @l="512" char="8" flags="17" index="207" line="512" name="しずか"
+		   text="「いえいえ、なんでもありません。それよりおにーさん、\n:これってながーい目で見ると婚前旅行ってことになりますよね？」"
+		   timeout="" voices="siz03308"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="513" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="514" flags="0" screen="0"/>
+		<wait @l="517" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz24az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="518" flags="-2147483648" screen="0"/>
+		<setface @l="519" src="fsiz24a"/>
+		<emotion @l="520" id="siz" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="siz_1z" x="0" y="0"/>
+		<pause @l="521" flags="-2147483648" index="209" timeout=""/>
+		<clremt @l="523" id="siz" screen="0"/>
+		<face src="f"/>
+		<msg @l="525" char="11" flags="0" index="210" line="525" name="亮"
+		   text="「長い目もいいけど、広い目でよく見て。みんなで一緒に\n:来てるよな？　ふたりっきりじゃないからな？」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz05az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="527" flags="0" screen="0"/>
+		<face src="fsiz05a"/>
+		<msg @l="528" char="8" flags="17" index="212" line="528" name="しずか"
+		   text="「もう、おにーさんのいけずぅ」" timeout="" voices="siz03309"/>
+		<emotion @l="529" id="siz" loop="1" screen="0" src="emotion_04z" time="-1"
+		   type="siz_1z" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="530" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="siz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="531" flags="0" screen="0"/>
+		<pause @l="532" flags="0" index="214" timeout=""/>
+		<clremt @l="533" id="siz" screen="0"/>
+		<face src="f"/>
+		<msg @l="535" char="11" flags="0" index="215" line="535" name="亮"
+		   text="「あははは……」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="537" char="-1" flags="0" index="217" line="537" name=""
+		   text="しずかちゃんどこにいても変わらない。僕よりよっぽど\n:ハートが強いと思う。" timeout="" voices=""/>
+		<play_sound @l="542" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="543" duration="500" show="0"/>
+		<chgbg @l="544" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="545" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37a" type="201"/>
+		<play_sound @l="546" buf="0" fadeout="500" intro="-1" src="bgm02" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="548" char="-1" flags="0" index="219" line="548" name=""
+		   text="思いがけず本庄さんに挨拶も済ませたので、とりあえず\n:荷物を置くために宿泊施設へ向かう。" timeout="" voices=""/>
+		<lock @l="550"/>
+		<chgbs @l="551" async="-1" duration="200" priority="61441" screen="0"
+		   src="usi02a" transparency="256" x="678"/>
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="rai01a"
+		   transparency="256" x="1542"/>
+		<waitbs @l="552" flags="0" screen="0"/>
+		<lock @l="554"/>
+		<movebs @l="555" duration="800" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="528" y="0"/>
+		<movebs duration="800" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1392" y="0"/>
+		<waitbs @l="556" flags="0" screen="0"/>
+		<face src="fusi02a"/>
+		<msg @l="557" char="1" flags="0" index="221" line="557" name="汐"
+		   text="「礼羽さんはこの施設には来たことあるの？」" timeout="" voices="usi10206"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="559" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="560" char="3" flags="0" index="223" line="560" name="礼羽"
+		   text="「何度かね。ここは本店に先駆けて新しい設備が\n:導入されたりするから」" timeout="" voices="rai10108"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="562" flags="0" screen="0"/>
+		<face src="fusi01a"/>
+		<msg @l="563" char="1" flags="0" index="225" line="563" name="汐"
+		   text="「お店の器材をいきなり入れ替えると、使い勝手がかわって\n:味に影響がでる可能性があるとか、そういう理由？」" timeout=""
+		   voices="usi10207"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="564" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="565" char="3" flags="17" index="227" line="565" name="礼羽"
+		   text="「さすが汐、よくわかってる。大きな花丸をあげよう」" timeout="" voices="rai10109"/>
+		<wait @l="568" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="569" flags="-2147483648" screen="0"/>
+		<setface @l="570" src="frai25a"/>
+		<pause @l="571" flags="-2147483648" index="229" timeout=""/>
+		<face src=""/>
+		<msg @l="574" char="-1" flags="0" index="230" line="574" name=""
+		   text="なんて話をしながら歩いていると、すれ違う研修生が\n:みんなこっちを見ていることに気がついた。" timeout=""
+		   voices=""/>
+		<showmsg @l="579" duration="500" show="0"/>
+		<chgbg @l="580" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37az" type="99"/>
+		<effect @l="581" cycle="0" flags="16896" param="0" screen="0" type="9"/>
+		<fade @l="582" async="-1" degree="150" duration="100" flags="16384"
+		   screen="0" wait_flags="0"/>
+		<cinema @l="583" duration="300" mode="1" screen="0"/>
+		<play_sound @l="585" buf="1" fadeout="0" intro="0" src="se415" type="1"
+		   volume="0.5"/>
+		<face src="f"/>
+		<msg @l="587" char="10" flags="0" index="232" line="587" name="研修生Ｃ"
+		   text="「ねえ、あれって氷の女王じゃない？」" timeout="" voices="mowb04000"/>
+		<face src="f"/>
+		<msg @l="589" char="10" flags="0" index="234" line="589" name="研修生Ｂ"
+		   text="「今回、特別講師をしてくれるって聞いたから\n:わざわざここに来たんだけど、まさかこんなに早くに\n:お目にかかれるなんてねぇ」"
+		   timeout="" voices="mowa04002"/>
+		<face src="f"/>
+		<msg @l="591" char="10" flags="0" index="236" line="591" name="研修生Ｃ"
+		   text="「ってことは、その隣に居る子が、例の噂のお弟子さん？」" timeout="" voices="mowb04001"/>
+		<face src="f"/>
+		<msg @l="593" char="10" flags="0" index="238" line="593" name="研修生Ｃ"
+		   text="「あの氷の女王が認めた子なんでしょ？　見た目は小さくて\n:とてもそう見えないけど、優秀なんだよね？」" timeout=""
+		   voices="mowb04002"/>
+		<face src="f"/>
+		<msg @l="595" char="10" flags="0" index="240" line="595" name="研修生Ｂ"
+		   text="「でも、こっちもスヴニール長万部支店を代表して\n:来てるんだから、負けてられないわ！」" timeout=""
+		   voices="mowa04003"/>
+		<face src=""/>
+		<msg @l="597" char="-1" flags="0" index="242" line="597" name=""
+		   text="そんな会話があちこちから聞こえてくる。" timeout="" voices=""/>
+		<play_sound @l="599" buf="1" fadeout="1000" type="1"/>
+		<showmsg @l="605" duration="500" show="0"/>
+		<loadimage @l="607" bg="0" fit="0" screen="1" src="bg37a"/>
+		<lock @l="608"/>
+		<chgbs @l="609" async="-1" duration="0" priority="61441" screen="1"
+		   src="usi06a" transparency="0" x="528"/>
+		<chgbs async="0" duration="0" priority="61443" screen="1" src="rai01a"
+		   transparency="0" x="1392"/>
+		<waitbs @l="610" flags="0" screen="1"/>
+		<chgscrn @l="611" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="fusi06a"/>
+		<msg @l="613" char="1" flags="17" index="244" line="613" name="汐"
+		   text="「えっ？　あ、あれ？　なんか私まで注目されてる……？」" timeout="" voices="usi10208"/>
+		<emotion @l="614" id="usi" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<wait @l="617" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="618" flags="-2147483648" screen="0"/>
+		<setface @l="619" src="fusi04a"/>
+		<pause @l="620" flags="-2147483648" index="246" timeout=""/>
+		<clremt @l="622" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="624" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="625" char="3" flags="0" index="247" line="625" name="礼羽"
+		   text="「ふふっ。良いことじゃない」" timeout="" voices="rai10110"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi14a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="627" flags="0" screen="0"/>
+		<face src="fusi14a"/>
+		<msg @l="628" char="1" flags="17" index="249" line="628" name="汐"
+		   text="「ええ！？　ぜんぜん良くないよ、注目されるような\n:実力なんてないもの」" timeout="" voices="usi10209"/>
+		<emotion @l="629" id="usi" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="630" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="631" flags="0" screen="0"/>
+		<wait @l="634" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="635" flags="-2147483648" screen="0"/>
+		<setface @l="636" src="fusi04a"/>
+		<pause @l="637" flags="-2147483648" index="251" timeout=""/>
+		<clremt @l="639" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="61443" screen="0" src="rai06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="641" flags="0" screen="0"/>
+		<face src="frai06a"/>
+		<msg @l="642" char="3" flags="17" index="252" line="642" name="礼羽"
+		   text="「そう？　注目されて当然ってぐらいには上達してるけどなあ」" timeout="" voices="rai10111"/>
+		<wait @l="645" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="646" flags="-2147483648" screen="0"/>
+		<setface @l="647" src="frai01a"/>
+		<pause @l="648" flags="-2147483648" index="254" timeout=""/>
+		<chgbs async="0" duration="200" priority="61441" screen="0" src="usi04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="651" flags="0" screen="0"/>
+		<face src="fusi04a"/>
+		<msg @l="652" char="1" flags="0" index="255" line="652" name="汐"
+		   text="「そう言われるのは嬉しいけど、身近にすごすぎる人がいると、\n:実感が出来ないというか」" timeout=""
+		   voices="usi10210"/>
+		<face src=""/>
+		<msg @l="654" char="-1" flags="0" index="257" line="654" name=""
+		   text="はわはわと慌てふためいている朝霞さん。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="61445" screen="0" src="kan10a"
+		   transparency="256" x="1110"/>
+		<waitbs @l="656" flags="0" screen="0"/>
+		<movebs duration="800" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="657" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="659" char="0" flags="0" index="259" line="659" name="花音"
+		   text="「大丈夫だよ。汐ちゃんが作るケーキ、\n:とっても美味しいんだから」" timeout="" voices="kan10606"/>
+		<chgbs async="0" duration="200" priority="61444" screen="0" src="sas02a"
+		   transparency="256" x="78"/>
+		<waitbs @l="661" flags="0" screen="0"/>
+		<movebs duration="800" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="228" y="0"/>
+		<waitbs @l="662" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="663" char="2" flags="0" index="261" line="663" name="紗々"
+		   text="「そうですよ。でなければ、お店にあれだけのお客さまが\n:やってくるはずがありませんよ」" timeout=""
+		   voices="sas09604"/>
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="jcc10a"
+		   transparency="256" x="1892"/>
+		<waitbs @l="666" flags="0" screen="0"/>
+		<movebs duration="800" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1742" y="0"/>
+		<waitbs @l="667" flags="0" screen="0"/>
+		<face src="fjcc10a"/>
+		<msg @l="668" char="4" flags="17" index="263" line="668" name="ＪＣ"
+		   text="「ついにパイセンのジツリキが評価される時が来たんスね。\n:あたしは最初っから信じてましたよっ」" timeout=""
+		   voices="jei09402"/>
+		<wait @l="671" flags="5" time="3700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc24a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="672" flags="-2147483648" screen="0"/>
+		<setface @l="673" src="fjcc24a"/>
+		<pause @l="674" flags="-2147483648" index="265" timeout=""/>
+		<face src="f"/>
+		<msg @l="677" char="11" flags="0" index="266" line="677" name="亮"
+		   text="「ですから、自信を持ってください」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="679" flags="0" screen="0"/>
+		<face src="fusi08a"/>
+		<msg @l="680" char="1" flags="17" index="268" line="680" name="汐"
+		   text="「あっ、みんなありがとう……。そうだよね、お客様が\n:たくさん来てくれるようになったもんね」" timeout=""
+		   voices="usi10211"/>
+		<wait @l="683" flags="5" time="3200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="684" flags="-2147483648" screen="0"/>
+		<setface @l="685" src="fusi05a"/>
+		<pause @l="686" flags="-2147483648" index="270" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi07a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="689" flags="0" screen="0"/>
+		<face src="fusi07a"/>
+		<msg @l="690" char="1" flags="17" index="271" line="690" name="汐"
+		   text="「せめて礼羽さんの顔やお店の看板に泥を塗らないように、\n:頑張るよ」" timeout="" voices="usi10212"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="691" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="692" flags="0" screen="0"/>
+		<pause @l="693" flags="0" index="273" timeout=""/>
+		<face src=""/>
+		<msg @l="695" char="-1" flags="0" index="274" line="695" name=""
+		   text="そう言ってグッと力を込めたものの、顔は緊張のためか\n:引きつっていた。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="697" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="698" char="3" flags="17" index="276" line="698" name="礼羽"
+		   text="「泥ならたくさん塗ってもいいんじゃない？　お肌が\n:つるつるになりそうだし」" timeout=""
+		   voices="rai10112"/>
+		<wait @l="701" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="702" flags="-2147483648" screen="0"/>
+		<setface @l="703" src="frai25a"/>
+		<pause @l="704" flags="-2147483648" index="278" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi17a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="707" flags="0" screen="0"/>
+		<face src="fusi17a"/>
+		<msg @l="708" char="1" flags="17" index="279" line="708" name="汐"
+		   text="「いや、パックとかの意味じゃなくて！」" timeout="" voices="usi10213"/>
+		<emotion @l="709" id="usi" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="710" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="711" flags="0" screen="0"/>
+		<pause @l="712" flags="0" index="281" timeout=""/>
+		<clremt @l="713" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="715" char="11" flags="0" index="282" line="715" name="亮"
+		   text="「大丈夫ですって。朝霞さんが普段通りやれば、\n:泥どころかワックスですから」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="717" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="718" char="3" flags="0" index="284" line="718" name="礼羽"
+		   text="「それって、テカテカしてる方が好きってこと？」" timeout="" voices="rai10113"/>
+		<play_sound @l="720" buf="0" fadeout="2500" type="0"/>
+		<face src="f"/>
+		<msg @l="722" char="11" flags="0" index="286" line="722" name="亮"
+		   text="「ん？　そう言われるとどうなんだろうな」" timeout="" voices=""/>
+		<play_sound @l="724" buf="0" fadeout="500" intro="-1" src="bgm08" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="725" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="726" char="3" flags="0" index="288" line="726" name="礼羽"
+		   text="「つるつるとテカテカ、どっちが好き？」" timeout="" voices="rai10114"/>
+		<face src="f"/>
+		<msg @l="728" char="11" flags="0" index="290" line="728" name="亮"
+		   text="「うーむ。つるつるも好きだが、テカテカはエロくて……って、\n:なんだよこの誘導尋問！？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas07a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="730" flags="0" screen="0"/>
+		<face src="fsas07a"/>
+		<msg @l="731" char="2" flags="17" index="292" line="731" name="紗々"
+		   text="「なるほど、センパイはつるつるテカテカが大好きっと……\n:メモメモ」" timeout="" voices="sas09605"/>
+		<wait @l="734" flags="5" time="4500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="735" flags="-2147483648" screen="0"/>
+		<setface @l="736" src="fsas15a"/>
+		<pause @l="737" flags="-2147483648" index="294" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="740" flags="0" screen="0"/>
+		<face src="fkan15a"/>
+		<msg @l="741" char="0" flags="17" index="295" line="741" name="花音"
+		   text="「つるつるでテカテカって言うと……ハゲたおじさんの頭とか？」" timeout="" voices="kan10607"/>
+		<wait @l="744" flags="5" time="2700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan31a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="745" flags="-2147483648" screen="0"/>
+		<setface @l="746" src="fkan31a"/>
+		<pause @l="747" flags="-2147483648" index="297" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc19a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="750" flags="0" screen="0"/>
+		<face src="fjcc19a"/>
+		<msg @l="751" char="4" flags="17" index="298" line="751" name="ＪＣ"
+		   text="「なんでそれをセレクトしたんスか！？　普通は\n:ストッキングとかでしょ！」" timeout=""
+		   voices="jei09403"/>
+		<emotion @l="752" id="jcc" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="jcc_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="753" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="754" flags="0" screen="0"/>
+		<pause @l="755" flags="0" index="300" timeout=""/>
+		<clremt @l="756" id="jcc" screen="0"/>
+		<face src="f"/>
+		<msg @l="758" char="11" flags="0" index="301" line="758" name="亮"
+		   text="「一気に興味なくなったわー。もうつるテカとか\n:どうでもいいわー」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="760" flags="0" screen="0"/>
+		<face src="fusi02a"/>
+		<msg @l="761" char="1" flags="0" index="303" line="761" name="汐"
+		   text="「ぷっ、くすくす。みんなといるとここがお店かと錯覚するよ」" timeout="" voices="usi10214"/>
+		<face src=""/>
+		<msg @l="763" char="-1" flags="0" index="305" line="763" name=""
+		   text="僕たちの話でリラックスした朝霞さんがくすくすと笑っていた。" timeout="" voices=""/>
+		<play_sound @l="770" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="771" duration="500" show="0"/>
+		<chgbg @l="772" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="773" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg36a" type="201"/>
+		<play_sound @l="774" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="776" char="-1" flags="0" index="307" line="776" name=""
+		   text="案内された部屋は想像していたよりも広く、ロッジみたいな\n:雰囲気だった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="777" char="-1" flags="0" index="309" line="777" name=""
+		   text="ここ一帯に同じような小屋がいくつも並んでいて、男女別に\n:部屋が１棟ずつ割り当てられている。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="778" char="-1" flags="0" index="311" line="778" name=""
+		   text="ちなみにここは女子部屋だ。" timeout="" voices=""/>
+		<chgbs async="0" duration="0" priority="61441" screen="0" src="jcc02a"
+		   transparency="256" x="278"/>
+		<waitbs @l="780" flags="0" screen="0"/>
+		<movebs duration="1000" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="428" y="0"/>
+		<waitbs @l="781" flags="0" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="783" flags="0" screen="0"/>
+		<face src="fjcc10a"/>
+		<msg @l="784" char="4" flags="17" index="313" line="784" name="ＪＣ"
+		   text="「おおっ！？　このいかにもな感じ！　こりゃもう\n:キャンテンアゲアゲっしょ！」" timeout=""
+		   voices="jei09404"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="785" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="786" flags="0" screen="0"/>
+		<wait @l="789" flags="5" time="2300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="790" flags="-2147483648" screen="0"/>
+		<setface @l="791" src="fjcc22a"/>
+		<pause @l="792" flags="-2147483648" index="315" timeout=""/>
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="sas06a"
+		   transparency="0" x="1492"/>
+		<waitbs @l="797" flags="0" screen="0"/>
+		<face src="fsas06a"/>
+		<msg @l="798" char="2" flags="17" index="316" line="798" name="紗々"
+		   text="「キャンテン……？」" timeout="" voices="sas09606"/>
+		<emotion @l="799" id="sas" loop="1" screen="0" src="emotion_15" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="800" flags="0" index="318" timeout=""/>
+		<clremt @l="801" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="803" flags="0" screen="0"/>
+		<face src="fjcc10a"/>
+		<msg @l="804" char="4" flags="17" index="319" line="804" name="ＪＣ"
+		   text="「キャンプのテンション的な？　やっぱ木のぬくもりってーのは\n:いいッスねぇ、ウッディライフ、ふわふわっ！」" timeout=""
+		   voices="jei09405"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="805" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="806" flags="0" screen="0"/>
+		<wait @l="809" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc16a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="810" flags="-2147483648" screen="0"/>
+		<setface @l="811" src="fjcc16a"/>
+		<pause @l="812" flags="-2147483648" index="321" timeout=""/>
+		<chgbs async="0" duration="200" priority="61443" screen="0" src="kan31a"
+		   transparency="0" x="960"/>
+		<waitbs @l="818" flags="0" screen="0"/>
+		<face src="fkan31a"/>
+		<msg @l="819" char="0" flags="17" index="322" line="819" name="花音"
+		   text="「どきっどきっ！　ってノってる場合じゃなかった！」" timeout="" voices="kan10608"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="820" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="821" flags="0" screen="0"/>
+		<wait @l="824" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="825" flags="-2147483648" screen="0"/>
+		<setface @l="826" src="fkan06a"/>
+		<pause @l="827" flags="-2147483648" index="324" timeout=""/>
+		<lock @l="830"/>
+		<movebs @l="831" duration="0" flags="128" id="jcc" screen="0" v0="0."
+		   v1="1.5" x="2147483648"/>
+		<movebs @l="832" duration="0" flags="128" id="sas" screen="0" v0="0."
+		   v1="1.5" x="2147483648"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan01az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="833" flags="0" screen="0"/>
+		<face src="fkan01a"/>
+		<msg @l="834" char="0" flags="17" index="325" line="834" name="花音"
+		   text="「はいっ、みんなこっちにちゅうもーくっ！」" timeout="" voices="kan10609"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="835" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="836" flags="0" screen="0"/>
+		<pause @l="837" flags="0" index="327" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="839" flags="0" screen="0"/>
+		<play_sound @l="840" buf="1" fadeout="0" intro="-1" src="se740" type="1"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="842" char="-1" flags="0" index="328" line="842" name=""
+		   text="オーナーが両手をパンパンと叩き、みんなの視線を集める。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="844" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="845" char="0" flags="0" index="330" line="845" name="花音"
+		   text="「私たちが今回ここに来た目的は、よりよいお店作りを目指し\n:技術を磨くことなの」" timeout=""
+		   voices="kan10610"/>
+		<play_sound @l="847" buf="1" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="849" flags="0" screen="0"/>
+		<face src="fkan02a"/>
+		<msg @l="850" char="0" flags="0" index="332" line="850" name="花音"
+		   text="「ということで、明後日、スヴニールグループの\n:資格認定試験があるんだって」" timeout=""
+		   voices="kan10611"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="852" flags="0" screen="0"/>
+		<face src="fkan11a"/>
+		<msg @l="853" char="0" flags="0" index="334" line="853" name="花音"
+		   text="「みんなにもそれを受けられるよう話をつけておいたんだ。\n:不合格だからってどうだってこともないんだけど」" timeout=""
+		   voices="kan10612"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="855" flags="0" screen="0"/>
+		<face src="fkan10a"/>
+		<msg @l="856" char="0" flags="17" index="336" line="856" name="花音"
+		   text="「せっかくだから、みんなで合格目指して頑張ろーっ！」" timeout="" voices="kan10613"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="857" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="858" flags="0" screen="0"/>
+		<pause @l="859" flags="0" index="338" timeout=""/>
+		<face src=""/>
+		<msg @l="861" char="-1" flags="0" index="339" line="861" name=""
+		   text="僕、オーナー、紗々ちゃん、ＪＣさんは、接客レベルを\n:向上させるため、接客＆マナー講座を受講。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="862" char="-1" flags="0" index="341" line="862" name=""
+		   text="朝霞さんとライライは、キッチンを借りて技術の向上と\n:新メニューの開発、ということになった。" timeout=""
+		   voices=""/>
+		<lock @l="864"/>
+		<chgbs @l="865" async="-1" duration="0" priority="61441" screen="0"
+		   src="jcc10a" transparency="0" x="528"/>
+		<chgbs @l="866" async="-1" duration="0" priority="61442" screen="0"
+		   src="sas06a" transparency="0" x="1392"/>
+		<chgbs @l="867" async="-1" duration="200" priority="61443" screen="0"
+		   src="kan10a" transparency="0" x="960"/>
+		<chgbs async="0" duration="200" priority="61444" screen="0" src="siz04a"
+		   transparency="0" x="228"/>
+		<waitbs @l="868" flags="0" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="869" flags="0" screen="0"/>
+		<face src="fsiz04a"/>
+		<msg @l="870" char="8" flags="0" index="343" line="870" name="しずか"
+		   text="「あの、わたしたちは……？」" timeout="" voices="siz03310"/>
+		<face src="f"/>
+		<msg @l="872" char="11" flags="0" index="345" line="872" name="亮"
+		   text="「さっきジェイクさんが言ってた、お酒とかの講座を\n:受けてみるのがいいんじゃないか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="siz01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="874" flags="0" screen="0"/>
+		<face src="fsiz01a"/>
+		<msg @l="875" char="8" flags="0" index="347" line="875" name="しずか"
+		   text="「そうですね、そうしてみます」" timeout="" voices="siz03311"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="877" flags="0" screen="0"/>
+		<face src="fkan02a"/>
+		<msg @l="878" char="0" flags="0" index="349" line="878" name="花音"
+		   text="「じゃあ、午後からさっそくレッスンを受けるから、\n:みんな、気を引き締めてね」" timeout=""
+		   voices="kan10614"/>
+		<play_sound @l="884" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="885" duration="500" show="0"/>
+		<chgbg @l="886" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="887" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg08a" type="201"/>
+		<play_sound @l="888" buf="0" fadeout="500" intro="-1" src="bgm07" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="890" char="-1" flags="0" index="351" line="890" name=""
+		   text="接客マナー講座は男女ごとに別れて受講するとのことで、\n:僕はモロキュウと一緒になった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="891" char="-1" flags="0" index="353" line="891" name=""
+		   text="実際の店舗を再現したスペースで、講師の先生を\n:相手に実際に接客をすることになったわけだが――" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="895" char="9" flags="0" index="355" line="895" name="店長"
+		   text="「んもうッ、ミスター毛呂！　ノンノン、ダメじゃないの、\n:ティーカップを出すときは取っ手が左よッ」" timeout=""
+		   voices="momd02407"/>
+		<face src="f"/>
+		<msg @l="897" char="9" flags="0" index="357" line="897" name="店長"
+		   text="「サービスの基本はもてなしデショ。それを忘れちゃ\n:立派な給仕人にはなれないワ\x;note:」" timeout=""
+		   voices="momd02408"/>
+		<face src=""/>
+		<msg @l="899" char="-1" flags="0" index="359" line="899" name=""
+		   text="筋肉もりもりのオカマが講師なのである。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="900" char="-1" flags="0" index="361" line="900" name=""
+		   text="普段は人気の喫茶店を経営しているらしいが、キャラ濃いよなあ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="902" char="9" flags="0" index="363" line="902" name="店長"
+		   text="「いい？　接客はラブなの！　心を込めて届けこの想い！　\n:フォーリンラブ！！」" timeout=""
+		   voices="momd02409"/>
+		<face src=""/>
+		<msg @l="904" char="-1" flags="0" index="365" line="904" name=""
+		   text="くるくる回り始めたんだけど！？　ほんとキャラ濃いなあ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="906" char="9" flags="0" index="367" line="906" name="店長"
+		   text="「いーい？　他の子もよぉくお聞きなサイ。あなたたちの\n:所作ひとつで、お客様の印象がグッと変わってくるのヨ」" timeout=""
+		   voices="momd02410"/>
+		<face src="f"/>
+		<msg @l="908" char="9" flags="0" index="369" line="908" name="店長"
+		   text="「どんなサービス業でも、それは同じ。あなたたちの背中には、\n:お店の看板がかかっていると思いなさい」" timeout=""
+		   voices="momd02411"/>
+		<face src="f"/>
+		<msg @l="910" char="9" flags="0" index="371" line="910" name="研修生たち"
+		   text="「はいッ！」" timeout="" voices="moma01000|momb01000|mome00711"/>
+		<face src="f"/>
+		<msg @l="912" char="9" flags="0" index="373" line="912" name="店長"
+		   text="「ンー、いいお返事ねっ。じゃあ次はミスター宮原、\n:お皿を下げるときの作法、やってみてネ」" timeout=""
+		   voices="momd02412"/>
+		<face src="f"/>
+		<msg @l="914" char="11" flags="0" index="375" line="914" name="亮"
+		   text="「はっ、はいっ」" timeout="" voices=""/>
+		<play_sound @l="919" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="920" duration="500" show="0"/>
+		<chgbg @l="921" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="922" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg37az" type="201"/>
+		<play_sound @l="923" buf="0" fadeout="500" intro="-1" src="bgm02" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="925" char="-1" flags="0" index="377" line="925" name=""
+		   text="休憩時間になり、教室を出て一休み。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="927" char="11" flags="0" index="379" line="927" name="亮"
+		   text="「ふぅ、疲れたぁ……」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="929" char="-1" flags="0" index="381" line="929" name=""
+		   text="あの先生、キャラは濃いけどものすごく丁寧に教えてくれた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="930" char="-1" flags="0" index="383" line="930" name=""
+		   text="ただモロキュウの筋肉が気にいったのか、\n:やたらペタペタさわってたけど。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="932" char="11" flags="0" index="385" line="932" name="亮"
+		   text="「そういや、朝霞さんたちはどうなってるんだろ」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="934" char="-1" flags="0" index="387" line="934" name=""
+		   text="ライライが特別講師って話しだったけど……。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="936" char="11" flags="0" index="389" line="936" name="亮"
+		   text="「まだ時間もあるし、様子、見に行ってみるか」" timeout="" voices=""/>
+		<play_sound @l="942" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="943" duration="500" show="0"/>
+		<chgbg @l="944" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="945" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg08az" type="201"/>
+		<play_sound @l="946" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="948" char="-1" flags="0" index="391" line="948" name=""
+		   text="調理実習用の部屋を覗いてみると、思った以上に\n:ハードな光景が広がっていた。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="950" char="9" flags="0" index="393" line="950" name="研修生Ａ"
+		   text="「せ、先生っ！　腕がっ、腕がもうっ……！」" timeout="" voices="momb01001"/>
+		<face src="f"/>
+		<msg @l="952" char="10" flags="0" index="395" line="952" name="研修生Ｂ"
+		   text="「わたしも！　腕がもう限界ですっ！　折れますっ！！」" timeout="" voices="mowa04004"/>
+		<face src="f"/>
+		<msg @l="954" char="10" flags="0" index="397" line="954" name="講師"
+		   text="「甘えたことは言わないっ！　しっかりクリームを\n:攪拌しなさいっ！」" timeout="" voices="mowd02000"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai07b"
+		   transparency="256" x="810"/>
+		<waitbs @l="956" flags="0" screen="0"/>
+		<face src="frai07b"/>
+		<msg @l="957" char="3" flags="17" index="399" line="957" name="礼羽"
+		   text="「クリームは甘く、指導は厳しく。つってね」" timeout="" voices="rai10115"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="958" flags="0" screen="0"/>
+		<wait @l="961" flags="5" time="3400"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="962" flags="-2147483648" screen="0"/>
+		<setface @l="963" src="frai22b"/>
+		<pause @l="964" flags="-2147483648" index="401" timeout=""/>
+		<face src=""/>
+		<msg @l="967" char="-1" flags="0" index="402" line="967" name=""
+		   text="先生が厳しいのはともかく、ライライも\n:同じく容赦していないのが意外だった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="968" char="-1" flags="0" index="404" line="968" name=""
+		   text="普段の感じだと生徒の側に立って適当にやってそうなイメージ\n:だったんだが、流石に仕事となると違うんだな。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai07b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="970" flags="0" screen="0"/>
+		<face src="frai07b"/>
+		<msg @l="971" char="3" flags="17" index="406" line="971" name="礼羽"
+		   text="「ほらそこ、気泡が混じっちゃってるよ。\n:しっかり均等にかきまぜて、１、２、１、２」" timeout=""
+		   voices="rai10116"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="972" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="973" flags="0" screen="0"/>
+		<wait @l="976" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="977" flags="-2147483648" screen="0"/>
+		<setface @l="978" src="frai11b"/>
+		<pause @l="979" flags="-2147483648" index="408" timeout=""/>
+		<face src="f"/>
+		<msg @l="982" char="9" flags="0" index="409" line="982" name="研修生Ａ"
+		   text="「でも、均一にするなら機械の方が……」" timeout="" voices="momb01002"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="984" flags="0" screen="0"/>
+		<face src="frai10b"/>
+		<msg @l="985" char="3" flags="17" index="411" line="985" name="礼羽"
+		   text="「おっ、なるほど一理あるね。じゃ機械が作ったクリームと\n:私が作ったクリーム、食べ比べてみようか」" timeout=""
+		   voices="rai10117"/>
+		<wait @l="988" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="989" flags="-2147483648" screen="0"/>
+		<setface @l="990" src="frai22b"/>
+		<pause @l="991" flags="-2147483648" index="413" timeout=""/>
+		<face src="f"/>
+		<msg @l="994" char="9" flags="17" index="414" line="994" name="研修生Ａ"
+		   text="「すみませんでした！　手でかき混ぜます！！」" timeout="" voices="momb01003"/>
+		<shakescrn @l="995" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="996" flags="0" index="416" timeout=""/>
+		<face src=""/>
+		<msg @l="998" char="-1" flags="0" index="417" line="998" name=""
+		   text="ライライにああ言われたら、ぐうの音も出ないよな。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="1000" char="10" flags="0" index="419" line="1000" name="講師"
+		   text="「さあ、しっかり混ぜなさい。ペースを乱すと\n:仕上がりにもムラができるわよっ」" timeout=""
+		   voices="mowd02001"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="1002" flags="0" screen="0"/>
+		<face src="frai04b"/>
+		<msg @l="1003" char="3" flags="0" index="421" line="1003" name="礼羽"
+		   text="「クリームにムラがあると、他がどんなによくても\n:ケーキは見向きもされなくなっちゃう」" timeout=""
+		   voices="rai10118"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="1005" flags="0" screen="0"/>
+		<face src="frai25b"/>
+		<msg @l="1006" char="3" flags="17" index="423" line="1006" name="礼羽"
+		   text="「これが本当のムラ八分、つってね」" timeout="" voices="rai10119"/>
+		<emotion @l="1007" id="rai" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<pause @l="1008" flags="0" index="425" timeout=""/>
+		<clremt @l="1009" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="1011" char="11" flags="0" index="426" line="1011" name="亮"
+		   text="（こ、これはものすごく大変そうだ……）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="1013" char="-1" flags="0" index="428" line="1013" name=""
+		   text="見ているだけでヤバイってわかる。だって僕も経験済みだから。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="1014" char="-1" flags="0" index="430" line="1014" name=""
+		   text="もちろん僕なんか足下にも及ばないくらいのスピードと量を\n:要求され続けている。" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="1016" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="1018" char="10" flags="0" index="432" line="1018" name="研修生Ｂ"
+		   text="「も、もうダメ……死ぬ……死んでしまう」" timeout="" voices="mowa04005"/>
+		<face src="f"/>
+		<msg @l="1020" char="10" flags="0" index="434" line="1020" name="研修生Ｃ"
+		   text="「自分も限界です……すみませんっ」" timeout="" voices="mowb04003"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi07b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="1022" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="1024" char="-1" flags="0" index="436" line="1024" name=""
+		   text="他の研修生が音を上げる中、ただ一人、朝霞さんの手元からは\n:絶え間なくカシャカシャと小気味よい音が響いていた。"
+		   timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="1026" char="10" flags="0" index="438" line="1026" name="研修生Ｃ"
+		   text="「すごい……。あの子、動きが全然乱れてない……」" timeout="" voices="mowb04004"/>
+		<face src="f"/>
+		<msg @l="1028" char="9" flags="0" index="440" line="1028" name="研修生Ａ"
+		   text="「あれだけの量をものともせずに、リズミカルに規則正しく……\n:まるでメトロノームみたいだわ」" timeout=""
+		   voices="moma01001"/>
+		<face src="f"/>
+		<msg @l="1030" char="10" flags="0" index="442" line="1030" name="研修生Ｃ"
+		   text="「あの小さな身体のどこに、あれだけの体力があるのかしら。\n:私なんてもう握力もないのに」" timeout=""
+		   voices="mowb04005"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi24b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="1032" flags="0" screen="0"/>
+		<face src="fusi24b"/>
+		<msg @l="1033" char="1" flags="0" index="444" line="1033" name="汐"
+		   text="「……………」" timeout="" voices="usi10215"/>
+		<face src=""/>
+		<msg @l="1035" char="-1" flags="0" index="446" line="1035" name=""
+		   text="生クリームを泡立てる朝霞さんは、普段の\n:にこにこお姉ちゃんじゃなくて鬼気迫る表情で。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="1036" char="-1" flags="0" index="448" line="1036" name=""
+		   text="集中して一心不乱に攪拌している姿に、自然と視線が\n:吸い寄せられる。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="1038" char="11" flags="0" index="450" line="1038" name="亮"
+		   text="（……すごいな、朝霞さん）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="1040" char="-1" flags="0" index="452" line="1040" name=""
+		   text="なんていうか、かっこいい。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="1041" char="-1" flags="0" index="454" line="1041" name=""
+		   text="女の子にそんなことを言うのも失礼だけど、そう思った僕だった。" timeout="" voices=""/>
+		<play_sound @l="1047" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="1048" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="1049" duration="500" show="0"/>
+		<chgbg @l="1050" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<goto script="汐_03_1"/>
+	</code>
+</xscript>

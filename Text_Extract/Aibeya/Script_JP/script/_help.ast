@@ -1,0 +1,93 @@
+ast = {
+	{
+		{"msgoff", mode="hide"},
+		{"select", file="_helpscript", text="演出説明"},
+		{"select", label="select01", text="システム機能説明"},
+		{"select", file="_test_fg", text="立ち絵表示テスト"},
+		{"select", mode="hide"},
+		line=2,
+	},
+	{
+		{"text"},
+		line=14,
+	},
+	{
+		{"text"},
+		line=20,
+	},
+	{
+		{"text"},
+		line=22,
+	},
+	{
+		{"text"},
+		line=24,
+	},
+	{
+		{"text"},
+		line=26,
+	},
+	{
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", file="black", path=":bg/", time=3000},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", label="top"},
+		{"gotitle"},
+		line=27,
+	},
+	text={
+		[1]={
+			select={
+	"演出説明",
+	"システム機能説明",
+	"立ち絵表示テスト",
+},
+			ja={
+			},
+		},
+		[2]={
+			ja={
+				{
+					"テストスクリプト１２／１３版。",
+				},
+			},
+		},
+		[3]={
+			ja={
+				{
+					"システムの機能説明です。",
+				},
+			},
+		},
+		[4]={
+			ja={
+				{
+					"今回は[ふきだし]タグは入れていません。使わないようお願いいたします。",
+				},
+			},
+		},
+		[5]={
+			ja={
+				{
+					"他はすべてラズベリーキューブ準拠になってる（はず）です。",
+				},
+			},
+		},
+		[6]={
+			ja={
+				{
+					"おわり",
+				},
+			},
+		},
+	},
+	label={
+		top={ block=1, label=1 },
+		select01={ block=2, label=1 },
+	},
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="7" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="8" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="9" duration="500" show="0"/>
+		<chgbg @l="10" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<chgbg @l="11" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="12" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17c" type="99"/>
+		<chgbg @l="13" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg06c" type="99"/>
+		<play_sound @l="14" buf="0" fadeout="500" intro="-1" src="bgm05" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="16" char="-1" flags="0" index="0" line="16" name=""
+		   text="仕事も終わり、ベッドに腰掛ける。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="18" char="11" flags="0" index="2" line="18" name="亮"
+		   text="「おっと、花音からライヌが来てるな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="20" char="-1" flags="0" index="4" line="20" name=""
+		   text="寝転がったままスマホを手に取り、ライヌの画面を開く。" timeout="" voices=""/>
+		<showmsg @l="24" duration="500" show="0"/>
+		<open_line_msg @l="25" fade="1000" title="あなたの花音" type="1"/>
+		<face src=""/>
+		<msg @l="28" char="0" flags="0" index="6" line="28" name="花音"
+		   text="「今日はドキドキしたね」" timeout="" voices="kan15230"/>
+		<face src=""/>
+		<msg @l="32" char="-1" flags="32" index="8" line="32" name="" text="「そうだな」"
+		   timeout="" voices=""/>
+		<read_line_msg @l="34" index="0"/>
+		<face src=""/>
+		<msg @l="36" char="0" flags="0" index="10" line="36" name="花音"
+		   text="「今度は場所を変えてしてみよっか」" timeout="" voices="kan15231"/>
+		<close_line_msg @l="38" fade="300"/>
+		<face src="f"/>
+		<msg @l="40" char="11" flags="0" index="12" line="40" name="亮"
+		   text="（おお、マジかっ！　ずいぶんと大胆だな、花音）" timeout="" voices=""/>
+		<showmsg @l="42" duration="500" show="0"/>
+		<open_line_msg @l="43" fade="1000" title="あなたの花音" type="1"/>
+		<line_img @l="48" image="line_ok" myself="-1" name=""/>
+		<pause @l="49" flags="0" index="14" timeout=""/>
+		<wait @l="51" flags="5" time="300"/>
+		<read_line_msg @l="52" index="0"/>
+		<line_img @l="53" image="line_good" myself="0" name="花音"/>
+		<pause @l="54" flags="0" index="15" timeout=""/>
+		<close_line_msg @l="56" fade="300"/>
+		<showmsg @l="57" duration="500" show="0"/>
+		<face src="f"/>
+		<msg @l="59" char="11" flags="0" index="16" line="59" name="亮"
+		   text="（たったこれだけのやり取りなのに、なんだか幸せだなぁ）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="61" char="-1" flags="0" index="18" line="61" name=""
+		   text="おっとそうだった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="62" char="-1" flags="0" index="20" line="62" name=""
+		   text="ザッハトルテ再現に向けて思いついたことを知らせておかないと。" timeout="" voices=""/>
+		<showmsg @l="64" duration="500" show="0"/>
+		<open_line_msg @l="65" fade="1000" title="あなたの花音" type="1"/>
+		<face src=""/>
+		<msg @l="67" char="-1" flags="32" index="22" line="67" name=""
+		   text="「昔の味を知ってる人が、他にもいないかちょっと調べてみる」" timeout="" voices=""/>
+		<read_line_msg @l="69" index="0"/>
+		<face src=""/>
+		<msg @l="71" char="0" flags="0" index="24" line="71" name="花音"
+		   text="「それいいアイデアかも！　\n:試食する人が多い方がきっと\n:再現しやすくなるもんね。ありがと」" timeout=""
+		   voices="kan15232"/>
+		<close_line_msg @l="75" fade="300"/>
+		<face src=""/>
+		<msg @l="77" char="-1" flags="0" index="26" line="77" name=""
+		   text="僕たちの恋愛も絶好調。\n:そしてザッハトルテも着々と前に進んでいる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="78" char="-1" flags="0" index="28" line="78" name=""
+		   text="うん、いいことだ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="80" char="11" flags="0" index="30" line="80" name="亮"
+		   text="「あれ？　またライヌにメッセージ来てる？」" timeout="" voices=""/>
+		<showmsg @l="84" duration="500" show="0"/>
+		<open_line_msg @l="85" fade="1000" title="あなたの花音" type="1"/>
+		<face src=""/>
+		<msg @l="87" char="0" flags="0" index="32" line="87" name="花音"
+		   text="「だいちゅき\x;heart:」" timeout="" voices="kan15233"/>
+		<close_line_msg @l="91" fade="300"/>
+		<face src=""/>
+		<msg @l="93" char="-1" flags="0" index="34" line="93" name=""
+		   text="突然の不意打ちに心臓が早鐘のようにドクンドクンいっている。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="95" char="11" flags="0" index="36" line="95" name="亮"
+		   text="「こ、こいつは効いたぜ……\n:さすが文明の利器、いやさすが春日部花音」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="97" char="-1" flags="0" index="38" line="97" name=""
+		   text="だいぶこういうのにも慣れてきたと思ったが、\n:まだまだ僕も精進が足りないようだった。" timeout="" voices=""/>
+		<play_sound @l="104" buf="0" fadeout="2500" type="0"/>
+		<play_sound @l="105" buf="1" fadeout="0" type="1"/>
+		<showmsg @l="106" duration="500" show="0"/>
+		<change_view @l="107" mode="0" sub="-1"/>
+		<chgbg @l="108" duration="1500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="110" buf="1" fadeout="0" intro="-1" src="se1026" type="1"
+		   volume="1."/>
+		<loadimage @l="113" bg="0" fit="0" screen="1" src="efc_kan"/>
+		<scroll @l="114" async="0" center_x="286" center_y="180" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<chgscrn @l="115" duration="1500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="3"/>
+		<play_sound @l="118" buf="5" fadeout="0" intro="-1" src="kan90001" type="1"
+		   volume="1."/>
+		<scroll @l="121" async="-1" center_x="0" center_y="0" duration="2500"
+		   flags="1" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="10" y="0" zoom="1."/>
+		<chgbg @l="122" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="efc_kan" type="99"/>
+		<wait @l="124" flags="5" time="5000"/>
+		<wait_sound @l="125" buf="1"/>
+		<chgbg @l="127" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="128" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="129" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="130" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="131" buf="0" fadeout="0" type="0"/>
+		<return/>
+	</code>
+</xscript>

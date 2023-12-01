@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<label @l="1" id="scene_1_01" />
+		<play_sound @l="11" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="12" duration="500" show="0" />
+		<chgbg @l="13" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="black" type="201" />
+		<chgbg @l="14" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg04c" type="201" />
+		<play_sound @l="15" buf="0" fadeout="500" intro="-1" src="bgm23" type="0" volume="1." />
+		<face src="" />
+		<msg @l="17" char="-1" flags="0" index="0" line="17" name="" text="我忍耐着想马上做的急躁心情，为了收拾拿出来的器具而回到了厨房里。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="19" char="11" flags="0" index="2" line="19" name="亮" text="「这边大体上收拾好了哦——」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06bs" transparency="0" x="2147483648" />
+		<waitbs @l="21" flags="0" screen="0" />
+		<face src="fusi06b" />
+		<msg @l="22" char="1" flags="17" index="4" line="22" name="汐" text="「啊！？」" timeout="" voices="usi12900" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="23" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="24" flags="0" screen="0" />
+		<pause @l="25" flags="0" index="6" timeout="" />
+		<face src="f" />
+		<msg @l="27" char="11" flags="0" index="7" line="27" name="亮" text="「怎么了？」" timeout="" voices="" />
+		<face src="" />
+		<msg @l="29" char="-1" flags="0" index="9" line="29" name="" text="慌慌张张地跑过去发现朝霞学姐的制服被弄湿了。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b" transparency="0" x="2147483648" />
+		<waitbs @l="31" flags="0" screen="0" />
+		<face src="fusi04b" />
+		<msg @l="32" char="1" flags="17" index="11" line="32" name="汐" text="「呜嗯，被水溅到了。清洗大碗时一不小心就会弄成这样呢……」" timeout="" voices="usi12901" />
+		<emotion @l="33" id="usi" loop="1" screen="0" src="emotion_18" time="-1" type="usi_1" x="0" y="0" />
+		<pause @l="34" flags="0" index="13" timeout="" />
+		<clremt @l="35" id="usi" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi09b" transparency="0" x="2147483648" />
+		<waitbs @l="37" flags="0" screen="0" />
+		<face src="fusi09b" />
+		<msg @l="38" char="1" flags="0" index="14" line="38" name="汐" text="「真是的，我啊……光想着这之后的事了，一不留神就……」" timeout="" voices="usi12902" />
+		<face src="f" />
+		<msg @l="40" char="11" flags="0" index="16" line="40" name="亮" text="「我给你拿个毛巾过来吧？」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02b" transparency="0" x="2147483648" />
+		<waitbs @l="42" flags="0" screen="0" />
+		<face src="fusi02b" />
+		<msg @l="43" char="1" flags="0" index="18" line="43" name="汐" text="「不用啦。正好明天休息，就这样拿去洗了」" timeout="" voices="usi12903" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08b" transparency="0" x="2147483648" />
+		<waitbs @l="45" flags="0" screen="0" />
+		<face src="fusi08b" />
+		<msg @l="46" char="1" flags="0" index="20" line="46" name="汐" text="「就是这样，我会连同你的那份也一起洗的……所以呢，即使弄脏了也可以哦」" timeout="" voices="usi12904" />
+		<face src="f" />
+		<msg @l="48" char="11" flags="0" index="22" line="48" name="亮" text="「弄，弄脏？　那那，也就是说……」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05b" transparency="0" x="2147483648" />
+		<waitbs @l="50" flags="0" screen="0" />
+		<face src="fusi05b" />
+		<msg @l="51" char="1" flags="0" index="24" line="51" name="汐" text="「反正难得一起洗了……就这样弄脏了也可以哦」" timeout="" voices="usi12905" />
+		<face src="f" />
+		<msg @l="53" char="11" flags="0" index="26" line="53" name="亮" text="「那也就是说，可以制服PLAY吗！　太棒了！」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08b" transparency="0" x="2147483648" />
+		<waitbs @l="55" flags="0" screen="0" />
+		<face src="fusi08b" />
+		<msg @l="56" char="1" flags="0" index="28" line="56" name="汐" text="「不要说什么PLAY嘛，很害羞的」" timeout="" voices="usi12906" />
+		<face src="" />
+		<msg @l="58" char="-1" flags="0" index="30" line="58" name="" text="朝霞学姐红着脸微微扭着身子。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi26b" transparency="0" x="2147483648" />
+		<waitbs @l="60" flags="0" screen="0" />
+		<face src="fusi26b" />
+		<msg @l="61" char="1" flags="0" index="32" line="61" name="汐" text="「但是，我已经忍不下去了。其实从吃午饭那时开始我就一直在想色色的事」" timeout="" voices="usi12907" />
+		<face src="f" />
+		<msg @l="63" char="11" flags="0" index="34" line="63" name="亮" text="「我也是！　我也是一直在想尽办法拼命地忍耐着啊」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b" transparency="0" x="2147483648" />
+		<waitbs @l="65" flags="0" screen="0" />
+		<face src="fusi10b" />
+		<msg @l="66" char="1" flags="17" index="36" line="66" name="汐" text="「啊哈哈，说了令我开心的话呢。那，尽情地做些色色地事情吧？」" timeout="" voices="usi12908" />
+		<emotion @l="67" id="usi" loop="1" screen="0" src="emotion_06" time="-1" type="usi_1" x="0" y="0" />
+		<pause @l="68" flags="0" index="38" timeout="" />
+		<clremt @l="69" id="usi" screen="0" />
+		<face src="f" />
+		<msg @l="71" char="11" flags="0" index="39" line="71" name="亮" text="「求之不得呐。那么赶紧——」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05b" transparency="0" x="2147483648" />
+		<waitbs @l="73" flags="0" screen="0" />
+		<face src="fusi05b" />
+		<msg @l="74" char="1" flags="0" index="41" line="74" name="汐" text="「啊，稍微等等。在这之前，那个……啊，找到了。我能一边看这个一边做吗？」" timeout="" voices="usi12909" />
+		<face src="" />
+		<msg @l="76" char="-1" flags="0" index="43" line="76" name="" text="如此说着的她的手里，有一本不太常见的书。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02b" transparency="0" x="2147483648" />
+		<waitbs @l="78" flags="0" screen="0" />
+		<face src="fusi02b" />
+		<msg @l="79" char="1" flags="0" index="45" line="79" name="汐" text="「班里的朋友说学习这种知识也是必要的，于是就借给了我……」" timeout="" voices="usi12910" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05b" transparency="0" x="2147483648" />
+		<waitbs @l="81" flags="0" screen="0" />
+		<face src="fusi05b" />
+		<msg @l="82" char="1" flags="0" index="47" line="82" name="汐" text="「其实本来想等记住一点了再实际尝试的……但这次机会难得，我可以边看边实践吗？」" timeout="" voices="usi12911" />
+		<face src="f" />
+		<msg @l="84" char="11" flags="0" index="49" line="84" name="亮" text="「虽然不是很懂，不过既然这样的话那就全都听你的了」" timeout="" voices="" />
+		<play_sound @l="89" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="90" duration="500" show="0" />
+		<loadimage @l="95" bg="0" fit="0" screen="1" src="evusi06_01c" />
+		<scroll @l="96" async="0" center_x="45" center_y="45" duration="0" flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0." wait_flags="0" x="0" y="0" zoom="1." />
+		<chgscrn @l="97" duration="2500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="10" />
+		<play_sound @l="98" buf="0" fadeout="500" intro="-1" src="bgm18" type="0" volume="1." />
+		<msg @l="102" char="-1" flags="0" index="51" line="102" name="" text="——关于是什么样的书的这个疑问很快就解开了。" timeout="" voices="" />
+		<msg @l="106" char="1" flags="0" index="53" line="106" name="汐" text="「呜嗯呜嗯。到这里的是龟头然后这里的段差是龟冠，然后这里是阴茎小带，这里膨胀的地方是阴囊……」" timeout="" voices="usi12912" />
+		<msg @l="108" char="1" flags="0" index="55" line="108" name="汐" text="「怎么样？　都对吗？」" timeout="" voices="usi12913" />
+		<msg @l="110" char="11" flags="0" index="57" line="110" name="亮" text="「虽说是都对……」" timeout="" voices="" />
+		<msg @l="112" char="1" flags="0" index="59" line="112" name="汐" text="「太好了。那么，下一个是——」" timeout="" voices="usi12914" />
+		<msg @l="114" char="11" flags="0" index="61" line="114" name="亮" text="「那个，那本书难道是」" timeout="" voices="" />
+		<chgbg @l="117" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_01a" type="99" />
+		<msg @l="119" char="1" flags="0" index="63" line="119" name="汐" text="「嗯。就是通常所说的性爱的方法书。……啊，当然是面向女生的哦？」" timeout="" voices="usi12915" />
+		<msg @l="121" char="11" flags="0" index="65" line="121" name="亮" text="「原来如此，那种东西也是有的呢」" timeout="" voices="" />
+		<msg @l="123" char="-1" flags="0" index="67" line="123" name="" text="嗯，既然有面向男生的那种书，那存在面向女生的也是理所当然的嘛。" timeout="" voices="" />
+		<msg @l="125" char="1" flags="0" index="69" line="125" name="汐" text="「之前那次两人都是第一次，所以做得不怎么好吧？　所以呢，这次就想着如果姐姐我能引导着你就好了」" timeout="" voices="usi12916" />
+		<msg @l="127" char="11" flags="0" index="71" line="127" name="亮" text="「原来是这样啊。但是一开始大家都会不熟练的，不用那么在意也可以的」" timeout="" voices="" />
+		<msg @l="129" char="1" flags="0" index="73" line="129" name="汐" text="「第一次不熟练也是事实……所以，如果我能好好学习一下的话你也能更舒服一些不是吗？」" timeout="" voices="usi12917" />
+		<msg @l="131" char="1" flags="0" index="75" line="131" name="汐" text="「因为，我想让我喜欢的人能更舒服一点嘛\x;heart:」" timeout="" voices="usi12918" />
+		<msg @l="133" char="-1" flags="0" index="77" line="133" name="" text="这，这是多么能干的女朋友啊！" timeout="" voices="" />
+		<msg @l="134" char="-1" flags="0" index="79" line="134" name="" text="我能感受到胸口渐渐热起来了。" timeout="" voices="" />
+		<msg @l="136" char="11" flags="0" index="81" line="136" name="亮" text="「竟然为我考虑到了这种地步，我实在是太感动了！」" timeout="" voices="" />
+		<chgbg @l="138" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_01c" type="99" />
+		<msg @l="140" char="1" flags="0" index="83" line="140" name="汐" text="「真是的，太大惊小怪啦……。那么，我可以马上来实践一下书上的内容吗？」" timeout="" voices="usi12919" />
+		<msg @l="142" char="11" flags="0" index="85" line="142" name="亮" text="「只要是我能做的，我什么都会帮忙的，而且这对双方也都有好处嘛」" timeout="" voices="" />
+		<msg @l="144" char="1" flags="0" index="87" line="144" name="汐" text="「那……如果感到舒服了的话要表现出舒服的表情，还要好好地叫出声哦」" timeout="" voices="usi12920" />
+		<msg @l="146" char="1" flags="0" index="89" line="146" name="汐" text="「觉得羞耻而忍耐着的话，我就不知道做的效果如何了」" timeout="" voices="usi12921" />
+		<msg @l="148" char="11" flags="0" index="91" line="148" name="亮" text="「原来如此。确实是有点道理呢」" timeout="" voices="" />
+		<msg @l="150" char="1" flags="0" index="93" line="150" name="汐" text="「还有呢……如果勃起得很大的话我会很开心的。而且那样的话，即使是我的胸部也能很容易夹到」" timeout="" voices="usi12922" />
+		<msg @l="152" char="1" flags="0" index="95" line="152" name="汐" text="「那么……嗯，咕嗯……」" timeout="" voices="usi12923" />
+		<msg @l="154" char="-1" flags="0" index="97" line="154" name="" text="朝霞学姐拿着书，把胸部靠了过来。" timeout="" voices="" />
+		<cutbs async="0" duration="0" priority="0" screen="0" src="hevusi06_cut02a" transparency="256" x="2147483648" />
+		<waitbs @l="165" flags="0" screen="0" />
+		<movebs duration="0" flags="0" id="hevusi06_cut02a" rev="0." screen="0" transparency="256" v0="0." v1="0." x="2147483648" y="-100" />
+		<waitbs @l="166" flags="0" screen="0" />
+		<movebs duration="800" flags="0" id="hevusi06_cut02a" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="168" flags="0" screen="0" />
+		<set_cg_flag @l="170" cg="hevusi06_cut02a.eri" />
+		<msg @l="173" char="1" flags="0" index="99" line="173" name="汐" text="「呼嗯……怎，怎么样？」" timeout="" voices="usi12924" />
+		<msg @l="175" char="11" flags="0" index="101" line="175" name="亮" text="「噢噢……确实，感觉比之前包得更加严实了点」" timeout="" voices="" />
+		<msg @l="177" char="-1" flags="0" index="103" line="177" name="" text="如果用沐浴来形容的话，离及肩还很远，只能说是半身浴。" timeout="" voices="" />
+		<msg @l="180" char="-1" flags="0" index="105" line="180" name="" text="不不不虽说是１／５浴，但是感觉与之前相比接触面积变得更大了。" timeout="" voices="" />
+		<msg @l="182" char="1" flags="0" index="107" line="182" name="汐" text="「太好啦。然后呢，那个……好像这种姿势下最好让男孩子那边动会比较好」" timeout="" voices="usi12925" />
+		<msg @l="184" char="11" flags="0" index="109" line="184" name="亮" text="「我明白了。那，一开始先慢慢地——」" timeout="" voices="" />
+		<msg @l="186" char="-1" flags="0" index="111" line="186" name="" text="这次就按照自己的节奏前后摇动着腰部。" timeout="" voices="" />
+		<loadimage @l="189" bg="0" fit="0" screen="1" src="evusi06_01b" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="190" flags="0" screen="1" />
+		<chgscrn @l="191" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="193" char="1" flags="0" index="113" line="193" name="汐" text="「哈啊，嗯……哈啊，啊啊……好棒！　欧○金在眼前进进出出地……哈啊，哈啊啊」" timeout="" voices="usi12926" />
+		<msg @l="195" char="1" flags="0" index="115" line="195" name="汐" text="「呼嗯……感觉怎么样啊？　胸部，让你感到舒服了吗？」" timeout="" voices="usi12927" />
+		<play_sound @l="197" buf="5" fadeout="0" intro="0" src="usi80015" type="6" volume="1." />
+		<msg @l="198" char="11" flags="0" index="117" line="198" name="亮" text="「虽然舒服确实是舒服……但总感觉差点意思」" timeout="" voices="" />
+		<play_sound @l="199" buf="5" fadeout="0" type="1" />
+		<loadimage @l="202" bg="0" fit="0" screen="1" src="evusi06_01d" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="203" flags="0" screen="1" />
+		<chgscrn @l="204" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="206" char="1" flags="0" index="119" line="206" name="汐" text="「差点意思……？　嗯，据书上说——」" timeout="" voices="usi12928" />
+		<msg @l="208" char="1" flags="0" index="121" line="208" name="汐" text="「……啊，我明白了。书上说如果没沾湿的情况下夹在胸部中可能会感觉到疼」" timeout="" voices="usi12929" />
+		<msg @l="211" char="11" flags="0" index="123" line="211" name="亮" text="「可能就是那样，不愧是方法书」" timeout="" voices="" />
+		<msg @l="213" char="-1" flags="0" index="125" line="213" name="" text="上次乳交的时候，因为自己的前列腺液和她的唾液满满地涂满在了肉○那里，所以整个都是粘乎乎的 。" timeout="" voices="" />
+		<msg @l="215" char="11" flags="0" index="127" line="215" name="亮" text="（可是，这能称之为乳交吗？）" timeout="" voices="" />
+		<msg @l="217" char="-1" flags="0" index="129" line="217" name="" text="虽然只是在摩擦着贫乳而已……。" timeout="" voices="" />
+		<msg @l="218" char="-1" flags="0" index="131" line="218" name="" text="算了！　一想到她是为了我而做的，那么一切都无所谓了。" timeout="" voices="" />
+		<msg @l="219" char="-1" flags="0" index="133" line="219" name="" text="就当是乳交吧！　嗯嗯就当是那样就好了。" timeout="" voices="" />
+		<loadimage @l="222" bg="0" fit="0" screen="1" src="evusi06_01c" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="223" flags="0" screen="1" />
+		<chgscrn @l="224" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="227" char="1" flags="0" index="135" line="227" name="汐" text="「前列腺的话……毕竟还没分泌出来呢，那就由我来给你舔舔吧」" timeout="" voices="usi12930" />
+		<msg @l="229" char="1" flags="0" index="137" line="229" name="汐" text="「再把腰靠得近一点，让前端离我的嘴更近一点可以吗？」" timeout="" voices="usi12931" />
+		<msg @l="232" char="11" flags="0" index="139" line="232" name="亮" text="「做，做那么大胆的事可以吗？」" timeout="" voices="" />
+		<msg @l="235" char="1" flags="0" index="141" line="235" name="汐" text="「嗯，快靠过来吧」" timeout="" voices="usi12932" />
+		<msg @l="238" char="-1" flags="0" index="143" line="238" name="" text="我按她说的，将龟头送到了朝霞学姐的嘴边。" timeout="" voices="" />
+		<msg @l="239" char="-1" flags="0" index="145" line="239" name="" text="上次感觉像是被她逼着一样，但这次感觉像是我让她舔的样子，这一点也使我很兴奋。" timeout="" voices="" />
+		<msg @l="240" char="-1" flags="0" index="147" line="240" name="" text="也产生了幼女在抬头仰望，舔着我的肉○的错觉。" timeout="" voices="" />
+		<loadimage @l="243" bg="0" fit="0" screen="1" src="evusi06_01a" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="244" flags="0" screen="1" />
+		<chgscrn @l="245" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="248" char="1" flags="0" index="149" line="248" name="汐" text="「再过来一点……嗯，快点，我会给你舔舔的，快到姐姐这边来？　啊～，啊～\x;heart:」" timeout="" voices="usi12933" />
+		<msg @l="251" char="11" flags="0" index="151" line="251" name="亮" text="「嗯咕。又来这套」" timeout="" voices="" />
+		<msg @l="254" char="1" flags="0" index="153" line="254" name="汐" text="「诶嘿嘿。欧○金太可爱了，一不留神就……」" timeout="" voices="usi12934" />
+		<msg @l="256" char="1" flags="0" index="155" line="256" name="汐" text="「但是，近距离看的话果然很有压迫力呢。……咕嗯」" timeout="" voices="usi12935" />
+		<loadimage @l="258" bg="0" fit="0" screen="1" src="evusi06_01c" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="259" flags="0" screen="1" />
+		<chgscrn @l="260" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="262" char="1" flags="0" index="157" line="262" name="汐" text="「今天姐姐也给你舔舔，要好好享受享受哦？　嗯呵……啾，（舔），啾呜\x;hearts:」" timeout="" voices="usi12936" />
+		<play_sound @l="264" buf="5" fadeout="0" intro="0" src="usi80000" type="6" volume="1." />
+		<msg @l="265" char="-1" flags="0" index="159" line="265" name="" text="和小兄弟打完招呼之后，就那样亲吻着龟头。" timeout="" voices="" />
+		<msg @l="266" char="-1" flags="0" index="161" line="266" name="" text="连股间都要打招呼的朴实的朝霞学姐使我感到了舒心。" timeout="" voices="" />
+		<play_sound @l="267" buf="5" fadeout="0" type="1" />
+		<msg @l="269" char="1" flags="0" index="163" line="269" name="汐" text="「（舔舔），啾……哈，啊呜，呲溜……呼，啾，（舔舔），啾噜噜噜」" timeout="" voices="usi12937" />
+		<loadimage @l="273" bg="0" fit="0" screen="1" src="evusi06_01b" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02a" transparency="0" x="2147483648" />
+		<waitbs @l="274" flags="0" screen="1" />
+		<chgscrn @l="275" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="277" char="1" flags="0" index="165" line="277" name="汐" text="「必须要充分地弄湿嘛，多加一点唾液……嗯唔唔……啾呜，呲溜噜，啾叭啾叭，啾噜噜噜」" timeout="" voices="usi12938" />
+		<loadimage @l="290" bg="0" fit="0" screen="1" src="evusi06_01c" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02b" transparency="0" x="2147483648" />
+		<waitbs @l="291" flags="0" screen="1" />
+		<chgscrn @l="292" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<play_sound @l="295" buf="5" fadeout="0" intro="0" src="usi80001" type="6" volume="1." />
+		<msg @l="296" char="11" flags="0" index="167" line="296" name="亮" text="「哈啊，哈啊……肉○开始变得黏乎乎地了，好厉害」" timeout="" voices="" />
+		<msg @l="298" char="-1" flags="0" index="169" line="298" name="" text="似乎是在收集口腔内的唾液，在嘴中舔来舔去的舌头黏黏的带着些许的温度，这使我感到很舒适。" timeout="" voices="" />
+		<play_sound @l="299" buf="5" fadeout="0" type="1" />
+		<msg @l="301" char="1" flags="0" index="171" line="301" name="汐" text="「呼，啊啊……哈呜，嗯……嗯呼呼，尿尿的小口在颤动着哦？　（舔舔），啾呜呜」" timeout="" voices="usi12939" />
+		<play_sound @l="303" buf="5" fadeout="0" intro="0" src="usi80002" type="6" volume="1." />
+		<msg @l="304" char="11" flags="0" index="173" line="304" name="亮" text="「哈啊……太，太狡猾了，就光欺负那一处……」" timeout="" voices="" />
+		<play_sound @l="305" buf="5" fadeout="0" type="1" />
+		<loadimage @l="307" bg="0" fit="0" screen="1" src="evusi06_01a" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02b" transparency="0" x="2147483648" />
+		<waitbs @l="308" flags="0" screen="1" />
+		<chgscrn @l="309" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="311" char="1" flags="0" index="175" line="311" name="汐" text="「因为，想快点让它分泌出前列腺液嘛。啾叭，（舔舔），啾噜噜噜……」" timeout="" voices="usi12940" />
+		<play_sound @l="313" buf="5" fadeout="0" intro="0" src="usi80003" type="6" volume="1." />
+		<msg @l="314" char="11" flags="0" index="177" line="314" name="亮" text="「嗯咕，哈啊啊……被，被那么吸的话……！」" timeout="" voices="" />
+		<play_sound @l="315" buf="5" fadeout="0" type="1" />
+		<loadimage @l="317" bg="0" fit="0" screen="1" src="evusi06_01d" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02b" transparency="0" x="2147483648" />
+		<waitbs @l="318" flags="0" screen="1" />
+		<chgscrn @l="319" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="321" char="1" flags="0" index="179" line="321" name="汐" text="「嗯……不能吸吗？　要停下来吗？」" timeout="" voices="usi12941" />
+		<play_sound @l="323" buf="5" fadeout="0" intro="0" src="usi80028" type="6" volume="1." />
+		<msg @l="324" char="11" flags="0" index="181" line="324" name="亮" text="「不不，虽然事实上超级的舒服……但被这样吸的话，腰就会跟着一颤一颤的……」" timeout="" voices="" />
+		<play_sound @l="325" buf="5" fadeout="0" type="1" />
+		<loadimage @l="327" bg="0" fit="0" screen="1" src="evusi06_01c" />
+		<cutbs async="0" duration="0" priority="0" screen="1" src="hevusi06_cut02b" transparency="0" x="2147483648" />
+		<waitbs @l="328" flags="0" screen="1" />
+		<chgscrn @l="329" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="331" char="1" flags="0" index="183" line="331" name="汐" text="「如果是那样的话，就过一会儿再啾啾地吸小尖尖吧」" timeout="" voices="usi12942" />
+		<play_sound @l="333" buf="5" fadeout="0" intro="0" src="usi80028" type="6" volume="1." />
+		<msg @l="334" char="-1" flags="0" index="185" line="334" name="" text="没想到，我会教导她男性器的舔舐方法啊。" timeout="" voices="" />
+		<msg @l="335" char="-1" flags="0" index="187" line="335" name="" text="这些都是为了能让我更舒服一些而拼命努力的表现吧。" timeout="" voices="" />
+		<play_sound @l="336" buf="5" fadeout="0" type="1" />
+		<clr_allbs duration="200" screen="0" />
+		<waitbs @l="351" flags="0" screen="0" />
+		<chgbg @l="353" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02c" type="99" />
+		<msg @l="355" char="1" flags="0" index="189" line="355" name="汐" text="「（舔），啾呜，（舔舔舔）……。啊，快看？　先走液出来了哦？　黏糊糊的\x;heart:」" timeout="" voices="usi12943" />
+		<play_sound @l="357" buf="5" fadeout="0" intro="0" src="usi80000" type="6" volume="1." />
+		<msg @l="358" char="-1" flags="0" index="191" line="358" name="" text="为这一脸的“快夸我，快夸我”的表情而心动，不由得望向她。" timeout="" voices="" />
+		<msg @l="359" char="-1" flags="0" index="193" line="359" name="" text="那个嘴角上垂着从尿道口流出来的透明液体。" timeout="" voices="" />
+		<play_sound @l="360" buf="5" fadeout="0" type="1" />
+		<msg @l="362" char="1" flags="0" index="195" line="362" name="汐" text="「诶咻……这种湿润程度的话，蹭的时候就不会疼了吧」" timeout="" voices="usi12944" />
+		<msg @l="365" char="11" flags="0" index="197" line="365" name="亮" text="「嗯，应该吧。我动一动试试看」" timeout="" voices="" />
+		<msg @l="367" char="-1" flags="0" index="199" line="367" name="" text="缓慢地抽动着停住的腰。" timeout="" voices="" />
+		<chgbg @l="370" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02d" type="99" />
+		<msg @l="372" char="1" flags="0" index="201" line="372" name="汐" text="「啊……」" timeout="" voices="usi12945" />
+		<play_sound @l="374" buf="5" fadeout="0" intro="0" src="usi80015" type="6" volume="1." />
+		<msg @l="375" char="-1" flags="0" index="203" line="375" name="" text="朝霞学姐看着从嘴边离开的龟头，发出了依依不舍的声音。" timeout="" voices="" />
+		<msg @l="376" char="-1" flags="0" index="205" line="376" name="" text="光是看她这么喜欢着我的欧○金，就足够使我兴奋度倍增了。" timeout="" voices="" />
+		<msg @l="378" char="11" flags="0" index="207" line="378" name="亮" text="「哈啊哈啊……呜呜呜，比刚才好多了……」" timeout="" voices="" />
+		<play_sound @l="379" buf="5" fadeout="0" type="1" />
+		<chgbg @l="381" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02c" type="99" />
+		<msg @l="383" char="1" flags="0" index="209" line="383" name="汐" text="「哇哈……。欧○金直直的挺着一跳一跳的……好像很开心的样子……」" timeout="" voices="usi12946" />
+		<msg @l="385" char="1" flags="0" index="211" line="385" name="汐" text="「这下，我再用胸部夹紧一些……诶咻……咕，还差一点……嗯咕，嗯嗯嗯」" timeout="" voices="usi12947" />
+		<play_sound @l="387" buf="5" fadeout="0" intro="0" src="usi80017" type="6" volume="1." />
+		<msg @l="388" char="-1" flags="0" index="213" line="388" name="" text="强行地将小小的胸部压过来，想方设法地将阴茎夹住。" timeout="" voices="" />
+		<msg @l="390" char="11" flags="0" index="215" line="390" name="亮" text="「不用勉强也没关系，这样已经足够舒服了」" timeout="" voices="" />
+		<play_sound @l="391" buf="5" fadeout="0" type="1" />
+		<chgbg @l="393" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02d" type="99" />
+		<msg @l="395" char="1" flags="0" index="217" line="395" name="汐" text="「但是，这本书上写着，如果好好地夹紧的话，看上去就会十分色气，同时也会显著地提高男朋友的满意度——」" timeout="" voices="usi12948" />
+		<msg @l="398" char="11" flags="0" index="219" line="398" name="亮" text="「或许真是那样……因为我最喜欢你那小小的胸部了」" timeout="" voices="" />
+		<chgbg @l="401" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02c" type="99" />
+		<msg @l="403" char="1" flags="0" index="221" line="403" name="汐" text="「诶嘿嘿……是，是吗？」" timeout="" voices="usi12949" />
+		<msg @l="406" char="-1" flags="0" index="223" line="406" name="" text="她因我的低语感到十分害羞，以至于脸红到了耳朵那里。" timeout="" voices="" />
+		<chgbg @l="415" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02b" type="99" />
+		<msg @l="417" char="1" flags="0" index="225" line="417" name="汐" text="「确，确实是与花音和礼羽同学她们相比稍微小了点，而且也谈不上什么大……」" timeout="" voices="usi12950" />
+		<msg @l="420" char="-1" flags="0" index="227" line="420" name="" text="与她们相比的话确实是比不上的这种话实在是说不出口。" timeout="" voices="" />
+		<msg @l="423" char="1" flags="0" index="229" line="423" name="汐" text="「说是稍微有点自卑什么的，你看，男人不是都喜欢胸大的吗」" timeout="" voices="usi12951" />
+		<msg @l="426" char="11" flags="0" index="231" line="426" name="亮" text="「话虽然是这么说，不过喜欢的人的胸部是特别的。证据就是，你看，肉○就变成这样了」" timeout="" voices="" />
+		<chgbg @l="429" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02e" type="99" />
+		<msg @l="431" char="1" flags="0" index="233" line="431" name="汐" text="「啊，啊啊……\x;heart:」" timeout="" voices="usi12952" />
+		<play_sound @l="433" buf="5" fadeout="0" intro="0" src="usi80015" type="6" volume="1." />
+		<msg @l="434" char="-1" flags="0" index="235" line="434" name="" text="小小的胸部对阴茎小带的摩擦也产生了效果，回过神来时，小兄弟已经挺拔到能从胸部中浮现出来的程度了。" timeout="" voices="" />
+		<play_sound @l="435" buf="5" fadeout="0" type="1" />
+		<chgbg @l="437" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02c" type="99" />
+		<msg @l="439" char="1" flags="0" index="237" line="439" name="汐" text="「竟然这么精神地挺拔起来了……太好了。原来这么舒服啊……」" timeout="" voices="usi12953" />
+		<chgbg @l="441" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02a" type="99" />
+		<msg @l="443" char="1" flags="0" index="239" line="443" name="汐" text="「那，下一个……啊，对了。可以口交吗？　能再过来这边吗？」" timeout="" voices="usi12954" />
+		<play_sound @l="445" buf="5" fadeout="0" intro="0" src="usi80015" type="6" volume="1." />
+		<msg @l="446" char="-1" flags="0" index="241" line="446" name="" text="于是将黏黏糊糊的肉○再次伸向她的嘴边——" timeout="" voices="" />
+		<play_sound @l="447" buf="5" fadeout="0" type="1" />
+		<chgbg @l="452" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03a" type="99" />
+		<msg @l="454" char="1" flags="0" index="243" line="454" name="汐" text="「啾呜，（舔）……哈呜哈呜，啾叭……呲溜噜噜噜，呼，哈啊……\x;hearts:」" timeout="" voices="usi12955" />
+		<play_sound @l="456" buf="5" fadeout="0" intro="0" src="usi80000" type="6" volume="1." />
+		<msg @l="457" char="11" flags="0" index="245" line="457" name="亮" text="「这，这是……！？」" timeout="" voices="" />
+		<play_sound @l="458" buf="5" fadeout="0" type="1" />
+		<msg @l="460" char="1" flags="0" index="247" line="460" name="汐" text="「啾，啾噜噜噜……嗯，书上说这叫口琴口交。也有这种横着舔的方法呢」" timeout="" voices="usi12956" />
+		<play_sound @l="462" buf="5" fadeout="0" intro="0" src="usi80001" type="6" volume="1." />
+		<msg @l="463" char="11" flags="0" index="249" line="463" name="亮" text="「咕……横着这样吮吸着，这，这可让人受不了」" timeout="" voices="" />
+		<msg @l="465" char="-1" flags="0" index="251" line="465" name="" text="像吃玉米一样的将肉○横着舔舐着，用舌头在肉壁上爬行着，那样子实在是太可爱了。" timeout="" voices="" />
+		<play_sound @l="466" buf="5" fadeout="0" type="1" />
+		<chgbg @l="468" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03b" type="99" />
+		<msg @l="470" char="1" flags="0" index="253" line="470" name="汐" text="「我的嘴不是很小嘛？　所以，很难含到硬邦邦的肉○的根部那里……」" timeout="" voices="usi12957" />
+		<msg @l="472" char="1" flags="0" index="255" line="472" name="汐" text="「这样的话从尿道口到龟冠、从阴茎小带那里到肉○根部，全都能舔到了呢。啾，（舔），啾呜\x;heart:」" timeout="" voices="usi12958" />
+		<play_sound @l="474" buf="5" fadeout="0" intro="0" src="usi80002" type="6" volume="1." />
+		<msg @l="475" char="11" flags="0" index="257" line="475" name="亮" text="「哈啊，啊啊……好厉害的技巧，不愧是方法书」" timeout="" voices="" />
+		<msg @l="477" char="-1" flags="0" index="259" line="477" name="" text="小小的嘴唇像吸血鬼一样吮吸着发出声音进攻着肉○的侧面。" timeout="" voices="" />
+		<play_sound @l="478" buf="5" fadeout="0" type="1" />
+		<msg @l="480" char="1" flags="0" index="261" line="480" name="汐" text="「啾，（舔）……呲噜噜噜，呲溜，哈呜……嗯，这样看来就不会觉得痛苦，能一直舔下去了」" timeout="" voices="usi12959" />
+		<chgbg @l="482" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03c" type="99" />
+		<msg @l="484" char="1" flags="0" index="263" line="484" name="汐" text="「用姐姐的唾液来让欧○金黏黏的、滑滑的……嗯呵呵，呲溜溜，啾\x;heart:」" timeout="" voices="usi12960" />
+		<play_sound @l="486" buf="5" fadeout="0" intro="0" src="usi80003" type="6" volume="1." />
+		<msg @l="487" char="-1" flags="0" index="265" line="487" name="" text="时而像小鸟啄食一样啾啾地舔舐着阴茎小带，时而用舌尖摩擦着褶皱带的凹陷处，朝霞学姐的舌头灵活地到处游走。" timeout="" voices="" />
+		<msg @l="488" char="-1" flags="0" index="267" line="488" name="" text="每当被那小小的嘴唇亲吻时，就会加深那说不出的背德感。" timeout="" voices="" />
+		<msg @l="490" char="11" flags="0" index="269" line="490" name="亮" text="「哈啊，啊啊，现在的好棒……好像到处都被吮吸着一样」" timeout="" voices="" />
+		<play_sound @l="491" buf="5" fadeout="0" type="1" />
+		<msg @l="493" char="1" flags="0" index="271" line="493" name="汐" text="「诶嘿嘿嘿，那再更加地……啊呜，（舔舔）……啾噜噜，啾，呲溜\x;heart:」" timeout="" voices="usi12961" />
+		<msg @l="495" char="1" flags="0" index="273" line="495" name="汐" text="「把嘴唇压到沟冠带这里……唔呜，哈啊，快看，亲亲这里的话，就会一跳一跳的……呵呵\x;hearts:」" timeout="" voices="usi12962" />
+		<play_sound @l="497" buf="5" fadeout="0" intro="0" src="usi80000" type="6" volume="1." />
+		<msg @l="498" char="11" flags="0" index="275" line="498" name="亮" text="「哈咕！？　哈啊！！」" timeout="" voices="" />
+		<msg @l="500" char="-1" flags="0" index="277" line="500" name="" text="改变头的倾斜角度，不只是侧面，也对阴茎小带发起了进攻。" timeout="" voices="" />
+		<play_sound @l="501" buf="5" fadeout="0" type="1" />
+		<chgbg @l="503" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03a" type="99" />
+		<msg @l="505" char="1" flags="0" index="279" line="505" name="汐" text="「哈呜呜，啾……看样子，你很中意口琴口交吧？」" timeout="" voices="usi12963" />
+		<play_sound @l="507" buf="5" fadeout="0" intro="0" src="usi80001" type="6" volume="1." />
+		<msg @l="508" char="11" flags="0" index="281" line="508" name="亮" text="「对，真是太棒了……可以说至今为止从未体验过如此刺激的感觉」" timeout="" voices="" />
+		<msg @l="510" char="-1" flags="0" index="283" line="510" name="" text="因为在舔舐阴茎小带时会不自觉地往上看，这时就会自然地对上眼，就体验来说这一点无疑是一个很棒的加分项。" timeout="" voices="" />
+		<play_sound @l="511" buf="5" fadeout="0" type="1" />
+		<msg @l="513" char="1" flags="0" index="285" line="513" name="汐" text="「啾噜噜，啾啾……哈啊，哈啊……看，越发的因唾液而变得更黏糊糊了……啾噜噜噜，啾呜\x;heart:」" timeout="" voices="usi12964" />
+		<chgbg @l="515" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03d" type="99" />
+		<msg @l="517" char="1" flags="0" index="287" line="517" name="汐" text="「呲溜啾，啾噜噜噜啾……呼，哈啊……啊，太湿了唾液都跑到根部那边去了……喂，等等等等」" timeout="" voices="usi12965" />
+		<play_sound @l="519" buf="5" fadeout="0" intro="0" src="usi80002" type="6" volume="1." />
+		<msg @l="520" char="11" flags="0" index="289" line="520" name="亮" text="「噢噢，说了突然活动太犯规了啊……嗯咕！？」" timeout="" voices="" />
+		<msg @l="522" char="-1" flags="0" index="291" line="522" name="" text="为了追逐垂下来的唾液，她的舌头一口气来到了根部。" timeout="" voices="" />
+		<msg @l="523" char="-1" flags="0" index="293" line="523" name="" text="还残存着些许的温度的蜜汁由肉壁传递来到了阴囊这边，那个触感让我不禁将腰弓了起来。" timeout="" voices="" />
+		<play_sound @l="524" buf="5" fadeout="0" type="1" />
+		<chgbg @l="529" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02a" type="99" />
+		<msg @l="531" char="1" flags="0" index="295" line="531" name="汐" text="「哈啊，哈啊……呐，可以舔舔阴囊那里吗？」" timeout="" voices="usi12966" />
+		<msg @l="534" char="11" flags="0" index="297" line="534" name="亮" text="「……诶？」" timeout="" voices="" />
+		<msg @l="537" char="1" flags="0" index="299" line="537" name="汐" text="「就是那个，蛋蛋\x;heart:　我会很温柔的」" timeout="" voices="usi12967" />
+		<msg @l="540" char="-1" flags="0" index="301" line="540" name="" text="万万没想到会出现蛋蛋这个词，身体不由得愣住了。" timeout="" voices="" />
+		<chgbg @l="543" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02d" type="99" />
+		<msg @l="545" char="1" flags="0" index="303" line="545" name="汐" text="「那个，我说了什么奇怪的话了吗？」" timeout="" voices="usi12968" />
+		<msg @l="548" char="11" flags="0" index="305" line="548" name="亮" text="「不不不，倒不如说希望能着重于蛋蛋那里。蛋蛋，蛋蛋就拜托你了！」" timeout="" voices="" />
+		<chgbg @l="551" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02c" type="99" />
+		<msg @l="553" char="1" flags="0" index="307" line="553" name="汐" text="「嗯。那我就来舔舔蛋蛋了哦\x;heart:」" timeout="" voices="usi12969" />
+		<msg @l="556" char="-1" flags="0" index="309" line="556" name="" text="呀——吼！　让幼女说蛋蛋了。" timeout="" voices="" />
+		<msg @l="557" char="-1" flags="0" index="311" line="557" name="" text="这样下来兴奋也是直线上升啊。" timeout="" voices="" />
+		<chgbg @l="560" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_02b" type="99" />
+		<msg @l="562" char="1" flags="0" index="313" line="562" name="汐" text="「根据书上所说，这里也舔一下会更让人兴奋。所以，啊—……哈呜」" timeout="" voices="usi12970" />
+		<lock @l="573" />
+		<cutbs @l="574" async="-1" duration="0" priority="0" screen="0" src="hevusi06_cut01a" transparency="256" x="2147483648" />
+		<movebs duration="0" flags="0" id="hevusi06_cut01a" rev="0." screen="0" transparency="256" v0="0." v1="0." x="1000" y="200" />
+		<waitbs @l="575" flags="0" screen="0" />
+		<movebs duration="800" flags="0" id="hevusi06_cut01a" rev="0." screen="0" transparency="0" v0="0." v1="0." x="1000" y="0" />
+		<waitbs @l="576" flags="0" screen="0" />
+		<set_cg_flag @l="577" cg="hevusi06_cut01a.eri" />
+		<msg @l="583" char="1" flags="0" index="315" line="583" name="汐" text="「嗯——呜，啾噜啾噜，嗯呜，呲溜溜……嗯？　哇，啊啊，好棒里面真的是圆圆的呢……」" timeout="" voices="usi12971" />
+		<play_sound @l="585" buf="5" fadeout="0" intro="0" src="usi80004" type="6" volume="1." />
+		<msg @l="586" char="11" flags="0" index="317" line="586" name="亮" text="「对，对……嗯！？」" timeout="" voices="" />
+		<play_sound @l="587" buf="5" fadeout="0" type="1" />
+		<msg @l="589" char="1" flags="0" index="319" line="589" name="汐" text="「嗯？　怎么了？　难道很疼吗？」" timeout="" voices="usi12972" />
+		<play_sound @l="591" buf="5" fadeout="0" intro="0" src="usi80000" type="6" volume="1." />
+		<msg @l="592" char="11" flags="0" index="321" line="592" name="亮" text="「不，大概是因前所未有的感觉而不知所措……因为，那里是男人的要害……」" timeout="" voices="" />
+		<msg @l="594" char="-1" flags="0" index="323" line="594" name="" text="被充分包裹的感觉和温暖而又柔软的脸颊和舌头。" timeout="" voices="" />
+		<msg @l="595" char="-1" flags="0" index="325" line="595" name="" text="稍微碰一下就会疼到流眼泪的敏感区域在最喜欢的人的嘴里像糖果一样被滚动着。" timeout="" voices="" />
+		<play_sound @l="596" buf="5" fadeout="0" type="1" />
+		<msg @l="598" char="1" flags="0" index="327" line="598" name="汐" text="「要是害怕的话放弃会比较好？」" timeout="" voices="usi12973" />
+		<play_sound @l="600" buf="5" fadeout="0" intro="0" src="usi80003" type="6" volume="1." />
+		<msg @l="601" char="11" flags="0" index="329" line="601" name="亮" text="「请继续吧。事实上，舒适到好像什么东西被唤醒了似的……啊啊，哈啊！」" timeout="" voices="" />
+		<msg @l="603" char="-1" flags="0" index="331" line="603" name="" text="应该说是与疼痛相差无几的快感吗，每当她的舌头活动的时候，我就会发出奇怪的声音。" timeout="" voices="" />
+		<play_sound @l="604" buf="5" fadeout="0" type="1" />
+		<msg @l="606" char="1" flags="0" index="333" line="606" name="汐" text="「那，为了不像之前那样，就算弄糟了也不会让牙咬到，小心地……呲溜，哈呜……嗯呲溜，啾呜」" timeout="" voices="usi12974" />
+		<msg @l="608" char="1" flags="0" index="335" line="608" name="汐" text="「嗯呜呜，呲溜……嗯唔……虽说是圆的，但却是像豆子一样不是纯圆形呢……」" timeout="" voices="usi12975" />
+		<play_sound @l="610" buf="5" fadeout="0" intro="0" src="usi80005" type="6" volume="1." />
+		<msg @l="611" char="11" flags="0" index="337" line="611" name="亮" text="「唔噢！？　那，那么转来转去的话……哈啊，哈啊」" timeout="" voices="" />
+		<play_sound @l="612" buf="5" fadeout="0" type="1" />
+		<msg @l="614" char="1" flags="0" index="339" line="614" name="汐" text="「啊，没事吗？　疼不疼？」" timeout="" voices="usi12976" />
+		<play_sound @l="616" buf="5" fadeout="0" intro="0" src="usi80002" type="6" volume="1." />
+		<msg @l="617" char="11" flags="0" index="341" line="617" name="亮" text="「完全不，话说，聊天的话会更加的舒服……」" timeout="" voices="" />
+		<msg @l="619" char="-1" flags="0" index="343" line="619" name="" text="将阴囊全部收纳的话，她的嘴里未免太狭小了。" timeout="" voices="" />
+		<msg @l="620" char="-1" flags="0" index="345" line="620" name="" text="尽管如此，她还是将我的精巢满满地塞入了嘴中，而且我能感受到精巢在嘴中被吮吸着、揉搓着、精心地爱抚着。" timeout="" voices="" />
+		<play_sound @l="621" buf="5" fadeout="0" type="1" />
+		<msg @l="623" char="1" flags="0" index="347" line="623" name="汐" text="「哈啊，啊呜……啊哈，明明没在舔它，眼前的欧○金却很有精神的一跳一跳的……\x;heart:」" timeout="" voices="usi12977" />
+		<cutbs async="0" duration="200" priority="0" screen="0" src="hevusi06_cut01b" transparency="0" x="2147483648" />
+		<waitbs @l="626" flags="0" screen="0" />
+		<set_cg_flag @l="627" cg="hevusi06_cut01b.eri" />
+		<msg @l="629" char="1" flags="0" index="349" line="629" name="汐" text="「小蛋蛋，原来这么爽啊……？　呲溜，啾呜，哈啊哈啊，那再加点劲……啾呜噜噜，呲溜溜溜\x;hearts:」" timeout="" voices="usi12978" />
+		<play_sound @l="631" buf="5" fadeout="0" intro="0" src="usi80006" type="6" volume="1." />
+		<msg @l="632" char="11" flags="0" index="351" line="632" name="亮" text="「呼咕？！　突然这么吸的话有点不妙」" timeout="" voices="" />
+		<play_sound @l="633" buf="5" fadeout="0" type="1" />
+		<msg @l="635" char="1" flags="0" index="353" line="635" name="汐" text="「嗯呜呜……？！　呜哈，抱歉哦？」" timeout="" voices="usi12979" />
+		<play_sound @l="637" buf="5" fadeout="0" intro="0" src="usi80015" type="6" volume="1." />
+		<msg @l="638" char="11" flags="0" index="355" line="638" name="亮" text="「不会，能让你这么沉迷于此，真是再好不过了……哈啊哈啊」" timeout="" voices="" />
+		<msg @l="640" char="-1" flags="0" index="357" line="640" name="" text="像小荷包一样，阴囊的根部被朝霞学姐的嘴唇紧紧吸住的瞬间，脑袋出现了一阵眩晕。" timeout="" voices="" />
+		<msg @l="641" char="-1" flags="0" index="359" line="641" name="" text="与生命的危机做等价交换来的快感使呼吸开始变得急促起来。" timeout="" voices="" />
+		<play_sound @l="642" buf="5" fadeout="0" type="1" />
+		<clr_allbs duration="500" screen="0" />
+		<waitbs @l="652" flags="0" screen="0" />
+		<chgbg @l="655" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03a" type="99" />
+		<msg @l="657" char="1" flags="0" index="361" line="657" name="汐" text="「哇啊……欧○金变得比刚才更大了……呼，嗯，光是看着这个，连这边也……额嗯嗯\x;heart:」" timeout="" voices="usi12980" />
+		<msg @l="659" char="1" flags="0" index="363" line="659" name="汐" text="「哈啊，哈啊……呲溜溜，嗯，嗯呜……呐，可以再舔舔这变大了的欧○金吗？」" timeout="" voices="usi12981" />
+		<play_sound @l="661" buf="5" fadeout="0" intro="0" src="usi80028" type="6" volume="1." />
+		<msg @l="662" char="11" flags="0" index="365" line="662" name="亮" text="「那，拜托你按刚才那样就好了」" timeout="" voices="" />
+		<play_sound @l="663" buf="5" fadeout="0" type="1" />
+		<chgbg @l="665" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03c" type="99" />
+		<msg @l="667" char="1" flags="0" index="367" line="667" name="汐" text="「乳交和口琴口交……还有，也用同样的技巧来亲亲龟头吧」" timeout="" voices="usi12982" />
+		<play_sound @l="669" buf="5" fadeout="0" intro="0" src="usi80029" type="6" volume="1." />
+		<msg @l="670" char="11" flags="0" index="369" line="670" name="亮" text="「是啊。这样的话朝霞学姐的负担也能少一些」" timeout="" voices="" />
+		<play_sound @l="671" buf="5" fadeout="0" type="1" />
+		<msg @l="673" char="1" flags="0" index="371" line="673" name="汐" text="「我的负担……什么意思？」" timeout="" voices="usi12983" />
+		<msg @l="676" char="11" flags="0" index="373" line="676" name="亮" text="「之前被舔的时候……其实觉得普通口交稍微有点痛苦」" timeout="" voices="" />
+		<msg @l="678" char="11" flags="0" index="375" line="678" name="亮" text="「所以呢，像今天这样的做法感觉还挺舒服的」" timeout="" voices="" />
+		<chgbg @l="681" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03a" type="99" />
+		<msg @l="683" char="1" flags="0" index="377" line="683" name="汐" text="「啊……你有考虑到那点啊」" timeout="" voices="usi12984" />
+		<msg @l="686" char="11" flags="0" index="379" line="686" name="亮" text="「但是，那也确实会感觉到痛苦，感觉做了什么不能做的事变得更加兴奋了也是事实」" timeout="" voices="" />
+		<chgbg @l="689" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03c" type="99" />
+		<msg @l="691" char="1" flags="0" index="381" line="691" name="汐" text="「嗯呵呵……呵呵，呵呵呵呵。能坦率地说出这样的感想，姐姐我也好开心呀」" timeout="" voices="usi12985" />
+		<msg @l="693" char="1" flags="0" index="383" line="693" name="汐" text="「确实也有痛苦的时候……但这是因为欧○金太大了嘛」" timeout="" voices="usi12986" />
+		<msg @l="695" char="1" flags="0" index="385" line="695" name="汐" text="「但是，就像我的胸小一样……欧○金大也不是你的错吧？」" timeout="" voices="usi12987" />
+		<msg @l="698" char="11" flags="0" index="387" line="698" name="亮" text="「我最喜欢朝霞学姐的胸部了」" timeout="" voices="" />
+		<chgbg @l="701" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03d" type="99" />
+		<msg @l="703" char="1" flags="0" index="389" line="703" name="汐" text="「嗯……真是的，突然认真的说出这种话……真的好狡猾哦」" timeout="" voices="usi12988" />
+		<chgbg @l="705" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03c" type="99" />
+		<msg @l="707" char="1" flags="0" index="391" line="707" name="汐" text="「……但是，谢谢你啦。我也喜欢你的欧○金。最喜欢了\x;heart:」" timeout="" voices="usi12989" />
+		<chgbg @l="709" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03e" type="99" />
+		<msg @l="711" char="1" flags="0" index="393" line="711" name="汐" text="「虽然因为又大又硬最初的时候确实是很辛苦……但那也是个很好的回忆哦。……嗯～啾啾\x;heart:」" timeout="" voices="usi12990" />
+		<play_sound @l="713" buf="5" fadeout="0" intro="0" src="usi80028" type="6" volume="1." />
+		<msg @l="714" char="11" flags="0" index="395" line="714" name="亮" text="「哈啊呜……」" timeout="" voices="" />
+		<msg @l="716" char="-1" flags="0" index="397" line="716" name="" text="龟头被温柔的亲吻着，不由得挺了起来。" timeout="" voices="" />
+		<play_sound @l="717" buf="5" fadeout="0" type="1" />
+		<chgbg @l="719" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03a" type="99" />
+		<msg @l="721" char="1" flags="0" index="399" line="721" name="汐" text="「也变得足够大了……最后就用胸部充分地舒服一下吧？」" timeout="" voices="usi12991" />
+		<msg @l="723" char="1" flags="0" index="401" line="723" name="汐" text="「要用像是要将胸部融化的热热的欧○金多蹭蹭哦？」" timeout="" voices="usi12992" />
+		<play_sound @l="725" buf="5" fadeout="0" intro="0" src="usi80028" type="6" volume="1." />
+		<msg @l="726" char="11" flags="0" index="403" line="726" name="亮" text="「让胸部更进一步融化的话，怎么样呢」" timeout="" voices="" />
+		<msg @l="728" char="-1" flags="0" index="405" line="728" name="" text="明明稍微膨胀的现在是最完美的平衡。" timeout="" voices="" />
+		<play_sound @l="729" buf="5" fadeout="0" type="1" />
+		<msg @l="731" char="1" flags="0" index="407" line="731" name="汐" text="「嗯真是的，说那样的话。……意思是说喜欢欧○金喜欢到光是贴在一起就快要融化掉了的那种感觉」" timeout="" voices="usi12993" />
+		<msg @l="734" char="11" flags="0" index="409" line="734" name="亮" text="「我也是，喜欢到只是压在这小小的胸部上肉○就像要被融化掉了那样，最喜欢」" timeout="" voices="" />
+		<chgbg @l="739" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi06_03c" type="99" />
+		<goto script="汐_14_H2_1" />
+	</code>
+</xscript>

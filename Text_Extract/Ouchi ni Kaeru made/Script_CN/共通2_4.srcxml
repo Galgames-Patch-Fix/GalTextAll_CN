@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="5" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="6" duration="500" show="0" />
+		<chgbg @l="10" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg17a" type="99" />
+		<play_sound @l="11" buf="0" fadeout="500" intro="-1" src="bgm01" type="0" volume="1." />
+		<face src="f" />
+		<msg @l="13" char="11" flags="0" index="0" line="13" name="亮" text="「呼，这样就全都搬完了」" timeout="" voices="" />
+		<face src="" />
+		<msg @l="15" char="-1" flags="0" index="2" line="15" name="" text="我把采购到的各种各样的瓶装果汁搬到店里后，擦了擦额头上的汗水。" timeout="" voices="" />
+		<showmsg @l="20" duration="500" show="0" />
+		<scroll @l="22" async="-1" center_x="0" center_y="0" duration="1000" flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0." wait_flags="0" x="-45" y="45" zoom="1." />
+		<chgbg @l="23" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg07a" type="99" />
+		<face src="" />
+		<msg @l="27" char="-1" flags="0" index="4" line="27" name="" text="顺便一提，在搬运过程中和小静香没大没小地肌肤相亲仅仅是因为那个" timeout="" voices="" />
+		<face src="" />
+		<msg @l="28" char="-1" flags="0" index="6" line="28" name="" text="怎么说呢，只是像在逗小狗玩一样觉得很亲切而已，嗯嗯。" timeout="" voices="" />
+		<play_sound @l="30" buf="1" fadeout="0" intro="-1" src="se601" type="1" volume="1." />
+		<face src="f" />
+		<msg @l="31" char="11" flags="17" index="8" line="31" name="亮" text="「我一点也没有感到开心哦！　我才不是萝莉控！！」" timeout="" voices="" />
+		<shakescrn @l="32" amp="20" cycle="20" duration="500" flags="2" screen="0" />
+		<pause @l="33" flags="0" index="10" timeout="" />
+		<play_sound @l="35" buf="1" fadeout="0" type="1" />
+		<chgbs async="0" duration="0" priority="0" screen="0" src="mar06a" transparency="256" x="810" />
+		<waitbs @l="40" flags="0" screen="0" />
+		<movebs duration="800" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="960" y="0" />
+		<waitbs @l="41" flags="0" screen="0" />
+		<face src="fmar06a" />
+		<msg @l="43" char="5" flags="0" index="11" line="43" name="真铃" text="「哎呀哎呀，大清早的喊什么呢？」" timeout="" voices="mar00300" />
+		<face src="f" />
+		<msg @l="45" char="11" flags="0" index="13" line="45" name="亮" text="「对不起，给您和附近的人造成困扰了」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar02a" transparency="0" x="2147483648" />
+		<waitbs @l="47" flags="0" screen="0" />
+		<face src="fmar02a" />
+		<msg @l="48" char="5" flags="17" index="15" line="48" name="真铃" text="「这附近都是商店所以也谈不上什么困扰……啊，刚才还没看出来，你怎么汗流浃背的」" timeout="" voices="mar00301" />
+		<wait @l="51" flags="5" time="5600" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar06a" transparency="0" x="2147483648" />
+		<waitbs @l="52" flags="-2147483648" screen="0" />
+		<setface @l="53" src="fmar06a" />
+		<pause @l="56" flags="-2147483648" index="17" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="61" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="62" char="5" flags="0" index="18" line="62" name="真铃" text="「我去给你拿条毛巾，稍等一下哦」" timeout="" voices="mar00302" />
+		<movebs duration="800" flags="0" id="mar" rev="0." screen="0" transparency="256" v0="0." v1="0." x="810" y="0" />
+		<waitbs @l="64" flags="0" screen="0" />
+		<play_sound @l="70" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="71" duration="500" show="0" />
+		<scroll @l="72" async="-1" center_x="0" center_y="0" duration="1000" flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0." wait_flags="0" x="-45" y="0" zoom="1." />
+		<chgbg @l="73" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg17a" type="99" />
+		<play_sound @l="74" buf="0" fadeout="500" intro="-1" src="bgm02" type="0" volume="1." />
+		<face src="" />
+		<msg @l="76" char="-1" flags="0" index="20" line="76" name="" text="我一边用所泽阿姨借给我的毛巾擦着汗，一边告诉了她这几天的事情。" timeout="" voices="" />
+		<showmsg @l="82" duration="500" show="0" />
+		<scroll @l="84" async="-1" center_x="0" center_y="0" duration="1000" flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0." wait_flags="0" x="-45" y="45" zoom="1." />
+		<chgbg @l="85" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg07a" type="99" />
+		<loadimage @l="87" bg="0" fit="0" screen="1" src="bg07a" />
+		<chgbs async="0" duration="0" priority="0" screen="1" src="mar10a" transparency="0" x="960" />
+		<waitbs @l="88" flags="0" screen="1" />
+		<chgscrn @l="89" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<face src="fmar10a" />
+		<msg @l="91" char="5" flags="17" index="22" line="91" name="真铃" text="「原来是这样，你采购果汁的时候还顺便帮了小太一他们的忙啊」" timeout="" voices="mar00303" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="93" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="94" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="95" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="96" flags="0" screen="0" />
+		<pause @l="97" flags="0" index="24" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar09a" transparency="0" x="2147483648" />
+		<waitbs @l="99" flags="0" screen="0" />
+		<face src="fmar09a" />
+		<msg @l="100" char="5" flags="17" index="25" line="100" name="真铃" text="「一想到那些孩子们替他们的父亲开店，就担心得有些坐立不安。知道了有你去帮他们的忙让我放心了不少啊」" timeout="" voices="mar00304" />
+		<wait @l="103" flags="5" time="7200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar02a" transparency="0" x="2147483648" />
+		<waitbs @l="104" flags="-2147483648" screen="0" />
+		<setface @l="105" src="fmar02a" />
+		<pause @l="108" flags="-2147483648" index="27" timeout="" />
+		<face src="" />
+		<msg @l="112" char="-1" flags="0" index="28" line="112" name="" text="所泽阿姨苦笑着抚摸着胸口。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar15a" transparency="0" x="2147483648" />
+		<waitbs @l="114" flags="0" screen="0" />
+		<face src="fmar15a" />
+		<msg @l="115" char="5" flags="17" index="30" line="115" name="真铃" text="「说起来，你们还真想得出来这些各种各样的服务啊。小哥，这些全都是你的主意吗？」" timeout="" voices="mar00305" />
+		<wait @l="118" flags="5" time="5100" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar21a" transparency="0" x="2147483648" />
+		<waitbs @l="119" flags="-2147483648" screen="0" />
+		<setface @l="120" src="fmar21a" />
+		<pause @l="121" flags="-2147483648" index="32" timeout="" />
+		<face src="f" />
+		<msg @l="126" char="11" flags="0" index="33" line="126" name="亮" text="「是大家一起想出来的啦。我们只是一起考虑怎么才能把店开得更好」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="128" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="129" char="5" flags="17" index="35" line="129" name="真铃" text="「大家一起吗，那真不错啊。和大家一起齐心协力做点什么可是很了不起的」" timeout="" voices="mar00306" />
+		<movebs duration="100" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-50" />
+		<waitbs @l="130" flags="0" screen="0" />
+		<movebs duration="100" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="131" flags="0" screen="0" />
+		<pause @l="132" flags="0" index="37" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar02a" transparency="0" x="2147483648" />
+		<waitbs @l="134" flags="0" screen="0" />
+		<face src="fmar02a" />
+		<msg @l="135" char="5" flags="0" index="38" line="135" name="真铃" text="「所以最近小花音才每天都笑得那么开心啊」" timeout="" voices="mar00307" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="137" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="138" char="5" flags="17" index="40" line="138" name="真铃" text="「自从她的双亲亡故之后她一直都郁郁寡欢的，不过看她现在的样子应该可以放心了」" timeout="" voices="mar00308" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<waitbs @l="139" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="140" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<waitbs @l="141" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="142" flags="0" screen="0" />
+		<pause @l="143" flags="0" index="42" timeout="" />
+		<movebs duration="800" flags="0" id="mar" rev="0." screen="0" transparency="256" v0="0." v1="0." x="810" y="0" />
+		<waitbs @l="145" flags="0" screen="0" />
+		<face src="" />
+		<msg @l="147" char="-1" flags="0" index="43" line="147" name="" text="所泽阿姨满意地点几下头，回到了餐馆中。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="151" char="11" flags="0" index="45" line="151" name="亮" text="「所泽阿姨真是辛苦啊，既要想着酒铺还要担心蛋糕店的事情。简直就像这条商店街的母亲一样啊」" timeout="" voices="" />
+		<clr_allbs duration="200" screen="0" />
+		<waitbs @l="153" flags="0" screen="0" />
+		<chgbs async="0" duration="0" priority="0" screen="0" src="mar06a" transparency="256" x="810" />
+		<waitbs @l="158" flags="0" screen="0" />
+		<movebs duration="1000" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="960" y="0" />
+		<waitbs @l="159" flags="0" screen="0" />
+		<face src="fmar06a" />
+		<msg @l="160" char="5" flags="17" index="47" line="160" name="真铃" text="「啊，差点忘了」" timeout="" voices="mar00309" />
+		<emotion @l="161" id="mar" loop="1" screen="0" src="emotion_09" time="-1" type="mar_1" x="0" y="0" />
+		<pause @l="162" flags="0" index="49" timeout="" />
+		<clremt @l="163" id="mar" screen="0" />
+		<face src="" />
+		<msg @l="165" char="-1" flags="0" index="50" line="165" name="" text="所泽阿姨小跑着回来了。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="167" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="168" char="5" flags="0" index="52" line="168" name="真铃" text="「看你们那么努力，让我也想在自己的店里提供新的服务了」" timeout="" voices="mar00310" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar00a" transparency="0" x="2147483648" />
+		<waitbs @l="170" flags="0" screen="0" />
+		<face src="fmar00a" />
+		<msg @l="171" char="5" flags="0" index="54" line="171" name="真铃" text="「虽然我们这的顾客都是干体力活的，卖甜点可能不太合适。不过我想尝试一下在顾客吃完套餐之后给他们提供那种一口分量的蛋糕」" timeout="" voices="mar00311" />
+		<face src="f" />
+		<msg @l="173" char="11" flags="0" index="56" line="173" name="亮" text="「诶？　真的吗？」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar01a" transparency="0" x="2147483648" />
+		<waitbs @l="175" flags="0" screen="0" />
+		<face src="fmar01a" />
+		<msg @l="176" char="5" flags="17" index="58" line="176" name="真铃" text="「一口分量的蛋糕在饭后吃不是正合适吗？　啊，不过当然是有偿的而不是免费赠送的哦？」" timeout="" voices="mar00312" />
+		<wait @l="179" flags="5" time="3900" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="180" flags="-2147483648" screen="0" />
+		<setface @l="181" src="fmar10a" />
+		<pause @l="182" flags="-2147483648" index="60" timeout="" />
+		<face src="" />
+		<msg @l="186" char="-1" flags="0" index="61" line="186" name="" text="我正好在考虑怎么向做体力劳动的人推销我们的蛋糕，所泽阿姨的决定对我来说仿佛天上掉下来的馅饼一般。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="187" char="-1" flags="0" index="63" line="187" name="" text="能通过这种形式得到扩大试吃活动受众的机会，真是太幸运了。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="189" char="11" flags="0" index="65" line="189" name="亮" text="「您能选择我们的产品真是不胜感激」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar05a" transparency="0" x="2147483648" />
+		<waitbs @l="191" flags="0" screen="0" />
+		<face src="fmar05a" />
+		<msg @l="192" char="5" flags="17" index="67" line="192" name="真铃" text="「不用那样低头啦。我才是该道谢的那边」" timeout="" voices="mar00313" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="193" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="194" flags="0" screen="0" />
+		<emotion @l="195" id="mar" loop="1" screen="0" src="emotion_03" time="-1" type="mar_1" x="0" y="0" />
+		<pause @l="196" flags="0" index="69" timeout="" />
+		<clremt @l="197" id="mar" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar08a" transparency="0" x="2147483648" />
+		<waitbs @l="199" flags="0" screen="0" />
+		<face src="fmar08a" />
+		<msg @l="200" char="5" flags="0" index="70" line="200" name="真铃" text="「以前我能帮上花音的，也不过是我自己去多买几个蛋糕而已」" timeout="" voices="mar00314" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="201" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="202" char="5" flags="0" index="72" line="202" name="真铃" text="「不过，现在既然能做生意。那相互就不必客气了吧？」" timeout="" voices="mar00315" />
+		<face src="" />
+		<msg @l="204" char="-1" flags="0" index="74" line="204" name="" text="说着，她使了一个眼色。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="206" char="11" flags="0" index="76" line="206" name="亮" text="（哈哈，真是拿她没办法啊）" timeout="" voices="" />
+		<face src="" />
+		<msg @l="208" char="-1" flags="0" index="78" line="208" name="" text="多管闲事也需要把握好距离感。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="209" char="-1" flags="0" index="80" line="209" name="" text="我又一次对深明这个道理的所泽阿姨感到钦佩不已。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar15a" transparency="0" x="2147483648" />
+		<waitbs @l="211" flags="0" screen="0" />
+		<face src="fmar15a" />
+		<msg @l="212" char="5" flags="0" index="82" line="212" name="真铃" text="「不过，现在也只是先尝试一下，能否持续下去还是要看顾客们的评价」" timeout="" voices="mar00316" />
+		<face src="f" />
+		<msg @l="214" char="11" flags="0" index="84" line="214" name="亮" text="「评价肯定会很好的，我们店的蛋糕可是很美味的」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="mar10a" transparency="0" x="2147483648" />
+		<waitbs @l="216" flags="0" screen="0" />
+		<face src="fmar10a" />
+		<msg @l="217" char="5" flags="17" index="86" line="217" name="真铃" text="「啊哈哈，是吗，那我就收下这句话了」" timeout="" voices="mar00317" />
+		<emotion @l="218" id="mar" loop="1" screen="0" src="emotion_07" time="-1" type="mar_1" x="0" y="0" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="219" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="220" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="221" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="mar" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="222" flags="0" screen="0" />
+		<pause @l="223" flags="0" index="88" timeout="" />
+		<clremt @l="224" id="mar" screen="0" />
+		<face src="" />
+		<msg @l="226" char="-1" flags="0" index="89" line="226" name="" text="所泽阿姨放声大笑。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="227" char="-1" flags="0" index="91" line="227" name="" text="我被她洪亮的笑声所感染，也笑了起来。" timeout="" voices="" />
+		<play_sound @l="233" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="234" duration="500" show="0" />
+		<chgbg @l="235" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="black" type="201" />
+		<loadimage @l="236" bg="0" fit="0" screen="1" src="bg04a" />
+		<chgbs async="0" duration="0" priority="0" screen="1" src="usi01c" transparency="256" x="810" />
+		<waitbs @l="237" flags="0" screen="1" />
+		<chgscrn @l="238" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="201" />
+		<play_sound @l="239" buf="0" fadeout="500" intro="-1" src="bgm23" type="0" volume="1." />
+		<movebs duration="800" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="960" y="0" />
+		<waitbs @l="241" flags="0" screen="0" />
+		<face src="fusi01c" />
+		<msg @l="243" char="1" flags="17" index="93" line="243" name="汐" text="「早上好——！　嗯嗯，今天也一大早就在忙了呢」" timeout="" voices="usi00500" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="50" />
+		<waitbs @l="244" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="245" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="50" />
+		<waitbs @l="246" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="247" flags="0" screen="0" />
+		<pause @l="248" flags="0" index="95" timeout="" />
+		<face src="" />
+		<msg @l="250" char="-1" flags="0" index="96" line="250" name="" text="随口打完招呼之后，朝霞学姐急匆匆地打开了包。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02c" transparency="0" x="2147483648" />
+		<waitbs @l="252" flags="0" screen="0" />
+		<face src="fusi02c" />
+		<msg @l="253" char="1" flags="17" index="98" line="253" name="汐" text="「你在打扫卫生吧？　得提高点效率呢。姐姐喂你吃饭吧，来，张嘴\x;note:」" timeout="" voices="usi00501" />
+		<wait @l="255" flags="5" time="4400" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10cz" transparency="0" x="2147483648" />
+		<waitbs @l="256" flags="-2147483648" screen="0" />
+		<setface @l="257" src="fusi10c" />
+		<emotion @l="258" id="usi" loop="1" screen="0" src="emotion_06z" time="-1" type="usi_1z" x="0" y="0" />
+		<pause @l="261" flags="-2147483648" index="100" timeout="" />
+		<clremt @l="263" id="usi" screen="0" />
+		<face src="f" />
+		<msg @l="266" char="11" flags="0" index="101" line="266" name="亮" text="「啊呜。虽然我没多想就吃掉了，但不告诉我理由的话是不会领情的哦？」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04cz" transparency="0" x="2147483648" />
+		<waitbs @l="268" flags="0" screen="0" />
+		<face src="fusi04c" />
+		<msg @l="269" char="1" flags="17" index="103" line="269" name="汐" text="「我感觉你应该会喜欢肉卷饭团就做了，你不爱吃吗？」" timeout="" voices="usi00502" />
+		<wait @l="272" flags="5" time="3600" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08cz" transparency="0" x="2147483648" />
+		<waitbs @l="273" flags="-2147483648" screen="0" />
+		<setface @l="274" src="fusi08c" />
+		<pause @l="275" flags="-2147483648" index="105" timeout="" />
+		<face src="f" />
+		<msg @l="279" char="11" flags="0" index="106" line="279" name="亮" text="「超级好吃！　甜辣可口的肉和饱满的饭团调和成的绝妙美味馋得我肚子都咕咕叫了」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02cz" transparency="0" x="2147483648" />
+		<waitbs @l="281" flags="0" screen="0" />
+		<face src="fusi02c" />
+		<msg @l="282" char="1" flags="17" index="108" line="282" name="汐" text="「嘻嘻，太好了。今天我稍微有点来晚了。快，趁花音还没来赶紧吃完吧。来，张嘴——」" timeout="" voices="usi00503" />
+		<emotion @l="283" id="usi" loop="1" screen="0" src="emotion_06z" time="-1" type="usi_2z" x="0" y="0" />
+		<movebs duration="100" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-50" />
+		<waitbs @l="285" flags="0" screen="0" />
+		<movebs duration="100" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="286" flags="0" screen="0" />
+		<wait @l="289" flags="5" time="2800" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10cz" transparency="0" x="2147483648" />
+		<waitbs @l="290" flags="-2147483648" screen="0" />
+		<setface @l="291" src="fusi10c" />
+		<pause @l="292" flags="-2147483648" index="110" timeout="" />
+		<clremt @l="294" id="usi" screen="0" />
+		<face src="f" />
+		<msg @l="297" char="11" flags="17" index="111" line="297" name="亮" text="「所以先听我说！　啊呜，嗯。好吃——！！」" timeout="" voices="" />
+		<wait @l="299" flags="5" time="1500" />
+		<shakescrn @l="300" amp="20" cycle="20" duration="300" flags="2" screen="0" />
+		<pause @l="301" flags="-2147483648" index="113" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06cz" transparency="0" x="2147483648" />
+		<waitbs @l="304" flags="0" screen="0" />
+		<face src="fusi06c" />
+		<msg @l="305" char="1" flags="17" index="114" line="305" name="汐" text="「啊，想喝饮料了吧？　麦茶和果汁你想喝哪个？」" timeout="" voices="usi00504" />
+		<movebs duration="100" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-50" />
+		<waitbs @l="307" flags="0" screen="0" />
+		<movebs duration="100" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="308" flags="0" screen="0" />
+		<wait @l="310" flags="5" time="1800" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28cz" transparency="0" x="2147483648" />
+		<waitbs @l="311" flags="-2147483648" screen="0" />
+		<setface @l="312" src="fusi28c" />
+		<pause @l="313" flags="-2147483648" index="116" timeout="" />
+		<face src="f" />
+		<msg @l="316" char="11" flags="0" index="117" line="316" name="亮" text="「就我个人的想法，朝霞学姐的温柔是会把男人宠成废人的那种类型」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi27cz" transparency="0" x="2147483648" />
+		<waitbs @l="318" flags="0" screen="0" />
+		<face src="fusi27c" />
+		<msg @l="319" char="1" flags="17" index="119" line="319" name="汐" text="「谁会喜欢废柴啊！？」" timeout="" voices="usi00505" />
+		<play_sound @l="320" buf="1" fadeout="0" intro="-1" src="se601" type="1" volume="1." />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="321" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="322" flags="0" screen="0" />
+		<pause @l="323" flags="0" index="121" timeout="" />
+		<play_sound @l="324" buf="1" fadeout="0" type="1" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi25cz" transparency="0" x="2147483648" />
+		<waitbs @l="327" flags="0" screen="0" />
+		<face src="" />
+		<msg @l="328" char="-1" flags="17" index="122" line="328" name="" text="朝霞学姐一边吐槽，一边用手帕擦着我的嘴。" timeout="" voices="" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="330" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="331" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="332" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="333" flags="0" screen="0" />
+		<pause @l="334" flags="0" index="124" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10cz" transparency="0" x="2147483648" />
+		<waitbs @l="337" flags="0" screen="0" />
+		<face src="fusi10c" />
+		<msg @l="338" char="1" flags="17" index="125" line="338" name="汐" text="「啊，你看，嘴角都沾上米粒了。真是拿你这孩子没办法呢\x;hearts:」" timeout="" voices="usi00506" />
+		<emotion @l="339" id="usi" loop="1" screen="0" src="emotion_06z" time="-1" type="usi_1z" x="0" y="0" />
+		<pause @l="340" flags="0" index="127" timeout="" />
+		<clremt @l="341" id="usi" screen="0" />
+		<face src="" />
+		<msg @l="343" char="-1" flags="0" index="128" line="343" name="" text="怎么觉得我越来越接近废柴了？" timeout="" voices="" />
+		<face src="" />
+		<msg @l="344" char="-1" flags="0" index="130" line="344" name="" text="一定是我的错觉，嗯嗯。" timeout="" voices="" />
+		<play_sound @l="350" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="351" duration="500" show="0" />
+		<chgbg @l="353" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="black" type="201" />
+		<loadimage @l="354" bg="0" fit="0" screen="1" src="bg02a" />
+		<chgbs async="0" duration="0" priority="0" screen="1" src="usi11c" transparency="0" x="528" />
+		<waitbs @l="355" flags="0" screen="1" />
+		<chgbs async="0" duration="0" priority="0" screen="1" src="kan09c" transparency="256" x="1542" />
+		<waitbs @l="356" flags="0" screen="1" />
+		<chgscrn @l="357" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="201" />
+		<play_sound @l="359" buf="1" fadeout="0" intro="-1" src="se221" type="1" volume="1." />
+		<play_sound @l="361" buf="0" fadeout="500" intro="-1" src="bgm01" type="0" volume="1." />
+		<movebs duration="800" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="1392" y="0" />
+		<waitbs @l="363" flags="0" screen="0" />
+		<face src="fkan09c" />
+		<msg @l="364" char="0" flags="0" index="132" line="364" name="花音" text="「早上好——」" timeout="" voices="kan00600" />
+		<play_sound @l="366" buf="1" fadeout="0" type="1" />
+		<chgbs async="0" duration="200" priority="61442" screen="0" src="usi06c" transparency="0" x="2147483648" />
+		<waitbs @l="368" flags="0" screen="0" />
+		<face src="fusi06c" />
+		<msg @l="369" char="1" flags="17" index="134" line="369" name="汐" text="「咦？　你看起来好累啊，发生什么了？」" timeout="" voices="usi00507" />
+		<emotion @l="370" id="usi" loop="1" screen="0" src="emotion_15" time="-1" type="usi_1" x="0" y="0" />
+		<pause @l="371" flags="0" index="136" timeout="" />
+		<clremt @l="372" id="usi" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan04c" transparency="0" x="2147483648" />
+		<waitbs @l="374" flags="0" screen="0" />
+		<face src="fkan04c" />
+		<msg @l="375" char="0" flags="17" index="137" line="375" name="花音" text="「昨晚有点难受，没怎么睡好」" timeout="" voices="kan00601" />
+		<emotion @l="376" id="kan" loop="1" screen="0" src="emotion_11" time="-1" type="kan_3" x="0" y="0" />
+		<wait @l="378" flags="5" time="4800" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan09c" transparency="0" x="2147483648" />
+		<waitbs @l="379" flags="-2147483648" screen="0" />
+		<setface @l="380" src="fkan09c" />
+		<pause @l="381" flags="-2147483648" index="139" timeout="" />
+		<clremt @l="383" id="kan" screen="0" />
+		<face src="" />
+		<msg @l="385" char="-1" flags="0" index="140" line="385" name="" text="看来春日部同学心里也不是滋味。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="386" char="-1" flags="0" index="142" line="386" name="" text="虽然觉得昨晚已经巧妙地蒙混过关了，但事情大概不会这么简单。" timeout="" voices="" />
+		<chgbs @l="390" async="-1" duration="0" priority="61441" screen="0" src="jcc11a" transparency="256" x="1642" />
+		<play_sound @l="392" buf="1" fadeout="0" intro="-1" src="se221" type="1" volume="1." />
+		<lock @l="394" />
+		<movebs @l="395" duration="800" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="1492" y="0" />
+		<movebs @l="396" duration="800" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="960" y="0" />
+		<movebs duration="800" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="428" y="0" />
+		<waitbs @l="397" flags="0" screen="0" />
+		<face src="fjcc11a" />
+		<msg @l="399" char="4" flags="17" index="144" line="399" name="ＪＣ" text="「早啊——！　咦？　花音亲怎么一大早就垂头丧气的，发生什么事了吗？」" timeout="" voices="jei00400" />
+		<wait @l="402" flags="5" time="800" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc06a" transparency="0" x="2147483648" />
+		<waitbs @l="403" flags="-2147483648" screen="0" />
+		<setface @l="404" src="fjcc06a" />
+		<pause @l="407" flags="-2147483648" index="146" timeout="" />
+		<play_sound @l="410" buf="1" fadeout="0" type="1" />
+		<chgbs async="0" duration="200" priority="61443" screen="0" src="kan15c" transparency="0" x="2147483648" />
+		<waitbs @l="412" flags="0" screen="0" />
+		<face src="fkan15c" />
+		<msg @l="413" char="0" flags="17" index="147" line="413" name="花音" text="「也没发生什么特别的事……」" timeout="" voices="kan00602" />
+		<emotion @l="414" id="kan" loop="1" screen="0" src="emotion_03" time="-1" type="kan_2" x="0" y="0" />
+		<pause @l="415" flags="0" index="149" timeout="" />
+		<clremt @l="416" id="kan" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08c" transparency="0" x="2147483648" />
+		<waitbs @l="419" flags="0" screen="0" />
+		<face src="" />
+		<msg @l="421" char="-1" flags="0" index="150" line="421" name="" text="她说着瞄了我一眼。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan17c" transparency="0" x="2147483648" />
+		<waitbs @l="423" flags="0" screen="0" />
+		<face src="fkan17c" />
+		<msg @l="424" char="0" flags="17" index="152" line="424" name="花音" text="「诶嘿嘿」" timeout="" voices="kan00603" />
+		<emotion @l="425" id="kan" loop="1" screen="0" src="emotion_02" time="-1" type="kan_2" x="0" y="0" />
+		<pause @l="426" flags="0" index="154" timeout="" />
+		<clremt @l="427" id="kan" screen="0" />
+		<face src="" />
+		<msg @l="429" char="-1" flags="0" index="155" line="429" name="" text="她带着难以言表的忧郁表情看着我。" timeout="" voices="" />
+		<play_sound @l="431" buf="0" fadeout="500" intro="-1" src="bgm20" type="0" volume="1." />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc22a" transparency="0" x="2147483648" />
+		<waitbs @l="433" flags="0" screen="0" />
+		<face src="fjcc22a" />
+		<msg @l="434" char="4" flags="17" index="157" line="434" name="ＪＣ" text="「哦！？　原来是这样啊，话说花音亲你太见外了！」" timeout="" voices="jei00401" />
+		<emotion @l="435" id="jcc" loop="1" screen="0" src="emotion_10" time="-1" type="jcc_1" x="0" y="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="436" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="437" flags="0" screen="0" />
+		<wait @l="439" flags="5" time="2900" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc16a" transparency="0" x="2147483648" />
+		<waitbs @l="440" flags="-2147483648" screen="0" />
+		<setface @l="441" src="fjcc16a" />
+		<pause @l="442" flags="-2147483648" index="159" timeout="" />
+		<clremt @l="444" id="jcc" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06c" transparency="0" x="2147483648" />
+		<waitbs @l="447" flags="0" screen="0" />
+		<face src="fkan06c" />
+		<msg @l="448" char="0" flags="17" index="160" line="448" name="花音" text="「？？　什么事？」" timeout="" voices="kan00604" />
+		<emotion @l="449" id="kan" loop="1" screen="0" src="emotion_14" time="-1" type="kan_1" x="0" y="0" />
+		<pause @l="450" flags="0" index="162" timeout="" />
+		<clremt @l="451" id="kan" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc24a" transparency="0" x="2147483648" />
+		<waitbs @l="454" flags="0" screen="0" />
+		<face src="fjcc24a" />
+		<msg @l="455" char="4" flags="17" index="163" line="455" name="ＪＣ" text="「肯定就是那回事呗？　所以你才会露出那种表情吧。我懂！　我懂你那颗少女心！！」" timeout="" voices="jei00402" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="456" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="457" flags="0" screen="0" />
+		<wait @l="460" flags="5" time="2500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc16a" transparency="0" x="2147483648" />
+		<waitbs @l="461" flags="-2147483648" screen="0" />
+		<setface @l="462" src="fjcc16a" />
+		<pause @l="463" flags="-2147483648" index="165" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi13c" transparency="0" x="2147483648" />
+		<waitbs @l="468" flags="0" screen="0" />
+		<face src="fusi13c" />
+		<msg @l="469" char="1" flags="0" index="166" line="469" name="汐" text="「抱歉，我完全没懂」" timeout="" voices="usi00508" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc23a" transparency="0" x="2147483648" />
+		<waitbs @l="471" flags="0" screen="0" />
+		<face src="fjcc23a" />
+		<msg @l="472" char="4" flags="17" index="168" line="472" name="ＪＣ" text="「就是男女之间的那些事吧？　我超懂的！」" timeout="" voices="jei00403" />
+		<emotion @l="473" id="jcc" loop="1" screen="0" src="emotion_08" time="-1" type="jcc_1" x="0" y="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="474" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="475" flags="0" screen="0" />
+		<wait @l="478" flags="5" time="1500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc16a" transparency="0" x="2147483648" />
+		<waitbs @l="479" flags="-2147483648" screen="0" />
+		<setface @l="480" src="fjcc16a" />
+		<pause @l="485" flags="-2147483648" index="170" timeout="" />
+		<clremt @l="487" id="jcc" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan26c" transparency="0" x="2147483648" />
+		<waitbs @l="489" flags="0" screen="0" />
+		<face src="fkan26c" />
+		<msg @l="490" char="0" flags="17" index="171" line="490" name="花音" text="「咦——！？　你是不是误会了？」" timeout="" voices="kan00605" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="491" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="492" flags="0" screen="0" />
+		<pause @l="493" flags="0" index="173" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc24a" transparency="0" x="2147483648" />
+		<waitbs @l="495" flags="0" screen="0" />
+		<face src="fjcc24a" />
+		<msg @l="496" char="4" flags="17" index="174" line="496" name="ＪＣ" text="「啊！　要没时间了，我们一边换衣服一边听你说具体是怎么回事吧」" timeout="" voices="jei00404" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="497" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="498" flags="0" screen="0" />
+		<pause @l="499" flags="0" index="176" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan20c" transparency="0" x="2147483648" />
+		<waitbs @l="501" flags="0" screen="0" />
+		<face src="fkan20c" />
+		<msg @l="502" char="0" flags="17" index="177" line="502" name="花音" text="「我不是说过了吗，真的不是那回事啦」" timeout="" voices="kan00606" />
+		<emotion @l="504" id="kan" loop="1" screen="0" src="emotion_03" time="-1" type="kan_2" x="0" y="0" />
+		<pause @l="505" flags="0" index="179" timeout="" />
+		<clremt @l="506" id="kan" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc16a" transparency="0" x="2147483648" />
+		<waitbs @l="509" flags="0" screen="0" />
+		<face src="fjcc16a" />
+		<msg @l="510" char="4" flags="17" index="180" line="510" name="ＪＣ" text="「好了好了，在这里很难开口吧。既然是女孩子，就敞开心扉让恋爱的花朵绽放吧！！」" timeout="" voices="jei00405" />
+		<emotion @l="511" id="jcc" loop="1" screen="0" src="emotion_07" time="-1" type="jcc_1" x="0" y="0" />
+		<wait @l="513" flags="5" time="2700" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc24a" transparency="0" x="2147483648" />
+		<waitbs @l="514" flags="-2147483648" screen="0" />
+		<setface @l="515" src="fjcc24a" />
+		<pause @l="516" flags="-2147483648" index="182" timeout="" />
+		<clremt @l="518" id="jcc" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan26c" transparency="0" x="2147483648" />
+		<waitbs @l="521" flags="0" screen="0" />
+		<face src="fkan26c" />
+		<msg @l="522" char="0" flags="17" index="183" line="522" name="花音" text="「你怎么连眼神都变得闪闪发亮了啊——！？？」" timeout="" voices="kan00607" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="523" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="524" flags="0" screen="0" />
+		<movebs duration="800" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="1210" y="0" />
+		<waitbs @l="525" flags="0" screen="0" />
+		<pause @l="526" flags="0" index="185" timeout="" />
+		<lock @l="529" />
+		<movebs @l="530" duration="1000" flags="0" id="jcc" rev="0." screen="0" transparency="256" v0="0." v1="0." x="960" y="0" />
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0" transparency="256" v0="0." v1="0." x="810" y="0" />
+		<waitbs @l="531" flags="0" screen="0" />
+		<play_sound @l="533" buf="1" fadeout="0" intro="-1" src="se204" type="1" volume="1." />
+		<face src="" />
+		<msg @l="535" char="-1" flags="0" index="186" line="535" name="" text="春日部同学被兴奋的难以自已的ＪＣ小姐拽走了。" timeout="" voices="" />
+		<play_sound @l="537" buf="1" fadeout="0" type="1" />
+		<face src="f" />
+		<msg @l="541" char="11" flags="0" index="188" line="541" name="亮" text="「……」" timeout="" voices="" />
+		<lock @l="543" />
+		<clr_allbs @l="544" duration="200" screen="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi19c" transparency="0" x="428" />
+		<waitbs @l="545" flags="0" screen="0" />
+		<face src="fusi19c" />
+		<msg @l="546" char="1" flags="0" index="190" line="546" name="汐" text="「那个，虽然完全没懂不过我也去换衣服了哦」" timeout="" voices="usi00509" />
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0" transparency="256" v0="0." v1="0." x="278" y="0" />
+		<waitbs @l="547" flags="0" screen="0" />
+		<play_sound @l="548" buf="1" fadeout="0" intro="-1" src="se204" type="1" volume="1." />
+		<face src="" />
+		<msg @l="550" char="-1" flags="0" index="192" line="550" name="" text="我看着朝霞学姐的背影匆匆忙忙地消失在门后，开始做开店前的准备工作。" timeout="" voices="" />
+		<play_sound @l="551" buf="1" fadeout="0" type="1" />
+		<play_sound @l="559" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="560" duration="500" show="0" />
+		<chgbg @l="562" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg05a" type="99" />
+		<change_view @l="563" mode="1" sub="0" />
+		<loadimage @l="565" bg="0" fit="0" screen="1" src="bg05a" />
+		<chgbs async="0" duration="0" priority="61443" screen="1" src="kan06cz" transparency="0" x="960" />
+		<waitbs @l="566" flags="0" screen="1" />
+		<chgbs async="0" duration="0" priority="61442" screen="1" src="jcc16az" transparency="0" x="1492" />
+		<waitbs @l="567" flags="0" screen="1" />
+		<chgbs async="0" duration="0" priority="61441" screen="1" src="usi06cz" transparency="0" x="428" />
+		<waitbs @l="568" flags="0" screen="1" />
+		<chgscrn @l="569" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<play_sound @l="571" buf="0" fadeout="500" intro="-1" src="bgm22" type="0" volume="1." />
+		<face src="fjcc16a" />
+		<msg @l="573" char="4" flags="17" index="194" line="573" name="ＪＣ" text="「所以呢所以呢，到底发生什么了？」" timeout="" voices="jei00406" />
+		<emotion @l="574" id="jcc" loop="1" screen="0" src="emotion_07z" time="-1" type="jcc_1z" x="0" y="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="575" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="576" flags="0" screen="0" />
+		<pause @l="577" flags="0" index="196" timeout="" />
+		<clremt @l="578" id="jcc" screen="0" />
+		<face src="" />
+		<msg @l="580" char="-1" flags="0" index="197" line="580" name="" text="兴味盎然的ＪＣ小姐凑过来问道。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan25cz" transparency="0" x="2147483648" />
+		<waitbs @l="582" flags="0" screen="0" />
+		<face src="fkan25c" />
+		<msg @l="583" char="0" flags="0" index="199" line="583" name="花音" text="「真的什么都没发生，本来就是ＪＣ小姐误会了啊？」" timeout="" voices="kan00608" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc22az" transparency="0" x="2147483648" />
+		<waitbs @l="585" flags="0" screen="0" />
+		<face src="fjcc22a" />
+		<msg @l="586" char="4" flags="17" index="201" line="586" name="ＪＣ" text="「又来了……啊，难道真是误会了。我还以为肯定是表白那种男欢女爱之类的事呢」" timeout="" voices="jei00407" />
+		<wait @l="589" flags="5" time="1800" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="jcc15az" transparency="0" x="2147483648" />
+		<waitbs @l="590" flags="-2147483648" screen="0" />
+		<setface @l="591" src="fjcc15a" />
+		<pause @l="592" flags="-2147483648" index="203" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02cz" transparency="0" x="2147483648" />
+		<waitbs @l="596" flags="0" screen="0" />
+		<face src="fusi02c" />
+		<msg @l="597" char="1" flags="17" index="204" line="597" name="汐" text="「啊，这样啊，原来你们在说这个。不过，花音的表情确实有那种感觉？　被人误会也是没办法的事啦」" timeout="" voices="usi00510" />
+		<wait @l="600" flags="5" time="2500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04cz" transparency="0" x="2147483648" />
+		<waitbs @l="601" flags="-2147483648" screen="0" />
+		<setface @l="602" src="fusi04c" />
+		<pause @l="603" flags="-2147483648" index="206" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan06cz" transparency="0" x="2147483648" />
+		<waitbs @l="607" flags="0" screen="0" />
+		<face src="fkan06c" />
+		<msg @l="608" char="0" flags="0" index="207" line="608" name="花音" text="「我刚才是那种表情吗？」" timeout="" voices="kan00609" />
+		<lock @l="610" />
+		<chgbs @l="611" async="-1" duration="0" priority="0" screen="0" src="jcc24az" transparency="0" x="2147483648" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi25cz" transparency="0" x="2147483648" />
+		<waitbs @l="612" flags="0" screen="0" />
+		<face src="f" />
+		<msg @l="614" char="10" flags="17" index="209" line="614" name="汐・ＪＣ" text="「是啊是啊」" timeout="" voices="usi00511|jei00408" />
+		<lock @l="615" />
+		<movebs @l="616" duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<waitbs @l="617" flags="0" screen="0" />
+		<lock @l="619" />
+		<movebs @l="620" duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="621" flags="0" screen="0" />
+		<lock @l="623" />
+		<movebs @l="624" duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<waitbs @l="625" flags="0" screen="0" />
+		<lock @l="627" />
+		<movebs @l="628" duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<movebs duration="200" flags="0" id="jcc" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="629" flags="0" screen="0" />
+		<pause @l="631" flags="0" index="211" timeout="" />
+		<face src="" />
+		<msg @l="633" char="-1" flags="0" index="212" line="633" name="" text="虽然自己注意不到，但我好像一想到他就会不由自主地露出那种表情。" timeout="" voices="" />
+		<clr_allbs duration="500" screen="0" />
+		<waitbs @l="636" flags="0" screen="0" />
+		<effect @l="637" cycle="0" flags="16896" param="0" screen="0" type="9" />
+		<fade @l="638" async="-1" degree="150" duration="300" flags="16384" screen="0" wait_flags="0" />
+		<cinema @l="639" duration="300" mode="1" screen="0" />
+		<chgbs async="0" duration="300" priority="61340" screen="0" src="kan12cz" transparency="0" x="1392" />
+		<waitbs @l="640" flags="0" screen="0" />
+		<face src="fkan12c" />
+		<msg @l="642" char="0" flags="0" index="214" line="642" name="花音" text="（让你们两个这么担心我真是抱歉啦）" timeout="" voices="kan00610" />
+		<face src="" />
+		<msg @l="644" char="-1" flags="0" index="216" line="644" name="" text="虽然我不想说那些多余的话，但与其让她们担心，还不如全都告诉她们。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="645" char="-1" flags="0" index="218" line="645" name="" text="嗯，就这么办吧。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="61340" screen="0" src="kan08cz" transparency="0" x="2147483648" />
+		<waitbs @l="647" flags="0" screen="0" />
+		<face src="fkan08c" />
+		<msg @l="648" char="0" flags="0" index="220" line="648" name="花音" text="「其实，宫原君还在上学的时候曾经帮助过我」" timeout="" voices="kan00611" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan04cz" transparency="0" x="2147483648" />
+		<waitbs @l="650" flags="0" screen="0" />
+		<face src="fkan04c" />
+		<msg @l="651" char="0" flags="17" index="222" line="651" name="花音" text="「该说是他在间接地鼓励着我吗？　不过，这也只是我单方面的感觉而已」" timeout="" voices="kan00612" />
+		<wait @l="654" flags="5" time="3700" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan15cz" transparency="0" x="2147483648" />
+		<waitbs @l="655" flags="-2147483648" screen="0" />
+		<setface @l="656" src="fkan15c" />
+		<pause @l="657" flags="-2147483648" index="224" timeout="" />
+		<play_sound @l="660" buf="0" fadeout="4500" type="0" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan00cz" transparency="0" x="2147483648" />
+		<waitbs @l="661" flags="0" screen="0" />
+		<face src="fkan00c" />
+		<msg @l="662" char="0" flags="0" index="225" line="662" name="花音" text="「那是……我父亲他们刚刚去世的时候——」" timeout="" voices="kan00613" />
+		<showmsg @l="669" duration="500" show="0" />
+		<chgbg @l="670" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" src="white" type="6" />
+		<loadimage @l="672" bg="0" fit="0" screen="1" src="bg17a" />
+		<scrnfilter @l="673" duration="0" file="sepia.tct" screen="1" />
+		<chgscrn @l="674" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="6" />
+		<play_sound @l="676" buf="0" fadeout="500" intro="-1" src="bgm16" type="0" volume="1." />
+		<msg @l="680" char="-1" flags="0" index="227" line="680" name="" text="父亲以前的同事们来和我商量把店卖掉的事情。" timeout="" voices="" />
+		<msg @l="681" char="-1" flags="0" index="229" line="681" name="" text="幸运的是，我的父母给我留下了足以让我顺利地从学园毕业的存款。" timeout="" voices="" />
+		<msg @l="682" char="-1" flags="0" index="231" line="682" name="" text="他们说如果在此基础上再把店卖掉，得到的钱就能够支持我上大学，也能为我将来的发展提供帮助。" timeout="" voices="" />
+		<msg @l="684" char="0" flags="0" index="233" line="684" name="花音" text="「我知道他们劝我卖店是出于好意，也对他们很感激」" timeout="" voices="kan00614" />
+		<msg @l="686" char="-1" flags="0" index="235" line="686" name="" text="我也知道我应该让以往的生活方式告一段落。" timeout="" voices="" />
+		<msg @l="688" char="0" flags="0" index="237" line="688" name="花音" text="「我虽然知道他们说的对，但我实在不忍心卖掉这家充满了与父亲他们的回忆的小店，所以总也无法下定决心」" timeout="" voices="kan00615" />
+		<msg @l="690" char="-1" flags="0" index="239" line="690" name="" text="日子就这样在我的犹豫不决中一天天过去了。" timeout="" voices="" />
+		<showmsg @l="692" duration="500" show="0" />
+		<chgbg @l="693" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="white" type="99" />
+		<loadimage @l="695" bg="0" fit="0" screen="1" src="bg01a" />
+		<scrnfilter @l="696" duration="0" file="sepia.tct" screen="1" />
+		<chgscrn @l="697" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="99" />
+		<msg @l="699" char="0" flags="0" index="241" line="699" name="花音" text="「不过……有一天，商店街的会长来拜托我不要一直关着店门口的卷帘门」" timeout="" voices="kan00616" />
+		<msg @l="701" char="0" flags="0" index="243" line="701" name="花音" text="「尤其是最近商店街的顾客都被百货商场吸引走的情况下，让商店街仅有的顾客看到紧闭的卷帘门会让他们对商店街的印象进一步恶化」" timeout="" voices="kan00617" />
+		<msg @l="703" char="0" flags="0" index="245" line="703" name="花音" text="「他说就算不重新开业，至少也要把它租给别的商家」" timeout="" voices="kan00618" />
+		<msg @l="705" char="-1" flags="0" index="247" line="705" name="" text="而且，一直关着门的话也会对隔壁所泽阿姨的店造成影响。" timeout="" voices="" />
+		<msg @l="707" char="0" flags="0" index="249" line="707" name="花音" text="「所以我就想不管卖不卖东西，总之先把卷帘门打开」" timeout="" voices="kan00619" />
+		<msg @l="709" char="-1" flags="0" index="251" line="709" name="" text="不过一旦重新开店就需要缴纳维护费和税费，而这在销售额不容乐观的情况下十分困难。" timeout="" voices="" />
+		<msg @l="711" char="0" flags="0" index="253" line="711" name="花音" text="「我不想把店卖掉，但现实却十分残酷。就算我坚持自己的想法，却也无可奈何」" timeout="" voices="kan00620" />
+		<msg @l="713" char="0" flags="0" index="255" line="713" name="花音" text="「于是我就决定周末就去和父亲原来的同事商量卖店的事情」" timeout="" voices="kan00621" />
+		<msg @l="715" char="0" flags="0" index="257" line="715" name="花音" text="「——那个时候，我在学园偶然听到了宫原君和他的朋友们的谈话」" timeout="" voices="kan00622" />
+		<showmsg @l="722" duration="500" show="0" />
+		<chgbg @l="723" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" src="white" type="6" />
+		<loadimage @l="725" bg="0" fit="0" screen="1" src="bg29a" />
+		<scrnfilter @l="726" duration="0" file="sepia.tct" screen="1" />
+		<chgscrn @l="727" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="6" />
+		<msg @l="731" char="11" flags="0" index="259" line="731" name="亮" text="「你说你又有话想和我说，是什么事？」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="736" char="9" flags="0" index="261" line="736" name="？？" text="「我知道收养宫原的恩人去世了。可是，你现在到底是怎么回事！」" timeout="" voices="mome00000" />
+		<face src="kyu01c" />
+		<msg @l="741" char="9" flags="0" index="263" line="741" name="？？" text="「我可是希望你永远能够被我当成目标啊！」" timeout="" voices="mome00001" />
+		<msg @l="744" char="11" flags="17" index="265" line="744" name="亮" text="「你还是一如既往的热血啊！？」" timeout="" voices="" />
+		<shakescrn @l="745" amp="20" cycle="20" duration="300" flags="2" screen="0" />
+		<pause @l="746" flags="0" index="267" timeout="" />
+		<play_sound @l="747" buf="1" fadeout="0" type="1" />
+		<face src="kyu01c" />
+		<msg @l="751" char="9" flags="0" index="268" line="751" name="？？" text="「不管怎么说，我可一点也不想看到你现在这种任凭成绩下滑的窝囊样子！」" timeout="" voices="mome00002" />
+		<msg @l="754" char="11" flags="17" index="270" line="754" name="亮" text="「你还真是自说自话啊！？」" timeout="" voices="" />
+		<shakescrn @l="755" amp="20" cycle="20" duration="300" flags="2" screen="0" />
+		<pause @l="756" flags="0" index="272" timeout="" />
+		<face src="kyu01c" />
+		<msg @l="763" char="9" flags="0" index="273" line="763" name="？？" text="「又来了。你就真的那么受打击吗？」" timeout="" voices="mome00003" />
+		<msg @l="765" char="11" flags="0" index="275" line="765" name="亮" text="「我和爷爷出乎意料地意气相投。虽然大家都把他当成怪人，但对我来说他就像亲生父亲一样。当然会受打击了」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="770" char="9" flags="0" index="277" line="770" name="？？" text="「可是，你不是也因为那位祖父留下的欠款而不得不一直去打工，没法好好学习了吗」" timeout="" voices="mome00004" />
+		<face src="kyu01c" />
+		<msg @l="775" char="9" flags="0" index="279" line="775" name="？？" text="「前短时间的期末考试也是，一直以来都是第一名的你居然滑到了第十名」" timeout="" voices="mome00005" />
+		<msg @l="777" char="11" flags="0" index="281" line="777" name="亮" text="「啊，对了，还要恭喜你实现夙愿，考出第一名呢」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="781" char="9" flags="0" index="283" line="781" name="？？" text="「以这种方式获胜我可一点也高兴不起来！不打倒全力的你就毫无意义！」" timeout="" voices="mome00006" />
+		<msg @l="783" char="11" flags="0" index="285" line="783" name="亮" text="「就算我们都竭尽全力也是你的实力比较强，你就堂堂正正地感到自豪吧」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="787" char="9" flags="0" index="287" line="787" name="？？" text="「不可能！　宫原亮怎么可能只有这点实力，再拿出点劲头来啊」" timeout="" voices="mome00007" />
+		<msg @l="789" char="11" flags="0" index="289" line="789" name="亮" text="「我说啊，你也太热血了吧！？」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="793" char="9" flags="17" index="291" line="793" name="？？" text="「你全部的实力只有这点吗！！　\n:\h;80:\s;80:再拿出点干劲吧！！」\s:\h:" timeout="" voices="mome00008" />
+		<wait @l="796" flags="5" time="2800" />
+		<shakescrn @l="797" amp="20" cycle="20" duration="1000" flags="2" screen="0" />
+		<pause @l="798" flags="-2147483648" index="293" timeout="" />
+		<msg @l="802" char="11" flags="0" index="294" line="802" name="亮" text="「好好好，知道了知道了。欠的钱马上就要还完了，之后我会好好学习的」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="806" char="9" flags="0" index="296" line="806" name="？？" text="「话是这么说……可是你家的房子都被抵押了，你连个正经的能住的地方都没有。明明没有血缘关系却还要还他留下来的债」" timeout="" voices="mome00009" />
+		<face src="kyu01c" />
+		<msg @l="810" char="9" flags="0" index="298" line="810" name="？？" text="「收养你的那位祖父就像传言中一样不是什么正经人吧？　你还不如把那家伙留下来的欠款一笔勾销，过自己的生活呢」" timeout="" voices="mome00010" />
+		<msg @l="812" char="11" flags="0" index="300" line="812" name="亮" text="「……」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="816" char="9" flags="0" index="302" line="816" name="？？" text="「我也问过我当律师的父亲，他说这种债务只要在三个月以内放弃继承就会自动失效了」" timeout="" voices="mome00011" />
+		<face src="kyu01c" />
+		<msg @l="820" char="9" flags="0" index="304" line="820" name="？？" text="「所以我已经拜托父亲让他请认识的司法书记人帮你办手续了」" timeout="" voices="mome00012" />
+		<msg @l="822" char="11" flags="0" index="306" line="822" name="亮" text="「诶！？　已经开始办了？　等等你也太自作主张了吧！？」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="826" char="9" flags="0" index="308" line="826" name="？？" text="「既然是我自作主张，你也就不用担心委托费之类的问题啦」" timeout="" voices="mome00013" />
+		<msg @l="828" char="11" flags="0" index="310" line="828" name="亮" text="「等等，我想说的不是这个。我到底要怎么说你才听得懂啊？　我想想……」" timeout="" voices="" />
+		<msg @l="830" char="11" flags="0" index="312" line="830" name="亮" text="「爷爷确实留下了欠款。而我也因此活得很艰辛……但他还给我留下了其他重要的东西」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="834" char="9" flags="0" index="314" line="834" name="？？" text="「什么重要的东西？」" timeout="" voices="mome00014" />
+		<msg @l="836" char="11" flags="0" index="316" line="836" name="亮" text="「是我的人生观……说了你也听不懂」" timeout="" voices="" />
+		<msg @l="838" char="11" flags="0" index="318" line="838" name="亮" text="「总之，我把这些欠款也看作是我与故去爷爷的联系的一部分。要是把欠款都一笔勾销了，我关于爷爷的回忆也会一起消失的」" timeout="" voices="" />
+		<msg @l="840" char="11" flags="0" index="320" line="840" name="亮" text="「所以，虽然很感谢你特地为我做这些，但很抱歉能不能请你收手呢？」" timeout="" voices="" />
+		<face src="kyu01c" />
+		<msg @l="844" char="9" flags="0" index="322" line="844" name="？？" text="「唔——可是——」" timeout="" voices="mome00015" />
+		<msg @l="846" char="11" flags="0" index="324" line="846" name="亮" text="「这和有没有血缘关系无关。就算房子和器物都消失了，回忆也会一直留在我心中的……」" timeout="" voices="" />
+		<play_sound @l="852" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="853" duration="500" show="0" />
+		<chgbg @l="854" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" src="white" type="6" />
+		<loadimage @l="856" bg="0" fit="0" screen="1" src="bg05a" />
+		<chgbs async="0" duration="0" priority="61340" screen="1" src="kan00cz" transparency="0" x="1392" />
+		<waitbs @l="857" flags="0" screen="1" />
+		<chgscrn @l="858" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="6" />
+		<play_sound @l="860" buf="0" fadeout="500" intro="-1" src="bgm15" type="0" volume="1." />
+		<effect @l="862" cycle="0" flags="16896" param="0" screen="0" type="9" />
+		<fade @l="863" async="-1" degree="150" duration="300" flags="16384" screen="0" wait_flags="0" />
+		<cinema @l="864" duration="300" mode="1" screen="0" />
+		<face src="fkan00c" />
+		<msg @l="866" char="0" flags="0" index="326" line="866" name="花音" text="「——听到这句话，我有种恍然大悟的感觉」" timeout="" voices="kan00623" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11cz" transparency="0" x="2147483648" />
+		<waitbs @l="868" flags="0" screen="0" />
+		<face src="fkan11c" />
+		<msg @l="870" char="0" flags="0" index="328" line="870" name="花音" text="「宫原君即使背负着欠款，也能坚守自己心中的思念和回忆，积极地迈向前方」" timeout="" voices="kan00624" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan08cz" transparency="0" x="2147483648" />
+		<waitbs @l="871" flags="0" screen="0" />
+		<face src="fkan08c" />
+		<msg @l="872" char="0" flags="0" index="330" line="872" name="花音" text="「所以呢，我就产生了一种想像他一样活着的强烈愿望」" timeout="" voices="kan00625" />
+		<face src="fusi02c" />
+		<msg @l="875" char="1" flags="0" index="332" line="875" name="汐" text="「……所以你就想到要让这家店重新开业了啊」" timeout="" voices="usi00512" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10cz" transparency="0" x="2147483648" />
+		<waitbs @l="877" flags="0" screen="0" />
+		<face src="fkan10c" />
+		<msg @l="878" char="0" flags="17" index="334" line="878" name="花音" text="「嗯！　就是以此为契机我才注意到了小汐，然后决定让这家店重新开业」" timeout="" voices="kan00626" />
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="880" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="881" flags="0" screen="0" />
+		<pause @l="882" flags="0" index="336" timeout="" />
+		<face src="fusi06c" />
+		<msg @l="885" char="1" flags="0" index="337" line="885" name="汐" text="「诶！？　我？　我、我干了什么？」" timeout="" voices="usi00513" />
+		<play_sound @l="893" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="894" duration="500" show="0" />
+		<chgbg @l="895" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" src="white" type="6" />
+		<loadimage @l="896" bg="0" fit="0" screen="1" src="bg01a" />
+		<scrnfilter @l="897" duration="0" file="sepia.tct" screen="1" />
+		<chgbs async="0" duration="0" priority="61340" screen="1" src="kan00cz" transparency="0" x="1392" />
+		<waitbs @l="898" flags="0" screen="1" />
+		<chgscrn @l="899" duration="1500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="6" />
+		<play_sound @l="901" buf="0" fadeout="500" intro="-1" src="bgm31" type="0" volume="1." />
+		<effect @l="904" cycle="0" flags="16896" param="0" screen="0" type="9" />
+		<fade @l="905" async="-1" degree="150" duration="300" flags="16384" screen="0" wait_flags="0" />
+		<cinema @l="906" duration="300" mode="1" screen="0" />
+		<msg @l="908" char="0" flags="0" index="339" line="908" name="花音" text="「听到宫原君说话的那天晚上，我久违地路过店里时发现厨房的灯是亮着的」" timeout="" voices="kan00627" />
+		<msg @l="910" char="-1" flags="0" index="341" line="910" name="" text="我一边疑惑着“我明明关好门了，真奇怪”一边进到店里，就发现了穿着店里的制服的小汐。" timeout="" voices="" />
+		<showmsg @l="916" duration="500" show="0" />
+		<chgbg @l="917" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="white" type="201" />
+		<loadimage @l="918" bg="0" fit="0" screen="1" src="bg04a" />
+		<scrnfilter @l="919" duration="0" file="sepia.tct" screen="1" />
+		<chgbs async="0" duration="0" priority="0" screen="1" src="usi04bz" transparency="0" x="960" />
+		<waitbs @l="920" flags="0" screen="1" />
+		<chgscrn @l="921" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" type="201" />
+		<msg @l="923" char="1" flags="0" index="343" line="923" name="汐" text="「这样还不行……得把海绵蛋糕的纹理再做得细一点」" timeout="" voices="usi00514" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi09bz" transparency="0" x="2147483648" />
+		<waitbs @l="925" flags="0" screen="0" />
+		<msg @l="926" char="1" flags="17" index="345" line="926" name="汐" text="「这种奶油也不行，叔叔做的蛋糕比这个更甜，口感也更顺滑，和我做的完全不一样……」" timeout="" voices="usi00515" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="30" />
+		<waitbs @l="927" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="928" flags="0" screen="0" />
+		<pause @l="929" flags="0" index="347" timeout="" />
+		<lock @l="932" />
+		<chgbs @l="933" async="-1" duration="0" priority="61441" screen="0" src="usi04bz" transparency="0" x="960" />
+		<chgbs async="0" duration="0" priority="61442" screen="0" src="kan06cz" transparency="256" x="1617" />
+		<waitbs @l="934" flags="0" screen="0" />
+		<lock @l="936" />
+		<movebs @l="937" duration="1000" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="528" y="0" />
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="1392" y="0" />
+		<waitbs @l="938" flags="0" screen="0" />
+		<msg @l="940" char="0" flags="0" index="348" line="940" name="花音" text="「小汐？　你在这做什么呢？」" timeout="" voices="kan00628" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06bz" transparency="0" x="2147483648" />
+		<waitbs @l="942" flags="0" screen="0" />
+		<msg @l="944" char="1" flags="17" index="350" line="944" name="汐" text="「啊，花音！　抱歉！！」" timeout="" voices="usi00516" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="946" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="947" flags="0" screen="0" />
+		<wait @l="949" flags="5" time="200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04bz" transparency="0" x="2147483648" />
+		<waitbs @l="950" flags="-2147483648" screen="0" />
+		<pause @l="952" flags="-2147483648" index="352" timeout="" />
+		<msg @l="955" char="-1" flags="0" index="353" line="955" name="" text="她突然深深地向我低头道歉，让我有些不知所措。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan11cz" transparency="0" x="2147483648" />
+		<waitbs @l="957" flags="0" screen="0" />
+		<msg @l="958" char="0" flags="17" index="355" line="958" name="花音" text="「你是为擅自进来道歉吗？　那没关系的啦」" timeout="" voices="kan00629" />
+		<wait @l="960" flags="5" time="3400" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02cz" transparency="0" x="2147483648" />
+		<waitbs @l="961" flags="-2147483648" screen="0" />
+		<pause @l="963" flags="-2147483648" index="357" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08bz" transparency="0" x="2147483648" />
+		<waitbs @l="966" flags="0" screen="0" />
+		<msg @l="967" char="1" flags="17" index="358" line="967" name="汐" text="「无论我做几次、怎么做都做不出叔叔做的蛋糕的味道，所以……抱歉」" timeout="" voices="usi00517" />
+		<wait @l="969" flags="5" time="6400" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi12bz" transparency="0" x="2147483648" />
+		<waitbs @l="970" flags="-2147483648" screen="0" />
+		<pause @l="972" flags="-2147483648" index="360" timeout="" />
+		<msg @l="977" char="-1" flags="0" index="361" line="977" name="" text="我对超出我预料的回答感到有些困惑，但还是继续着对话。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan04cz" transparency="0" x="2147483648" />
+		<waitbs @l="979" flags="0" screen="0" />
+		<msg @l="980" char="0" flags="0" index="363" line="980" name="花音" text="「莫非你最近没来上学的时候都呆在这里？」" timeout="" voices="kan00630" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi15bz" transparency="0" x="2147483648" />
+		<waitbs @l="982" flags="0" screen="0" />
+		<msg @l="983" char="1" flags="0" index="365" line="983" name="汐" text="「嗯，因为，我除了做蛋糕，就没有别的可以为你做的事了」" timeout="" voices="usi00518" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04bz" transparency="0" x="2147483648" />
+		<waitbs @l="986" flags="0" screen="0" />
+		<msg @l="988" char="-1" flags="0" index="367" line="988" name="" text="小汐眼里含着不甘心的泪水拼命地搅拌着奶油。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi00bz" transparency="0" x="2147483648" />
+		<waitbs @l="990" flags="0" screen="0" />
+		<msg @l="991" char="1" flags="17" index="369" line="991" name="汐" text="「你一直那么消沉，所以我想着要是给你做蛋糕吃你说不定就能像以前一样打起精神来了……可是我怎么也做不好」" timeout="" voices="usi00519" />
+		<wait @l="994" flags="5" time="7200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04bz" transparency="0" x="2147483648" />
+		<waitbs @l="995" flags="-2147483648" screen="0" />
+		<pause @l="997" flags="-2147483648" index="371" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi03bz" transparency="0" x="2147483648" />
+		<waitbs @l="1000" flags="0" screen="0" />
+		<msg @l="1001" char="1" flags="0" index="372" line="1001" name="汐" text="「我明明一直把自己当成姐姐，到了这种关键的时候却什么也做不到，真是不配称为姐姐了」" timeout="" voices="usi00520" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan30cz" transparency="0" x="2147483648" />
+		<waitbs @l="1003" flags="0" screen="0" />
+		<msg @l="1004" char="0" flags="0" index="374" line="1004" name="花音" text="「小汐……」" timeout="" voices="kan00631" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi26bz" transparency="0" x="2147483648" />
+		<waitbs @l="1006" flags="0" screen="0" />
+		<msg @l="1007" char="1" flags="0" index="376" line="1007" name="汐" text="「我明明想让你露出笑脸、打起精神来，却什么也做不到。我这个姐姐这么失败，真是抱歉……」" timeout="" voices="usi00521" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi18bz" transparency="0" x="2147483648" />
+		<waitbs @l="1010" flags="0" screen="0" />
+		<msg @l="1011" char="1" flags="17" index="378" line="1011" name="汐" text="「无论做多少次，我都没法再现叔叔做的蛋糕的味道……对不起，真的对不起」" timeout="" voices="usi00522" />
+		<wait @l="1014" flags="5" time="4200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi03bz" transparency="0" x="2147483648" />
+		<waitbs @l="1015" flags="-2147483648" screen="0" />
+		<pause @l="1017" flags="-2147483648" index="380" timeout="" />
+		<msg @l="1021" char="-1" flags="0" index="381" line="1021" name="" text="小汐再也无法控制自己的泪水，晶莹的泪珠接连滑过她的脸庞。" timeout="" voices="" />
+		<msg @l="1022" char="-1" flags="0" index="383" line="1022" name="" text="——那时我终于注意到了。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan14cz" transparency="0" x="2147483648" />
+		<waitbs @l="1024" flags="0" screen="0" />
+		<msg @l="1025" char="0" flags="17" index="385" line="1025" name="花音" text="「啊！　小汐，你的手都皲裂发红了」" timeout="" voices="kan00632" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="1026" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="1027" flags="0" screen="0" />
+		<pause @l="1028" flags="0" index="387" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi26bz" transparency="0" x="2147483648" />
+		<waitbs @l="1030" flags="0" screen="0" />
+		<msg @l="1031" char="1" flags="17" index="388" line="1031" name="汐" text="「嗯，这都无所谓的」" timeout="" voices="usi00523" />
+		<pause @l="1032" flags="0" index="390" timeout="" />
+		<msg @l="1034" char="-1" flags="0" index="391" line="1034" name="" text="她慌忙藏起来的红肿指尖上密布着无数细小的伤痕。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan17cz" transparency="0" x="2147483648" />
+		<waitbs @l="1036" flags="0" screen="0" />
+		<msg @l="1037" char="0" flags="17" index="393" line="1037" name="花音" text="「这可不行，不赶紧处理伤口的话会恶化的！ 现在可不是做蛋糕的时候！」" timeout="" voices="kan00633" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="1038" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="1039" flags="0" screen="0" />
+		<pause @l="1040" flags="0" index="395" timeout="" />
+		<msg @l="1042" char="-1" flags="0" index="396" line="1042" name="" text="仔细一看，她不仅仅是手皲裂了。她显得有些消瘦，眼睛下面垂着眼袋，连头发都梳得十分杂乱。" timeout="" voices="" />
+		<msg @l="1043" char="-1" flags="0" index="398" line="1043" name="" text="平时那么漂亮的小汐就为了给我做蛋糕而变得这么狼狈——" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan03cz" transparency="0" x="2147483648" />
+		<waitbs @l="1045" flags="0" screen="0" />
+		<msg @l="1046" char="0" flags="0" index="400" line="1046" name="花音" text="「对不起……我完全没注意到小汐为了我劳累成这样……」" timeout="" voices="kan00634" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06bz" transparency="0" x="2147483648" />
+		<waitbs @l="1048" flags="0" screen="0" />
+		<msg @l="1049" char="1" flags="17" index="402" line="1049" name="汐" text="「为、为什么花音要哭啊！？」" timeout="" voices="usi00524" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="1050" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="1051" flags="0" screen="0" />
+		<pause @l="1052" flags="0" index="404" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan18cz" transparency="0" x="2147483648" />
+		<waitbs @l="1054" flags="0" screen="0" />
+		<msg @l="1055" char="0" flags="0" index="405" line="1055" name="花音" text="「对不起，我光顾着考虑自己的那些事情，却完全没有考虑过小汐的心情」" timeout="" voices="kan00635" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04bz" transparency="0" x="2147483648" />
+		<waitbs @l="1057" flags="0" screen="0" />
+		<msg @l="1058" char="1" flags="17" index="407" line="1058" name="汐" text="「你不用在意我的心情的。这些都只是我自作主张地做的。 所以请别再哭了，好吗？」" timeout="" voices="usi00525" />
+		<wait @l="1061" flags="5" time="8200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi26bz" transparency="0" x="2147483648" />
+		<waitbs @l="1062" flags="-2147483648" screen="0" />
+		<pause @l="1064" flags="-2147483648" index="409" timeout="" />
+		<showmsg @l="1077" duration="500" show="0" />
+		<loadimage @l="1079" bg="0" fit="0" screen="1" src="evusi10_01a" />
+		<scroll @l="1080" async="0" center_x="286" center_y="180" duration="0" flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0." wait_flags="0" x="0" y="0" zoom="1.5" />
+		<chgscrn @l="1081" duration="1000" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="3" />
+		<scroll @l="1083" async="-1" center_x="45" center_y="45" duration="2500" flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0." wait_flags="0" x="0" y="0" zoom="1." />
+		<chgbg @l="1084" duration="2500" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01a" type="99" />
+		<msg @l="1088" char="-1" flags="0" index="410" line="1088" name="" text="小汐使劲踮起脚尖，用额头轻轻地碰了碰我的额头。" timeout="" voices="" />
+		<msg @l="1089" char="-1" flags="0" index="412" line="1089" name="" text="就像测体温时的动作一样。小汐的温暖与柔情从那一点流遍了我的全身，直到内心深处。" timeout="" voices="" />
+		<chgbg @l="1095" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01d" type="99" />
+		<msg @l="1096" char="1" flags="0" index="414" line="1096" name="汐" text="「现在我能为你做的只有这个，但总有一天我会做出和叔叔做的味道一样的蛋糕给你吃的……所以笑一个吧？　好吗？」" timeout="" voices="usi00526" />
+		<msg @l="1098" char="0" flags="0" index="416" line="1098" name="花音" text="「呜。嗯、嗯……」" timeout="" voices="kan00636" />
+		<msg @l="1100" char="1" flags="0" index="418" line="1100" name="汐" text="「为了让你露出笑容，姐姐什么都愿意做」" timeout="" voices="usi00527" />
+		<chgbg @l="1102" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01b" type="99" />
+		<msg @l="1104" char="-1" flags="0" index="420" line="1104" name="" text="小时候我每次哭泣，小汐就会给我小点心来安慰我。于是就这样她开始在我们家的店里打工。" timeout="" voices="" />
+		<msg @l="1105" char="-1" flags="0" index="422" line="1105" name="" text="在那段漫长的时光里，父亲、母亲、我和小汐就像真正的一家人一样生活在一起。" timeout="" voices="" />
+		<msg @l="1106" char="-1" flags="0" index="424" line="1106" name="" text="所以她明明应该和我一样在父母去世后感到悲伤、感到寂寞。" timeout="" voices="" />
+		<msg @l="1108" char="0" flags="0" index="426" line="1108" name="花音" text="（但她却把我的心情放在第一位，为了我做出了这么大的努力——）" timeout="" voices="kan00637" />
+		<chgbg @l="1111" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01c" type="99" />
+		<msg @l="1113" char="0" flags="0" index="428" line="1113" name="花音" text="「我……我却狭隘地以为自己很孤单」" timeout="" voices="kan00638" />
+		<msg @l="1115" char="0" flags="0" index="430" line="1115" name="花音" text="「明明这么可靠的姐姐一直陪在我身边」" timeout="" voices="kan00639" />
+		<msg @l="1117" char="-1" flags="0" index="432" line="1117" name="" text="小汐用皲裂的手温柔地抱着用哭声表达着对她的感情的我。" timeout="" voices="" />
+		<chgbg @l="1119" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01a" type="99" />
+		<msg @l="1121" char="1" flags="0" index="434" line="1121" name="汐" text="「我会一直陪在你身边的，所以，露出笑容吧。只要你露出笑容，姐姐就能变得更坚强」" timeout="" voices="usi00528" />
+		<msg @l="1123" char="-1" flags="0" index="436" line="1123" name="" text="她抬起仍带着泪痕的脸庞，注视着我。" timeout="" voices="" />
+		<msg @l="1124" char="-1" flags="0" index="438" line="1124" name="" text="我回应着小汐的心情，露出了最灿烂的笑容。" timeout="" voices="" />
+		<msg @l="1126" char="0" flags="0" index="440" line="1126" name="花音" text="「呜……诶嘿嘿。小汐，你鼻涕都流出来了哦……和平时的你一点也不像，感觉好奇怪呢」" timeout="" voices="kan00640" />
+		<msg @l="1128" char="1" flags="0" index="442" line="1128" name="汐" text="「啊哈哈，花音的眼睛不也变得又红又肿了吗……嘻嘻，就像兔子一样呢」" timeout="" voices="usi00529" />
+		<msg @l="1130" char="0" flags="0" index="444" line="1130" name="花音" text="「我是兔子小姐蹦，是来给小汐鼓劲的蹦！　呜……呜呜，所以，小汐也笑一个蹦！ 诶嘿嘿、诶嘿嘿嘿」" timeout="" voices="kan00641" />
+		<msg @l="1132" char="1" flags="0" index="446" line="1132" name="汐" text="「嘻嘻……嗯，也是呢……姐姐也会笑的，哈哈……啊哈哈」" timeout="" voices="usi00530" />
+		<chgbg @l="1138" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evusi10_01b" type="99" />
+		<msg @l="1140" char="10" flags="0" index="448" line="1140" name="２人" text="《花音》「诶嘿嘿嘿」\n:《汐》「啊哈哈哈」" timeout="" voices="kan00642|usi00531" />
+		<msg @l="1142" char="-1" flags="0" index="450" line="1142" name="" text="我们用仍然涕泗纵横的脸欢笑着。" timeout="" voices="" />
+		<msg @l="1143" char="-1" flags="0" index="452" line="1143" name="" text="哭了又笑，笑了又哭——" timeout="" voices="" />
+		<msg @l="1144" char="-1" flags="0" index="454" line="1144" name="" text="我不知道我们这样重复了多少次。不知不觉间，泪水已经干涸，我们又带着明快的表情看向了前方。" timeout="" voices="" />
+		<play_sound @l="1146" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="1147" duration="500" show="0" />
+		<chgbg @l="1148" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="white" type="99" />
+		<goto script="共通2_4_1" />
+	</code>
+</xscript>

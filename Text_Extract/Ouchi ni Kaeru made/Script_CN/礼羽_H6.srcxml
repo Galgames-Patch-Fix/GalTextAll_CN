@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="12" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="13" duration="500" show="0" />
+		<chgbg @l="14" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="black" type="201" />
+		<chgbg @l="15" duration="1000" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="bg04a" type="201" />
+		<play_sound @l="16" buf="0" fadeout="500" intro="-1" src="bgm25" type="0" volume="1." />
+		<face src="" />
+		<msg @l="18" char="-1" flags="0" index="0" line="18" name="" text="——今日休假。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="19" char="-1" flags="0" index="2" line="19" name="" text="因为礼羽想练习制作点心，我便随她一起到店里了。" timeout="" voices="" />
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai04h" transparency="256" x="810" />
+		<waitbs @l="21" flags="0" screen="0" />
+		<face src="frai04h" />
+		<msg @l="22" char="3" flags="17" index="4" line="22" name="礼羽" text="「不好意思，让你陪着我」" timeout="" voices="rai17500" />
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="960" y="0" />
+		<waitbs @l="23" flags="0" screen="0" />
+		<pause @l="24" flags="0" index="6" timeout="" />
+		<face src="f" />
+		<msg @l="26" char="11" flags="0" index="7" line="26" name="亮" text="「只要能帮到礼羽，怎么都行」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02h" transparency="0" x="2147483648" />
+		<waitbs @l="28" flags="0" screen="0" />
+		<face src="frai02h" />
+		<msg @l="29" char="3" flags="17" index="9" line="29" name="礼羽" text="「哈哈，真温柔呢。谢谢」" timeout="" voices="rai17501" />
+		<emotion @l="30" id="rai" loop="1" screen="0" src="emotion_06" time="-1" type="rai_2" x="0" y="0" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="45" />
+		<waitbs @l="31" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="32" flags="0" screen="0" />
+		<pause @l="33" flags="0" index="11" timeout="" />
+		<clremt @l="34" id="rai" screen="0" />
+		<face src="" />
+		<msg @l="36" char="-1" flags="0" index="12" line="36" name="" text="虽然她向我道谢了，但这与其说是为了她，不如说也是为了我吧。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="37" char="-1" flags="0" index="14" line="37" name="" text="上班的时候我一般都在前台工作，所以很少有机会像这样好好看着她做蛋糕。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="38" char="-1" flags="0" index="16" line="38" name="" text="当然，能待在她身边也是理由之一。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01h" transparency="0" x="2147483648" />
+		<waitbs @l="40" flags="0" screen="0" />
+		<face src="frai01h" />
+		<msg @l="41" char="3" flags="0" index="18" line="41" name="礼羽" text="「今天的工作我一个人就能完成啦，你就在那儿看着吧」" timeout="" voices="rai17502" />
+		<face src="" />
+		<msg @l="43" char="-1" flags="0" index="20" line="43" name="" text="说话的同时她突然挺直腰杆，用优美的动作非常流畅地进行作业。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="44" char="-1" flags="0" index="22" line="44" name="" text="刚把搅拌好奶油的碗放在工作台上，她便立刻开始准备制作面团了。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="46" char="11" flags="0" index="24" line="46" name="亮" text="「话说回来，还是去拜托朝霞学姐来当助手比较好吧？　毕竟我连试吃都做不到」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00h" transparency="0" x="2147483648" />
+		<waitbs @l="48" flags="0" screen="0" />
+		<face src="frai00h" />
+		<msg @l="49" char="3" flags="17" index="26" line="49" name="礼羽" text="「不—不—不。那可不行哦—。最近汐不是进步得相当快吗？」" timeout="" voices="rai17503" />
+		<wait @l="52" flags="5" time="2000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h" transparency="0" x="2147483648" />
+		<waitbs @l="53" flags="-2147483648" screen="0" />
+		<setface @l="54" src="frai11h" />
+		<pause @l="55" flags="-2147483648" index="28" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27h" transparency="0" x="2147483648" />
+		<waitbs @l="58" flags="0" screen="0" />
+		<face src="frai27h" />
+		<msg @l="59" char="3" flags="17" index="29" line="59" name="礼羽" text="「难得她在以我为目标，我要是不努力的话肯定会让她失望吧。说笑的」" timeout="" voices="rai17504" />
+		<wait @l="62" flags="5" time="7000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25h" transparency="0" x="2147483648" />
+		<waitbs @l="63" flags="-2147483648" screen="0" />
+		<setface @l="64" src="frai25h" />
+		<pause @l="65" flags="-2147483648" index="31" timeout="" />
+		<face src="f" />
+		<msg @l="68" char="11" flags="0" index="32" line="68" name="亮" text="「所以才来特训吗？但你现在不是世界第一吗，不用努力也没关系吧」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai07h" transparency="0" x="2147483648" />
+		<waitbs @l="70" flags="0" screen="0" />
+		<face src="frai07h" />
+		<msg @l="71" char="3" flags="0" index="34" line="71" name="礼羽" text="「骄傲使人落后啊。如果一直沉浸于现在的荣誉的话——」" timeout="" voices="rai17505" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai13h" transparency="0" x="2147483648" />
+		<waitbs @l="73" flags="0" screen="0" />
+		<face src="frai13h" />
+		<msg @l="74" char="3" flags="0" index="36" line="74" name="礼羽" text="「就会马上被后面的人追上来，一转眼就是过去的人了」" timeout="" voices="rai17506" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai09h" transparency="0" x="2147483648" />
+		<waitbs @l="76" flags="0" screen="0" />
+		<face src="frai09h" />
+		<msg @l="77" char="3" flags="0" index="38" line="77" name="礼羽" text="「而且要是手艺生疏了，客人也会渐渐减少，销售额也会下降，导致这家店业绩不佳」" timeout="" voices="rai17507" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27h" transparency="0" x="2147483648" />
+		<waitbs @l="79" flags="0" screen="0" />
+		<face src="frai27h" />
+		<msg @l="80" char="3" flags="17" index="40" line="80" name="礼羽" text="「不懈的努力才是生意兴隆的秘诀。而且其实我也想为这家店多做些贡献」" timeout="" voices="rai17508" />
+		<wait @l="83" flags="5" time="4500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h" transparency="0" x="2147483648" />
+		<waitbs @l="84" flags="-2147483648" screen="0" />
+		<setface @l="85" src="frai22h" />
+		<pause @l="86" flags="-2147483648" index="42" timeout="" />
+		<face src="" />
+		<msg @l="89" char="-1" flags="0" index="43" line="89" name="" text="但我觉得她已经付出很多了。从斯普尼尔时代开始产生的礼羽粉丝，现在也因她而慕名来到这家店。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="90" char="-1" flags="0" index="45" line="90" name="" text="无论是在广告效果还是店铺规格方面，已经没有比她更可靠的战力了。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01h" transparency="0" x="2147483648" />
+		<waitbs @l="92" flags="0" screen="0" />
+		<face src="frai01h" />
+		<msg @l="93" char="3" flags="17" index="47" line="93" name="礼羽" text="「然后这些就是我买来的材料哦！」" timeout="" voices="rai17509" />
+		<wait @l="96" flags="5" time="2000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h" transparency="0" x="2147483648" />
+		<waitbs @l="97" flags="-2147483648" screen="0" />
+		<setface @l="98" src="frai10h" />
+		<wait @l="100" flags="5" time="500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai16h" transparency="0" x="2147483648" />
+		<waitbs @l="101" flags="-2147483648" screen="0" />
+		<setface @l="102" src="frai16h" />
+		<emotion @l="103" id="rai" loop="1" screen="0" src="emotion_19" time="-1" type="rai_1" x="0" y="0" />
+		<pause @l="104" flags="-2147483648" index="49" timeout="" />
+		<clremt @l="106" id="rai" screen="0" />
+		<face src="" />
+		<msg @l="108" char="-1" flags="0" index="50" line="108" name="" text="她把买来的一堆装着食材的袋子放在了桌子上。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="109" char="-1" flags="0" index="52" line="109" name="" text="松茸、咸鱼肉、可乐饼、生鱼片，反正都是些不明白选择标准的东西。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="111" char="11" flags="17" index="54" line="111" name="亮" text="「你刚才从哪儿拿出来的！？」" timeout="" voices="" />
+		<shakescrn @l="112" amp="20" cycle="20" duration="500" flags="2" screen="0" />
+		<pause @l="113" flags="0" index="56" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h" transparency="0" x="2147483648" />
+		<waitbs @l="115" flags="0" screen="0" />
+		<face src="frai22h" />
+		<msg @l="116" char="3" flags="17" index="57" line="116" name="礼羽" text="「呵呵，一流的西点师从准备阶段就是一流的」" timeout="" voices="rai17510" />
+		<emotion @l="117" id="rai" loop="1" screen="0" src="emotion_06" time="-1" type="rai_1" x="0" y="0" />
+		<pause @l="118" flags="0" index="59" timeout="" />
+		<clremt @l="119" id="rai" screen="0" />
+		<face src="" />
+		<msg @l="121" char="-1" flags="0" index="60" line="121" name="" text="结果还是没问出她是从哪儿拿出来的，而这些东西看上去好像也不是店里的在库食材。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="122" char="-1" flags="0" index="62" line="122" name="" text="而且这些东西与其说是拿来做点心，不如说怎么看都像是做菜的食材。" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="124" char="11" flags="0" index="64" line="124" name="亮" text="「嗯—好香」" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai19h" transparency="0" x="2147483648" />
+		<waitbs @l="126" flags="0" screen="0" />
+		<face src="frai19h" />
+		<msg @l="127" char="3" flags="17" index="66" line="127" name="礼羽" text="「看饿了！？」" timeout="" voices="rai17511" />
+		<emotion @l="128" id="rai" loop="1" screen="0" src="emotion_10" time="-1" type="rai_1" x="0" y="0" />
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="-75" />
+		<waitbs @l="129" flags="0" screen="0" />
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="130" flags="0" screen="0" />
+		<pause @l="131" flags="0" index="68" timeout="" />
+		<clremt @l="132" id="rai" screen="0" />
+		<face src="f" />
+		<msg @l="134" char="11" flags="0" index="69" line="134" name="亮" text="「对啊，光是看着就很有食欲」" timeout="" voices="" />
+		<face src="" />
+		<msg @l="136" char="-1" flags="0" index="71" line="136" name="" text="而且感觉现在我的肚子已经咕咕叫了。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h" transparency="0" x="2147483648" />
+		<waitbs @l="138" flags="0" screen="0" />
+		<face src="frai10h" />
+		<msg @l="139" char="3" flags="17" index="73" line="139" name="礼羽" text="「是嘛是嘛。那我们来做点色色的事吧？」" timeout="" voices="rai17512" />
+		<wait @l="142" flags="5" time="1700" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h" transparency="0" x="2147483648" />
+		<waitbs @l="143" flags="-2147483648" screen="0" />
+		<setface @l="144" src="frai22h" />
+		<pause @l="145" flags="-2147483648" index="75" timeout="" />
+		<face src="f" />
+		<msg @l="148" char="11" flags="17" index="76" line="148" name="亮" text="「怎么扯到这里啦！？」" timeout="" voices="" />
+		<shakescrn @l="149" amp="20" cycle="20" duration="500" flags="2" screen="0" />
+		<pause @l="150" flags="0" index="78" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h" transparency="0" x="2147483648" />
+		<waitbs @l="152" flags="0" screen="0" />
+		<face src="frai11h" />
+		<msg @l="153" char="3" flags="17" index="79" line="153" name="礼羽" text="「人类不是有三大欲求吗？　休假的时候倒是睡得挺好。而吃饭……蛋糕还没做」" timeout="" voices="rai17513" />
+		<wait @l="156" flags="5" time="3000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00h" transparency="0" x="2147483648" />
+		<waitbs @l="157" flags="-2147483648" screen="0" />
+		<setface @l="158" src="frai00h" />
+		<wait @l="160" flags="5" time="2500" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h" transparency="0" x="2147483648" />
+		<waitbs @l="161" flags="-2147483648" screen="0" />
+		<setface @l="162" src="frai11h" />
+		<pause @l="163" flags="-2147483648" index="81" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h" transparency="0" x="2147483648" />
+		<waitbs @l="166" flags="0" screen="0" />
+		<face src="frai10h" />
+		<msg @l="167" char="3" flags="17" index="82" line="167" name="礼羽" text="「那么，首先要满足的不就剩性欲了吗」" timeout="" voices="rai17514" />
+		<wait @l="170" flags="5" time="1300" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h" transparency="0" x="2147483648" />
+		<waitbs @l="171" flags="-2147483648" screen="0" />
+		<setface @l="172" src="frai22h" />
+		<pause @l="173" flags="-2147483648" index="84" timeout="" />
+		<face src="f" />
+		<msg @l="177" char="11" flags="0" index="85" line="177" name="亮" text="「你的理论我不太懂，但我知道你现在很想做爱」" timeout="" voices="" />
+		<face src="" />
+		<msg @l="179" char="-1" flags="0" index="87" line="179" name="" text="这也像是礼羽会说的话，虽然对她突然的请求有些疑惑，但我还是开始产生了点兴趣。" timeout="" voices="" />
+		<face src="" />
+		<msg @l="180" char="-1" flags="0" index="89" line="180" name="" text="我对这种事情其实也习惯了。也许是因为我俩作为炮友积累了很多经验吧。" timeout="" voices="" />
+		<clr_allbs duration="200" screen="0" />
+		<waitbs @l="182" flags="0" screen="0" />
+		<face src="f" />
+		<msg @l="184" char="11" flags="0" index="91" line="184" name="亮" text="（当然今天不管是客人还是员工都不在）" timeout="" voices="" />
+		<face src="" />
+		<msg @l="186" char="-1" flags="0" index="93" line="186" name="" text="店里只有我和礼羽两人独处——" timeout="" voices="" />
+		<face src="f" />
+		<msg @l="188" char="11" flags="0" index="95" line="188" name="亮" text="（可以，这下可以直接开干了）" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11hz" transparency="0" x="2147483648" />
+		<waitbs @l="190" flags="0" screen="0" />
+		<face src="" />
+		<msg @l="192" char="-1" flags="17" index="97" line="192" name="" text="当我还在瞎想的时候，礼羽已经开始脱衣服了。" timeout="" voices="" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="10" />
+		<waitbs @l="193" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="194" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="10" />
+		<waitbs @l="195" flags="0" screen="0" />
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0" transparency="0" v0="0." v1="0." x="2147483648" y="0" />
+		<waitbs @l="196" flags="0" screen="0" />
+		<pause @l="197" flags="0" index="99" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10hz" transparency="0" x="2147483648" />
+		<waitbs @l="199" flags="0" screen="0" />
+		<face src="frai10h" />
+		<msg @l="200" char="3" flags="17" index="100" line="200" name="礼羽" text="「今天好像是休息日吧？　反正得快点开始搞了\x;hearts:」" timeout="" voices="rai17515" />
+		<emotion @l="201" id="rai" loop="1" screen="0" src="emotion_19z" time="-1" type="rai_1z" x="0" y="0" />
+		<wait @l="204" flags="5" time="2000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25hz" transparency="0" x="2147483648" />
+		<waitbs @l="205" flags="-2147483648" screen="0" />
+		<setface @l="206" src="frai25h" />
+		<pause @l="207" flags="-2147483648" index="102" timeout="" />
+		<clremt @l="209" id="rai" screen="0" />
+		<face src="f" />
+		<msg @l="211" char="11" flags="17" index="103" line="211" name="亮" text="「是吉日啊！　不过话说回来，在厨房做会不会有点不卫生啊」" timeout="" voices="" />
+		<shakescrn @l="212" amp="20" cycle="20" duration="500" flags="2" screen="0" />
+		<pause @l="213" flags="0" index="105" timeout="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11hz" transparency="0" x="2147483648" />
+		<waitbs @l="215" flags="0" screen="0" />
+		<face src="frai11h" />
+		<msg @l="216" char="3" flags="17" index="106" line="216" name="礼羽" text="「哪里不卫生了。要不要尝尝我的身体？」" timeout="" voices="rai17516" />
+		<wait @l="219" flags="5" time="2200" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22hz" transparency="0" x="2147483648" />
+		<waitbs @l="220" flags="-2147483648" screen="0" />
+		<setface @l="221" src="frai22h" />
+		<pause @l="222" flags="-2147483648" index="108" timeout="" />
+		<face src="" />
+		<msg @l="225" char="-1" flags="0" index="109" line="225" name="" text="礼羽一边笑着一边朝我慢慢靠近。" timeout="" voices="" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25hz" transparency="0" x="2147483648" />
+		<waitbs @l="227" flags="0" screen="0" />
+		<face src="frai25h" />
+		<msg @l="228" char="3" flags="17" index="111" line="228" name="礼羽" text="「搞完后做个扫除就没事啦。而且不管怎么说，做完蛋糕之后都是要做扫除的嘛，从一次增加到两次并不是什么大问题」" timeout="" voices="rai17517" />
+		<wait @l="231" flags="5" time="3000" />
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22hz" transparency="0" x="2147483648" />
+		<waitbs @l="232" flags="-2147483648" screen="0" />
+		<setface @l="233" src="frai22h" />
+		<pause @l="234" flags="-2147483648" index="113" timeout="" />
+		<clremt @l="236" id="rai" screen="0" />
+		<label @l="243" id="scene_3_06" />
+		<play_sound @l="245" buf="0" fadeout="2500" type="0" />
+		<showmsg @l="246" duration="500" show="0" />
+		<loadimage @l="251" bg="0" fit="0" screen="1" src="evrai16_01c" />
+		<scroll @l="252" async="0" center_x="45" center_y="45" duration="0" flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0." wait_flags="0" x="0" y="0" zoom="1." />
+		<chgscrn @l="253" duration="2500" flags="4608" flip="-1" flip_flags="0" param="0" screen="1" type="10" />
+		<play_sound @l="254" buf="0" fadeout="500" intro="-1" src="bgm18" type="0" volume="1." />
+		<msg @l="260" char="3" flags="0" index="114" line="260" name="礼羽" text="「好～啦，我就这个姿势做，可以吗？」" timeout="" voices="rai17518" />
+		<msg @l="262" char="-1" flags="0" index="116" line="262" name="" text="礼羽在厨房地板上张开双腿，原地蹲下。" timeout="" voices="" />
+		<msg @l="263" char="-1" flags="0" index="118" line="263" name="" text="内裤已经掉到大腿上，夹在了一边。以所谓的Ｍ字张腿姿势把小穴露出来了。" timeout="" voices="" />
+		<msg @l="265" char="11" flags="0" index="120" line="265" name="亮" text="「这，你问我可以吗……这个嘛……」" timeout="" voices="" />
+		<msg @l="267" char="3" flags="0" index="122" line="267" name="礼羽" text="「呵呵。明明满脸通红还一直盯着这里，真是可爱」" timeout="" voices="rai17519" />
+		<msg @l="269" char="3" flags="0" index="124" line="269" name="礼羽" text="「那就这样一直看着吧。直到最后也不要移开视线哦」" timeout="" voices="rai17520" />
+		<msg @l="271" char="-1" flags="0" index="126" line="271" name="" text="穿着工作服半露的礼羽，肌肤简直白得闪光。" timeout="" voices="" />
+		<msg @l="272" char="-1" flags="0" index="128" line="272" name="" text="裸露的胸部与下面的小穴形成强烈的对比，使得她娇艳无比。" timeout="" voices="" />
+		<msg @l="274" char="11" flags="0" index="130" line="274" name="亮" text="「……咕咚」" timeout="" voices="" />
+		<msg @l="276" char="3" flags="0" index="132" line="276" name="礼羽" text="「呵呵。居然咽口水了，你真是好懂呢」" timeout="" voices="rai17521" />
+		<msg @l="278" char="3" flags="0" index="134" line="278" name="礼羽" text="「快看这里，这是我重要的部位哦。是你最喜欢的地・方・哦\x;note:」" timeout="" voices="rai17522" />
+		<play_sound @l="280" buf="1" fadeout="0" intro="-1" src="hse104" type="1" volume="1." />
+		<msg @l="282" char="-1" flags="0" index="136" line="282" name="" text="她像个孩子一样调笑着我，同时用手指把小穴张开，让我看着清清楚楚。" timeout="" voices="" />
+		<play_sound @l="284" buf="1" fadeout="0" type="1" />
+		<msg @l="286" char="3" flags="0" index="138" line="286" name="礼羽" text="「像这样张开的话甚至能看到里面。嗯，咕呜……嗯哈啊」" timeout="" voices="rai17523" />
+		<play_sound @l="288" buf="1" fadeout="0" intro="-1" src="hse102" type="1" volume="1." />
+		<msg @l="290" char="-1" flags="0" index="140" line="290" name="" text="手指不断把阴唇一张一闭的动作真是色气到了极点。" timeout="" voices="" />
+		<play_sound @l="292" buf="1" fadeout="300" type="1" />
+		<msg @l="294" char="3" flags="0" index="142" line="294" name="礼羽" text="「呵呵。你眼睛睁得那么大……还闪闪发光呢……」" timeout="" voices="rai17524" />
+		<msg @l="296" char="11" flags="0" index="144" line="296" name="亮" text="「那当然，毕竟这可是平时让我很舒服的部位嘛」" timeout="" voices="" />
+		<msg @l="298" char="3" flags="0" index="146" line="298" name="礼羽" text="「啊啊。没错，这就是平时你进去的地方」" timeout="" voices="rai17525" />
+		<msg @l="300" char="3" flags="0" index="148" line="300" name="礼羽" text="「呵呵。再多看看……只是被你这样盯着，我的手指就停不了要做些色色的动作」" timeout="" voices="rai17526" />
+		<play_sound @l="302" buf="1" fadeout="0" intro="-1" src="hse101" type="1" volume="1." />
+		<chgbg @l="303" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01e" type="99" />
+		<play_sound @l="305" buf="5" fadeout="0" intro="0" src="rai80015" type="6" volume="1." />
+		<msg @l="306" char="-1" flags="0" index="150" line="306" name="" text="她一边说着，一边开始用雪白的手指挑动淡红色的肉缝。" timeout="" voices="" />
+		<msg @l="308" char="11" flags="0" index="152" line="308" name="亮" text="「哦哦，礼羽的手指在不断挑动小穴……真是太色了」" timeout="" voices="" />
+		<play_sound @l="309" buf="5" fadeout="0" type="1" />
+		<play_sound @l="311" buf="1" fadeout="0" type="1" />
+		<chgbg @l="313" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01c" type="99" />
+		<msg @l="315" char="3" flags="0" index="154" line="315" name="礼羽" text="「你越这么说我就更兴奋了，还想让你再看看」" timeout="" voices="rai17527" />
+		<msg @l="317" char="3" flags="0" index="156" line="317" name="礼羽" text="「只是不断把小穴撑开又合上……嗯嗯，我就已经在颤抖了……而且里面接触到了空气……嗯嗯\x;hearts:」" timeout="" voices="rai17528" />
+		<play_sound @l="319" buf="1" fadeout="0" intro="-1" src="hse102" type="1" volume="1." />
+		<chgbg @l="320" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01e" type="99" />
+		<play_sound @l="322" buf="5" fadeout="0" intro="0" src="rai80016" type="6" volume="1." />
+		<msg @l="323" char="-1" flags="0" index="158" line="323" name="" text="随着礼羽手指的动作，空气也开始焦灼起来。" timeout="" voices="" />
+		<msg @l="324" char="-1" flags="0" index="160" line="324" name="" text="阴唇不断开闭的同时，阴道口也很色气地张开了。" timeout="" voices="" />
+		<play_sound @l="325" buf="5" fadeout="0" type="1" />
+		<chgbg @l="327" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01c" type="99" />
+		<msg @l="329" char="3" flags="0" index="162" line="329" name="礼羽" text="「已经湿了……嗯呜！　啊啊嗯，湿透了的小穴你觉得如何？」" timeout="" voices="rai17529" />
+		<play_sound @l="331" buf="1" fadeout="0" type="1" />
+		<play_sound @l="333" buf="5" fadeout="0" intro="0" src="rai80015" type="6" volume="1." />
+		<msg @l="334" char="11" flags="0" index="164" line="334" name="亮" text="「闪闪发光……变得更色气了」" timeout="" voices="" />
+		<msg @l="336" char="-1" flags="0" index="166" line="336" name="" text="随着阴唇的不断动作，里面一下子喷出来一堆粘糊糊的液体。" timeout="" voices="" />
+		<msg @l="337" char="-1" flags="0" index="168" line="337" name="" text="礼羽的手指上沾满了高粘度的液体，手指张开形成一条条透明的丝线。" timeout="" voices="" />
+		<play_sound @l="338" buf="5" fadeout="0" type="1" />
+		<msg @l="340" char="3" flags="0" index="170" line="340" name="礼羽" text="「今天我……哈啊，已经湿了。呵呵，没想到被你这样看着……啊，我这么快就有感觉了」" timeout="" voices="rai17530" />
+		<play_sound @l="342" buf="5" fadeout="0" intro="0" src="rai80017" type="6" volume="1." />
+		<msg @l="343" char="11" flags="0" index="172" line="343" name="亮" text="「今天……难道你都这样做过很多次了！？」" timeout="" voices="" />
+		<play_sound @l="344" buf="5" fadeout="0" type="1" />
+		<msg @l="346" char="3" flags="0" index="174" line="346" name="礼羽" text="「自慰吗？　呵呵，到底是如何呢。嘻嘻……嗯」" timeout="" voices="rai17531" />
+		<play_sound @l="348" buf="5" fadeout="0" intro="0" src="rai80016" type="6" volume="1." />
+		<msg @l="349" char="-1" flags="0" index="176" line="349" name="" text="可以因为这里是厨房吧，明明她在手淫，看起来却像是在用惯用的手在做料理一样，真不可思议。" timeout="" voices="" />
+		<play_sound @l="351" buf="1" fadeout="0" intro="-1" src="hse102" type="1" volume="1." />
+		<msg @l="353" char="-1" flags="0" index="178" line="353" name="" text="粘糊糊的水声听起来就像是在做麦芽糖，但这其实是礼羽下面的汁液。" timeout="" voices="" />
+		<play_sound @l="354" buf="5" fadeout="0" type="1" />
+		<chgbg @l="356" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01e" type="99" />
+		<msg @l="358" char="3" flags="0" index="180" line="358" name="礼羽" text="「讨厌，发出这么羞耻的声音……嗯嗯嗯！」" timeout="" voices="rai17532" />
+		<chgbg @l="360" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01d" type="99" />
+		<msg @l="362" char="3" flags="0" index="182" line="362" name="礼羽" text="「但我的手指却停不下来……啊啊，明明都发出了这么色的声音」" timeout="" voices="rai17533" />
+		<play_sound @l="364" buf="5" fadeout="0" intro="0" src="rai80017" type="6" volume="1." />
+		<msg @l="365" char="-1" flags="0" index="184" line="365" name="" text="不只是声音。在光线的照射下，无论阴唇还是阴道都绽放出了妖艳的光辉。" timeout="" voices="" />
+		<play_sound @l="366" buf="5" fadeout="0" type="1" />
+		<play_sound @l="368" buf="1" fadeout="0" type="1" />
+		<chgbg @l="370" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01b" type="99" />
+		<msg @l="372" char="3" flags="0" index="186" line="372" name="礼羽" text="「嗯哈，啊哈啊，被你看到了……那里变得越来越湿了！」" timeout="" voices="rai17534" />
+		<play_sound @l="374" buf="5" fadeout="0" intro="0" src="rai80018" type="6" volume="1." />
+		<msg @l="375" char="-1" flags="0" index="188" line="375" name="" text="她的手指上缠绕的丝线，宛如食材一般——" timeout="" voices="" />
+		<msg @l="377" char="11" flags="0" index="190" line="377" name="亮" text="「感觉跟枫糖浆一样……」" timeout="" voices="" />
+		<play_sound @l="378" buf="5" fadeout="0" type="1" />
+		<chgbg @l="380" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01c" type="99" />
+		<msg @l="382" char="3" flags="0" index="192" line="382" name="礼羽" text="「呵呵，看起来很美味？」" timeout="" voices="rai17535" />
+		<play_sound @l="384" buf="5" fadeout="0" intro="0" src="rai80015" type="6" volume="1." />
+		<msg @l="385" char="11" flags="0" index="194" line="385" name="亮" text="「对啊，我从刚才开始就流口水了」" timeout="" voices="" />
+		<msg @l="387" char="-1" flags="0" index="196" line="387" name="" text="礼羽自慰的样子是最好的食材，和能融化大脑的女孩子甜美的味道相结合，化作菜肴刻进了我的脑海。" timeout="" voices="" />
+		<play_sound @l="388" buf="5" fadeout="0" type="1" />
+		<msg @l="390" char="3" flags="0" index="198" line="390" name="礼羽" text="「这样一来我的……啊呼、努力也有价值了」" timeout="" voices="rai17536" />
+		<msg @l="392" char="3" flags="0" index="200" line="392" name="礼羽" text="「为你特地准备的特浓糖浆，居然从小穴里流出这么多……啊嗯，嗯嗯，嗯呼」" timeout="" voices="rai17537" />
+		<play_sound @l="394" buf="1" fadeout="0" intro="-1" src="hse104" type="1" volume="1." />
+		<chgbg @l="395" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01d" type="99" />
+		<play_sound @l="397" buf="5" fadeout="0" intro="0" src="rai80016" type="6" volume="1." />
+		<msg @l="398" char="-1" flags="0" index="202" line="398" name="" text="粉红色阴道口不断重复着张开闭合，从里面流出许多半透明的粘稠液体。" timeout="" voices="" />
+		<play_sound @l="399" buf="5" fadeout="0" type="1" />
+		<chgbg @l="401" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01e" type="99" />
+		<msg @l="403" char="3" flags="0" index="204" line="403" name="礼羽" text="「哈啊哈啊……怎么样，看着就很好吃吧？……啊啊嗯」" timeout="" voices="rai17538" />
+		<play_sound @l="405" buf="5" fadeout="0" intro="0" src="rai80017" type="6" volume="1." />
+		<msg @l="406" char="11" flags="0" index="206" line="406" name="亮" text="「那当然！　弄得我现在就想吃的！」" timeout="" voices="" />
+		<play_sound @l="408" buf="1" fadeout="0" type="1" />
+		<msg @l="410" char="-1" flags="0" index="208" line="410" name="" text="看到爱液从小穴连绵不断地流出，我也越来越忍不住了。" timeout="" voices="" />
+		<msg @l="412" char="11" flags="0" index="210" line="412" name="亮" text="「呜，真是够了……！」" timeout="" voices="" />
+		<play_sound @l="413" buf="5" fadeout="0" type="1" />
+		<chgbg @l="415" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01c" type="99" />
+		<msg @l="417" char="3" flags="0" index="212" line="417" name="礼羽" text="「嗯？　什么嘛，想做了吗？」" timeout="" voices="rai17539" />
+		<msg @l="419" char="11" flags="0" index="214" line="419" name="亮" text="「啊啊，都怪礼羽太色啦……我忍不住了！」" timeout="" voices="" />
+		<msg @l="421" char="3" flags="0" index="216" line="421" name="礼羽" text="「呵呵，又很害羞……又快忍不住的表情真是可爱呢。但现在先再忍一下」" timeout="" voices="rai17540" />
+		<msg @l="423" char="11" flags="0" index="218" line="423" name="亮" text="「喂，这是要憋死我吗！？」" timeout="" voices="" />
+		<msg @l="425" char="3" flags="0" index="220" line="425" name="礼羽" text="「因为我想让你看着我高潮嘛，所以先站一边看着吧」" timeout="" voices="rai17541" />
+		<msg @l="427" char="3" flags="0" index="222" line="427" name="礼羽" text="「呵呵，像这样看着美少女自慰的机会，可不多哟？」" timeout="" voices="rai17542" />
+		<msg @l="429" char="11" flags="0" index="224" line="429" name="亮" text="「你在玩什么Play啊！」" timeout="" voices="" />
+		<msg @l="431" char="3" flags="0" index="226" line="431" name="礼羽" text="「看着我高潮的样子……然后深深记入脑海。当你一个人做的时候，希望你能回忆起现在的场景」" timeout="" voices="rai17543" />
+		<msg @l="433" char="3" flags="0" index="228" line="433" name="礼羽" text="「为了不忘记我现在色色的样子，你就慢慢欣赏吧……好吗？」" timeout="" voices="rai17544" />
+		<play_sound @l="435" buf="5" fadeout="0" intro="0" src="rai80016" type="6" volume="1." />
+		<msg @l="436" char="-1" flags="0" index="230" line="436" name="" text="她的语气就像是之后要去哪里一样。" timeout="" voices="" />
+		<msg @l="437" char="-1" flags="0" index="232" line="437" name="" text="只是在看到礼羽淫荡的表情之后，我却下意识地听从了。" timeout="" voices="" />
+		<msg @l="439" char="11" flags="0" index="234" line="439" name="亮" text="「呜呜，虽然很难受但真的好色……」" timeout="" voices="" />
+		<play_sound @l="440" buf="5" fadeout="0" type="1" />
+		<chgbg @l="442" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01b" type="99" />
+		<msg @l="444" char="3" flags="0" index="236" line="444" name="礼羽" text="「好舒服　呼啊啊，手指在、不听使唤地乱动了！」" timeout="" voices="rai17545" />
+		<play_sound @l="446" buf="1" fadeout="0" intro="-1" src="hse102" type="1" volume="1." />
+		<play_sound @l="448" buf="5" fadeout="0" intro="0" src="rai80018" type="6" volume="1." />
+		<msg @l="449" char="-1" flags="0" index="238" line="449" name="" text="她的手指弯曲成一种妖艳的姿势在阴唇上不断动作。" timeout="" voices="" />
+		<msg @l="451" char="11" flags="0" index="240" line="451" name="亮" text="「咕、咕噜……」" timeout="" voices="" />
+		<msg @l="453" char="-1" flags="0" index="242" line="453" name="" text="就算她说让我只是看着，但见到了这么色气的样子，我怎么还忍得住嘛。" timeout="" voices="" />
+		<play_sound @l="455" buf="1" fadeout="0" type="1" />
+		<msg @l="457" char="11" flags="0" index="244" line="457" name="亮" text="「果然我已经忍不住了」" timeout="" voices="" />
+		<msg @l="459" char="-1" flags="0" index="246" line="459" name="" text="为了表示对礼羽挑衅的反抗，我啪嗒一声把裤子和内裤一并脱掉了。" timeout="" voices="" />
+		<msg @l="461" char="11" flags="0" index="248" line="461" name="亮" text="「既然你要这么做，那我也陪你一起吧」" timeout="" voices="" />
+		<play_sound @l="462" buf="5" fadeout="0" type="1" />
+		<chgbg @l="464" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01c" type="99" />
+		<msg @l="466" char="3" flags="0" index="250" line="466" name="礼羽" text="「呵呵，也就是说你也要让我看自慰？」" timeout="" voices="rai17546" />
+		<msg @l="468" char="3" flags="0" index="252" line="468" name="礼羽" text="「可以啊，让我看看你怎么做的。当然，我也会让你看着我怎么做的」" timeout="" voices="rai17547" />
+		<msg @l="470" char="11" flags="0" index="254" line="470" name="亮" text="「那是当然，礼羽也要好好看着我哦」" timeout="" voices="" />
+		<msg @l="472" char="-1" flags="0" index="256" line="472" name="" text="我握住已经耸起的肉棒，然后像礼羽一样蹲下。" timeout="" voices="" />
+		<msg @l="473" char="-1" flags="0" index="258" line="473" name="" text="然后将视线与礼羽齐平，做出相互之间能看到自慰的姿态。" timeout="" voices="" />
+		<chgbg @l="475" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01e" type="99" />
+		<msg @l="477" char="3" flags="0" index="260" line="477" name="礼羽" text="「不管什么时候，你的欧○金都这么棒\x;hearts:　真是魁梧……」" timeout="" voices="rai17548" />
+		<msg @l="479" char="3" flags="0" index="262" line="479" name="礼羽" text="「一下子就变得这么硬，这么大……哈啊，血筋膨胀，完全一副穷凶极恶的样子」" timeout="" voices="rai17549" />
+		<play_sound @l="481" buf="5" fadeout="0" intro="0" src="rai80015" type="6" volume="1." />
+		<msg @l="482" char="-1" flags="0" index="264" line="482" name="" text="她的眼睛出神地望着我的胯下。" timeout="" voices="" />
+		<msg @l="483" char="-1" flags="0" index="266" line="483" name="" text="总感觉阴茎痒痒的，而仅仅是这样便很快变硬而充血。" timeout="" voices="" />
+		<play_sound @l="484" buf="5" fadeout="0" type="1" />
+		<chgbg @l="486" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01b" type="99" />
+		<msg @l="488" char="3" flags="0" index="268" line="488" name="礼羽" text="「又变大了！？　啊啊，哈啊哈啊……这居然就是一直以来挺进我小穴的东西……嗯呼，呼呜呜嗯！」" timeout="" voices="rai17550" />
+		<chgbg @l="490" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_01d" type="99" />
+		<msg @l="492" char="3" flags="0" index="270" line="492" name="礼羽" text="「光是想象一下我就湿了，啊啊，下面已经完全湿透了啊！」" timeout="" voices="rai17551" />
+		<play_sound @l="494" buf="1" fadeout="0" intro="-1" src="hse102" type="1" volume="1." />
+		<play_sound @l="496" buf="5" fadeout="0" intro="0" src="rai80018" type="6" volume="1." />
+		<msg @l="497" char="-1" flags="0" index="272" line="497" name="" text="她的手指在肉缝间不断动作，溢出满满的爱液，指尖沾满了粘稠的液体。" timeout="" voices="" />
+		<play_sound @l="499" buf="1" fadeout="0" type="1" />
+		<chgbg @l="503" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="505" char="11" flags="0" index="274" line="505" name="亮" text="「小穴好厉害……一下子就这么湿了，仿若冰淇淋快要融化一般……」" timeout="" voices="" />
+		<msg @l="507" char="-1" flags="0" index="276" line="507" name="" text="看着礼羽自慰的样子，我用手快速摩擦着肉棒。" timeout="" voices="" />
+		<play_sound @l="508" buf="5" fadeout="0" type="1" />
+		<chgbg @l="510" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="512" char="3" flags="0" index="278" line="512" name="礼羽" text="「哈啊哈啊，被你这样看着，嗯哈啊啊……手指停不下来了！　咕呼呜，嗯呼呜呜……从小穴里发出了好羞耻的声音呀」" timeout="" voices="rai17552" />
+		<chgbg @l="514" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="516" char="3" flags="0" index="280" line="516" name="礼羽" text="「只是用手指摸一摸，那里就变得这么湿了……嗯呼呜，快看啊！」" timeout="" voices="rai17553" />
+		<msg @l="518" char="3" flags="0" index="282" line="518" name="礼羽" text="「我也在看着你那又硬又大的欧○金！啊啊，再让我多看看！」" timeout="" voices="rai17554" />
+		<play_sound @l="520" buf="2" fadeout="0" intro="-1" src="hse106" type="1" volume="1." />
+		<play_sound @l="522" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="523" char="-1" flags="0" index="284" line="523" name="" text="也许是因为我在看着，礼羽的手指动作更加激烈了。" timeout="" voices="" />
+		<msg @l="524" char="-1" flags="0" index="286" line="524" name="" text="每次咕啾咕啾的水声都会愈来愈大，透明的液体从阴道口漏出滑到屁股上。" timeout="" voices="" />
+		<play_sound @l="525" buf="5" fadeout="0" type="1" />
+		<chgbg @l="527" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="529" char="3" flags="0" index="288" line="529" name="礼羽" text="「啊哈啊，好想要你的坚硬欧○金……啊啊嗯，想要你的硬物像往常一样冲到我的身体里呀！」" timeout="" voices="rai17555" />
+		<play_sound @l="531" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="532" char="11" flags="0" index="290" line="532" name="亮" text="「我、我也……哈啊哈啊，想要插进礼羽的小穴啊！」" timeout="" voices="" />
+		<play_sound @l="533" buf="5" fadeout="0" type="1" />
+		<chgbg @l="535" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="537" char="3" flags="0" index="292" line="537" name="礼羽" text="「哈啊哈啊，居然说想插进去，我都快忍不住了……因为太想要欧○金了，手指停不下来！仅仅只是想象这只手是你的我就……咕咿！」" timeout="" voices="rai17556" />
+		<play_sound @l="539" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="540" char="-1" flags="0" index="294" line="540" name="" text="看着她自慰的样子，光是想想我们在做爱，我手上的动作就更加激烈了。" timeout="" voices="" />
+		<msg @l="541" char="-1" flags="0" index="296" line="541" name="" text="明明就在眼前却不敢碰触的急躁感，让我的想象更加深入。" timeout="" voices="" />
+		<msg @l="543" char="11" flags="0" index="298" line="543" name="亮" text="「啊啊，礼羽的小穴真舒服……！总是把阴茎紧紧地包裹住」" timeout="" voices="" />
+		<msg @l="545" char="-1" flags="0" index="300" line="545" name="" text="我一边想象着阴道的感觉，一边使劲来回摩擦肉棒。" timeout="" voices="" />
+		<play_sound @l="546" buf="5" fadeout="0" type="1" />
+		<play_sound @l="548" buf="2" fadeout="0" type="1" />
+		<chgbg @l="550" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="552" char="3" flags="0" index="302" line="552" name="礼羽" text="「好厉害，居然这么拼命摩擦欧○金……嗯啊啊，手的动作越来越快了，是在想象着我的小穴吧！」" timeout="" voices="rai17557" />
+		<chgbg @l="554" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="556" char="3" flags="0" index="304" line="556" name="礼羽" text="「嗯哈啊啊嗯，在我的小穴里，居然像那样猛地来回抽插……真厉害！！！」" timeout="" voices="rai17558" />
+		<play_sound @l="558" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="559" char="-1" flags="0" index="306" line="559" name="" text="我们两人的反应越来越激烈。" timeout="" voices="" />
+		<msg @l="560" char="-1" flags="0" index="308" line="560" name="" text="眼神完全没有离开彼此淫乱的样子。而且反而情绪更加高涨了。" timeout="" voices="" />
+		<play_sound @l="561" buf="5" fadeout="0" type="1" />
+		<chgbg @l="563" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="565" char="3" flags="0" index="310" line="565" name="礼羽" text="「这么用力地摩擦欧○金射精的地方呀……那里应该是很敏感的部位吧…哈啊嗯」" timeout="" voices="rai17559" />
+		<play_sound @l="567" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="568" char="11" flags="0" index="312" line="568" name="亮" text="「啊啊，我好兴奋。从没见过礼羽这么下流的样子」" timeout="" voices="" />
+		<play_sound @l="569" buf="5" fadeout="0" type="1" />
+		<chgbg @l="571" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="573" char="3" flags="0" index="314" line="573" name="礼羽" text="「讨厌啦！　再这样说的话，我会更有感觉的」" timeout="" voices="rai17560" />
+		<play_sound @l="575" buf="2" fadeout="0" intro="-1" src="hse106" type="1" volume="1." />
+		<play_sound @l="577" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="578" char="-1" flags="0" index="316" line="578" name="" text="礼羽完全止不住兴奋，还以Ｍ字开腿的姿势猛烈地晃动着身体。" timeout="" voices="" />
+		<msg @l="579" char="-1" flags="0" index="318" line="579" name="" text="胸部暴露在外，噗噜噗噜地随着重力摇晃。" timeout="" voices="" />
+		<msg @l="581" char="11" flags="0" index="320" line="581" name="亮" text="「你这样不仅很色气，而且还很可爱哦」" timeout="" voices="" />
+		<play_sound @l="582" buf="5" fadeout="0" type="1" />
+		<chgbg @l="584" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="586" char="3" flags="0" index="322" line="586" name="礼羽" text="「好激动……嗯哈啊　只是听到你说我很可爱，我的心里还有小穴都变得好激动啊」" timeout="" voices="rai17561" />
+		<chgbg @l="588" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="590" char="3" flags="0" index="324" line="590" name="礼羽" text="「手指停不下来！　我在被夸赞呢……嗯啊啊！明明小穴在不知羞耻地大张开着……我却停不下来！」" timeout="" voices="rai17562" />
+		<play_sound @l="592" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="593" char="11" flags="0" index="326" line="593" name="亮" text="「呜呜，我也停不下来了！」" timeout="" voices="" />
+		<msg @l="595" char="-1" flags="0" index="328" line="595" name="" text="就像平时一个人做的时候那样，我将食指与拇指圈成圆，不断刺激着龟头。" timeout="" voices="" />
+		<msg @l="596" char="-1" flags="0" index="330" line="596" name="" text="每当我用手指根部摩擦到龟头部位时，都会忍不住发出声音。" timeout="" voices="" />
+		<msg @l="598" char="11" flags="0" index="332" line="598" name="亮" text="「呜咕，咕呜呜，这……太刺激了！？」" timeout="" voices="" />
+		<play_sound @l="599" buf="5" fadeout="0" type="1" />
+		<play_sound @l="601" buf="2" fadeout="0" type="1" />
+		<chgbg @l="602" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="604" char="3" flags="0" index="334" line="604" name="礼羽" text="「啊哈，听声音就很舒服嘛。……而且还一脸下流的表情」" timeout="" voices="rai17563" />
+		<play_sound @l="606" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="607" char="11" flags="0" index="336" line="607" name="亮" text="「你不也是吗？刚才开始就一直发出很色的声音哦」" timeout="" voices="" />
+		<play_sound @l="608" buf="5" fadeout="0" type="1" />
+		<chgbg @l="610" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="612" char="3" flags="0" index="338" line="612" name="礼羽" text="「毕竟我根本忍不住出声嘛……嗯哈啊，哈啊哈啊，我们两人都这么舒服，好像真的在做爱一样……呼啊啊啊」" timeout="" voices="rai17564" />
+		<play_sound @l="614" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="615" char="-1" flags="0" index="340" line="615" name="" text="互相展示着绝不让对方碰触到的自慰模样。" timeout="" voices="" />
+		<msg @l="616" char="-1" flags="0" index="342" line="616" name="" text="明明只是这样，我们相互间却情绪高涨，给人一种我们正在做爱的错觉。" timeout="" voices="" />
+		<msg @l="618" char="11" flags="0" index="344" line="618" name="亮" text="「哈啊哈啊……嗯咕，感觉这已经不是在自慰了」" timeout="" voices="" />
+		<play_sound @l="619" buf="5" fadeout="0" type="1" />
+		<chgbg @l="621" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="623" char="3" flags="0" index="346" line="623" name="礼羽" text="「哈啊哈啊，某种意义上来说是的。偶尔这样做做感觉也不赖……啊呼，嗯咕呜呜，我好像有点上瘾了……」" timeout="" voices="rai17565" />
+		<msg @l="625" char="3" flags="0" index="348" line="625" name="礼羽" text="「总感觉我们真的……嗯啊，哈啊哈啊，是在做爱一样……啊，哈呼，嗯哈啊啊啊！？」" timeout="" voices="rai17566" />
+		<chgbg @l="627" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="629" char="3" flags="0" index="350" line="629" name="礼羽" text="「我想要你，嗯哈啊……欧○金一颤一颤的好棒呀\x;note:」" timeout="" voices="rai17567" />
+		<play_sound @l="631" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="632" char="-1" flags="0" index="352" line="632" name="" text="礼羽露出苦恼的表情，挺直了腰。" timeout="" voices="" />
+		<msg @l="633" char="-1" flags="0" index="354" line="633" name="" text="她这样做就像是在渴求着我的肉棒，我也禁不住身体前倾并挺直了腰杆。" timeout="" voices="" />
+		<msg @l="635" char="11" flags="0" index="356" line="635" name="亮" text="「想象吧！　试着想象欧○金在礼羽的身体里不断抽插吧！！」" timeout="" voices="" />
+		<play_sound @l="636" buf="5" fadeout="0" type="1" />
+		<chgbg @l="638" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="640" char="3" flags="0" index="358" line="640" name="礼羽" text="「好厉害……好棒，用力地插进我的身体，把那里乱七八糟地搅乱了」" timeout="" voices="rai17568" />
+		<msg @l="642" char="3" flags="0" index="360" line="642" name="礼羽" text="「血筋膨胀的样子看起来真美味……舔一舔，吞下去，好想就在这里吃掉啊……」" timeout="" voices="rai17569" />
+		<chgbg @l="644" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02a" type="99" />
+		<play_sound @l="646" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="647" char="-1" flags="0" index="362" line="647" name="" text="礼羽舔着嘴唇，脸上充满了想要的表情。" timeout="" voices="" />
+		<msg @l="649" char="11" flags="0" index="364" line="649" name="亮" text="「啊啊，来吃吧。我也想让礼羽来吃它！」" timeout="" voices="" />
+		<play_sound @l="650" buf="5" fadeout="0" type="1" />
+		<msg @l="652" char="3" flags="0" index="366" line="652" name="礼羽" text="「呜嗯！　吃掉它……啊—嗯。舔舔，啊呜……呼哈啊，哈呜，舔舔……」" timeout="" voices="rai17570" />
+		<msg @l="654" char="3" flags="0" index="368" line="654" name="礼羽" text="「啾哈，啾哈……啾噜噜噜……啾哈」" timeout="" voices="rai17571" />
+		<play_sound @l="656" buf="5" fadeout="0" intro="0" src="rai80003" type="6" volume="1." />
+		<msg @l="657" char="-1" flags="0" index="370" line="657" name="" text="她把桃红色的舌头伸展到极限，就像是在吞食肉棒一样在空气中翻滚。" timeout="" voices="" />
+		<msg @l="658" char="-1" flags="0" index="372" line="658" name="" text="平时被她含住的时候完全看不到她的口腔内部，现在清清楚楚地展现在我面前了。" timeout="" voices="" />
+		<msg @l="659" char="-1" flags="0" index="374" line="659" name="" text="我仿佛发现了空气口交的乐趣，更加兴奋了。" timeout="" voices="" />
+		<msg @l="661" char="11" flags="0" index="376" line="661" name="亮" text="「真厉害……哈啊哈啊，舌头居然动得这么欢快」" timeout="" voices="" />
+		<msg @l="663" char="-1" flags="0" index="378" line="663" name="" text="她的嘴巴大张，甚至可以看到里面的喉咙小穴，并且粉色的舌头就像有生命一般不断地上下动作。" timeout="" voices="" />
+		<msg @l="664" char="-1" flags="0" index="380" line="664" name="" text="嘴里的唾液在舌头根部不断积蓄，随着舌头的动作从嘴角流出。" timeout="" voices="" />
+		<play_sound @l="665" buf="5" fadeout="0" type="1" />
+		<chgbg @l="667" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02c" type="99" />
+		<msg @l="669" char="3" flags="0" index="382" line="669" name="礼羽" text="「这次就用吸的吧……哈啊啊，啾噜噜，吸着欧○金的话，身体总会不自觉地颤抖，嗯哈，哈啊哈啊，真可爱」" timeout="" voices="rai17572" />
+		<chgbg @l="671" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02a" type="99" />
+		<msg @l="673" char="3" flags="0" index="384" line="673" name="礼羽" text="「舔舔，啾啾……啾噜噜噜，哈啊，你的欧○金真好吃……」" timeout="" voices="rai17573" />
+		<play_sound @l="675" buf="5" fadeout="0" intro="0" src="rai80001" type="6" volume="1." />
+		<msg @l="676" char="-1" flags="0" index="386" line="676" name="" text="看着礼羽的伪口交模样，我的动作也变得愈加激烈。" timeout="" voices="" />
+		<msg @l="677" char="-1" flags="0" index="388" line="677" name="" text="总有一种她的舌头真的在舔龟头的错觉，肉棒也不自觉地跟着反应。" timeout="" voices="" />
+		<msg @l="679" char="11" flags="0" index="390" line="679" name="亮" text="「可恶，越来越兴奋了！」" timeout="" voices="" />
+		<msg @l="681" char="-1" flags="0" index="392" line="681" name="" text="配合着她舌头的动作，我的手也跟着不断摩擦。" timeout="" voices="" />
+		<msg @l="682" char="-1" flags="0" index="394" line="682" name="" text="一往根部用力摩擦，肉棒也跟着越变越硬。" timeout="" voices="" />
+		<play_sound @l="683" buf="5" fadeout="0" type="1" />
+		<chgbg @l="685" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02e" type="99" />
+		<msg @l="687" char="3" flags="0" index="396" line="687" name="礼羽" text="「啊！　欧○金又……啊啊，变大了……」" timeout="" voices="rai17574" />
+		<play_sound @l="689" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="690" char="11" flags="0" index="398" line="690" name="亮" text="「因为礼羽的口活太舒服了，哈啊哈啊……又温软又湿润，热情似火啊」" timeout="" voices="" />
+		<play_sound @l="691" buf="5" fadeout="0" type="1" />
+		<chgbg @l="693" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="695" char="3" flags="0" index="400" line="695" name="礼羽" text="「真开心！　嗯哈哈！　我也停不下来了……嗯嗯，哈啊，身体像被火烧一样……小穴变得好热啊！」" timeout="" voices="rai17575" />
+		<play_sound @l="697" buf="1" fadeout="0" intro="-1" src="hse104" type="1" volume="1." />
+		<chgbg @l="698" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<play_sound @l="700" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="701" char="-1" flags="0" index="402" line="701" name="" text="阴道里哗哗地流出爱液。" timeout="" voices="" />
+		<msg @l="702" char="-1" flags="0" index="404" line="702" name="" text="等我注意到的时候，礼羽的胯下已经汇集出一汪由爱液形成的小池了。" timeout="" voices="" />
+		<play_sound @l="703" buf="5" fadeout="0" type="1" />
+		<play_sound @l="705" buf="1" fadeout="0" type="1" />
+		<chgbg @l="706" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="708" char="3" flags="0" index="406" line="708" name="礼羽" text="「流出了好多……我居然这么兴奋……哈啊哈啊，啊啊嗯！」" timeout="" voices="rai17576" />
+		<play_sound @l="710" buf="5" fadeout="0" intro="0" src="rai80019" type="6" volume="1." />
+		<msg @l="711" char="-1" flags="0" index="408" line="711" name="" text="礼羽非常有节奏地晃动着身体。" timeout="" voices="" />
+		<msg @l="712" char="-1" flags="0" index="410" line="712" name="" text="她的手指勾成钥匙一样弯曲，伸进阴道里不断动作。" timeout="" voices="" />
+		<play_sound @l="713" buf="5" fadeout="0" type="1" />
+		<chgbg @l="715" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02d" type="99" />
+		<msg @l="717" char="3" flags="0" index="412" line="717" name="礼羽" text="「真爽啊！　爽到我全身都快瘫软了……嗯啊，啊啊，被看着自慰真爽啊！」" timeout="" voices="rai17577" />
+		<chgbg @l="719" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02b" type="99" />
+		<msg @l="721" char="3" flags="0" index="414" line="721" name="礼羽" text="「快看快看　下流的小穴……正在被你视奸呢\x;heart:\x;hearts:」" timeout="" voices="rai17578" />
+		<play_sound @l="723" buf="5" fadeout="0" intro="0" src="rai80020" type="6" volume="1." />
+		<msg @l="724" char="-1" flags="0" index="416" line="724" name="" text="像是在和一边摇摆着双马尾一边步入高潮的礼羽同步一样，我的欲望也愈发高涨。" timeout="" voices="" />
+		<msg @l="725" char="-1" flags="0" index="418" line="725" name="" text="为了让阴茎更舒服，我用力握着肉棒的根部。" timeout="" voices="" />
+		<msg @l="727" char="11" flags="0" index="420" line="727" name="亮" text="「咕，咕呜呜！　太厉害了……好像我真的在侵犯礼羽一样！」" timeout="" voices="" />
+		<msg @l="729" char="-1" flags="0" index="422" line="729" name="" text="我不断从根部、龟冠，摩擦到龟头，血流速度越来越快。" timeout="" voices="" />
+		<msg @l="730" char="-1" flags="0" index="424" line="730" name="" text="睾丸不断地跳动，持续地向肉棒传输新造出的精液。" timeout="" voices="" />
+		<play_sound @l="731" buf="5" fadeout="0" type="1" />
+		<chgbg @l="733" duration="300" flags="256" flip="-1" flip_flags="0" param="16" screen="1" src="evrai16_02e" type="99" />
+		<goto script="礼羽_H6_1" />
+	</code>
+</xscript>

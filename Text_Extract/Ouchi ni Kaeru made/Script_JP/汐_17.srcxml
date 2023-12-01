@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="6" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="7" duration="500" show="0"/>
+		<chgbg @l="8" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<play_sound @l="10" buf="1" fadeout="0" intro="0" src="se113" type="1"
+		   volume="0.5"/>
+		<face src=""/>
+		<msg @l="12" char="-1" flags="0" index="0" line="12" name=""
+		   text="連休も終わり、いつもの光景がマシュマロツリーに戻ってきた。" timeout="" voices=""/>
+		<play_sound @l="18" buf="1" fadeout="1500" type="1"/>
+		<showmsg @l="19" duration="500" show="0"/>
+		<chgbg @l="20" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg07a" type="99"/>
+		<play_sound @l="21" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="usi11c"
+		   transparency="256" x="1110"/>
+		<waitbs @l="23" flags="0" screen="0"/>
+		<face src="fusi11c"/>
+		<msg @l="25" char="1" flags="17" index="2" line="25" name="汐"
+		   text="「おはよう。食材の準備、出来てるかな」" timeout="" voices="usi12500"/>
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="26" flags="0" screen="0"/>
+		<pause @l="27" flags="0" index="4" timeout=""/>
+		<face src="f"/>
+		<msg @l="29" char="11" flags="0" index="5" line="29" name="亮"
+		   text="「いつも通り作業台のまわりに置いておきました」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10c"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="31" flags="0" screen="0"/>
+		<face src="fusi10c"/>
+		<msg @l="32" char="1" flags="17" index="7" line="32" name="汐"
+		   text="「ありがと。じゃあ、さっそく仕込みを始めるとしますか」" timeout="" voices="usi12501"/>
+		<emotion @l="33" id="usi" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="34" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="35" flags="0" screen="0"/>
+		<wait @l="38" flags="5" time="200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01c"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="39" flags="-2147483648" screen="0"/>
+		<setface @l="40" src="fusi01c"/>
+		<pause @l="41" flags="-2147483648" index="9" timeout=""/>
+		<clremt @l="43" id="usi" screen="0"/>
+		<play_sound @l="48" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="49" duration="500" show="0"/>
+		<chgbg @l="50" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="51" bg="0" fit="0" screen="1" src="bg04a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="usi11h"
+		   transparency="256" x="1110"/>
+		<waitbs @l="52" flags="0" screen="1"/>
+		<chgscrn @l="53" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="54" buf="0" fadeout="500" intro="-1" src="bgm07" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="56" char="-1" flags="17" index="10" line="56" name=""
+		   text="彼女がパティシエ服に着替え作業を始める。" timeout="" voices=""/>
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="57" flags="0" screen="0"/>
+		<pause @l="58" flags="0" index="12" timeout=""/>
+		<face src=""/>
+		<msg @l="60" char="-1" flags="0" index="13" line="60" name=""
+		   text="僕は自分の作業の手を止めて、その様子をじっと見つめていた。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="62" flags="0" screen="0"/>
+		<face src="fusi04h"/>
+		<msg @l="63" char="1" flags="0" index="15" line="63" name="汐"
+		   text="「さっきからこっち見てるけど、ひょっとして\n:顔にクリームがついてるとか？」" timeout=""
+		   voices="usi12502"/>
+		<face src="f"/>
+		<msg @l="65" char="11" flags="0" index="17" line="65" name="亮"
+		   text="「あ、いえ。じつは昨晩、考えたことがありまして」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="67" flags="0" screen="0"/>
+		<face src="fusi06h"/>
+		<msg @l="68" char="1" flags="17" index="19" line="68" name="汐" text="「？？」"
+		   timeout="" voices="usi12503"/>
+		<emotion @l="69" id="usi" loop="1" screen="0" src="emotion_14" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<pause @l="70" flags="0" index="21" timeout=""/>
+		<clremt @l="71" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="73" char="11" flags="0" index="22" line="73" name="亮"
+		   text="「じつは、どうしてもケーキを食べられるようになりたいんです」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi19h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="75" flags="0" screen="0"/>
+		<face src="fusi19h"/>
+		<msg @l="76" char="1" flags="0" index="24" line="76" name="汐"
+		   text="「え……どういうこと？」" timeout="" voices="usi12504"/>
+		<face src="f"/>
+		<msg @l="78" char="11" flags="0" index="26" line="78" name="亮"
+		   text="「昨日、一緒にラーメンを食べたじゃないですか」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="80" flags="0" screen="0"/>
+		<face src="fusi11h"/>
+		<msg @l="81" char="1" flags="17" index="28" line="81" name="汐"
+		   text="「うん。私を家族みたいだって言ってくれて、嬉しかった」" timeout="" voices="usi12505"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="82" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="83" flags="0" screen="0"/>
+		<pause @l="84" flags="0" index="30" timeout=""/>
+		<face src="f"/>
+		<msg @l="86" char="11" flags="0" index="31" line="86" name="亮"
+		   text="「僕も嬉しかったんですけど、同時にこうも思ったんです」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="88" char="11" flags="0" index="33" line="88" name="亮"
+		   text="「それだけ大事な人が作ってくれたものを食べられないのって、\n:悲しいことなんじゃないかって」" timeout=""
+		   voices=""/>
+		<clr_allbs duration="400" screen="0"/>
+		<waitbs @l="90" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="92" char="-1" flags="0" index="35" line="92" name=""
+		   text="朝霞さんも店のみんなも僕がケーキを食べられないことを\n:特に責めたりせず、あたたかく見守ってくれた。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="93" char="-1" flags="0" index="37" line="93" name=""
+		   text="だから今まではそれに甘えていたけれど。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="94" char="-1" flags="0" index="39" line="94" name=""
+		   text="大好きな人が一所懸命作っているものを\n:食べられないってのはツライ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="96" flags="0" screen="0"/>
+		<face src="fusi04h"/>
+		<msg @l="97" char="1" flags="0" index="41" line="97" name="汐"
+		   text="「べつに無理しなくてもいいんじゃない？　今までだって、\n:何度も失敗してきたんだよね」" timeout=""
+		   voices="usi12506"/>
+		<face src="f"/>
+		<msg @l="99" char="11" flags="0" index="43" line="99" name="亮"
+		   text="「そうなんですけど、でも大好きな人が作るケーキは\n:食べたいじゃないですか」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi08h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="101" flags="0" screen="0"/>
+		<face src="fusi08h"/>
+		<msg @l="102" char="1" flags="17" index="45" line="102" name="汐"
+		   text="「大好きな人……」" timeout="" voices="usi12507"/>
+		<emotion @l="103" id="usi" loop="1" screen="0" src="emotion_05" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<pause @l="104" flags="0" index="47" timeout=""/>
+		<clremt @l="105" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="107" char="11" flags="17" index="48" line="107" name="亮"
+		   text="「そこに食いついちゃった！？」" timeout="" voices=""/>
+		<shakescrn @l="108" amp="20" cycle="20" duration="300" flags="2" screen="0"/>
+		<pause @l="109" flags="0" index="50" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="111" flags="0" screen="0"/>
+		<face src="fusi28h"/>
+		<msg @l="112" char="1" flags="17" index="51" line="112" name="汐"
+		   text="「あ、ごめんごめん。話しを続けて？」" timeout="" voices="usi12508"/>
+		<emotion @l="113" id="usi" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="usi_2" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="114" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="115" flags="0" screen="0"/>
+		<wait @l="118" flags="5" time="200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="119" flags="-2147483648" screen="0"/>
+		<setface @l="120" src="fusi11h"/>
+		<pause @l="121" flags="-2147483648" index="53" timeout=""/>
+		<clremt @l="123" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="125" char="11" flags="0" index="54" line="125" name="亮"
+		   text="「今まではダメだったけど、朝霞さんのためだったら\n:きっと頑張れるんじゃないかなって思って」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="127" flags="0" screen="0"/>
+		<face src="fusi05h"/>
+		<msg @l="128" char="1" flags="17" index="56" line="128" name="汐"
+		   text="「私のため……」" timeout="" voices="usi12509"/>
+		<emotion @l="129" id="usi" loop="1" screen="0" src="emotion_05" time="-1"
+		   type="usi_2" x="0" y="0"/>
+		<pause @l="130" flags="0" index="58" timeout=""/>
+		<clremt @l="131" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi12hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="133" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="135" char="11" flags="17" index="59" line="135" name="亮"
+		   text="「あのー聞いてます？　って、なんで目を閉じて\n:唇を突きだしてくるんですか！！？」" timeout="" voices=""/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="136" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="137" flags="0" screen="0"/>
+		<pause @l="138" flags="0" index="61" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="140" flags="0" screen="0"/>
+		<face src="fusi05h"/>
+		<msg @l="141" char="1" flags="0" index="62" line="141" name="汐"
+		   text="「や、だってキミのこと好きだって気持ちが、\n:盛り上がり過ぎちゃったんだもん」" timeout=""
+		   voices="usi12510"/>
+		<face src="f"/>
+		<msg @l="143" char="11" flags="0" index="64" line="143" name="亮"
+		   text="「自分的には、けっこうシリアスな感じだったんスけどね」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="145" flags="0" screen="0"/>
+		<face src="fusi28h"/>
+		<msg @l="146" char="1" flags="17" index="66" line="146" name="汐"
+		   text="「ごめんごめん。それで、とにかくケーキを\n:食べられるようになりたいと」" timeout="" voices="usi12511"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="147" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="148" flags="0" screen="0"/>
+		<wait @l="151" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="152" flags="-2147483648" screen="0"/>
+		<setface @l="153" src="fusi11h"/>
+		<pause @l="154" flags="-2147483648" index="68" timeout=""/>
+		<face src="f"/>
+		<msg @l="157" char="11" flags="0" index="69" line="157" name="亮"
+		   text="「まあそうだったんですが、今はそれより\n:続きの方もしたいなって」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="159" flags="0" screen="0"/>
+		<face src="fusi05h"/>
+		<msg @l="160" char="1" flags="0" index="71" line="160" name="汐"
+		   text="「えへ。もうしょうがないなぁ、そこまで言われたら\n:そっちを優先しないとね」" timeout=""
+		   voices="usi12512"/>
+		<face src=""/>
+		<msg @l="162" char="-1" flags="0" index="73" line="162" name=""
+		   text="しょうがないと言ってるのにそわそわしている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="163" char="-1" flags="0" index="75" line="163" name=""
+		   text="こういうわかりやすいとこが、これまた愛おし――" timeout="" voices=""/>
+		<play_sound @l="165" buf="0" fadeout="500" intro="-1" src="bgm14" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="167" flags="0" screen="0"/>
+		<face src="fusi10h"/>
+		<msg @l="168" char="1" flags="17" index="77" line="168" name="汐"
+		   text="「ちゅっ！」" timeout="" voices="usi12513"/>
+		<emotion @l="169" id="usi" loop="1" screen="0" src="emotion_04z" time="-1"
+		   type="usi_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="170" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="171" flags="0" screen="0"/>
+		<pause @l="172" flags="0" index="79" timeout=""/>
+		<clremt @l="173" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="175" char="11" flags="0" index="80" line="175" name="亮"
+		   text="「おっとぉ、今日はノーモーションで来ましたね」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi16hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="177" flags="0" screen="0"/>
+		<face src="fusi16h"/>
+		<msg @l="178" char="1" flags="17" index="82" line="178" name="汐"
+		   text="「えへへ、いつも同じじゃマンネリで飽きちゃうって\n:本にも書いてあったからね。工夫してみたの」" timeout=""
+		   voices="usi12514"/>
+		<emotion @l="179" id="usi" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="usi_1z" x="0" y="0"/>
+		<movebs duration="300" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="980" y="2147483648"/>
+		<waitbs @l="180" flags="0" screen="0"/>
+		<movebs duration="600" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="940" y="2147483648"/>
+		<waitbs @l="181" flags="0" screen="0"/>
+		<movebs duration="300" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="2147483648"/>
+		<waitbs @l="182" flags="0" screen="0"/>
+		<pause @l="183" flags="0" index="84" timeout=""/>
+		<clremt @l="184" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="186" char="11" flags="0" index="85" line="186" name="亮"
+		   text="「じゃあ僕もお返しに……ちゅっ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi06hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="188" flags="0" screen="0"/>
+		<face src="fusi06h"/>
+		<msg @l="189" char="1" flags="17" index="87" line="189" name="汐"
+		   text="「わっ、まさかのおでこ？　キミもなかなかやるねぇ」" timeout="" voices="usi12515"/>
+		<emotion @l="190" id="usi" loop="1" screen="0" src="emotion_10z" time="-1"
+		   type="usi_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="191" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="192" flags="0" screen="0"/>
+		<wait @l="195" flags="5" time="1300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi25hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="196" flags="-2147483648" screen="0"/>
+		<setface @l="197" src="fusi25h"/>
+		<pause @l="198" flags="-2147483648" index="89" timeout=""/>
+		<clremt @l="200" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi02hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="202" flags="0" screen="0"/>
+		<face src="fusi02h"/>
+		<msg @l="203" char="1" flags="17" index="90" line="203" name="汐"
+		   text="「でも次は普通にしよ……ちゅっ、んっ、ふぁ……ちゅぷっ」" timeout="" voices="usi12516"/>
+		<wait @l="206" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi00hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="207" flags="-2147483648" screen="0"/>
+		<setface @l="208" src="fusi00h"/>
+		<pause @l="209" flags="-2147483648" index="92" timeout=""/>
+		<face src=""/>
+		<msg @l="212" char="-1" flags="0" index="93" line="212" name=""
+		   text="僕たちは向き直り、しばらくの間キスを交わした。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="213" char="-1" flags="0" index="95" line="213" name=""
+		   text="これで気力十分だ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi28hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="215" flags="0" screen="0"/>
+		<face src="fusi28h"/>
+		<msg @l="216" char="1" flags="17" index="97" line="216" name="汐"
+		   text="「よーし！　それじゃあふたりで協力して、\n:ケーキを食べられるように頑張ろう！」" timeout=""
+		   voices="usi12517"/>
+		<emotion @l="217" id="usi" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="usi_2z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="218" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="219" flags="0" screen="0"/>
+		<pause @l="220" flags="0" index="99" timeout=""/>
+		<clremt @l="221" id="usi" screen="0"/>
+		<showmsg @l="225" duration="500" show="0"/>
+		<scroll @l="227" async="-1" center_x="0" center_y="0" duration="500"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="228" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src="fusi28h"/>
+		<msg @l="231" char="1" flags="17" index="100" line="231" name="亮・汐"
+		   text="\h;70:\s;70:「おーっ！！」\s:\h:" timeout="" voices="usi12518"/>
+		<shakescrn @l="232" amp="20" cycle="100" duration="1000" flags="2"
+		   screen="0"/>
+		<pause @l="233" flags="0" index="102" timeout=""/>
+		<face src=""/>
+		<msg @l="235" char="-1" flags="0" index="103" line="235" name=""
+		   text="――こうして僕たちのささやかな戦いが始まった。" timeout="" voices=""/>
+		<play_sound @l="240" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="241" duration="500" show="0"/>
+		<chgbg @l="242" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="243" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17c" type="99"/>
+		<loadimage @l="244" bg="0" fit="0" screen="1" src="bg04c"/>
+		<chgscrn @l="246" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="247" buf="0" fadeout="500" intro="-1" src="bgm23" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="249" char="-1" flags="0" index="105" line="249" name=""
+		   text="閉店後、さっそく僕が食べられるケーキをコンセプトに\n:試作を始める。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="250" char="-1" flags="0" index="107" line="250" name=""
+		   text="ちなみにオーナーに事情を話したところ、キッチンや食材を\n:自由に使って良いということになった。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="252" flags="0" screen="0"/>
+		<face src="fusi11b"/>
+		<msg @l="253" char="1" flags="0" index="109" line="253" name="汐"
+		   text="「一応確認なんだけどさ、ケーキそのものの形だと\n:ダメなんだよね」" timeout="" voices="usi12519"/>
+		<face src="f"/>
+		<msg @l="255" char="11" flags="0" index="111" line="255" name="亮"
+		   text="「形というよりは、ケーキを連想すると受け付けないんですよね」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="257" flags="0" screen="0"/>
+		<face src="fusi10b"/>
+		<msg @l="258" char="1" flags="0" index="113" line="258" name="汐"
+		   text="「たしかに、ぐちゃぐちゃに崩せば食べられてたもんね」" timeout="" voices="usi12520"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="260" flags="0" screen="0"/>
+		<face src="fusi11b"/>
+		<msg @l="261" char="1" flags="0" index="115" line="261" name="汐"
+		   text="「そうすれば味見はできるから、今のままでも\n:問題無いといえば無いんだけどね」" timeout=""
+		   voices="usi12521"/>
+		<face src="f"/>
+		<msg @l="263" char="11" flags="0" index="117" line="263" name="亮"
+		   text="「ケーキって特別なものじゃないスか。だから出来れば\n:崩さずそのまま食べたいんです」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi09b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="265" flags="0" screen="0"/>
+		<face src="fusi09b"/>
+		<msg @l="266" char="1" flags="17" index="119" line="266" name="汐"
+		   text="「まあ、その方が作ったほうも嬉しいんだけど……\n:心理的なものが原因なんだから、あんまり意気込みすぎるのも\n:良くないと思うんだ」"
+		   timeout="" voices="usi12522"/>
+		<wait @l="269" flags="5" time="4300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="270" flags="-2147483648" screen="0"/>
+		<setface @l="271" src="fusi04b"/>
+		<pause @l="272" flags="-2147483648" index="121" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="275" flags="0" screen="0"/>
+		<face src="fusi01b"/>
+		<msg @l="276" char="1" flags="0" index="122" line="276" name="汐"
+		   text="「だからもっとリラックスして、出来るだけ気楽な気分で\n:食べて欲しいの」" timeout="" voices="usi12523"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="278" flags="0" screen="0"/>
+		<face src="fusi10b"/>
+		<msg @l="279" char="1" flags="17" index="124" line="279" name="汐"
+		   text="「だって、大好きな人には笑顔で食べてもらいたいでしょ？」" timeout="" voices="usi12524"/>
+		<emotion @l="280" id="usi" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<pause @l="281" flags="0" index="126" timeout=""/>
+		<clremt @l="282" id="usi" screen="0"/>
+		<face src=""/>
+		<msg @l="284" char="-1" flags="0" index="127" line="284" name=""
+		   text="そう言って優しく微笑んでくれる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="285" char="-1" flags="0" index="129" line="285" name=""
+		   text="それだけで不思議と肩の力が抜けていくような気がした。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi22b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="287" flags="0" screen="0"/>
+		<face src="fusi22b"/>
+		<msg @l="288" char="1" flags="17" index="131" line="288" name="汐"
+		   text="「見た目をなんとかすればいけそうだし、そっち方面で\n:いくつか試してみるよ」" timeout=""
+		   voices="usi12525"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="289" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="290" flags="0" screen="0"/>
+		<pause @l="291" flags="0" index="133" timeout=""/>
+		<play_sound @l="296" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="297" duration="500" show="0"/>
+		<chgbg @l="298" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="299" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg03c" type="201"/>
+		<play_sound @l="301" buf="0" fadeout="500" intro="-1" src="bgm02" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="303" char="-1" flags="0" index="134" line="303" name=""
+		   text="そんなわけで、作ってくれた試作品の数々が僕の目の前に並ぶ。" timeout="" voices=""/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="usi01b"
+		   transparency="256" x="810"/>
+		<waitbs @l="305" flags="0" screen="0"/>
+		<face src="fusi01b"/>
+		<msg @l="306" char="1" flags="17" index="136" line="306" name="汐"
+		   text="「動物の形をしたやつとか、乗り物みたいなのとか、\n:ケーキの形からかけ離れたものを作ってみたんだけど」" timeout=""
+		   voices="usi12526"/>
+		<movebs duration="1000" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="307" flags="0" screen="0"/>
+		<pause @l="308" flags="0" index="138" timeout=""/>
+		<face src="f"/>
+		<msg @l="310" char="11" flags="0" index="139" line="310" name="亮"
+		   text="「この和菓子みたいなのって……」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="312" flags="0" screen="0"/>
+		<face src="fusi11b"/>
+		<msg @l="313" char="1" flags="0" index="141" line="313" name="汐"
+		   text="「前に合宿で試食会をしたときに、似たようなのを\n:食べられたことがあったでしょ？」" timeout=""
+		   voices="usi12527"/>
+		<face src="f"/>
+		<msg @l="315" char="11" flags="0" index="143" line="315" name="亮"
+		   text="「ああ、確かに。あのおまんじゅうみたいなやつですね」" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="317" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="319" char="-1" flags="0" index="145" line="319" name=""
+		   text="でも今回のは和菓子っぽいとはいえ、ところどころに\n:ケーキ特有のスポンジ生地やクリームが見え隠れしている。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="321" char="11" flags="0" index="147" line="321" name="亮"
+		   text="「うっ……」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="323" char="-1" flags="0" index="149" line="323" name=""
+		   text="やっぱり手が動かない。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="324" char="-1" flags="0" index="151" line="324" name=""
+		   text="頭がそれをケーキとして捉えてしまったら、どうやっても\n:身体が拒んでしまう。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="326" flags="0" screen="0"/>
+		<face src="fusi04b"/>
+		<msg @l="327" char="1" flags="17" index="153" line="327" name="汐"
+		   text="「うーん、ダメかぁ……」" timeout="" voices="usi12528"/>
+		<emotion @l="328" id="usi" loop="1" screen="0" src="emotion_11" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<movebs duration="300" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="20"/>
+		<waitbs @l="329" flags="0" screen="0"/>
+		<movebs duration="300" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="330" flags="0" screen="0"/>
+		<pause @l="331" flags="0" index="155" timeout=""/>
+		<clremt @l="332" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi13b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="334" flags="0" screen="0"/>
+		<face src="fusi13b"/>
+		<msg @l="335" char="1" flags="17" index="156" line="335" name="汐"
+		   text="「和菓子っぽいのはちょっと自信あったんだけどなあ……\n:これもダメってなると、発想を変えてみよっか」" timeout=""
+		   voices="usi12529"/>
+		<wait @l="338" flags="5" time="4000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="339" flags="-2147483648" screen="0"/>
+		<setface @l="340" src="fusi04b"/>
+		<wait @l="341" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="342" flags="-2147483648" screen="0"/>
+		<setface @l="343" src="fusi10b"/>
+		<pause @l="345" flags="-2147483648" index="158" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi22b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="348" flags="0" screen="0"/>
+		<face src="fusi22b"/>
+		<msg @l="349" char="1" flags="0" index="159" line="349" name="汐"
+		   text="「ケーキだって意識するとダメなら、食べる場所が\n:関係してるとかさ」" timeout="" voices="usi12530"/>
+		<face src="f"/>
+		<msg @l="351" char="11" flags="0" index="161" line="351" name="亮"
+		   text="「場所ですか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi16b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="353" flags="0" screen="0"/>
+		<face src="fusi16b"/>
+		<msg @l="354" char="1" flags="17" index="163" line="354" name="汐"
+		   text="「ここだと、まさにケーキ屋でござい！　って雰囲気だから、\n:そういうのも影響しちゃうのかなって」" timeout=""
+		   voices="usi12531"/>
+		<wait @l="357" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="358" flags="-2147483648" screen="0"/>
+		<setface @l="359" src="fusi04b"/>
+		<pause @l="360" flags="-2147483648" index="165" timeout=""/>
+		<face src="f"/>
+		<msg @l="363" char="11" flags="0" index="166" line="363" name="亮"
+		   text="「なるほど！　それは考えたこともなかったですね」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="365" flags="0" screen="0"/>
+		<face src="fusi01b"/>
+		<msg @l="366" char="1" flags="17" index="168" line="366" name="汐"
+		   text="「それじゃあ、気分転換もかねて、別の場所で食べてみよう！」" timeout="" voices="usi12532"/>
+		<wait @l="369" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="370" flags="-2147483648" screen="0"/>
+		<setface @l="371" src="fusi10b"/>
+		<emotion @l="372" id="usi" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="usi_1" x="0" y="0"/>
+		<pause @l="373" flags="-2147483648" index="170" timeout=""/>
+		<clremt @l="375" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="377" char="11" flags="0" index="171" line="377" name="亮"
+		   text="「おお！　なんか希望が見えてきました。それで\n:どこで食べるんです？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="379" flags="0" screen="0"/>
+		<face src="fusi01b"/>
+		<msg @l="380" char="1" flags="17" index="173" line="380" name="汐"
+		   text="「それじゃあ明日、私のお家に集合ってことで。\n:幸いに両親も仕事で帰りが遅いからさ」" timeout=""
+		   voices="usi12533"/>
+		<wait @l="383" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi11b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="384" flags="-2147483648" screen="0"/>
+		<setface @l="385" src="fusi11b"/>
+		<pause @l="386" flags="-2147483648" index="175" timeout=""/>
+		<face src="f"/>
+		<msg @l="389" char="11" flags="0" index="176" line="389" name="亮"
+		   text="「なんと！　ということはふたりっきりってことですね！」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi16bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="391" flags="0" screen="0"/>
+		<face src="fusi16b"/>
+		<msg @l="392" char="1" flags="17" index="178" line="392" name="汐"
+		   text="「そうなの！　ふたりっきりってことなのぉーっ！！」" timeout="" voices="usi12534"/>
+		<emotion @l="393" id="usi" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="usi_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="394" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="395" flags="0" screen="0"/>
+		<pause @l="396" flags="0" index="180" timeout=""/>
+		<clremt @l="397" id="usi" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi10bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="399" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="401" char="-1" flags="17" index="181" line="401" name=""
+		   text="すりすりと身体をすり寄せ、僕の背中に回した手が\n:ぎゅっと力を込めてくる。" timeout="" voices=""/>
+		<emotion @l="402" id="usi" loop="1" screen="0" src="emotion_04z" time="-1"
+		   type="usi_1z" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="10"/>
+		<waitbs @l="403" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="404" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="10"/>
+		<waitbs @l="405" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="406" flags="0" screen="0"/>
+		<pause @l="407" flags="0" index="183" timeout=""/>
+		<clremt @l="408" id="usi" screen="0"/>
+		<face src=""/>
+		<msg @l="410" char="-1" flags="0" index="184" line="410" name=""
+		   text="これは明日は、ふへ……ふへへへ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="412" char="11" flags="0" index="186" line="412" name="亮"
+		   text="（おっと、一応は僕がケーキを食べられるようにという名目で\n:準備してもらってるわけだし、浮かれすぎるのもよくないか）"
+		   timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="414" char="-1" flags="0" index="188" line="414" name=""
+		   text="でもなあ、いちゃいちゃを考えちゃうよなー。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi22bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="416" flags="0" screen="0"/>
+		<face src="fusi22b"/>
+		<msg @l="417" char="1" flags="17" index="190" line="417" name="汐"
+		   text="「ふふ、楽しみだよねー」" timeout="" voices="usi12535"/>
+		<emotion @l="418" id="usi" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="usi_2z" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="419" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="usi" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="420" flags="0" screen="0"/>
+		<pause @l="421" flags="0" index="192" timeout=""/>
+		<clremt @l="422" id="usi" screen="0"/>
+		<face src="f"/>
+		<msg @l="424" char="11" flags="0" index="193" line="424" name="亮"
+		   text="「はい、今すぐにでも明日になれって気持ちです」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="usi05bz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="426" flags="0" screen="0"/>
+		<face src="fusi05b"/>
+		<msg @l="427" char="1" flags="17" index="195" line="427" name="汐"
+		   text="「明日はケーキに負けないぐらい、\n:いーっぱい甘やかしてあ・げ・る\x;hearts:」" timeout=""
+		   voices="usi12536"/>
+		<emotion @l="428" id="usi" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="usi_2z" x="0" y="0"/>
+		<pause @l="429" flags="0" index="197" timeout=""/>
+		<clremt @l="430" id="usi" screen="0"/>
+		<play_sound @l="435" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="436" duration="500" show="0"/>
+		<chgbg @l="437" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="438" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg18c" type="201"/>
+		<play_sound @l="439" buf="0" fadeout="500" intro="-1" src="bgm21" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="441" char="-1" flags="0" index="198" line="441" name=""
+		   text="朝霞さんを家まで送りとどけた後、銭湯へと直行した。" timeout="" voices=""/>
+		<showmsg @l="446" duration="500" show="0"/>
+		<chgbg @l="447" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<chgbg @l="448" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg19cz" type="99"/>
+		<face src="f"/>
+		<msg @l="451" char="11" flags="0" index="200" line="451" name="亮"
+		   text="「ふぅ……ちょっとのぼせちまったかな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="453" char="-1" flags="0" index="202" line="453" name=""
+		   text="だって、ほら。念入りに身体を洗ったり色々ありますから。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="455" char="11" flags="0" index="204" line="455" name="亮"
+		   text="（あぁ、明日が楽しみすぎるっ……！）" timeout="" voices=""/>
+		<play_sound @l="457" buf="0" fadeout="2500" type="0"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="kaz01a"
+		   transparency="256" x="810"/>
+		<waitbs @l="460" flags="0" screen="0"/>
+		<play_sound @l="462" buf="0" fadeout="500" intro="-1" src="bgm26" type="0"
+		   volume="1."/>
+		<face src="fkaz01a"/>
+		<msg @l="464" char="6" flags="17" index="206" line="464" name="寛三郎"
+		   text="「よう兄ちゃん、ずいぶんと上機嫌じゃねーか」" timeout="" voices="kaz02500"/>
+		<movebs duration="1000" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="465" flags="0" screen="0"/>
+		<pause @l="466" flags="0" index="208" timeout=""/>
+		<face src="f"/>
+		<msg @l="468" char="11" flags="0" index="209" line="468" name="亮"
+		   text="「そんなに浮かれてるように見えました？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="470" flags="0" screen="0"/>
+		<face src="fkaz22a"/>
+		<msg @l="471" char="6" flags="17" index="211" line="471" name="寛三郎"
+		   text="「股間のあたりを熱心に洗ってみてーだけど、ひょっとコレか？」" timeout="" voices="kaz02501"/>
+		<emotion @l="472" id="kaz" loop="1" screen="0" src="emotion_16" time="-1"
+		   type="kaz_1" x="0" y="0"/>
+		<wait @l="475" flags="5" time="3900"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz16a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="476" flags="-2147483648" screen="0"/>
+		<setface @l="477" src="fkaz16a"/>
+		<play_sound @l="478" buf="1" fadeout="0" intro="-1" src="se805" type="1"
+		   volume="1."/>
+		<effect @l="479" cycle="0" flags="512" param="0" screen="0" type="2"/>
+		<fade @l="480" async="0" degree="256" duration="200" flags="0" screen="0"
+		   wait_flags="-2147483648"/>
+		<fade @l="481" async="0" degree="0" duration="200" flags="0" screen="0"
+		   wait_flags="-2147483648"/>
+		<pause @l="483" flags="-2147483648" index="213" timeout=""/>
+		<clremt @l="485" id="kaz" screen="0"/>
+		<face src=""/>
+		<msg @l="487" char="-1" flags="0" index="214" line="487" name=""
+		   text="小指を上げながら、ニカッとからかうように笑いかけてくる\n:寛三郎さん。" timeout="" voices=""/>
+		<play_sound @l="489" buf="1" fadeout="0" type="1"/>
+		<face src="f"/>
+		<msg @l="491" char="11" flags="17" index="216" line="491" name="亮"
+		   text="「見てたんですか！？」" timeout="" voices=""/>
+		<shakescrn @l="492" amp="20" cycle="20" duration="300" flags="2" screen="0"/>
+		<pause @l="493" flags="0" index="218" timeout=""/>
+		<showmsg @l="498" duration="500" show="0"/>
+		<scroll @l="499" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="500" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg18c" type="99"/>
+		<face src=""/>
+		<msg @l="502" char="-1" flags="0" index="219" line="502" name=""
+		   text="明日の予定を寛三郎さんに話した。" timeout="" voices=""/>
+		<showmsg @l="507" duration="500" show="0"/>
+		<loadimage @l="508" bg="0" fit="0" screen="1" src="bg19c"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="kaz00a"
+		   transparency="0" x="960"/>
+		<waitbs @l="509" flags="0" screen="1"/>
+		<chgscrn @l="510" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="512" flags="0" screen="0"/>
+		<face src="fkaz01a"/>
+		<msg @l="513" char="6" flags="17" index="221" line="513" name="寛三郎"
+		   text="「なるほどねえ。そいつは楽しみすぎて、気合いも\n:入るってもんだ」" timeout="" voices="kaz02502"/>
+		<movebs duration="200" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="30"/>
+		<waitbs @l="515" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="516" flags="0" screen="0"/>
+		<pause @l="517" flags="0" index="223" timeout=""/>
+		<face src="f"/>
+		<msg @l="520" char="11" flags="0" index="224" line="520" name="亮"
+		   text="「ええ、まあそうなんですけどね」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz24a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="522" flags="0" screen="0"/>
+		<face src="fkaz24a"/>
+		<msg @l="523" char="6" flags="17" index="226" line="523" name="寛三郎"
+		   text="「照れるな照れるな。見てたつっても後ろ姿だから、\n:大事なもんは見えてねぇからよ」" timeout=""
+		   voices="kaz02503"/>
+		<pause @l="525" flags="0" index="228" timeout=""/>
+		<clremt @l="526" id="kaz" screen="0"/>
+		<face src="f"/>
+		<msg @l="528" char="11" flags="0" index="229" line="528" name="亮"
+		   text="「股間“も”熱心に洗ってただけなんですけどね、\n:きれい好きですから」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="530" flags="0" screen="0"/>
+		<face src="fkaz22a"/>
+		<msg @l="531" char="6" flags="17" index="231" line="531" name="寛三郎"
+		   text="「だから照れるなって！　若ぇんだから、そっちの方を\n:期待してもバチは当たるめぇよ。かっかっ」" timeout=""
+		   voices="kaz02504"/>
+		<movebs duration="150" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="532" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="533" flags="0" screen="0"/>
+		<wait @l="536" flags="5" time="1700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="537" flags="-2147483648" screen="0"/>
+		<setface @l="538" src="fkaz10a"/>
+		<pause @l="539" flags="-2147483648" index="233" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz00a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="542" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="544" char="-1" flags="0" index="234" line="544" name=""
+		   text="腰に手を当てながら牛乳をグイッと飲むと、\n:再びこっちへとむき直る。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="546" flags="0" screen="0"/>
+		<face src="fkaz01a"/>
+		<msg @l="547" char="6" flags="0" index="236" line="547" name="寛三郎"
+		   text="「オレだって昔、おっかあの実家にお呼ばれしたときは、\n:嬉しくて舞い上がっちまったもんさ」" timeout=""
+		   voices="kaz02505"/>
+		<face src="f"/>
+		<msg @l="549" char="11" flags="0" index="238" line="549" name="亮"
+		   text="「やっぱりそうですか、僕もテンション上がっちゃって」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="551" flags="0" screen="0"/>
+		<face src="fkaz22a"/>
+		<msg @l="552" char="6" flags="17" index="240" line="552" name="寛三郎"
+		   text="「まあオレの場合はその最中に親父さんが帰って来ちまってよぉ。\n:猟銃持ち出してえらいことになったんだけどな」" timeout=""
+		   voices="kaz02506"/>
+		<wait @l="555" flags="5" time="5400"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="556" flags="-2147483648" screen="0"/>
+		<setface @l="557" src="fkaz15a"/>
+		<pause @l="558" flags="-2147483648" index="242" timeout=""/>
+		<play_sound @l="562" buf="0" fadeout="1000" type="0"/>
+		<play_sound @l="564" buf="1" fadeout="0" intro="-1" src="se820" type="1"
+		   volume="0.5"/>
+		<face src="f"/>
+		<msg @l="566" char="11" flags="17" index="243" line="566" name="亮"
+		   text="\h;70:\s;70:「なんスかそれ！？」\s:\h:" timeout="" voices=""/>
+		<shakescrn @l="567" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="568" flags="0" index="245" timeout=""/>
+		<play_sound @l="570" buf="1" fadeout="1500" type="1"/>
+		<play_sound @l="572" buf="0" fadeout="500" intro="-1" src="bgm08" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz09a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="574" flags="0" screen="0"/>
+		<face src="fkaz09a"/>
+		<msg @l="575" char="6" flags="0" index="246" line="575" name="寛三郎"
+		   text="「ほら娘親ってもんはよ、どうしたってさらっていく男を\n:敵視しちまうもんだからなぁ」" timeout=""
+		   voices="kaz02507"/>
+		<face src="f"/>
+		<msg @l="577" char="11" flags="17" index="248" line="577" name="亮"
+		   text="「こえぇーーーっ！　なんか行くのが急に不安になって\n:きたんですけど」" timeout="" voices=""/>
+		<shakescrn @l="578" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="579" flags="0" index="250" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="581" flags="0" screen="0"/>
+		<face src="fkaz22a"/>
+		<msg @l="582" char="6" flags="17" index="251" line="582" name="寛三郎"
+		   text="「かっかっ。まあ、ひとつアドバイスするとしたら、\n:邪魔が入る前にとっととやることやっちまうってくらいだな」" timeout=""
+		   voices="kaz02508"/>
+		<emotion @l="583" id="kaz" loop="1" screen="0" src="emotion_07" time="-1"
+		   type="kaz_1" x="0" y="0"/>
+		<pause @l="584" flags="0" index="253" timeout=""/>
+		<clremt @l="585" id="kaz" screen="0"/>
+		<face src="f"/>
+		<msg @l="587" char="10" flags="0" index="254" line="587" name="銭湯のおばさん"
+		   text="「もう寛さんっ！　他のお客さんも居るんだから、大きい声で\n:そういう話はしないどくれっ！」" timeout=""
+		   voices="mowd02200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="589" flags="0" screen="0"/>
+		<face src="fkaz06a"/>
+		<msg @l="590" char="6" flags="17" index="256" line="590" name="寛三郎"
+		   text="「おおっと、こいつはすまねえ」" timeout="" voices="kaz02509"/>
+		<movebs duration="150" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="591" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kaz" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="592" flags="0" screen="0"/>
+		<pause @l="593" flags="0" index="258" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kaz01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="595" flags="0" screen="0"/>
+		<face src="fkaz01a"/>
+		<msg @l="596" char="6" flags="0" index="259" line="596" name="寛三郎"
+		   text="「なんにしても挨拶はビシッとしてこい。今後のお前さんの\n:イメージに関わるもんだからな、最初が肝心だぞ？」" timeout=""
+		   voices="kaz02510"/>
+		<clr_allbs duration="400" screen="0"/>
+		<waitbs @l="598" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="600" char="-1" flags="0" index="261" line="600" name=""
+		   text="結局、おばさんに注意されてこの話は終わったが。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="601" char="-1" flags="0" index="263" line="601" name=""
+		   text="僕の頭の中には、向こうのご両親と鉢合わせしてしまったら\n:どうするべきかのシミュレーションが駆け巡っていた。" timeout=""
+		   voices=""/>
+		<play_sound @l="608" buf="0" fadeout="2500" type="0"/>
+		<play_sound @l="609" buf="1" fadeout="0" type="1"/>
+		<showmsg @l="610" duration="500" show="0"/>
+		<change_view @l="611" mode="0" sub="-1"/>
+		<chgbg @l="612" duration="1500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="614" buf="1" fadeout="0" intro="-1" src="se1026" type="1"
+		   volume="1."/>
+		<loadimage @l="617" bg="0" fit="0" screen="1" src="day001"/>
+		<scroll @l="618" async="0" center_x="286" center_y="180" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<chgscrn @l="619" duration="1500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="3"/>
+		<play_sound @l="622" buf="5" fadeout="0" intro="-1" src="usi90001" type="1"
+		   volume="1."/>
+		<scroll @l="625" async="-1" center_x="0" center_y="0" duration="2500"
+		   flags="1" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="10" y="0" zoom="1."/>
+		<chgbg @l="626" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="day001" type="99"/>
+		<wait @l="628" flags="5" time="5000"/>
+		<wait_sound @l="629" buf="1"/>
+		<chgbg @l="631" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="632" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="633" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="634" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="635" buf="0" fadeout="0" type="0"/>
+		<return/>
+	</code>
+</xscript>

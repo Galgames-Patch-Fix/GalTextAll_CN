@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<chgbg @l="2271" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<play_sound @l="2272" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="2274" char="10" flags="0" index="1089" line="2274" name="司会の女性"
+		   text="「キャーッ！　カミオウガーを呼ぼうとしたら、なぜか\n:悪者達があらわれたわ！」" timeout=""
+		   voices="mowa06809"/>
+		<face src="f"/>
+		<msg @l="2276" char="9" flags="0" index="1091" line="2276" name="怪人"
+		   text="「ひゃっはーっ！　このステージは俺たちワルーモンが\n:乗っ取った！　戦闘員達よ、子供達をさらってくるのだ！」" timeout=""
+		   voices="momd04003"/>
+		<face src="f"/>
+		<msg @l="2278" char="9" flags="0" index="1093" line="2278" name="戦闘員"
+		   text="「キーッ！！」" timeout="" voices="moma02800"/>
+		<face src=""/>
+		<msg @l="2280" char="-1" flags="0" index="1095" line="2280" name=""
+		   text="ステージ上に怪人や戦闘員がわらわらと登場すると、\n:そのまま客席へとやってくる。" timeout="" voices=""/>
+		<play_sound @l="2286" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="2287" duration="500" show="0"/>
+		<chgbg @l="2288" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<loadimage @l="2289" bg="0" fit="0" screen="1" src="bg10a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai11a"
+		   transparency="0" x="960"/>
+		<waitbs @l="2290" flags="0" screen="1"/>
+		<chgscrn @l="2291" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="2292" buf="0" fadeout="500" intro="-1" src="bgm07" type="0"
+		   volume="1."/>
+		<face src="frai11a"/>
+		<msg @l="2294" char="3" flags="17" index="1097" line="2294" name="礼羽"
+		   text="「なになに？　なにが起こってるわけ？」" timeout="" voices="rai15551"/>
+		<emotion @l="2295" id="rai" loop="1" screen="0" src="emotion_15" time="-1"
+		   type="rai_2" x="0" y="0"/>
+		<pause @l="2296" flags="0" index="1099" timeout=""/>
+		<clremt @l="2297" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="2299" char="11" flags="0" index="1100" line="2299" name="亮"
+		   text="「カミオウガーの宿敵、悪の組織の怪人と戦闘員だな。\n:こういうイベントのお約束として、戦闘員が客席の子供を――」"
+		   timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2301" flags="0" screen="0"/>
+		<face src="frai06a"/>
+		<msg @l="2302" char="3" flags="17" index="1102" line="2302" name="礼羽"
+		   text="「キャッ！　タカシッ！？」" timeout="" voices="rai15552"/>
+		<emotion @l="2303" id="rai" loop="1" screen="0" src="emotion_09" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="2304" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="2305" flags="0" screen="0"/>
+		<pause @l="2306" flags="0" index="1104" timeout=""/>
+		<clremt @l="2307" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="2309" char="-1" flags="0" index="1105" line="2309" name=""
+		   text="戦闘員達がタカシくんを連れてステージ上にあがっていった。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="2311" char="9" flags="0" index="1107" line="2311" name="タカシ"
+		   text="「おねーちゃん、おにーちゃん、助けてーーっ！！」" timeout="" voices="rai15553|momb05631b"/>
+		<face src="f"/>
+		<msg @l="2313" char="9" flags="0" index="1109" line="2313" name="怪人"
+		   text="「ふははははっ！　威勢のいい小僧だ、こやつこそ\n:今宵の生け贄にふさわしい！」" timeout=""
+		   voices="momd04004"/>
+		<face src="f"/>
+		<msg @l="2315" char="10" flags="0" index="1111" line="2315" name="司会の女性"
+		   text="「さあ大変！　男の子がワルーモンにさらわれちゃった！！」" timeout="" voices="mowa06810"/>
+		<face src=""/>
+		<msg @l="2317" char="-1" flags="0" index="1113" line="2317" name=""
+		   text="客席の子供たちは騒然としているが、保護者の皆さんは\n:それをあたたかい目で見守っている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2318" char="-1" flags="0" index="1115" line="2318" name=""
+		   text="ヒーローショーのお約束。こうやってゲストを参加させて\n:客席とステージの一体感を演出しているのだ。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="2320" char="9" flags="0" index="1117" line="2320" name="タカシ"
+		   text="「こわいよーっ！　助けてーっ！！」" timeout="" voices="rai15554|momb05632b"/>
+		<face src="f"/>
+		<msg @l="2322" char="11" flags="0" index="1119" line="2322" name="亮"
+		   text="「まさかタカシくんが連れていかれるとは、いい経験が\n:出来てラッキーだったな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai14a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2324" flags="0" screen="0"/>
+		<face src="frai14a"/>
+		<msg @l="2325" char="3" flags="17" index="1121" line="2325" name="礼羽"
+		   text="「なに呑気なこと言ってるの、早く助けなきゃ！」" timeout="" voices="rai15555"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="2326" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="2327" flags="0" screen="0"/>
+		<pause @l="2328" flags="0" index="1123" timeout=""/>
+		<face src="f"/>
+		<msg @l="2330" char="11" flags="0" index="1124" line="2330" name="亮"
+		   text="「これは演出で――って、ライライ？」" timeout="" voices=""/>
+		<play_sound @l="2334" buf="0" fadeout="2500" type="0"/>
+		<play_sound @l="2335" buf="0" fadeout="500" intro="-1" src="bgm09" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="2337" char="-1" flags="17" index="1126" line="2337" name=""
+		   text="僕が止めるより早く、ステージに上がったライライが\n:怪人に突進していく。" timeout="" voices=""/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="256" v0="0." v1="0." x="528" y="0"/>
+		<waitbs @l="2338" flags="0" screen="0"/>
+		<pause @l="2339" flags="0" index="1128" timeout=""/>
+		<clr_allbs duration="300" screen="0"/>
+		<waitbs @l="2341" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="2343" char="10" flags="0" index="1129" line="2343" name="司会の女性"
+		   text="「さあみんな、声を合わせてカミオウガーを呼ぼう！　せーの！」" timeout="" voices="mowa06811"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai07as"
+		   transparency="256" x="1392"/>
+		<waitbs @l="2345" flags="0" screen="0"/>
+		<movebs duration="800" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="2346" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="2348" char="9" flags="17" index="1131" line="2348" name="怪人"
+		   text="「ぐぼばゃあああぁっ！！？」" timeout="" voices="momd04005"/>
+		<shakescrn @l="2350" amp="20" cycle="100" duration="500" flags="2"
+		   screen="0"/>
+		<pause @l="2351" flags="0" index="1133" timeout=""/>
+		<play_sound @l="2352" buf="1" fadeout="0" type="1"/>
+		<face src="f"/>
+		<msg @l="2355" char="10" flags="0" index="1134" line="2355" name="司会の女性"
+		   text="「……え？」" timeout="" voices="mowa06812"/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai07a"
+		   transparency="256" x="1392"/>
+		<waitbs @l="2357" flags="0" screen="0"/>
+		<face src="frai07a"/>
+		<msg @l="2358" char="3" flags="17" index="1136" line="2358" name="礼羽"
+		   text="「タカシ！　今、お姉ちゃんが助けてあげるからねっ！！」" timeout="" voices="rai15556"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="2359" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="2360" flags="0" screen="0"/>
+		<pause @l="2361" flags="0" index="1138" timeout=""/>
+		<face src="f"/>
+		<msg @l="2363" char="9" flags="17" index="1139" line="2363" name="戦闘員"
+		   text="「ちょ、ちょっと！　これはあくまでも演技で――\n:ぶべらっ！！？」" timeout="" voices="moma02801"/>
+		<wait @l="2365" flags="5" time="2300"/>
+		<play_sound @l="2367" buf="1" fadeout="0" intro="-1" src="se601" type="1"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai26az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2369" flags="-2147483648" screen="0"/>
+		<setface @l="2370" src="frai26a"/>
+		<shakescrn @l="2372" amp="20" cycle="100" duration="300" flags="2"
+		   screen="0"/>
+		<pause @l="2373" flags="-2147483648" index="1141" timeout=""/>
+		<play_sound @l="2376" buf="1" fadeout="0" type="1"/>
+		<face src="f"/>
+		<msg @l="2380" char="9" flags="17" index="1142" line="2380" name="カミオウガー"
+		   text="「やべぇ、田辺さんまでやられた！　って、いきなりの\n:ローリングソバット！！！？」" timeout=""
+		   voices="mome02600"/>
+		<movebs duration="300" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="2381" flags="0" screen="0"/>
+		<wait @l="2383" flags="5" time="2000"/>
+		<play_sound @l="2384" buf="1" fadeout="0" intro="-1" src="se605" type="1"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai21az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2385" flags="-2147483648" screen="0"/>
+		<setface @l="2386" src="frai21a"/>
+		<shakescrn @l="2388" amp="20" cycle="100" duration="500" flags="2"
+		   screen="0"/>
+		<pause @l="2389" flags="-2147483648" index="1144" timeout=""/>
+		<play_sound @l="2392" buf="1" fadeout="500" type="1"/>
+		<showmsg @l="2398" duration="500" show="0"/>
+		<scroll @l="2399" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="2400" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src="frai07a"/>
+		<msg @l="2403" char="3" flags="17" index="1145" line="2403" name="礼羽"
+		   text="\h;70:\s;70:「タカシーーーーッ！！」\s:\h:" timeout="" voices="rai15557"/>
+		<shakescrn @l="2404" amp="20" cycle="100" duration="1000" flags="2"
+		   screen="0"/>
+		<pause @l="2405" flags="0" index="1147" timeout=""/>
+		<face src=""/>
+		<msg @l="2407" char="-1" flags="0" index="1148" line="2407" name=""
+		   text="ライライの動きは素晴らしかった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2408" char="-1" flags="0" index="1150" line="2408" name=""
+		   text="戦闘員や怪人をバッタバッタとなぎ倒し、最後には主役の\n:カミオウガーまで倒してみごとタカシくんを救出。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="2410" char="-1" flags="0" index="1152" line="2410" name=""
+		   text="もっとも、いくら乱入者とはいえ保護者に手を挙げることが\n:出来ないという事情があったことを、彼らの名誉のために\n:付け加えておく。"
+		   timeout="" voices=""/>
+		<play_sound @l="2412" buf="1" fadeout="0" intro="-1" src="se812" type="1"
+		   volume="1."/>
+		<play_sound @l="2417" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="2418" duration="500" show="0"/>
+		<chgbg @l="2419" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<play_sound @l="2420" buf="0" fadeout="500" intro="-1" src="bgm08" type="0"
+		   volume="1."/>
+		<face src="frai04a"/>
+		<msg @l="2423" char="3" flags="0" index="1154" line="2423" name="亮・礼羽"
+		   text="\h;70:\s;70:「すみませんでしたーー！！」\s:\h:" timeout="" voices="rai15558"/>
+		<face src=""/>
+		<msg @l="2425" char="-1" flags="0" index="1156" line="2425" name=""
+		   text="ショーが終わった後、事情を知ったライライと一緒に関係者の\n:皆様に謝って回った。" timeout="" voices=""/>
+		<play_sound @l="2426" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="2432" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="2433" duration="500" show="0"/>
+		<chgbg @l="2434" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="2435" bg="0" fit="0" screen="1" src="bg09b"/>
+		<bsfilter @l="2436" screen="1" src="yu.tct"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai09az"
+		   transparency="256" x="1110"/>
+		<waitbs @l="2437" flags="0" screen="1"/>
+		<chgscrn @l="2438" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="2439" buf="0" fadeout="500" intro="-1" src="bgm04" type="0"
+		   volume="1."/>
+		<movebs duration="800" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="2441" flags="0" screen="0"/>
+		<face src="frai09a"/>
+		<msg @l="2443" char="3" flags="17" index="1158" line="2443" name="礼羽"
+		   text="「ごめんね、カミオウガーの出番とっちゃって」" timeout="" voices="rai15559"/>
+		<emotion @l="2444" id="rai" loop="1" screen="0" src="emotion_02z" time="-1"
+		   type="rai_2z" x="0" y="0"/>
+		<pause @l="2445" flags="0" index="1160" timeout=""/>
+		<clremt @l="2446" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="2448" char="9" flags="0" index="1161" line="2448" name="タカシ"
+		   text="「ううん。おねーちゃん、すっごくかっこよかったよっ！」" timeout=""
+		   voices="rai15560|momb05633b"/>
+		<face src="f"/>
+		<msg @l="2450" char="9" flags="0" index="1163" line="2450" name="タカシ"
+		   text="「カミオウガーより強いし、ワルーモンもみんな\n:やっつけちゃってすごいや！」" timeout=""
+		   voices="rai15561|momb05634b"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2452" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="2453" char="-1" flags="0" index="1165" line="2453" name=""
+		   text="タカシくんはショーの後、ライライのことを尊敬の\n:まなざしで見るようになっていた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2454" char="-1" flags="0" index="1167" line="2454" name=""
+		   text="仲良く手を繋いでいるふたりを見ると、これで\n:よかったのかもなんて思えてくる。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="2456" char="9" flags="0" index="1169" line="2456" name="タカシ"
+		   text="「また何かあったら助けてね、おねーちゃん」" timeout="" voices="rai15562|momb05635b"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2458" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="2459" char="3" flags="17" index="1171" line="2459" name="礼羽"
+		   text="「うんっ。いつでも助けに飛んでいくから、いっぱい頼ってね」" timeout="" voices="rai15563"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="75"/>
+		<waitbs @l="2460" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="2461" flags="0" screen="0"/>
+		<wait @l="2463" flags="5" time="2600"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2464" flags="-2147483648" screen="0"/>
+		<setface @l="2465" src="frai08a"/>
+		<pause @l="2466" flags="-2147483648" index="1173" timeout=""/>
+		<face src="f"/>
+		<msg @l="2470" char="9" flags="0" index="1174" line="2470" name="タカシ"
+		   text="「そういえば、最後に出てきたジンオウガーって\n:なんだったのかな？」" timeout=""
+		   voices="rai15564|momb05636b"/>
+		<face src="f"/>
+		<msg @l="2472" char="11" flags="0" index="1176" line="2472" name="亮"
+		   text="「ギクッ！？　な、なんなんだろうな？　噂だと\n:カミオウガーの生き別れの兄弟らしいぞ」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="2474" char="9" flags="0" index="1178" line="2474" name="タカシ"
+		   text="「うーん？　そんなのいたかなあ？？」" timeout="" voices="rai15565|momb05637b"/>
+		<face src=""/>
+		<msg @l="2476" char="-1" flags="0" index="1180" line="2476" name=""
+		   text="ライライが乱入して収集がつかなくなった後、僕がカミオウガーのお面をつけて“カミオウガーのお兄さん・ジンオウガー”として\n:ライライを回収したのだ。"
+		   timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2477" char="-1" flags="0" index="1182" line="2477" name=""
+		   text="いくら弟想いが故とはいえ、ヒーローが倒されたままじゃ\n:子供たちの夢を壊しちゃうからな。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2479" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="2480" char="3" flags="0" index="1184" line="2480" name="礼羽"
+		   text="「あれはきっと、タカシくんのために来てくれた\n:特別なヒーローなんだよ」" timeout="" voices="rai15566"/>
+		<face src="f"/>
+		<msg @l="2482" char="9" flags="0" index="1186" line="2482" name="タカシ"
+		   text="「よくわからないけど、お姉ちゃんがそう言うんなら\n:きっとそうなんだね！」" timeout=""
+		   voices="rai15567|momb05638b"/>
+		<face src=""/>
+		<msg @l="2484" char="-1" flags="0" index="1188" line="2484" name=""
+		   text="そしてタカシくんがライライの手をぎゅっと握りしめる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="2486" flags="0" screen="0"/>
+		<face src="frai08a"/>
+		<msg @l="2487" char="3" flags="17" index="1190" line="2487" name="礼羽"
+		   text="「えへへへ……」" timeout="" voices="rai15568"/>
+		<emotion @l="2488" id="rai" loop="1" screen="0" src="emotion_08z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<pause @l="2489" flags="0" index="1192" timeout=""/>
+		<clremt @l="2490" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="2492" char="-1" flags="0" index="1193" line="2492" name=""
+		   text="顔がほにゃっと崩れたライライを見ていると、\n:こっちまで嬉しくなってくる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2493" char="-1" flags="0" index="1195" line="2493" name=""
+		   text="繋いだ手を大きく揺らす姉弟と一緒に、\n:僕は家路へとついたのだった。" timeout="" voices=""/>
+		<goto @l="2497" cond="" label="Label_sel_end2"/>
+		<label @l="2505" id="Label_sel_end2"/>
+		<play_sound @l="2510" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="2511" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="2512" duration="500" show="0"/>
+		<chgbg @l="2513" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="2514" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17c" type="99"/>
+		<chgbg @l="2515" duration="4000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg06c" type="99"/>
+		<play_sound @l="2516" buf="0" fadeout="500" intro="-1" src="bgm21" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="2518" char="-1" flags="0" index="1197" line="2518" name=""
+		   text="銭湯にも行き、さっぱりリフレッシュ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="2520" char="11" flags="0" index="1199" line="2520" name="亮"
+		   text="「今日は充実した一日だったな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="2522" char="-1" flags="0" index="1201" line="2522" name=""
+		   text="偶然出会ったとはいえ、女の子と過ごす休日っていうのが\n:こんなにも楽しいものだとは知らなかった。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="2523" char="-1" flags="0" index="1203" line="2523" name=""
+		   text="普段見れない一面が見れたことも大きな収穫だ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="2525" char="11" flags="0" index="1205" line="2525" name="亮"
+		   text="「さて、明日に備えてそろそろ寝なきゃな」" timeout="" voices=""/>
+		<play_sound @l="2529" buf="1" fadeout="0" intro="-1" src="se508" type="1"
+		   volume="1."/>
+		<showmsg @l="2531" duration="500" show="0"/>
+		<chgbg @l="2533" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg06d" type="99"/>
+		<face src="f"/>
+		<msg @l="2535" char="11" flags="0" index="1207" line="2535" name="亮"
+		   text="「明日も柔らかい一日でありますように。おやすみー」" timeout="" voices=""/>
+		<play_sound @l="2536" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="2541" buf="0" fadeout="2500" type="0"/>
+		<play_sound @l="2542" buf="1" fadeout="0" type="1"/>
+		<showmsg @l="2543" duration="500" show="0"/>
+		<change_view @l="2544" mode="0" sub="-1"/>
+		<chgbg @l="2545" duration="1500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="2547" buf="1" fadeout="0" intro="-1" src="se1026" type="1"
+		   volume="1."/>
+		<loadimage @l="2550" bg="0" fit="0" screen="1" src="day016"/>
+		<scroll @l="2551" async="0" center_x="286" center_y="180" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<chgscrn @l="2552" duration="1500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="3"/>
+		<play_sound @l="2555" buf="5" fadeout="0" intro="-1" src="siz90001" type="1"
+		   volume="1."/>
+		<scroll @l="2558" async="-1" center_x="0" center_y="0" duration="2500"
+		   flags="1" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="10" y="0" zoom="1."/>
+		<chgbg @l="2559" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="day016" type="99"/>
+		<wait @l="2561" flags="5" time="5000"/>
+		<wait_sound @l="2562" buf="1"/>
+		<chgbg @l="2564" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="2565" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="2566" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="2567" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="2568" buf="0" fadeout="0" type="0"/>
+		<return/>
+		<label id="Label_sel5"/>
+		<goto label="Label_sel5" script="共通4_2"/>
+		<label id="Label_sel6"/>
+		<goto label="Label_sel6" script="共通4_2"/>
+		<label id="Label_sel7"/>
+		<goto label="Label_sel7" script="共通4_2_1"/>
+		<label id="Label_sel8"/>
+		<goto label="Label_sel8" script="共通4_2_1"/>
+	</code>
+</xscript>

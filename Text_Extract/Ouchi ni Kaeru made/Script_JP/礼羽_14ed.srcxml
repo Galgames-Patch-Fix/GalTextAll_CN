@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="8" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="9" duration="500" show="0"/>
+		<chgbg @l="10" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<play_sound @l="11" buf="1" fadeout="0" intro="0" src="se113" type="1"
+		   volume="1."/>
+		<chgbg @l="12" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src=""/>
+		<msg @l="15" char="-1" flags="0" index="0" line="15" name=""
+		   text="小鳥のさえずりで目を覚ます。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="16" char="-1" flags="0" index="2" line="16" name=""
+		   text="昨晩から、礼羽と抱き合ったまま寝ていた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="17" char="-1" flags="0" index="4" line="17" name=""
+		   text="目を合わせ、短くキスをしてから起き上がって身支度を整える。" timeout="" voices=""/>
+		<play_sound @l="23" buf="1" fadeout="2000" type="1"/>
+		<play_sound @l="24" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="25" duration="500" show="0"/>
+		<loadimage @l="26" bg="0" fit="0" screen="1" src="bg06a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai11a"
+		   transparency="0" x="960"/>
+		<waitbs @l="27" flags="0" screen="1"/>
+		<chgscrn @l="28" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="29" buf="0" fadeout="500" intro="-1" src="bgm14" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="31" char="11" flags="0" index="6" line="31" name="亮"
+		   text="「……これでお別れか」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="33" char="-1" flags="0" index="8" line="33" name=""
+		   text="荷物を携えた彼女の姿を見ると、ついそんなことを\n:ぽろっと言ってしまう。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="35" flags="0" screen="0"/>
+		<face src="frai01a"/>
+		<msg @l="36" char="3" flags="17" index="10" line="36" name="礼羽"
+		   text="「ええ。でも、まだ少しだけ時間があるからデートしよっか？」" timeout="" voices="rai13300"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="37" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="38" flags="0" screen="0"/>
+		<wait @l="41" flags="5" time="4000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="42" flags="-2147483648" screen="0"/>
+		<setface @l="43" src="frai10a"/>
+		<pause @l="44" flags="-2147483648" index="12" timeout=""/>
+		<face src="f"/>
+		<msg @l="47" char="11" flags="0" index="13" line="47" name="亮"
+		   text="「それって恋人としてか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="49" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="50" char="3" flags="17" index="15" line="50" name="礼羽" text="「ふふっ」"
+		   timeout="" voices="rai13301"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="51" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="52" flags="0" screen="0"/>
+		<pause @l="53" flags="0" index="17" timeout=""/>
+		<face src=""/>
+		<msg @l="55" char="-1" flags="0" index="18" line="55" name=""
+		   text="彼女は答えず、笑って僕の手を引いた。" timeout="" voices=""/>
+		<play_sound @l="60" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="61" duration="500" show="0"/>
+		<chgbg @l="62" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="63" bg="0" fit="0" screen="1" src="bg02a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai11az"
+		   transparency="256" x="1542"/>
+		<waitbs @l="64" flags="0" screen="1"/>
+		<chgscrn @l="65" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="66" buf="0" fadeout="500" intro="-1" src="bgm28" type="0"
+		   volume="1."/>
+		<face src="frai11a"/>
+		<msg @l="68" char="3" flags="17" index="20" line="68" name="礼羽"
+		   text="「それで、これからどこに住む予定なの？」" timeout="" voices="rai13302"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1392" y="0"/>
+		<waitbs @l="69" flags="0" screen="0"/>
+		<pause @l="70" flags="0" index="22" timeout=""/>
+		<face src=""/>
+		<msg @l="72" char="-1" flags="0" index="23" line="72" name=""
+		   text="彼女の提案で、一緒にマシュマロツリーの中を歩き回る。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="73" char="-1" flags="0" index="25" line="73" name=""
+		   text="いつものように腕を組むのではなく、恋人のように\n:手を繋ぎながら。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="75" char="11" flags="0" index="27" line="75" name="亮"
+		   text="「次の家が見つけるまで、またしばらく\n:ここに住まわせてもらうようにオーナーに頼んでみるよ」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai13az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="77" flags="0" screen="0"/>
+		<face src="frai13a"/>
+		<msg @l="78" char="3" flags="0" index="29" line="78" name="礼羽"
+		   text="「急に出ていったと思ったらまた住まわせてくれだなんて、\n:勝手な人ね」" timeout="" voices="rai13303"/>
+		<face src="f"/>
+		<msg @l="80" char="11" flags="0" index="31" line="80" name="亮"
+		   text="「事情が事情だからな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="82" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="83" char="3" flags="0" index="33" line="83" name="礼羽"
+		   text="「ま、花音だったら、それも笑って済ませてくれそうだけど」" timeout="" voices="rai13304"/>
+		<showmsg @l="88" duration="500" show="0"/>
+		<chgbg @l="89" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="90" bg="0" fit="0" screen="1" src="bg04a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai00az"
+		   transparency="256" x="1542"/>
+		<waitbs @l="91" flags="0" screen="1"/>
+		<chgscrn @l="92" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<face src="frai00a"/>
+		<msg @l="94" char="3" flags="17" index="35" line="94" name="礼羽"
+		   text="「ここでお母様のためにケーキを作れた……」" timeout="" voices="rai13305"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1392" y="0"/>
+		<waitbs @l="95" flags="0" screen="0"/>
+		<pause @l="96" flags="0" index="37" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai28az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="98" flags="0" screen="0"/>
+		<face src="frai28a"/>
+		<msg @l="99" char="3" flags="0" index="38" line="99" name="礼羽"
+		   text="「あきらめて、どうでもよくなってケーキ作りを辞めちゃった\n:私に、みんなが協力してくれたんだよね」" timeout=""
+		   voices="rai13306"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="101" flags="0" screen="0"/>
+		<face src="frai11a"/>
+		<msg @l="102" char="3" flags="17" index="40" line="102" name="礼羽"
+		   text="「お母様がお話したいって言ってるって聞いた時は、\n:ほんとビックリしたよ。しかもそれがウソだったなんてさ」" timeout=""
+		   voices="rai13307"/>
+		<wait @l="105" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai15az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="106" flags="-2147483648" screen="0"/>
+		<setface @l="107" src="frai15a"/>
+		<pause @l="108" flags="-2147483648" index="42" timeout=""/>
+		<face src="f"/>
+		<msg @l="112" char="11" flags="0" index="43" line="112" name="亮"
+		   text="「結果的にはよかっただろ？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="114" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="115" char="3" flags="0" index="45" line="115" name="礼羽"
+		   text="「もう、いつも貴方はそうなんだから」" timeout="" voices="rai13308"/>
+		<face src=""/>
+		<msg @l="117" char="-1" flags="0" index="47" line="117" name=""
+		   text="慈しむようにパレットナイフをさすっている礼羽。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="119" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="120" char="3" flags="17" index="49" line="120" name="礼羽"
+		   text="「でも、汐になら安心してお店を任せられるから、\n:心残りがなくて助かるよ」" timeout=""
+		   voices="rai13309"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="30"/>
+		<waitbs @l="122" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="123" flags="0" screen="0"/>
+		<pause @l="124" flags="0" index="51" timeout=""/>
+		<face src="f"/>
+		<msg @l="126" char="11" flags="0" index="52" line="126" name="亮"
+		   text="「それも先生が良かったおかげだな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="128" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="129" char="3" flags="0" index="54" line="129" name="礼羽"
+		   text="「あの子は私と一緒で目標を持ってケーキを作ってる。\n:自慢の弟子だね」" timeout="" voices="rai13310"/>
+		<showmsg @l="134" duration="500" show="0"/>
+		<chgbg @l="135" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="136" bg="0" fit="0" screen="1" src="bg03a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai04az"
+		   transparency="256" x="1542"/>
+		<waitbs @l="137" flags="0" screen="1"/>
+		<chgscrn @l="138" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<face src="frai04a"/>
+		<msg @l="140" char="3" flags="17" index="56" line="140" name="礼羽"
+		   text="「結局、紗々の読み聞かせ、聞けなかったな」" timeout="" voices="rai13311"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1392" y="0"/>
+		<waitbs @l="141" flags="0" screen="0"/>
+		<pause @l="142" flags="0" index="58" timeout=""/>
+		<face src="f"/>
+		<msg @l="144" char="11" flags="0" index="59" line="144" name="亮"
+		   text="「普段、キッチンにいるからな。そこは仕方がないさ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai28az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="146" flags="0" screen="0"/>
+		<face src="frai28a"/>
+		<msg @l="147" char="3" flags="0" index="61" line="147" name="礼羽"
+		   text="「いつか、タカシと一緒に聞こうと思ってたんだけどね」" timeout="" voices="rai13312"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="149" flags="0" screen="0"/>
+		<face src="frai11a"/>
+		<msg @l="150" char="3" flags="0" index="63" line="150" name="礼羽"
+		   text="「実家に帰ったら、お母様に読んでもらった絵本送るから、\n:私の代わりに読んでもらってよ」" timeout=""
+		   voices="rai13313"/>
+		<face src="f"/>
+		<msg @l="152" char="11" flags="0" index="65" line="152" name="亮"
+		   text="「わかった、伝えておく」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai28az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="154" flags="0" screen="0"/>
+		<face src="frai28a"/>
+		<msg @l="155" char="3" flags="0" index="67" line="155" name="礼羽"
+		   text="「紗々には、私たちのことちゃんと報告したかったけど……\n:隠しててごめんねって謝っておいて」" timeout=""
+		   voices="rai13314"/>
+		<showmsg @l="160" duration="500" show="0"/>
+		<chgbg @l="161" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="162" bg="0" fit="0" screen="1" src="bg05a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai01az"
+		   transparency="256" x="1542"/>
+		<waitbs @l="163" flags="0" screen="1"/>
+		<chgscrn @l="164" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<face src="frai01a"/>
+		<msg @l="166" char="3" flags="17" index="69" line="166" name="礼羽"
+		   text="「ＪＣの提案でガールズトークいっぱいできちゃった。\n:賑やかでおもしろかったな」" timeout=""
+		   voices="rai13315"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1392" y="0"/>
+		<waitbs @l="167" flags="0" screen="0"/>
+		<wait @l="170" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="171" flags="-2147483648" screen="0"/>
+		<setface @l="172" src="frai10a"/>
+		<pause @l="173" flags="-2147483648" index="71" timeout=""/>
+		<face src="f"/>
+		<msg @l="177" char="11" flags="0" index="72" line="177" name="亮"
+		   text="「ガールズトークってどんな感じなんだ？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="179" flags="0" screen="0"/>
+		<face src="frai27a"/>
+		<msg @l="180" char="3" flags="17" index="74" line="180" name="礼羽"
+		   text="「ふふっ。それは秘密に決まってるでしょ、\n:女の子だけのトークなんだから」" timeout=""
+		   voices="rai13316"/>
+		<emotion @l="181" id="rai" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="rai_2z" x="0" y="0"/>
+		<pause @l="182" flags="0" index="76" timeout=""/>
+		<clremt @l="183" id="rai" screen="0"/>
+		<play_sound @l="189" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="190" duration="500" show="0"/>
+		<chgbg @l="191" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<play_sound @l="192" buf="1" fadeout="0" intro="-1" src="se221" type="1"
+		   volume="1."/>
+		<loadimage @l="193" bg="0" fit="0" screen="1" src="bg01a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai03az"
+		   transparency="256" x="1110"/>
+		<waitbs @l="194" flags="0" screen="1"/>
+		<chgscrn @l="195" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="197" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="199" char="-1" flags="0" index="77" line="199" name=""
+		   text="外に出て、お店の看板を見上げる礼羽。" timeout="" voices=""/>
+		<play_sound @l="201" buf="0" fadeout="500" intro="-1" src="bgm31" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="203" char="-1" flags="0" index="79" line="203" name=""
+		   text="彼女の瞳に涙が溜まっていることに気づき、僕は\n:顔をそむけるように一緒に看板を見上げる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai09az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="205" flags="0" screen="0"/>
+		<face src="frai09a"/>
+		<msg @l="206" char="3" flags="0" index="81" line="206" name="礼羽"
+		   text="「いつの間にか、とっても大事な場所になってた」" timeout="" voices="rai13317"/>
+		<effect @l="208" cycle="0" flags="16896" param="0" screen="0" type="9"/>
+		<fade @l="209" async="-1" degree="150" duration="500" flags="16384"
+		   screen="0" wait_flags="0"/>
+		<face src=""/>
+		<msg @l="211" char="-1" flags="0" index="83" line="211" name=""
+		   text="繋いでいる手が小さく震える。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="212" char="-1" flags="0" index="85" line="212" name=""
+		   text="その震えが止まるように願いを込めて、僕はギュッと\n:その手を握った。" timeout="" voices=""/>
+		<showmsg @l="214" duration="500" show="0"/>
+		<loadimage @l="215" bg="0" fit="0" screen="1" src="bg17a"/>
+		<scroll @l="216" async="0" center_x="0" center_y="0" duration="0" flags="0"
+		   rev="0." screen="1" transparency="0" v0="1." v1="1." wait_flags="0" x="0"
+		   y="-20" zoom="1."/>
+		<scroll @l="217" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="1" transparency="0" v0="1." v1="1."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="218" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="frai03a"/>
+		<msg @l="221" char="3" flags="0" index="87" line="221" name="礼羽"
+		   text="「短い間でしたが……お世話になりましたっ！！」" timeout="" voices="rai13318"/>
+		<face src=""/>
+		<msg @l="223" char="-1" flags="0" index="89" line="223" name=""
+		   text="涙交じりの声で、大きく腰を曲げて深々とお辞儀する礼羽。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="224" char="-1" flags="0" index="91" line="224" name=""
+		   text="長い長いお辞儀の間、僕は手に力を入れたまま\n:黙って隣に立っていた。" timeout="" voices=""/>
+		<showmsg @l="229" duration="500" show="0"/>
+		<loadimage @l="230" bg="0" fit="0" screen="1" src="bg01az"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai11az"
+		   transparency="0" x="960"/>
+		<waitbs @l="231" flags="0" screen="1"/>
+		<chgscrn @l="232" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src="frai11a"/>
+		<msg @l="234" char="3" flags="0" index="93" line="234" name="礼羽"
+		   text="「みんなには、うまいこと言っておいてね。\n:お手紙の件もよろしく」" timeout="" voices="rai13319"/>
+		<face src="f"/>
+		<msg @l="236" char="11" flags="0" index="95" line="236" name="亮"
+		   text="「直接渡せばいいじゃないか、飛行機の時間まで\n:そうないのはわかるが」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="238" char="11" flags="0" index="97" line="238" name="亮"
+		   text="「せめて、今から仕込みに来る朝霞さんとＪＣさんだけでも――」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="240" flags="0" screen="0"/>
+		<face src="frai00a"/>
+		<msg @l="241" char="3" flags="0" index="99" line="241" name="礼羽"
+		   text="「ううん。このまま行くよ」" timeout="" voices="rai13320"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai04az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="243" flags="0" screen="0"/>
+		<face src="frai04a"/>
+		<msg @l="244" char="3" flags="17" index="101" line="244" name="礼羽"
+		   text="「だって、みんなの顔を見たら決心が揺らいじゃうからね」" timeout="" voices="rai13321"/>
+		<wait @l="247" flags="5" time="3600"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="248" flags="-2147483648" screen="0"/>
+		<setface @l="249" src="frai10a"/>
+		<pause @l="250" flags="-2147483648" index="103" timeout=""/>
+		<play_sound @l="254" buf="1" fadeout="0" intro="-1" src="se908" type="1"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="256" char="-1" flags="0" index="104" line="256" name=""
+		   text="笑顔でそう言った時、黒塗りの頑丈そうな車が止まる。" timeout="" voices=""/>
+		<play_sound @l="258" buf="1" fadeout="2000" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="260" flags="0" screen="0"/>
+		<face src="frai11a"/>
+		<msg @l="261" char="3" flags="0" index="106" line="261" name="礼羽"
+		   text="「じゃあ行くね」" timeout="" voices="rai13322"/>
+		<showmsg @l="263" duration="500" show="0"/>
+		<loadimage @l="264" bg="0" fit="0" screen="1" src="bg01a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="rai11a"
+		   transparency="0" x="960"/>
+		<waitbs @l="265" flags="0" screen="1"/>
+		<chgscrn @l="266" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<face src=""/>
+		<msg @l="268" char="-1" flags="0" index="108" line="268" name=""
+		   text="するりと手が解かれ、礼羽と向き合う。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="270" char="11" flags="0" index="110" line="270" name="亮"
+		   text="「後のことは任せた。僕がフィンランドにいけるように、\n:うまく手引きしてくれよ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai28a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="272" flags="0" screen="0"/>
+		<face src="frai28a"/>
+		<msg @l="273" char="3" flags="0" index="112" line="273" name="礼羽"
+		   text="「外には一切出られないし、時間がかかるかもよ？」" timeout="" voices="rai13323"/>
+		<face src="f"/>
+		<msg @l="275" char="11" flags="0" index="114" line="275" name="亮"
+		   text="「別にかまわないさ。その間はライヌで連絡を取り合えばいい。\n:いつでも繋がれるっていうのがウリの機械なんだから」"
+		   timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="277" flags="0" screen="0"/>
+		<face src="frai02a"/>
+		<msg @l="278" char="3" flags="17" index="116" line="278" name="礼羽"
+		   text="「ふふっ。そうだね、時間も距離も関係ないもんね。\n:時差も気にせず、いつでも連絡ちょうだい」" timeout=""
+		   voices="rai13324"/>
+		<emotion @l="279" id="rai" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="rai_2" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="30"/>
+		<waitbs @l="280" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="281" flags="0" screen="0"/>
+		<pause @l="282" flags="0" index="118" timeout=""/>
+		<clremt @l="283" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="286" char="11" flags="0" index="119" line="286" name="亮"
+		   text="「礼羽もな。仕事や学園の時間は無理だけど、\n:後から必ず返信するよ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="288" flags="0" screen="0"/>
+		<face src="frai27a"/>
+		<msg @l="289" char="3" flags="17" index="121" line="289" name="礼羽"
+		   text="「貴方の生活時間、きっちり把握してるからその辺は大丈夫。\n:だって同棲してたからね」" timeout=""
+		   voices="rai13325"/>
+		<wait @l="291" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="292" flags="-2147483648" screen="0"/>
+		<setface @l="293" src="frai22a"/>
+		<pause @l="294" flags="-2147483648" index="123" timeout=""/>
+		<face src="f"/>
+		<msg @l="297" char="11" flags="0" index="124" line="297" name="亮"
+		   text="「ははっ。そうだった」" timeout="" voices=""/>
+		<showmsg @l="300" duration="500" show="0"/>
+		<chgbg @l="301" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg01az" type="99"/>
+		<play_sound @l="302" buf="1" fadeout="0" intro="-1" src="se911" type="1"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="304" char="-1" flags="0" index="126" line="304" name=""
+		   text="車から出てきたボディガードさんから、マグカップと\n:ポットを受け取る。" timeout="" voices=""/>
+		<play_sound @l="306" buf="1" fadeout="0" type="1"/>
+		<face src="f"/>
+		<msg @l="308" char="10" flags="0" index="128" line="308" name="黒服の女性"
+		   text="「宮原様。昨晩はコーヒーの差し入れありがとうございました」" timeout="" voices="mowa05400"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai19az"
+		   transparency="0" x="528"/>
+		<waitbs @l="310" flags="0" screen="0"/>
+		<face src="frai19a"/>
+		<msg @l="311" char="3" flags="17" index="130" line="311" name="礼羽"
+		   text="「いつの間にそんなことしてたの！？」" timeout="" voices="rai13326"/>
+		<emotion @l="312" id="rai" loop="1" screen="0" src="emotion_10z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="313" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="314" flags="0" screen="0"/>
+		<pause @l="315" flags="0" index="132" timeout=""/>
+		<clremt @l="316" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="318" char="11" flags="0" index="133" line="318" name="亮"
+		   text="「ほら、これから世話になるんだから、それくらいは\n:しとかないとな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai13az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="320" flags="0" screen="0"/>
+		<face src="frai13a"/>
+		<msg @l="321" char="3" flags="0" index="135" line="321" name="礼羽"
+		   text="「うわー、抜け目ないなー」" timeout="" voices="rai13327"/>
+		<face src="f"/>
+		<msg @l="323" char="11" flags="0" index="137" line="323" name="亮"
+		   text="「お前は、そんな男にこれから一生付きまとわれるんだぜ。\n:覚悟しておけよ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="325" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="326" char="3" flags="17" index="139" line="326" name="礼羽"
+		   text="「ふふっ。望むところよ\x;heart:」" timeout="" voices="rai13328"/>
+		<emotion @l="327" id="rai" loop="1" screen="0" src="emotion_04z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="328" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="329" flags="0" screen="0"/>
+		<pause @l="330" flags="0" index="141" timeout=""/>
+		<clremt @l="331" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="333" char="11" flags="0" index="142" line="333" name="亮"
+		   text="「というわけで差し入れも飲んだわけですし、\n:礼羽と協力して僕を手引きしてくださいね」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="336" char="10" flags="0" index="144" line="336" name="黒服の女性"
+		   text="「……は？」" timeout="" voices="mowa05401"/>
+		<face src="f"/>
+		<msg @l="338" char="11" flags="0" index="146" line="338" name="亮"
+		   text="「それと礼羽がものすごーく心配性なので、僕が\n:フィンランドについてからは僕を守ってください」" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="340" char="10" flags="0" index="148" line="340" name="黒服の女性"
+		   text="「あの、仰ってる意味が……？」" timeout="" voices="mowa05402"/>
+		<movebs duration="800" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="342" flags="0" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="343" flags="0" screen="0"/>
+		<face src="frai27a"/>
+		<msg @l="344" char="3" flags="17" index="150" line="344" name="礼羽"
+		   text="「くすくすっ。詳しい話は車の中でするわ」" timeout="" voices="rai13329"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="345" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="346" flags="0" screen="0"/>
+		<pause @l="347" flags="0" index="152" timeout=""/>
+		<face src="f"/>
+		<msg @l="349" char="10" flags="0" index="153" line="349" name="黒服の女性"
+		   text="「いえ、その説明をっ！？」" timeout="" voices="mowa05403"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="351" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="352" char="3" flags="0" index="155" line="352" name="礼羽"
+		   text="「なーに？　昨日貴女が言ったのと\n:同じことをしてるんだけどなぁー？」" timeout="" voices="rai13330"/>
+		<face src=""/>
+		<msg @l="354" char="-1" flags="0" index="157" line="354" name=""
+		   text="いつもの調子で、からかうような口調でそう言う礼羽。" timeout="" voices=""/>
+		<play_sound @l="356" buf="0" fadeout="2500" type="0"/>
+		<face src=""/>
+		<msg @l="358" char="-1" flags="0" index="159" line="358" name=""
+		   text="すっかり自分を取り戻し、ちゃんと前を向いてくれたようだ。" timeout="" voices=""/>
+		<play_sound @l="360" buf="0" fadeout="500" intro="-1" src="bgm15" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="362" char="11" flags="0" index="161" line="362" name="亮"
+		   text="「要約して言うと、僕が礼羽の実家に受け入れられて、\n:さらに一緒に暮らせるように便宜を図ってくださいって意味です」"
+		   timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="364" char="10" flags="17" index="163" line="364" name="黒服の女性"
+		   text="「堂々とヒモ宣言！？」" timeout="" voices="mowa05404"/>
+		<shakescrn @l="365" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="366" flags="0" index="165" timeout=""/>
+		<face src="f"/>
+		<msg @l="368" char="11" flags="0" index="166" line="368" name="亮"
+		   text="「いやーヒモって大事なんですよ。もしなかったら\n:バンジー飛べないじゃないですか」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="370" char="10" flags="17" index="168" line="370" name="黒服の女性"
+		   text="「どこから飛ぶおつもりなんですか！！？」" timeout="" voices="mowa05405"/>
+		<shakescrn @l="371" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="372" flags="0" index="170" timeout=""/>
+		<face src="f"/>
+		<msg @l="374" char="11" flags="0" index="171" line="374" name="亮"
+		   text="「そりゃもう清水の舞台から、ってヤツです」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="376" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="377" char="3" flags="0" index="173" line="377" name="礼羽"
+		   text="「お父様に認めてもらないといけないからね。\n:娘さんをください的な？」" timeout="" voices="rai13331"/>
+		<face src="f"/>
+		<msg @l="379" char="10" flags="17" index="175" line="379" name="黒服の女性"
+		   text="「ええっ！！！？」" timeout="" voices="mowa05406"/>
+		<shakescrn @l="380" amp="20" cycle="20" duration="800" flags="2" screen="0"/>
+		<pause @l="381" flags="0" index="177" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="383" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="384" char="3" flags="17" index="178" line="384" name="礼羽"
+		   text="「そういうわけで、よろしくー」" timeout="" voices="rai13332"/>
+		<emotion @l="385" id="rai" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<pause @l="386" flags="0" index="180" timeout=""/>
+		<clremt @l="387" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="389" char="10" flags="0" index="181" line="389" name="黒服の女性"
+		   text="「ちょっ、礼羽様！？　それはいくらなんでも\n:荷が重すぎますよーーぅ！」" timeout=""
+		   voices="mowa05407"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="391" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="392" char="3" flags="0" index="183" line="392" name="礼羽"
+		   text="「差し入れ飲んだんでしょ？　じゃあ、やらなきゃね」" timeout="" voices="rai13333"/>
+		<face src="f"/>
+		<msg @l="394" char="10" flags="17" index="185" line="394" name="黒服の女性"
+		   text="「なんでこんなことにーー！！？」" timeout="" voices="mowa05408"/>
+		<shakescrn @l="395" amp="20" cycle="20" duration="800" flags="2" screen="0"/>
+		<pause @l="396" flags="0" index="187" timeout=""/>
+		<face src=""/>
+		<msg @l="398" char="-1" flags="0" index="188" line="398" name=""
+		   text="頭を抱えている黒服さんには悪いけど、これが僕たち\n:ふたりが出した答えだ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="400" char="11" flags="0" index="190" line="400" name="亮"
+		   text="「家に入れてくれるだけでいいんです。後は僕が\n:どうにか説得しますから」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="402" char="10" flags="0" index="192" line="402" name="黒服の女性"
+		   text="「そう申されましても、旦那様が私などの紹介で\n:人に会うようなことは――」" timeout=""
+		   voices="mowa05409"/>
+		<face src="f"/>
+		<msg @l="404" char="11" flags="0" index="194" line="404" name="亮"
+		   text="「フィンランド語を覚えます。家柄に相応しいよう\n:礼儀やマナーだって覚えます。ですから、どうかお願いします」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai07az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="406" flags="0" screen="0"/>
+		<face src="frai07a"/>
+		<msg @l="407" char="3" flags="17" index="196" line="407" name="礼羽"
+		   text="「お願いします！」" timeout="" voices="rai13334"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="408" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="409" flags="0" screen="0"/>
+		<pause @l="410" flags="0" index="198" timeout=""/>
+		<face src=""/>
+		<msg @l="413" char="-1" flags="0" index="199" line="413" name=""
+		   text="深々と頭を下げて誠心誠意のお願い。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="414" char="-1" flags="0" index="201" line="414" name=""
+		   text="礼羽も寄り添って頭を下げてくれる。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="416" char="10" flags="0" index="203" line="416" name="黒服の女性"
+		   text="「礼羽様っ！？　そのような真似はおやめください」" timeout="" voices="mowa05410"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai03az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="418" flags="0" screen="0"/>
+		<face src="frai03a"/>
+		<msg @l="419" char="3" flags="17" index="205" line="419" name="礼羽"
+		   text="「お願いしますっ！！」" timeout="" voices="rai13335"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="420" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="421" flags="0" screen="0"/>
+		<pause @l="422" flags="0" index="207" timeout=""/>
+		<face src="f"/>
+		<msg @l="424" char="10" flags="0" index="208" line="424" name="黒服の女性"
+		   text="「はぁ……もうわかりました！　わかりましたから、\n:どうか顔を上げてください」" timeout=""
+		   voices="mowa05411"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="426" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="427" char="3" flags="17" index="210" line="427" name="礼羽"
+		   text="「やったー！　よかったね、亮っ！」" timeout="" voices="rai13336"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="428" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="429" flags="0" screen="0"/>
+		<pause @l="430" flags="0" index="212" timeout=""/>
+		<face src="f"/>
+		<msg @l="432" char="11" flags="0" index="213" line="432" name="亮"
+		   text="「おう、スマホでバッチリ録音したし、これは\n:約束を守って貰わないとな」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="434" char="10" flags="17" index="215" line="434" name="黒服の女性"
+		   text="「いつの間にそんなことをっ！？」" timeout="" voices="mowa05412"/>
+		<shakescrn @l="436" amp="20" cycle="100" duration="300" flags="2" screen="0"/>
+		<pause @l="437" flags="0" index="217" timeout=""/>
+		<play_sound @l="438" buf="1" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="441" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="442" char="3" flags="17" index="218" line="442" name="礼羽"
+		   text="「さすが未来のだんな様、抜け目ないねー」" timeout="" voices="rai13337"/>
+		<emotion @l="443" id="rai" loop="1" screen="0" src="emotion_06z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="444" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="445" flags="0" screen="0"/>
+		<pause @l="446" flags="0" index="220" timeout=""/>
+		<clremt @l="447" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="449" char="11" flags="0" index="221" line="449" name="亮"
+		   text="「いやいや。未来の奥さんが僕にしたことを真似ただけさ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai16az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="454" flags="0" screen="0"/>
+		<scroll @l="455" async="0" center_x="125" center_y="66" duration="150"
+		   flags="1" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.2"/>
+		<play_sound @l="456" buf="1" fadeout="0" intro="-1" src="se603" type="1"
+		   volume="1."/>
+		<face src="frai16a"/>
+		<msg @l="457" char="3" flags="17" index="223" line="457" name="亮・礼羽"
+		   text="「ウェーイ！！」" timeout="" voices="rai13338"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="458" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="459" flags="0" screen="0"/>
+		<scroll @l="460" async="0" center_x="0" center_y="0" duration="150"
+		   flags="1" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<pause @l="461" flags="0" index="225" timeout=""/>
+		<face src=""/>
+		<msg @l="463" char="-1" flags="0" index="226" line="463" name=""
+		   text="ふたりでハイタッチ。" timeout="" voices=""/>
+		<play_sound @l="465" buf="1" fadeout="0" type="1"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="466" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="468" char="10" flags="0" index="228" line="468" name="黒服の女性"
+		   text="「私、旦那様が隠居したらこのふたりに仕えなきゃいけないの？\n:手玉に取られっぱなしじゃない……」" timeout=""
+		   voices="mowa05413"/>
+		<face src="f"/>
+		<msg @l="470" char="10" flags="0" index="230" line="470" name="黒服の女性"
+		   text="\h;70:\s;70:「将来、真っ暗だよぉぉーーー！」\s:\h:" timeout="" voices="mowa05414"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="472" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="473" char="3" flags="17" index="232" line="473" name="礼羽"
+		   text="「まあまあ、ここは私たちに恩を売ったって思って\n:プラスに考えてよ」" timeout="" voices="rai13339"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="474" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="475" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="476" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="477" flags="0" screen="0"/>
+		<pause @l="478" flags="0" index="234" timeout=""/>
+		<face src=""/>
+		<msg @l="480" char="-1" flags="0" index="235" line="480" name=""
+		   text="黒服さんの肩をポンポンと叩く礼羽。" timeout="" voices=""/>
+		<showmsg @l="482" duration="500" show="0"/>
+		<chgbg @l="483" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg01a" type="99"/>
+		<face src="f"/>
+		<msg @l="485" char="10" flags="0" index="237" line="485" name="黒服の女性"
+		   text="「宮原様は簡単におっしゃられましたが、礼儀やマナーを\n:完璧にこなせるようになるのは大変ですよ？」" timeout=""
+		   voices="mowa05415"/>
+		<face src="f"/>
+		<msg @l="487" char="11" flags="0" index="239" line="487" name="亮"
+		   text="「ええ、わかってます」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="489" char="10" flags="0" index="241" line="489" name="黒服の女性"
+		   text="「それにフィンランド語も覚えるとおっしゃってましたが、\n:オーランド諸島と一部の地域用にスウェーデン語も必要ですよ？」"
+		   timeout="" voices="mowa05416"/>
+		<face src="f"/>
+		<msg @l="491" char="11" flags="0" index="243" line="491" name="亮"
+		   text="「え！？　そうなの？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="493" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="494" char="3" flags="17" index="245" line="494" name="礼羽"
+		   text="「そうだよ」" timeout="" voices="rai13340"/>
+		<emotion @l="495" id="rai" loop="1" screen="0" src="emotion_07" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<pause @l="496" flags="0" index="247" timeout=""/>
+		<clremt @l="497" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="499" char="-1" flags="0" index="248" line="499" name=""
+		   text="ケロッとした顔してますが聞いてないっス。礼羽さん！" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="501" char="10" flags="0" index="250" line="501" name="黒服の女性"
+		   text="「ましてやフィンランド語は日本語にはない母音があったりと、\n:かなり大変ですよ？」" timeout=""
+		   voices="mowa05417"/>
+		<face src="f"/>
+		<msg @l="503" char="11" flags="0" index="252" line="503" name="亮"
+		   text="「まあでも、やるしかありませんからね」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="505" char="10" flags="17" index="254" line="505" name="黒服の女性"
+		   text="「すっごい前向きこの人ぉー！　やだー、もーーっ！！」" timeout="" voices="mowa05418"/>
+		<shakescrn @l="506" amp="20" cycle="20" duration="800" flags="2" screen="0"/>
+		<pause @l="507" flags="0" index="256" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="509" flags="0" screen="0"/>
+		<face src="frai27a"/>
+		<msg @l="510" char="3" flags="17" index="257" line="510" name="礼羽"
+		   text="「くすくすっ。これが亮だから、貴女も覚悟しておいてね」" timeout="" voices="rai13341"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="511" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="512" flags="0" screen="0"/>
+		<pause @l="513" flags="0" index="259" timeout=""/>
+		<play_sound @l="515" buf="0" fadeout="2500" type="0"/>
+		<face src="f"/>
+		<msg @l="517" char="11" flags="0" index="260" line="517" name="亮"
+		   text="「がんばるつもりだが、時間がかかったらすまん」" timeout="" voices=""/>
+		<showmsg @l="519" duration="500" show="0"/>
+		<loadimage @l="521" bg="0" fit="0" screen="1" src="bg01az"/>
+		<chgbs async="0" duration="0" priority="61441" screen="1" src="rai08az"
+		   transparency="0" x="960"/>
+		<waitbs @l="522" flags="0" screen="1"/>
+		<chgscrn @l="523" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="524" buf="0" fadeout="500" intro="-1" src="bgm27" type="0"
+		   volume="1."/>
+		<face src="frai08a"/>
+		<msg @l="526" char="3" flags="0" index="262" line="526" name="礼羽"
+		   text="「だったらどんな時でも頑張れるおまじない、教えてあげる」" timeout="" voices="rai13342"/>
+		<face src="f"/>
+		<msg @l="528" char="11" flags="0" index="264" line="528" name="亮"
+		   text="「偶然だな僕も知ってる。どこまでも付きまとうって決めた\n:大事な人から教わったんだ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="530" flags="0" screen="0"/>
+		<face src="frai25a"/>
+		<msg @l="531" char="3" flags="0" index="266" line="531" name="礼羽"
+		   text="「ふふっ。ほんとに偶然だね」" timeout="" voices="rai13343"/>
+		<face src=""/>
+		<msg @l="533" char="-1" flags="0" index="268" line="533" name=""
+		   text="瞳をキラキラと輝かせる礼羽。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="534" char="-1" flags="0" index="270" line="534" name=""
+		   text="笑っている彼女に送る、心からのおまじない。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="535" char="-1" flags="0" index="272" line="535" name=""
+		   text="それはどんな困難でも超えていける魔法の言葉。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="537" char="11" flags="0" index="274" line="537" name="亮"
+		   text="「じゃあ、ふたりで同時に言い合おう」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="539" flags="0" screen="0"/>
+		<face src="frai22a"/>
+		<msg @l="540" char="3" flags="17" index="276" line="540" name="礼羽"
+		   text="「うん、せーので言おうね」" timeout="" voices="rai13344"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="541" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="542" flags="0" screen="0"/>
+		<pause @l="543" flags="0" index="278" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="545" flags="0" screen="0"/>
+		<face src="frai10a"/>
+		<msg @l="546" char="3" flags="0" index="279" line="546" name="亮・礼羽"
+		   text="「それじゃあ……せーのっ！」" timeout="" voices="rai13345"/>
+		<showmsg @l="550" duration="500" show="0"/>
+		<scroll @l="551" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="552" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="99"/>
+		<face src="frai10a"/>
+		<msg @l="554" char="3" flags="0" index="281" line="554" name="亮・礼羽"
+		   text="\h;70:\s;70:「\r;ミナ・ラカスタン・シヌア;私はあなたを愛しています:」\s:\h:" timeout=""
+		   voices="rai13346"/>
+		<play_sound @l="561" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="562" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="563" buf="1" fadeout="500" type="1"/>
+		<play_sound @l="564" buf="0" fadeout="3000" type="0"/>
+		<showmsg @l="565" duration="1000" show="0"/>
+		<chgbg @l="567" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="white" type="911"/>
+		<ending @l="569" option="3"/>
+		<return @l="571" cond="" eval="ww[&quot;Flag&quot;][&quot;REI_ED&quot;]"/>
+		<return/>
+	</code>
+</xscript>

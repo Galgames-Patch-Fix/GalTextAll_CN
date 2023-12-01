@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="5" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="6" duration="500" show="0"/>
+		<chgbg @l="7" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="8" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="201"/>
+		<play_sound @l="9" buf="0" fadeout="500" intro="-1" src="bgm02" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="11" char="-1" flags="0" index="0" line="11" name=""
+		   text="今日は紗々ちゃんと神社に行く日だ。" timeout="" voices=""/>
+		<showmsg @l="17" duration="500" show="0"/>
+		<chgbg @l="19" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg09a" type="99"/>
+		<face src=""/>
+		<msg @l="21" char="-1" flags="0" index="2" line="21" name=""
+		   text="彼女と約束した待ち合わせ場所へと向かう。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="22" char="-1" flags="0" index="4" line="22" name=""
+		   text="駅近くにあるショッピングモールで合流し、\n:そのまま電車で移動する予定だ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="24" char="11" flags="0" index="6" line="24" name="亮"
+		   text="「着替えを見てしまった罪滅ぼしのためにも、\n:気合いを入れてサポートしないとな」" timeout="" voices=""/>
+		<play_sound @l="30" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="31" duration="500" show="0"/>
+		<chgbg @l="32" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="33" bg="0" fit="0" screen="1" src="bg10a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="sas02a"
+		   transparency="256" x="810"/>
+		<waitbs @l="34" flags="0" screen="1"/>
+		<chgscrn @l="35" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="36" buf="0" fadeout="500" intro="-1" src="bgm24" type="0"
+		   volume="1."/>
+		<face src="fsas02a"/>
+		<msg @l="38" char="2" flags="17" index="8" line="38" name="紗々"
+		   text="「……あっ、センパイ！　来てくれたんですね」" timeout="" voices="sas14500"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="39" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="40" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="41" flags="0" screen="0"/>
+		<pause @l="42" flags="0" index="10" timeout=""/>
+		<face src=""/>
+		<msg @l="44" char="-1" flags="0" index="11" line="44" name=""
+		   text="到着すると、紗々ちゃんがぱたぱたと駆け寄ってきた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="45" char="-1" flags="0" index="13" line="45" name=""
+		   text="時計を見ると、待ち合わせ時刻のまだ２０分前。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="47" char="11" flags="0" index="15" line="47" name="亮"
+		   text="「お待たせ。すいぶん早いんだな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="49" flags="0" screen="0"/>
+		<face src="fsas25a"/>
+		<msg @l="50" char="2" flags="17" index="17" line="50" name="紗々"
+		   text="「先に来てセンパイが座るベンチをあたためておきました！」" timeout="" voices="sas14501"/>
+		<emotion @l="51" id="sas" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="52" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="53" flags="0" screen="0"/>
+		<pause @l="54" flags="0" index="19" timeout=""/>
+		<clremt @l="55" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="57" char="11" flags="0" index="20" line="57" name="亮"
+		   text="「それどこの豊臣秀吉！？」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="59" char="-1" flags="0" index="22" line="59" name=""
+		   text="ていうか、待ち合わせ場所のベンチを温めても、\n:僕が来たらすぐ出発なんだから意味なくね？" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas00a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="61" flags="0" screen="0"/>
+		<face src="fsas00a"/>
+		<msg @l="62" char="2" flags="17" index="24" line="62" name="紗々"
+		   text="「えっと。本日はお忙しい中\n:お越しいただきありがとうございます」" timeout="" voices="sas14502"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="63" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="64" flags="0" screen="0"/>
+		<pause @l="65" flags="0" index="26" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="67" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="68" char="2" flags="17" index="27" line="68" name="紗々"
+		   text="「お日柄もよく絶好のお出かけ日和と申しますか、ちょうど\n:大安吉日でなによりと申しますか。ところで大安といえば――」"
+		   timeout="" voices="sas14503"/>
+		<wait @l="71" flags="5" time="4000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="72" flags="-2147483648" screen="0"/>
+		<setface @l="73" src="fsas10a"/>
+		<pause @l="74" flags="-2147483648" index="29" timeout=""/>
+		<face src="f"/>
+		<msg @l="77" char="11" flags="17" index="30" line="77" name="亮"
+		   text="「待った待った！　どうしちゃったの？」" timeout="" voices=""/>
+		<shakescrn @l="78" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="79" flags="0" index="32" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas17a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="81" flags="0" screen="0"/>
+		<face src="fsas17a"/>
+		<msg @l="82" char="2" flags="17" index="33" line="82" name="紗々"
+		   text="「すみません。やる気が空回りしてしまったようで……」" timeout="" voices="sas14504"/>
+		<emotion @l="83" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="84" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="85" flags="0" screen="0"/>
+		<pause @l="86" flags="0" index="35" timeout=""/>
+		<clremt @l="87" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="89" char="-1" flags="0" index="36" line="89" name=""
+		   text="ふむ。それだけ創作活動に気合いが入っているということか。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="91" flags="0" screen="0"/>
+		<face src="fsas15a"/>
+		<msg @l="92" char="2" flags="17" index="38" line="92" name="紗々"
+		   text="「そ、それにしても今日は暑いですねー」" timeout="" voices="sas14505"/>
+		<emotion @l="93" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<pause @l="94" flags="0" index="40" timeout=""/>
+		<clremt @l="95" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="97" char="11" flags="17" index="41" line="97" name="亮"
+		   text="「いきなり気温の話！？」" timeout="" voices=""/>
+		<shakescrn @l="98" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="99" flags="0" index="43" timeout=""/>
+		<face src=""/>
+		<msg @l="101" char="-1" flags="0" index="44" line="101" name=""
+		   text="ハンカチをうちわに見立ててパタパタとあおぎ始める紗々ちゃん。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="103" char="11" flags="0" index="46" line="103" name="亮"
+		   text="「今日は、平年より気温は低いって話だが、そんなに暑いか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas00a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="105" flags="0" screen="0"/>
+		<face src="fsas00a"/>
+		<msg @l="106" char="2" flags="17" index="48" line="106" name="紗々"
+		   text="「そうなんですか、おっかしいなー。\n:胸元こんなに汗かいちゃったー（チラッチラッ）」" timeout=""
+		   voices="sas14506"/>
+		<wait @l="109" flags="5" time="1300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="110" flags="-2147483648" screen="0"/>
+		<setface @l="111" src="fsas15a"/>
+		<pause @l="112" flags="-2147483648" index="50" timeout=""/>
+		<face src=""/>
+		<msg @l="115" char="-1" flags="0" index="51" line="115" name=""
+		   text="そう言って彼女が、おもむろに胸元を開ける。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="117" char="11" flags="0" index="53" line="117" name="亮"
+		   text="（おおぉっ！？　今、一瞬ブラが見えたような……？）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="119" char="-1" flags="0" index="55" line="119" name=""
+		   text="って、いかんいかん！　この前に続き下着をガン見したと\n:思われたら、紗々ちゃんが泣き出しかねないぞ。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="121" char="11" flags="0" index="57" line="121" name="亮"
+		   text="（落ち着け、僕は紳士……ジェントル宮原になれ。\n:センパイとして誇れる態度を取らないとな）" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas17a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="123" flags="0" screen="0"/>
+		<face src="fsas17a"/>
+		<msg @l="124" char="2" flags="17" index="59" line="124" name="紗々"
+		   text="\h;60:\s;40:「うぅっ、平然としてます……お色気アピールもダメだったみたいですＪＣさん」\s:\h:" timeout=""
+		   voices="sas14507"/>
+		<emotion @l="125" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="126" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="127" flags="0" screen="0"/>
+		<wait @l="130" flags="5" time="1500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas09a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="131" flags="-2147483648" screen="0"/>
+		<setface @l="132" src="fsas09a"/>
+		<pause @l="133" flags="-2147483648" index="61" timeout=""/>
+		<clremt @l="135" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas09a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="137" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="139" char="-1" flags="0" index="62" line="139" name=""
+		   text="いきなりガックリとうつむいてしまった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="140" char="-1" flags="0" index="64" line="140" name=""
+		   text="あっれー？　対応間違えた？　どうするのが正解だったんだ？" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas07a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="142" flags="0" screen="0"/>
+		<face src="fsas07a"/>
+		<msg @l="143" char="2" flags="17" index="66" line="143" name="紗々"
+		   text="\h;60:\s;40:「でもまだ始まったばっかりですから、他にもチャンスはありますよね！」\s:\h:" timeout=""
+		   voices="sas14508"/>
+		<emotion @l="144" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="145" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="146" flags="0" screen="0"/>
+		<pause @l="147" flags="0" index="68" timeout=""/>
+		<clremt @l="148" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="150" flags="0" screen="0"/>
+		<face src="fsas25a"/>
+		<msg @l="151" char="2" flags="17" index="69" line="151" name="紗々"
+		   text="「うふ、うふふふ……っ」" timeout="" voices="sas14509"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="152" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="153" flags="0" screen="0"/>
+		<pause @l="154" flags="0" index="71" timeout=""/>
+		<face src=""/>
+		<msg @l="156" char="-1" flags="0" index="72" line="156" name=""
+		   text="今度はこっちを見て、不敵な笑みを浮かべてるんですけど！？" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="157" char="-1" flags="0" index="74" line="157" name=""
+		   text="これってなに？　セクハラで訴えますとか言い出さないよねぇ！？" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="159" char="11" flags="0" index="76" line="159" name="亮"
+		   text="（今日の紗々ちゃん、よくわからねーー！）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="161" char="-1" flags="0" index="78" line="161" name=""
+		   text="不安定っていうか、キャラがころころ変わるっていうか。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="162" char="-1" flags="0" index="80" line="162" name=""
+		   text="とにかくリアクションが読めないので、\n:その都度柔軟に対応していこう。" timeout="" voices=""/>
+		<play_sound @l="167" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="168" duration="500" show="0"/>
+		<chgbg @l="169" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="170" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17a" type="201"/>
+		<play_sound @l="171" buf="0" fadeout="500" intro="-1" src="bgm01" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="173" char="-1" flags="0" index="82" line="173" name=""
+		   text="電車にガタゴトと揺られることしばらく――" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="174" char="-1" flags="0" index="84" line="174" name=""
+		   text="隣町にある神社へと到着した。" timeout="" voices=""/>
+		<showmsg @l="187" duration="500" show="0"/>
+		<scroll @l="188" async="-1" center_x="0" center_y="0" duration="1000"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="189" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg51a" type="99"/>
+		<face src="fsas25a"/>
+		<msg @l="191" char="2" flags="17" index="86" line="191" name="紗々"
+		   text="「参道を歩くのって気持ちいいですね。\n:すっごく静かで、心が安まるというか」" timeout=""
+		   voices="sas14510"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="192" flags="0" screen="0"/>
+		<emotion @l="193" id="sas" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="194" flags="0" index="88" timeout=""/>
+		<clremt @l="195" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="197" char="11" flags="0" index="89" line="197" name="亮"
+		   text="「たしかに癒やされるよな……っと、ここでストップ。\n:鳥居をくぐるときは、軽く会釈をするのがマナーなんだ」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas11a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="199" flags="0" screen="0"/>
+		<face src="fsas11a"/>
+		<msg @l="200" char="2" flags="17" index="91" line="200" name="紗々"
+		   text="「そうなんですね。さすがセンパイ、博識です」" timeout="" voices="sas14511"/>
+		<wait @l="203" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="204" flags="-2147483648" screen="0"/>
+		<setface @l="205" src="fsas02a"/>
+		<pause @l="206" flags="-2147483648" index="93" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="209" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="211" char="-1" flags="17" index="94" line="211" name=""
+		   text="ふたり一緒に会釈して、鳥居をくぐる。" timeout="" voices=""/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="212" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="213" flags="0" screen="0"/>
+		<pause @l="214" flags="0" index="96" timeout=""/>
+		<face src=""/>
+		<msg @l="216" char="-1" flags="0" index="97" line="216" name=""
+		   text="木々の隙間から差し込む光が参道に鮮やかな濃淡をつける中、\n:僕たちは参道の奥へと進んで行く。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="218" char="11" flags="0" index="99" line="218" name="亮"
+		   text="「そういえば、ここって具体的にどんな神社なんだ？　\n:ほら、商売繁盛とか学問成就とかあるじゃん」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="220" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="221" char="2" flags="17" index="101" line="221" name="紗々"
+		   text="「えっと子宝……じゃなかった！？　\n:と、とにかくいろいろと御利益がある神社みたいです」" timeout=""
+		   voices="sas14512"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="222" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="223" flags="0" screen="0"/>
+		<wait @l="226" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas14a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="227" flags="-2147483648" screen="0"/>
+		<setface @l="228" src="fsas14a"/>
+		<emotion @l="229" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<wait @l="231" flags="5" time="500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="232" flags="-2147483648" screen="0"/>
+		<setface @l="233" src="fsas15a"/>
+		<emotion @l="234" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<pause @l="235" flags="-2147483648" index="103" timeout=""/>
+		<clremt @l="237" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="239" char="11" flags="0" index="104" line="239" name="亮"
+		   text="「へぇ、ずいぶんと広範囲なんだな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="241" char="-1" flags="0" index="106" line="241" name=""
+		   text="てっきり文学とか絵とかそっち関係かと思ったんだが、\n:どうやらかなり手広くやっているようだ。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="243" flags="0" screen="0"/>
+		<face src="fsas25a"/>
+		<msg @l="244" char="2" flags="17" index="108" line="244" name="紗々"
+		   text="「本殿が見えてきましたよ」" timeout="" voices="sas14513"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="245" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="246" flags="0" screen="0"/>
+		<pause @l="247" flags="0" index="110" timeout=""/>
+		<play_sound @l="249" buf="0" fadeout="2500" type="0"/>
+		<face src="f"/>
+		<msg @l="251" char="11" flags="0" index="111" line="251" name="亮"
+		   text="「どれどれ……」" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="263" flags="0" screen="0"/>
+		<loadimage @l="264" bg="0" fit="0" screen="2" src="efc080"/>
+		<scroll @l="265" async="0" center_x="0" center_y="0" duration="0" flags="1"
+		   rev="0." screen="2" transparency="256" v0="0." v1="0." wait_flags="0"
+		   x="0" y="100" zoom="1."/>
+		<screen @l="266" flags="0" priority="-1" screen="2" transparency="256"/>
+		<scroll @l="267" async="0" center_x="0" center_y="0" duration="500"
+		   flags="1" rev="0." screen="2" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<set_cg_flag @l="269" cg="efc080.eri"/>
+		<play_sound @l="273" buf="0" fadeout="500" intro="-1" src="bgm08" type="0"
+		   volume="1."/>
+		<play_sound @l="275" buf="1" fadeout="0" intro="-1" src="se805" type="1"
+		   volume="1."/>
+		<msg @l="276" char="11" flags="17" index="113" line="276" name="亮"
+		   text="\h;60:\s;70:（って、なんじゃこりゃーーーー！！！！？）\s:\h:" timeout="" voices=""/>
+		<shakescrn @l="277" amp="20" cycle="20" duration="1000" flags="2" screen="0"/>
+		<pause @l="278" flags="0" index="115" timeout=""/>
+		<play_sound @l="279" buf="1" fadeout="0" type="1"/>
+		<msg @l="281" char="-1" flags="0" index="116" line="281" name=""
+		   text="本殿のすぐ脇、\n:狛犬や石灯籠に混じってひときわ大きな像が祀られている。" timeout="" voices=""/>
+		<msg @l="283" char="11" flags="0" index="118" line="283" name="亮"
+		   text="（あれってどう見てもち○こじゃね？　おち○ちんじゃね？）" timeout="" voices=""/>
+		<msg @l="285" char="-1" flags="0" index="120" line="285" name=""
+		   text="場所的に言うなら魔羅、英語で言えばジョイスティック、\n:医学用語ならペニス、まあ結局のところただの陰茎ですな。"
+		   timeout="" voices=""/>
+		<msg @l="287" char="11" flags="0" index="122" line="287" name="亮"
+		   text="（本名・夏目金之助の金ってそういうこと……ってバカ！　\n:漱石の子孫に怒られるっての！？）" timeout=""
+		   voices=""/>
+		<msg @l="289" char="11" flags="0" index="124" line="289" name="亮"
+		   text="（これはアレだ、漱石といえばアイラブユーを月が綺麗ですねに\n:変換するほどの文豪。きっとこれもなにか別の意味を\n:暗示しているに違いない！）"
+		   timeout="" voices=""/>
+		<fade @l="293" async="0" degree="256" duration="100" flags="0" screen="2"
+		   wait_flags="0"/>
+		<clrscrn @l="294" screen="2"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="296" flags="0" screen="0"/>
+		<msg @l="297" char="2" flags="17" index="126" line="297" name="紗々"
+		   text="「さっきから黙っちゃってますけど、どうかしましたか？」" timeout="" voices="sas14514"/>
+		<emotion @l="298" id="sas" loop="1" screen="0" src="emotion_14" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="299" flags="0" index="128" timeout=""/>
+		<clremt @l="300" id="sas" screen="0"/>
+		<msg @l="302" char="11" flags="0" index="129" line="302" name="亮"
+		   text="「あ、いや、漱石についていろいろと考察をだな……あははは」" timeout="" voices=""/>
+		<play_sound @l="309" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="310" duration="500" show="0"/>
+		<chgbg @l="312" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg51az" type="201"/>
+		<play_sound @l="313" buf="0" fadeout="500" intro="-1" src="bgm02" type="0"
+		   volume="1."/>
+		<msg @l="315" char="-1" flags="0" index="131" line="315" name=""
+		   text="そうこう話しているうちに到着。" timeout="" voices=""/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="sas10a"
+		   transparency="256" x="1110"/>
+		<waitbs @l="317" flags="0" screen="0"/>
+		<msg @l="318" char="2" flags="17" index="133" line="318" name="紗々"
+		   text="「ようやく着きましたね、早く神様にお願いしましょう」" timeout="" voices="sas14515"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="319" flags="0" screen="0"/>
+		<pause @l="320" flags="0" index="135" timeout=""/>
+		<msg @l="322" char="11" flags="0" index="136" line="322" name="亮"
+		   text="「おっと、その前に手と口を清めないと」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas11a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="324" flags="0" screen="0"/>
+		<msg @l="325" char="2" flags="0" index="138" line="325" name="紗々"
+		   text="「そうですね。ハンカチを用意して……と」" timeout="" voices="sas14516"/>
+		<msg @l="327" char="11" flags="0" index="140" line="327" name="亮"
+		   text="「あ、紗々ちゃん。まずは左手から洗うんだ、こんな風にね」" timeout="" voices=""/>
+		<msg @l="329" char="-1" flags="0" index="142" line="329" name=""
+		   text="柄杓を手に取り、軽くジェスチャーしてみせる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="331" flags="0" screen="0"/>
+		<msg @l="332" char="2" flags="17" index="144" line="332" name="紗々"
+		   text="「え！？　そうなんですか？　\n:これに順番があるなんて初めて知りました」" timeout="" voices="sas14517"/>
+		<emotion @l="333" id="sas" loop="1" screen="0" src="emotion_09" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="334" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="335" flags="0" screen="0"/>
+		<wait @l="338" flags="5" time="1800"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="339" flags="-2147483648" screen="0"/>
+		<setface @l="340" src="fsas02a"/>
+		<pause @l="341" flags="-2147483648" index="146" timeout=""/>
+		<clremt @l="343" id="sas" screen="0"/>
+		<msg @l="345" char="11" flags="0" index="147" line="345" name="亮"
+		   text="「じいさんに教わったんだけどな。\n:神様ってのは別に礼儀にうるさいわけじゃない」" timeout="" voices=""/>
+		<msg @l="347" char="11" flags="0" index="149" line="347" name="亮"
+		   text="「でも、礼儀も出来てないやつの話を聞くほどヒマでもないって」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas01a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="349" flags="0" screen="0"/>
+		<msg @l="350" char="2" flags="0" index="151" line="350" name="紗々"
+		   text="「なるほど。たしかにそうかもしれませんね」" timeout="" voices="sas14518"/>
+		<msg @l="352" char="11" flags="0" index="153" line="352" name="亮"
+		   text="「じゃあ、僕が知ってることで良ければ教えようか？　\n:まず柄杓を手にとって」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="354" flags="0" screen="0"/>
+		<msg @l="355" char="2" flags="17" index="155" line="355" name="紗々"
+		   text="「はいっ、こうですか？」" timeout="" voices="sas14519"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="356" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="357" flags="0" screen="0"/>
+		<pause @l="358" flags="0" index="157" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="360" flags="0" screen="0"/>
+		<msg @l="362" char="11" flags="0" index="158" line="362" name="亮"
+		   text="「そんなにギュッって握らずに、もっと軽くでいいから……\n:こんな感じ？」" timeout="" voices=""/>
+		<msg @l="364" char="-1" flags="0" index="160" line="364" name=""
+		   text="彼女の手を取って、持ち方を教える。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas24az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="366" flags="0" screen="0"/>
+		<msg @l="367" char="2" flags="17" index="162" line="367" name="紗々"
+		   text="「はあぁぁっ！？　手がぁっ！！」" timeout="" voices="sas14520"/>
+		<emotion @l="368" id="sas" loop="1" screen="0" src="emotion_10z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="369" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="370" flags="0" screen="0"/>
+		<shakebs @l="371" cycle="100" height="4" id="sas" screen="0" width="3"/>
+		<pause @l="372" flags="0" index="164" timeout=""/>
+		<clremt @l="373" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="375" flags="0" screen="0"/>
+		<msg @l="376" char="2" flags="17" index="165" line="376" name="紗々"
+		   text="\h;60:\s;40:「センパイの手が私の手に触れちゃってます！　\n:これは、早速御利益があったってことでしょうか！」\s:\h:"
+		   timeout="" voices="sas14521"/>
+		<emotion @l="377" id="sas" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="378" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="379" flags="0" screen="0"/>
+		<pause @l="380" flags="0" index="167" timeout=""/>
+		<clremt @l="381" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas16az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="383" flags="0" screen="0"/>
+		<msg @l="384" char="2" flags="17" index="168" line="384" name="紗々"
+		   text="\h;60:\s;40:「拝む前からこんなにいい思いできちゃうなんて、ここの神様は太っ腹すぎます！　\n:まさにゴッドです！」\s:\h:"
+		   timeout="" voices="sas14522"/>
+		<emotion @l="385" id="sas" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<movebs duration="80" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-20"/>
+		<waitbs @l="386" flags="0" screen="0"/>
+		<movebs duration="80" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="387" flags="0" screen="0"/>
+		<movebs duration="80" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-20"/>
+		<waitbs @l="388" flags="0" screen="0"/>
+		<movebs duration="80" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="389" flags="0" screen="0"/>
+		<pause @l="390" flags="0" index="170" timeout=""/>
+		<clremt @l="391" id="sas" screen="0"/>
+		<play_sound @l="396" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="397" duration="500" show="0"/>
+		<loadimage @l="399" bg="0" fit="0" screen="1" src="evsas03_01b"/>
+		<scroll @l="400" async="0" center_x="286" center_y="180" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<chgscrn @l="401" duration="1000" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="3"/>
+		<scroll @l="403" async="-1" center_x="45" center_y="45" duration="2500"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgbg @l="404" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01b" type="99"/>
+		<play_sound @l="405" buf="0" fadeout="500" intro="-1" src="bgm24" type="0"
+		   volume="1."/>
+		<msg @l="409" char="-1" flags="0" index="171" line="409" name=""
+		   text="紗々ちゃんにお参りの作法をいろいろとレクチャーした後、\n:拝殿で参拝する。" timeout="" voices=""/>
+		<msg @l="411" char="2" flags="0" index="173" line="411" name="紗々"
+		   text="「２礼２拍手１礼……２礼２拍手１礼……あっ、\n:お賽銭はいくら用意すればいいんでしょうか」" timeout=""
+		   voices="sas14523"/>
+		<msg @l="413" char="11" flags="0" index="175" line="413" name="亮"
+		   text="「そんなにガチガチにならなくても大丈夫だって。\n:心がこもってれば多少おかしくても神様は怒りはしないよ」" timeout=""
+		   voices=""/>
+		<chgbg @l="415" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01a" type="99"/>
+		<msg @l="416" char="2" flags="0" index="177" line="416" name="紗々"
+		   text="「そうですね、心を込めて……心をこめて……がんばりますっ！」" timeout="" voices="sas14524"/>
+		<msg @l="418" char="11" flags="0" index="179" line="418" name="亮"
+		   text="（さて、僕はなにをお願いしようかな……）" timeout="" voices=""/>
+		<msg @l="420" char="-1" flags="0" index="181" line="420" name=""
+		   text="やはり、紗々ちゃんの絵本の執筆が上手く行くように？" timeout="" voices=""/>
+		<msg @l="421" char="-1" flags="0" index="183" line="421" name=""
+		   text="あとはせっかくだし、お店のこともお願いしておくか。" timeout="" voices=""/>
+		<msg @l="423" char="11" flags="0" index="185" line="423" name="亮"
+		   text="（紗々ちゃんの絵本が無事完成しますように。\n:お店がもっと繁盛しますように……）" timeout="" voices=""/>
+		<chgbg @l="425" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01e" type="99"/>
+		<msg @l="426" char="2" flags="0" index="187" line="426" name="紗々"
+		   text="（センパイのおち○ちんが元気になりますように……\n:おち○ちんが元気になりますように……おち○ちんが元気に……」"
+		   timeout="" voices="sas14525"/>
+		<chgbg @l="427" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01d" type="99"/>
+		<msg @l="428" char="2" flags="0" index="189" line="428" name="紗々"
+		   text="（ビンビンではちきれんばかりに何卒よろしくお願いします！　あ、元気といってもほどほどのサイズで大丈夫です）" timeout=""
+		   voices="sas14526"/>
+		<chgbg @l="429" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01a" type="99"/>
+		<msg @l="430" char="2" flags="0" index="191" line="430" name="紗々"
+		   text="（あまり大きすぎると私が耐えられないといいますか。\n:私としてはどんなサイズでも受け止める所存ですが、\n:物理的な限界もありますので！）"
+		   timeout="" voices="sas14527"/>
+		<msg @l="432" char="-1" flags="0" index="193" line="432" name=""
+		   text="隣を見ると、紗々ちゃんが眉の間に皺が出来るくらい\n:真剣な顔で願い事を呟いていた。" timeout="" voices=""/>
+		<msg @l="434" char="11" flags="0" index="195" line="434" name="亮"
+		   text="（ずいぶんと長い上に熱心だな。\n:それだけ絵本作りに賭けてるってことか）" timeout="" voices=""/>
+		<msg @l="436" char="-1" flags="0" index="197" line="436" name=""
+		   text="僕も彼女を見習って、もう一度拝み直してみようかな。" timeout="" voices=""/>
+		<msg @l="438" char="11" flags="0" index="199" line="438" name="亮"
+		   text="（お店が繁盛しますように！　\n:あと紗々ちゃんの絵本が上手く行きますように！　\n:それからえぇっと、なにかあったかなぁ……？）"
+		   timeout="" voices=""/>
+		<msg @l="440" char="-1" flags="0" index="201" line="440" name=""
+		   text="なんとか願い事を捻り出し終わると、\n:紗々ちゃんが僕の方をじーっと見ていた。" timeout="" voices=""/>
+		<chgbg @l="442" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01c" type="99"/>
+		<msg @l="443" char="2" flags="0" index="203" line="443" name="紗々"
+		   text="「えっと……どうでしょう？」" timeout="" voices="sas14528"/>
+		<msg @l="445" char="11" flags="0" index="205" line="445" name="亮"
+		   text="「？？　どうって？」" timeout="" voices=""/>
+		<msg @l="447" char="2" flags="0" index="207" line="447" name="紗々"
+		   text="「あ、いえ、なにかセンパイの中で変化があったかなー、\n:なんて思いまして」" timeout=""
+		   voices="sas14529"/>
+		<msg @l="449" char="-1" flags="0" index="209" line="449" name=""
+		   text="ずいぶんと抽象的な質問だな。" timeout="" voices=""/>
+		<msg @l="451" char="11" flags="0" index="211" line="451" name="亮"
+		   text="「そうだなぁ。なんていうか真剣になったというか。\n:ぼちぼち熱いモノがこみ上げてきたかもな」" timeout=""
+		   voices=""/>
+		<msg @l="453" char="-1" flags="0" index="213" line="453" name=""
+		   text="あれだけ何かを懸命にお祈りしたのって、初めてかもしれない。" timeout="" voices=""/>
+		<msg @l="454" char="-1" flags="0" index="215" line="454" name=""
+		   text="そう考えると胸が多少は熱くなるってもんだ。" timeout="" voices=""/>
+		<chgbg @l="456" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas03_01f" type="99"/>
+		<msg @l="457" char="2" flags="0" index="217" line="457" name="紗々"
+		   text="\h;60:\s;40:「それってムラムラしてるってことだよね？　早速、御利益あったかも」\s:\h:" timeout=""
+		   voices="sas14530"/>
+		<play_sound @l="466" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="467" duration="500" show="0"/>
+		<chgbg @l="468" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="469" bg="0" fit="0" screen="1" src="bg51a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="sas10a"
+		   transparency="0" x="960"/>
+		<waitbs @l="470" flags="0" screen="1"/>
+		<chgscrn @l="471" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="472" buf="0" fadeout="500" intro="-1" src="bgm01" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="474" flags="0" screen="0"/>
+		<face src="fsas27a"/>
+		<msg @l="475" char="2" flags="17" index="219" line="475" name="紗々"
+		   text="「目的は達成しました！　ありがとうございます！」" timeout="" voices="sas14531"/>
+		<emotion @l="476" id="sas" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="477" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="478" flags="0" screen="0"/>
+		<pause @l="479" flags="0" index="221" timeout=""/>
+		<clremt @l="480" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="482" char="11" flags="0" index="222" line="482" name="亮"
+		   text="「え？　まだお参りしかしてないんだけど、本当にいいのか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="484" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="485" char="2" flags="17" index="224" line="485" name="紗々"
+		   text="「はい、十分すぎる成果がありましたので」" timeout="" voices="sas14532"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="486" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="487" flags="0" screen="0"/>
+		<pause @l="488" flags="0" index="226" timeout=""/>
+		<face src=""/>
+		<msg @l="490" char="-1" flags="0" index="227" line="490" name=""
+		   text="ニッコリ笑顔で断言されてしまった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="491" char="-1" flags="0" index="229" line="491" name=""
+		   text="よくわからないが、彼女の創作意欲を刺激する何かを\n:得られたっていうなら、それでいいんだろう。" timeout=""
+		   voices=""/>
+		<play_sound @l="499" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="500" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="501" duration="500" show="0"/>
+		<chgbg @l="502" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="503" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17b" type="99"/>
+		<chgbg @l="504" duration="4000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg10b" type="99"/>
+		<play_sound @l="505" buf="0" fadeout="500" intro="-1" src="bgm03" type="0"
+		   volume="1."/>
+		<bsfilter @l="507" screen="0" src="yu.tct"/>
+		<face src=""/>
+		<msg @l="509" char="-1" flags="0" index="231" line="509" name=""
+		   text="地元へ戻ってきた頃には、\n:空もすっかりあかね色へと変わっていた。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="511" char="11" flags="0" index="233" line="511" name="亮"
+		   text="「それじゃあ、そろそろ帰ろうか。家まで送っていくよ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="513" flags="0" screen="0"/>
+		<face src="fsas04a"/>
+		<msg @l="514" char="2" flags="17" index="235" line="514" name="紗々"
+		   text="「えっ、もう帰っちゃうんですか？」" timeout="" voices="sas14533"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="515" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="516" flags="0" screen="0"/>
+		<pause @l="517" flags="0" index="237" timeout=""/>
+		<face src="f"/>
+		<msg @l="519" char="11" flags="0" index="238" line="519" name="亮"
+		   text="「紗々ちゃんの目的も達成出来たみたいだからな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="521" char="-1" flags="0" index="240" line="521" name=""
+		   text="創作意欲が湧いてるなら、僕がいたら邪魔になるだろう。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="522" char="-1" flags="0" index="242" line="522" name=""
+		   text="ひとりで集中したいだろうしな。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="524" flags="0" screen="0"/>
+		<face src="fsas08a"/>
+		<msg @l="525" char="2" flags="17" index="244" line="525" name="紗々"
+		   text="「まだ第一段階を突破しただけで、\n:むしろこれからが本番といいますか……」" timeout=""
+		   voices="sas14534"/>
+		<emotion @l="526" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="527" flags="0" index="246" timeout=""/>
+		<clremt @l="528" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas07a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="530" flags="0" screen="0"/>
+		<face src="fsas07a"/>
+		<msg @l="531" char="2" flags="0" index="247" line="531" name="紗々"
+		   text="「あとほんのちょっとだけ、\n:お付き合いいただくわけにはいかないでしょうか？」" timeout=""
+		   voices="sas14535"/>
+		<face src=""/>
+		<msg @l="533" char="-1" flags="0" index="249" line="533" name=""
+		   text="真剣な顔でこっちを見ている紗々ちゃん。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="534" char="-1" flags="0" index="251" line="534" name=""
+		   text="なるほど、神社はあくまでも前振りに過ぎなくて、\n:ここからが重要なのか。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="536" char="11" flags="0" index="253" line="536" name="亮"
+		   text="「それじゃあ、ファミレスでも行く？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas05a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="538" flags="0" screen="0"/>
+		<face src="fsas05a"/>
+		<msg @l="539" char="2" flags="0" index="255" line="539" name="紗々"
+		   text="「どちらかというと、ふたりきりになれる方が\n:いいんですけど……」" timeout="" voices="sas14536"/>
+		<face src="f"/>
+		<msg @l="541" char="11" flags="0" index="257" line="541" name="亮"
+		   text="「ふむ。静かなところの方が捗るってことか、\n:じゃ場所のセレクトはまかせるよ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="543" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="544" char="2" flags="17" index="259" line="544" name="紗々"
+		   text="「ありがとうございます。では行きましょう！　私のお家に！」" timeout="" voices="sas14537"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="545" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="546" flags="0" screen="0"/>
+		<wait @l="549" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="550" flags="-2147483648" screen="0"/>
+		<setface @l="551" src="fsas25a"/>
+		<pause @l="552" flags="-2147483648" index="261" timeout=""/>
+		<face src="f"/>
+		<msg @l="555" char="11" flags="0" index="262" line="555" name="亮"
+		   text="「……へ？」" timeout="" voices=""/>
+		<play_sound @l="562" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="563" buf="0" fadeout="5000" type="0"/>
+		<showmsg @l="564" duration="500" show="0"/>
+		<chgbg @l="565" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg14b" type="99"/>
+		<chgbg @l="566" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg14c" type="99"/>
+		<chgbg @l="567" duration="4000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg33c" type="99"/>
+		<play_sound @l="568" buf="0" fadeout="500" intro="-1" src="bgm05" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="570" char="-1" flags="0" index="264" line="570" name=""
+		   text="招かれるままに、紗々ちゃんの部屋へとお邪魔する。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="571" char="-1" flags="0" index="266" line="571" name=""
+		   text="ここに来るのは２回目だけど、\n:あの時と違って今の僕はドキドキしっぱなしだ。" timeout="" voices=""/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="sas02a"
+		   transparency="256" x="810"/>
+		<waitbs @l="573" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="574" char="2" flags="17" index="268" line="574" name="紗々"
+		   text="「どうぞどうぞ。特に面白いものがあるわけではありませんが、\n:くつろいでください」" timeout=""
+		   voices="sas14538"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="575" flags="0" screen="0"/>
+		<pause @l="576" flags="0" index="270" timeout=""/>
+		<face src="f"/>
+		<msg @l="578" char="11" flags="0" index="271" line="578" name="亮"
+		   text="「ああ、ありがとう」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="580" char="-1" flags="0" index="273" line="580" name=""
+		   text="とりあえず座布団の上に座るが、どうにも落ち着かない。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="582" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="583" char="2" flags="0" index="275" line="583" name="紗々"
+		   text="「今日はお父さんもお母さんも帰りが遅いので、\n:ゆっくりくつろいでくださいね」" timeout=""
+		   voices="sas14539"/>
+		<face src="f"/>
+		<msg @l="585" char="11" flags="0" index="277" line="585" name="亮"
+		   text="「お、おう」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="587" char="-1" flags="0" index="279" line="587" name=""
+		   text="そう言われるとかえってくつろげないというか、\n:彼女とふたりきりというのを意識してしまって\n:逆に緊張するというか。"
+		   timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="589" flags="0" screen="0"/>
+		<face src="fsas08a"/>
+		<msg @l="590" char="2" flags="0" index="281" line="590" name="紗々"
+		   text="「じー……」" timeout="" voices="sas14540"/>
+		<face src="f"/>
+		<msg @l="592" char="11" flags="0" index="283" line="592" name="亮"
+		   text="「さっきからこっち見てるけど、\n:もしかして顔になにかついてる？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas14a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="594" flags="0" screen="0"/>
+		<face src="fsas14a"/>
+		<msg @l="595" char="2" flags="17" index="285" line="595" name="紗々"
+		   text="「いえ、気になってるのは顔ではなくて……って、\n:なんでもないです、なんでも！」" timeout=""
+		   voices="sas14541"/>
+		<emotion @l="596" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="597" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="598" flags="0" screen="0"/>
+		<wait @l="601" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="602" flags="-2147483648" screen="0"/>
+		<setface @l="603" src="fsas15a"/>
+		<emotion @l="604" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<pause @l="605" flags="-2147483648" index="287" timeout=""/>
+		<clremt @l="607" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas05a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="609" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="611" char="-1" flags="0" index="288" line="611" name=""
+		   text="そう言いつつも、チラチラこっちを見てくるぞ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="613" flags="0" screen="0"/>
+		<face src="fsas04a"/>
+		<msg @l="614" char="2" flags="0" index="290" line="614" name="紗々"
+		   text="\h;60:\s;40:「センパイのアレ、まだおっきくなってないみたい。まだお参りの効果が出てないのかな」\s:\h:"
+		   timeout="" voices="sas14542"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="616" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="617" char="2" flags="17" index="292" line="617" name="紗々"
+		   text="「あ、そうだ！　お茶淹れましょうか？」" timeout="" voices="sas14543"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="618" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="619" flags="0" screen="0"/>
+		<pause @l="620" flags="0" index="294" timeout=""/>
+		<face src="f"/>
+		<msg @l="622" char="11" flags="0" index="295" line="622" name="亮"
+		   text="「悪いな、なんだか喉が渇いちゃってさ。\n:ちょうど飲みたいと思ってたところだったんだ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="624" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="625" char="2" flags="0" index="297" line="625" name="紗々"
+		   text="「駅からずっと歩きっぱなしでしたもんね」" timeout="" voices="sas14544"/>
+		<face src="f"/>
+		<msg @l="627" char="11" flags="0" index="299" line="627" name="亮"
+		   text="「それもあるんだけど、なんだか緊張しちゃってさ、ははは」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="629" char="-1" flags="0" index="301" line="629" name=""
+		   text="女の子の部屋にふたりっきりというこのシチュエーションに\n:舞い上がっているのか、さっきから喉がカラカラだ。" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas24a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="631" flags="0" screen="0"/>
+		<face src="fsas24a"/>
+		<msg @l="632" char="2" flags="17" index="303" line="632" name="紗々"
+		   text="\h;60:\s;40:「緊張！？　そういえば、いつものセンパイと違って顔が赤らんでいるような。\n:もしかして、私のことを意識してくれてる……？」"
+		   timeout="" voices="sas14545"/>
+		<emotion @l="633" id="sas" loop="1" screen="0" src="emotion_03" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="634" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="635" flags="0" screen="0"/>
+		<wait @l="638" flags="5" time="5800"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="639" flags="-2147483648" screen="0"/>
+		<setface @l="640" src="fsas08a"/>
+		<pause @l="641" flags="-2147483648" index="305" timeout=""/>
+		<clremt @l="643" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas05a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="645" flags="0" screen="0"/>
+		<face src="fsas05a"/>
+		<msg @l="646" char="2" flags="0" index="306" line="646" name="紗々"
+		   text="\h;60:\s;40:「ここからじゃよく分からないけど、\n:きっとズボンの奥ではおち○ちんがはちきれんばかりになってるとか？」\s:\h:"
+		   timeout="" voices="sas14546"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas16a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="648" flags="0" screen="0"/>
+		<face src="fsas16a"/>
+		<msg @l="649" char="2" flags="17" index="308" line="649" name="紗々"
+		   text="\h;60:\s;40:「神様ありがとうございます！　お賽銭奮発した甲斐がありました！」\s:\h:" timeout=""
+		   voices="sas14547"/>
+		<emotion @l="650" id="sas" loop="1" screen="0" src="emotion_16" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="651" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="652" flags="0" screen="0"/>
+		<pause @l="653" flags="0" index="310" timeout=""/>
+		<clremt @l="654" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="656" char="-1" flags="0" index="311" line="656" name=""
+		   text="なにやらぶつぶつと呟いているが、神様と聞こえたような？" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="657" char="-1" flags="0" index="313" line="657" name=""
+		   text="ふむ。さっき祈ったばかりでも、\n:また神様に縋りたいほど創作に自信がないのか？" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="659" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="660" char="2" flags="17" index="315" line="660" name="紗々"
+		   text="「私はゆっくり時間をかけてお茶をいれてきますので、\n:ゆっくり休んでてくださいね」" timeout=""
+		   voices="sas14548"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="661" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="662" flags="0" screen="0"/>
+		<pause @l="663" flags="0" index="317" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="665" flags="0" screen="0"/>
+		<face src="fsas27a"/>
+		<msg @l="666" char="2" flags="0" index="318" line="666" name="紗々"
+		   text="「ちなみに、下着はタンスの一番下の引き出しに\n:入っていますので」" timeout="" voices="sas14549"/>
+		<face src="f"/>
+		<msg @l="668" char="11" flags="17" index="320" line="668" name="亮"
+		   text="「なにその情報！？」" timeout="" voices=""/>
+		<shakescrn @l="669" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="670" flags="0" index="322" timeout=""/>
+		<face src=""/>
+		<msg @l="672" char="-1" flags="0" index="323" line="672" name=""
+		   text="もしかして試されてるのか？" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="673" char="-1" flags="0" index="325" line="673" name="" text="\n:"
+		   timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="674" char="11" flags="0" index="327" line="674" name="亮"
+		   text="（着替えを見た件は、僕の行動次第で\n:許すかどうか決めるってことなんだな？）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="676" char="-1" flags="0" index="329" line="676" name=""
+		   text="そうと分かったら撤退だ。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="677" char="-1" flags="0" index="331" line="677" name=""
+		   text="いつまでもここにいたらよからぬことを考えてしまう。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="678" char="-1" flags="0" index="333" line="678" name=""
+		   text="っていうか、もうすでによからぬことを考えそうだ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="680" char="11" flags="0" index="335" line="680" name="亮"
+		   text="「あ、そうだ、用事を思い出した！　せっかくだけど、\n:おいとまさせてもらうよ！（棒読み）」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas23a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="682" flags="0" screen="0"/>
+		<face src="fsas23a"/>
+		<msg @l="683" char="2" flags="17" index="337" line="683" name="紗々"
+		   text="「ええぇぇーーーーっ！？」" timeout="" voices="sas14550"/>
+		<emotion @l="684" id="sas" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="685" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="686" flags="0" screen="0"/>
+		<shakebs @l="687" cycle="100" height="4" id="sas" screen="0" width="3"/>
+		<pause @l="688" flags="0" index="339" timeout=""/>
+		<clremt @l="689" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="691" flags="0" screen="0"/>
+		<face src="fsas22a"/>
+		<msg @l="692" char="2" flags="17" index="340" line="692" name="紗々"
+		   text="「ちょっ、ちょっと待ってください！　\n:今すぐお茶を入れますから！」" timeout="" voices="sas14551"/>
+		<emotion @l="693" id="sas" loop="1" screen="0" src="emotion_03z" time="-1"
+		   type="sas_2z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="694" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="695" flags="0" screen="0"/>
+		<pause @l="696" flags="0" index="342" timeout=""/>
+		<clremt @l="697" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="699" char="11" flags="0" index="343" line="699" name="亮"
+		   text="「お茶はまたの機会にさせてもらうさ、あははは」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas21az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="701" flags="0" screen="0"/>
+		<face src="fsas21a"/>
+		<msg @l="702" char="2" flags="17" index="345" line="702" name="紗々"
+		   text="「下着はどうなるんですか？」" timeout="" voices="sas14552"/>
+		<emotion @l="703" id="sas" loop="1" screen="0" src="emotion_03z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<pause @l="704" flags="0" index="347" timeout=""/>
+		<clremt @l="705" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="707" char="11" flags="0" index="348" line="707" name="亮"
+		   text="「もともと何もする気はないからな！？　僕紳士なんで！　\n:じゃあ、そういうことでさよならっ！」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas23az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="709" flags="0" screen="0"/>
+		<face src="fsas23a"/>
+		<msg @l="710" char="2" flags="17" index="350" line="710" name="紗々"
+		   text="「行かないでぇ……って、きゃああぁぁーーーーーっ！？」" timeout="" voices="sas14553"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="711" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="712" flags="0" screen="0"/>
+		<wait @l="715" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="716" flags="-2147483648" screen="0"/>
+		<setface @l="717" src="fsas22a"/>
+		<emotion @l="718" id="sas" loop="1" screen="0" src="emotion_10z" time="-1"
+		   type="sas_2z" x="0" y="0"/>
+		<pause @l="719" flags="-2147483648" index="352" timeout=""/>
+		<clremt @l="721" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="723" char="-1" flags="0" index="353" line="723" name=""
+		   text="駆け寄ってきた紗々ちゃんが、\n:足下の座布団に足を滑らせてしまう。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="725" char="11" flags="17" index="355" line="725" name="亮"
+		   text="「あぶないっ！！」" timeout="" voices=""/>
+		<shakescrn @l="726" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="727" flags="0" index="357" timeout=""/>
+		<face src=""/>
+		<msg @l="729" char="-1" flags="0" index="358" line="729" name=""
+		   text="とっさに抱きとめようとしたものの、\n:そのままもつれ合うように倒れ込んでしまった。" timeout="" voices=""/>
+		<play_sound @l="736" buf="1" fadeout="0" intro="-1" src="se650" type="1"
+		   volume="1."/>
+		<shakescrn @l="737" amp="20" cycle="20" duration="300" flags="2" screen="0"/>
+		<play_sound @l="739" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="740" duration="500" show="0"/>
+		<loadimage @l="742" bg="0" fit="0" screen="1" src="evsas04_02a"/>
+		<scroll @l="743" async="0" center_x="286" center_y="180" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1.5"/>
+		<chgscrn @l="744" duration="1000" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="3"/>
+		<scroll @l="746" async="-1" center_x="45" center_y="45" duration="2500"
+		   flags="0" rev="0." screen="0" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgbg @l="747" duration="2500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas04_02a" type="99"/>
+		<play_sound @l="748" buf="0" fadeout="500" intro="-1" src="bgm16" type="0"
+		   volume="1."/>
+		<msg @l="752" char="2" flags="0" index="360" line="752" name="紗々"
+		   text="「いたたたた……」" timeout="" voices="sas14554"/>
+		<play_sound @l="753" buf="1" fadeout="0" type="1"/>
+		<msg @l="755" char="11" flags="0" index="362" line="755" name="亮"
+		   text="「大丈夫か？」" timeout="" voices=""/>
+		<msg @l="757" char="2" flags="0" index="364" line="757" name="紗々"
+		   text="「はい、なんとか……すみません、ご迷惑をおかけしてしまって」" timeout="" voices="sas14555"/>
+		<msg @l="759" char="-1" flags="0" index="366" line="759" name=""
+		   text="どうやら怪我は無いようなので、とりあえずひと安心。" timeout="" voices=""/>
+		<msg @l="760" char="-1" flags="0" index="368" line="760" name=""
+		   text="このまま体を起こして――" timeout="" voices=""/>
+		<msg @l="762" char="11" flags="0" index="370" line="762" name="亮"
+		   text="「はっ！？」" timeout="" voices=""/>
+		<msg @l="764" char="-1" flags="0" index="372" line="764" name=""
+		   text="冷静になった瞬間、彼女の上に覆い被さっているような\n:体勢になっていることに気づいた。" timeout="" voices=""/>
+		<msg @l="765" char="-1" flags="0" index="374" line="765" name=""
+		   text="これはどう見ても、僕が押し倒したようにしか見えない。" timeout="" voices=""/>
+		<msg @l="767" char="11" flags="0" index="376" line="767" name="亮"
+		   text="「すまんっ！　倒れた拍子に変な体勢になっちゃったみたいだ」" timeout="" voices=""/>
+		<chgbg @l="769" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas04_02d" type="99"/>
+		<msg @l="770" char="2" flags="0" index="378" line="770" name="紗々"
+		   text="「いえ、お気になさらず。こうなるのを待ってましたから」" timeout="" voices="sas14556"/>
+		<msg @l="772" char="-1" flags="0" index="380" line="772" name=""
+		   text="はて、待っていたとは？" timeout="" voices=""/>
+		<msg @l="774" char="11" flags="0" index="382" line="774" name="亮"
+		   text="（そのままの意味でとっていいのか？　\n:仮にそうだとして、そんな子だったっけ？）" timeout="" voices=""/>
+		<msg @l="776" char="-1" flags="0" index="384" line="776" name=""
+		   text="目の前には頬を赤らめ、瞳を潤ませた紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="777" char="-1" flags="0" index="386" line="777" name=""
+		   text="間近に接近しているせいか、甘酸っぱい女の子の\n:匂いをビンビンに感じている。" timeout="" voices=""/>
+		<msg @l="779" char="11" flags="0" index="388" line="779" name="亮"
+		   text="（服がめくれ上がって、お腹とか太ももとか\n:バッチリ見えちゃってるんですけど！？　これヤバくね？　\n:ていうか、エロくね？）"
+		   timeout="" voices=""/>
+		<chgbg @l="781" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas04_02b" type="99"/>
+		<msg @l="782" char="2" flags="0" index="390" line="782" name="紗々"
+		   text="「あの……このまま見ているだけなんですか？」" timeout="" voices="sas14557"/>
+		<msg @l="784" char="2" flags="0" index="392" line="784" name="紗々"
+		   text="「私なら、心の準備はできてます」" timeout="" voices="sas14558"/>
+		<msg @l="786" char="-1" flags="0" index="394" line="786" name=""
+		   text="緊張で少しかすれたような彼女の声が、たまらなく色っぽい。" timeout="" voices=""/>
+		<msg @l="787" char="-1" flags="0" index="396" line="787" name=""
+		   text="このまま流されてもいいのか？　大人の階段登っちゃってもＯＫ？" timeout="" voices=""/>
+		<msg @l="789" char="11" flags="0" index="398" line="789" name="亮"
+		   text="（いやいや、こういうのはお互いの気持ちが大事だからな！）" timeout="" voices=""/>
+		<msg @l="791" char="-1" flags="0" index="400" line="791" name=""
+		   text="欲望のままに大人の階段登っちゃったら、\n:そのまま死刑台の十三階段行きってもんだろ。" timeout="" voices=""/>
+		<msg @l="793" char="11" flags="0" index="402" line="793" name="亮"
+		   text="（そもそも、告白とか必要な過程を全て\n:すっ飛ばしてるわけで……）" timeout="" voices=""/>
+		<msg @l="795" char="-1" flags="0" index="404" line="795" name=""
+		   text="――告白？" timeout="" voices=""/>
+		<msg @l="796" char="-1" flags="0" index="406" line="796" name=""
+		   text="あれ？　僕なにを考えてる？" timeout="" voices=""/>
+		<msg @l="797" char="-1" flags="0" index="408" line="797" name=""
+		   text="紗々ちゃんに告白？？　僕は――" timeout="" voices=""/>
+		<msg @l="798" char="-1" flags="0" index="410" line="798" name=""
+		   text="頭が急にこんがらがってくる。" timeout="" voices=""/>
+		<msg @l="799" char="-1" flags="0" index="412" line="799" name=""
+		   text="ひとつだけ言えるのは、このままだとじきに\n:抑えが効かなくなるってこと。" timeout="" voices=""/>
+		<msg @l="801" char="2" flags="0" index="414" line="801" name="紗々"
+		   text="「センパぁイ……」" timeout="" voices="sas14559"/>
+		<msg @l="803" char="11" flags="0" index="416" line="803" name="亮"
+		   text="（そうだった！　僕はこの子の先輩なんだ！　\n:センパイらしく誇れる態度をとらないと）" timeout="" voices=""/>
+		<msg @l="805" char="11" flags="0" index="418" line="805" name="亮"
+		   text="「ごめんな、すぐにどくから」" timeout="" voices=""/>
+		<msg @l="807" char="-1" flags="0" index="420" line="807" name=""
+		   text="腕に力を込め、上半身を持ち上げる。" timeout="" voices=""/>
+		<chgbg @l="809" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas04_01a" type="99"/>
+		<msg @l="810" char="2" flags="0" index="422" line="810" name="紗々"
+		   text="「いかないでください！」" timeout="" voices="sas14560"/>
+		<play_sound @l="812" buf="1" fadeout="0" intro="-1" src="se736" type="1"
+		   volume="1."/>
+		<chgbg @l="814" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas04_02b" type="99"/>
+		<msg @l="815" char="-1" flags="17" index="424" line="815" name=""
+		   text="すぐに彼女の手が僕の背中に回り、再び引き寄せられてしまった。" timeout="" voices=""/>
+		<shakescrn @l="816" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="817" flags="0" index="426" timeout=""/>
+		<play_sound @l="819" buf="1" fadeout="0" type="1"/>
+		<msg @l="821" char="2" flags="0" index="427" line="821" name="紗々"
+		   text="「おねがいです、いかないで……」" timeout="" voices="sas14561"/>
+		<msg @l="823" char="-1" flags="0" index="429" line="823" name=""
+		   text="あの引っ込み思案な紗々ちゃんが僕の首に手をかけ、\n:吐息がかかる距離までぐっと顔を近づけてくる。" timeout=""
+		   voices=""/>
+		<msg @l="825" char="2" flags="0" index="431" line="825" name="紗々"
+		   text="「せっかくおち○ちんが元気になったのに、\n:本当に何もしないんですか？」" timeout="" voices="sas14562"/>
+		<play_sound @l="827" buf="0" fadeout="2500" type="0"/>
+		<msg @l="829" char="11" flags="0" index="433" line="829" name="亮"
+		   text="「ん？」" timeout="" voices=""/>
+		<play_sound @l="831" buf="0" fadeout="500" intro="-1" src="bgm08" type="0"
+		   volume="1."/>
+		<msg @l="833" char="-1" flags="0" index="435" line="833" name=""
+		   text="今、とんでもない単語が飛び出してきたような気が？" timeout="" voices=""/>
+		<msg @l="835" char="2" flags="0" index="437" line="835" name="紗々"
+		   text="「センパイがその気になってくれないのは、\n:きっと私のなにかが至らないせいなんですよね」" timeout=""
+		   voices="sas14563"/>
+		<msg @l="837" char="2" flags="0" index="439" line="837" name="紗々"
+		   text="「わかりました、こうなったら実力行使です……ええいままよ！」" timeout="" voices="sas14564"/>
+		<msg @l="839" char="-1" flags="0" index="441" line="839" name=""
+		   text="それと同時に、下半身に彼女の手のひらがむぎゅっと\n:押しつけられてきた。" timeout="" voices=""/>
+		<msg @l="841" char="11" flags="0" index="443" line="841" name="亮"
+		   text="（ちょっ！？　いきなりち○こ触られちゃってるんだけどぉ！！）" timeout="" voices=""/>
+		<msg @l="843" char="2" flags="0" index="445" line="843" name="紗々"
+		   text="「神様、御利益お願いしますっ！！」" timeout="" voices="sas14565"/>
+		<msg @l="845" char="-1" flags="0" index="447" line="845" name=""
+		   text="もみもみ。" timeout="" voices=""/>
+		<msg @l="846" char="-1" flags="0" index="449" line="846" name=""
+		   text="たどたどしい手つきで僕の股間をにぎにぎしてきた。" timeout="" voices=""/>
+		<msg @l="847" char="-1" flags="0" index="451" line="847" name=""
+		   text="その瞬間、今まで理性でこらえてきた血流が一点へと\n:集まっていく。" timeout="" voices=""/>
+		<play_sound @l="849" buf="0" fadeout="2500" type="0"/>
+		<msg @l="851" char="2" flags="0" index="453" line="851" name="紗々"
+		   text="「がっちがち……って、これが本当の男の人の……」" timeout="" voices="sas14566"/>
+		<msg @l="853" char="2" flags="0" index="455" line="853" name="紗々"
+		   text="「あ、あうあう……」" timeout="" voices="sas14567"/>
+		<showmsg @l="860" duration="500" show="0"/>
+		<scroll @l="863" async="-1" center_x="0" center_y="0" duration="500"
+		   flags="0" rev="0." screen="0" transparency="256" v0="0." v1="0."
+		   wait_flags="0" x="-45" y="0" zoom="1."/>
+		<chgbg @l="864" duration="500" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg17c" type="99"/>
+		<goto script="紗々_08_1"/>
+	</code>
+</xscript>

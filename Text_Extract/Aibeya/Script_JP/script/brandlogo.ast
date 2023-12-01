@@ -1,0 +1,17 @@
+ast = {
+	{
+		{"brandlogo", mode="white", time=1000, wait=2500},
+		{"brandlogo", file="logo", sysvo="brand"},
+		{"brandlogo", file="logo02", cond="s.cs==1"},
+		{"brandlogo", file="logo01"},
+		{"brandlogo", file="sys_warning_bg", cond="s.trial==0"},
+		{"brandlogo", file="sys_warning_bgtr", cond="s.trial==1"},
+		{"brandlogo"},
+		line=7,
+	},
+	text={
+	},
+	label={
+		label_skip={ block=1, label=7 },
+	},
+}

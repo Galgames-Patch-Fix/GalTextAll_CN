@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="9" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="10" duration="500" show="0"/>
+		<chgbg @l="11" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="12" bg="0" fit="0" screen="1" src="bg06a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="sas17a"
+		   transparency="0" x="960"/>
+		<waitbs @l="13" flags="0" screen="1"/>
+		<chgscrn @l="14" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="15" buf="0" fadeout="500" intro="-1" src="bgm24" type="0"
+		   volume="1."/>
+		<face src="fsas17a"/>
+		<msg @l="17" char="2" flags="17" index="0" line="17" name="紗々"
+		   text="「はぁ……私、感動しちゃいました」" timeout="" voices="sas17500"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="18" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="19" flags="0" screen="0"/>
+		<pause @l="20" flags="0" index="2" timeout=""/>
+		<face src="f"/>
+		<msg @l="22" char="11" flags="0" index="3" line="22" name="亮"
+		   text="「知らないタイトルだったから正直、不安だったんだけど……蓋を開けてみれば、王道の恋愛ものだったなぁ」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="24" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="25" char="2" flags="17" index="5" line="25" name="紗々"
+		   text="「はいっ。ラストシーンなんか、もう最高でしたよね！」" timeout="" voices="sas17501"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="26" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="27" flags="0" screen="0"/>
+		<wait @l="30" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="31" flags="-2147483648" screen="0"/>
+		<setface @l="32" src="fsas27a"/>
+		<pause @l="33" flags="-2147483648" index="7" timeout=""/>
+		<face src=""/>
+		<msg @l="36" char="-1" flags="0" index="8" line="36" name=""
+		   text="――とある休日。ふたりでレンタルショップに行き、部屋に帰って映画鑑賞をしていた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="37" char="-1" flags="0" index="10" line="37" name=""
+		   text="ソファに並んで座って肩を並べて、一緒にらぶらぶしながら見る\n:ＤＶＤはいいものだな。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas11a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="39" flags="0" screen="0"/>
+		<face src="fsas11a"/>
+		<msg @l="40" char="2" flags="0" index="12" line="40" name="紗々"
+		   text="「ところでセンパイ。さっきからずっと気になってたんですけど\n:あんな箱、今までありましたっけ？」" timeout=""
+		   voices="sas17502"/>
+		<face src=""/>
+		<msg @l="42" char="-1" flags="0" index="14" line="42" name=""
+		   text="紗々ちゃんの指が、部屋の隅のやや大きな段ボール箱に\n:向けられる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="43" char="-1" flags="0" index="16" line="43" name=""
+		   text="一応この部屋は僕の部屋でもあるが、お店の倉庫でもあるから\n:オーナーが置いといてくれって持ってきた箱だ。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="45" char="11" flags="0" index="18" line="45" name="亮"
+		   text="「ああ。アレは子供会の演劇用の衣装を商店街からの寄付で集めたもので、今預かってるんだ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="47" flags="0" screen="0"/>
+		<face src="fsas06a"/>
+		<msg @l="48" char="2" flags="17" index="20" line="48" name="紗々"
+		   text="「へえーそうなんですね。いろんな衣装があったらやれる劇の幅も広がりますし、子供たちもよろこびますよね」" timeout=""
+		   voices="sas17503"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="49" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="50" flags="0" screen="0"/>
+		<wait @l="53" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="54" flags="-2147483648" screen="0"/>
+		<setface @l="55" src="fsas02a"/>
+		<pause @l="56" flags="-2147483648" index="22" timeout=""/>
+		<face src="f"/>
+		<msg @l="59" char="11" flags="0" index="23" line="59" name="亮"
+		   text="「せっかくだし見てみようか？　子供たちが、どんな服を着るのか興味あるだろ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="61" flags="0" screen="0"/>
+		<face src="fsas25a"/>
+		<msg @l="62" char="2" flags="17" index="25" line="62" name="紗々"
+		   text="「いいんですか？　わぁい！　楽しみです」" timeout="" voices="sas17504"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="63" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="64" flags="0" screen="0"/>
+		<wait @l="67" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="68" flags="-2147483648" screen="0"/>
+		<setface @l="69" src="fsas27a"/>
+		<emotion @l="70" id="sas" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="71" flags="-2147483648" index="27" timeout=""/>
+		<clremt @l="73" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="75" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="77" char="-1" flags="0" index="28" line="77" name=""
+		   text="子供たちのことになると紗々ちゃんの目の輝きが全然違うな。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas06a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="79" flags="0" screen="0"/>
+		<face src="fsas06a"/>
+		<msg @l="80" char="2" flags="17" index="30" line="80" name="紗々"
+		   text="「えーと……定番の魔女っぽい服に、カボチャのかぶり物、\n:他にも色々……」" timeout=""
+		   voices="sas17505"/>
+		<pause @l="81" flags="0" index="32" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="83" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="85" char="-1" flags="0" index="33" line="85" name=""
+		   text="ふたりでガサゴソとダンボールの中身を物色していく。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="87" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="88" char="2" flags="0" index="35" line="88" name="紗々"
+		   text="「寄付ってことで、おそらくお家に眠ってたであろうハロウィンっぽい衣装が多いですね」" timeout=""
+		   voices="sas17506"/>
+		<face src="f"/>
+		<msg @l="90" char="11" flags="0" index="37" line="90" name="亮"
+		   text="「そうだな。テンション上がって買ったはいいけど年に一度しか\n:着ないし、もうサイズも合わなくなるだろうしな」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="92" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="93" char="2" flags="17" index="39" line="93" name="紗々"
+		   text="「子供の成長は早いですもんねぇ……って、これ\n:かわいいですね！」" timeout="" voices="sas17507"/>
+		<wait @l="96" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="97" flags="-2147483648" screen="0"/>
+		<setface @l="98" src="fsas25a"/>
+		<emotion @l="99" id="sas" loop="1" screen="0" src="emotion_09" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="100" flags="-2147483648" index="41" timeout=""/>
+		<clremt @l="102" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="104" char="-1" flags="0" index="42" line="104" name=""
+		   text="箱から犬耳と首輪を取り出した紗々ちゃんが、目をキラキラと\n:輝かせている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="105" char="-1" flags="0" index="44" line="105" name=""
+		   text="へえー、大人用のサイズまであったんだ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="107" flags="0" screen="0"/>
+		<face src="fsas27a"/>
+		<msg @l="108" char="2" flags="17" index="46" line="108" name="紗々"
+		   text="「尻尾まであるなんて本格的ですね。あれ？　でも\n:この尻尾って……」" timeout="" voices="sas17508"/>
+		<wait @l="111" flags="5" time="4000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas04a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="112" flags="-2147483648" screen="0"/>
+		<setface @l="113" src="fsas04a"/>
+		<emotion @l="114" id="sas" loop="1" screen="0" src="emotion_14" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<pause @l="115" flags="-2147483648" index="48" timeout=""/>
+		<clremt @l="117" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="119" char="11" flags="0" index="49" line="119" name="亮"
+		   text="「せっかくだから、着てみるか？」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas22a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="121" flags="0" screen="0"/>
+		<face src="fsas22a"/>
+		<msg @l="122" char="2" flags="17" index="51" line="122" name="紗々"
+		   text="「えええっ！！？　あっ、でもセンパイのご希望でしたら\n:がんばります！！」" timeout=""
+		   voices="sas17509"/>
+		<emotion @l="123" id="sas" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="124" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="125" flags="0" screen="0"/>
+		<wait @l="128" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas07a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="129" flags="-2147483648" screen="0"/>
+		<setface @l="130" src="fsas07a"/>
+		<pause @l="131" flags="-2147483648" index="53" timeout=""/>
+		<clremt @l="133" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="135" char="-1" flags="0" index="54" line="135" name=""
+		   text="？　がんばる？？" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="136" char="-1" flags="0" index="56" line="136" name=""
+		   text="犬耳コスプレをがんばるってどういう……ああ、恥ずかしがり屋な紗々ちゃんが勇気を出してコスプレするってことか。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="138" char="11" flags="0" index="58" line="138" name="亮"
+		   text="（さっきかわいいって言ってたし、本当は着てみたいん\n:だろうなあ）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="140" char="-1" flags="0" index="60" line="140" name=""
+		   text="よし、ここは背中を押してあげようっと。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="142" char="11" flags="0" index="62" line="142" name="亮"
+		   text="「紗々ちゃんの犬耳姿、見てみたいな」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas27a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="144" flags="0" screen="0"/>
+		<face src="fsas27a"/>
+		<msg @l="145" char="2" flags="17" index="64" line="145" name="紗々"
+		   text="「はいっ！！　皇鈴紗々、精一杯着替えてきます。あ、でも\n:さすがにセンパイの前で着替えるのは恥ずかしいので……」"
+		   timeout="" voices="sas17510"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="146" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="147" flags="0" screen="0"/>
+		<wait @l="150" flags="5" time="3500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas08a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="151" flags="-2147483648" screen="0"/>
+		<setface @l="152" src="fsas08a"/>
+		<pause @l="153" flags="-2147483648" index="66" timeout=""/>
+		<face src=""/>
+		<msg @l="156" char="-1" flags="0" index="67" line="156" name=""
+		   text="散々、着替えるところも見てるし、セックスの後に身支度を\n:整えるのも見てるのに……？" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="158" char="11" flags="0" index="69" line="158" name="亮"
+		   text="（恥じらいを忘れない僕の彼女、かわいすぎませんマジで！？）" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="160" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="161" char="2" flags="0" index="71" line="161" name="紗々"
+		   text="「それじゃあ、バックヤードで用意して、すぐに戻ってきますね」" timeout="" voices="sas17511"/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="256" v0="0." v1="0." x="1110" y="0"/>
+		<waitbs @l="164" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="166" char="-1" flags="0" index="73" line="166" name=""
+		   text="コスプレ衣装を抱えた紗々ちゃんが、ぱたぱたと部屋を\n:出て行った。" timeout="" voices=""/>
+		<label @l="171" id="scene_2_06"/>
+		<play_sound @l="175" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="176" duration="500" show="0"/>
+		<loadimage @l="181" bg="0" fit="0" screen="1" src="evsas17_01b"/>
+		<scroll @l="182" async="0" center_x="45" center_y="45" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="183" duration="2500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="10"/>
+		<play_sound @l="184" buf="0" fadeout="500" intro="-1" src="bgm18" type="0"
+		   volume="1."/>
+		<msg @l="196" char="2" flags="0" index="75" line="196" name="紗々"
+		   text="「どうですか？　センパイのご希望どおり着てみたんですが……」" timeout="" voices="sas17512"/>
+		<msg @l="198" char="-1" flags="0" index="77" line="198" name=""
+		   text="目の前には犬耳コスプレをした紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="199" char="-1" flags="0" index="79" line="199" name=""
+		   text="しかし服の感想よりも、僕が気になってるのはこの体勢。" timeout="" voices=""/>
+		<msg @l="201" char="11" flags="0" index="81" line="201" name="亮"
+		   text="（なんでこんなことになってるんだよぉぉぉ！！！）" timeout="" voices=""/>
+		<msg @l="203" char="-1" flags="0" index="83" line="203" name=""
+		   text="紗々ちゃんは、なぜか裸に首輪と犬耳だけをつけて、僕のち○こをおっぱいに挟んでいた。" timeout="" voices=""/>
+		<msg @l="205" char="2" flags="0" index="85" line="205" name="紗々"
+		   text="「似合ってますか？」" timeout="" voices="sas17513"/>
+		<msg @l="207" char="11" flags="0" index="87" line="207" name="亮"
+		   text="「似合ってる……めっちゃ似合ってるんだけど……」" timeout="" voices=""/>
+		<msg @l="209" char="-1" flags="0" index="89" line="209" name=""
+		   text="紗々ちゃんのかわいさと、子犬のかわいさが混在して別のかわいい何かが爆誕している。" timeout="" voices=""/>
+		<msg @l="211" char="2" flags="17" index="91" line="211" name="紗々"
+		   text="「あはっ、嬉しいです\x;heart:　それじゃあ、いただきますね……ちゅっ」" timeout=""
+		   voices="sas17514"/>
+		<wait @l="213" flags="5" time="3000"/>
+		<chgbg @l="214" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<pause @l="215" flags="-2147483648" index="93" timeout=""/>
+		<play_sound @l="219" buf="5" fadeout="0" intro="0" src="sas80028" type="6"
+		   volume="1."/>
+		<msg @l="220" char="-1" flags="0" index="94" line="220" name=""
+		   text="いつものようにペニスに挨拶をしてから、亀頭にキス。" timeout="" voices=""/>
+		<msg @l="221" char="-1" flags="0" index="96" line="221" name=""
+		   text="うむ。大変礼儀正しいな。センパイはこんな後輩を持って\n:誇らしい――じゃねえよ！！！" timeout="" voices=""/>
+		<msg @l="223" char="11" flags="0" index="98" line="223" name="亮"
+		   text="「待った待った！！　なにがどうなってこうなったんだ？」" timeout="" voices=""/>
+		<play_sound @l="224" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="226" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="227" char="2" flags="0" index="100" line="227" name="紗々"
+		   text="「はい？」" timeout="" voices="sas17515"/>
+		<msg @l="229" char="-1" flags="0" index="102" line="229" name=""
+		   text="キョトンと首をかしげられる。" timeout="" voices=""/>
+		<msg @l="231" char="11" flags="0" index="104" line="231" name="亮"
+		   text="「かわええ！！　じゃなかった、ちゃんと説明して欲しいんだ」" timeout="" voices=""/>
+		<msg @l="233" char="-1" flags="0" index="106" line="233" name=""
+		   text="あれよあれよという間に、僕の服まで脱がせたテクニックは\n:今までの経験を生かしてナイスなわけだが。" timeout=""
+		   voices=""/>
+		<msg @l="235" char="2" flags="0" index="108" line="235" name="紗々"
+		   text="「今日の私はワンちゃんなので、いっぱいぺろぺろして、\n:センパイへの敬意、それに愛情表現をしたいと思ってるんです」"
+		   timeout="" voices="sas17516"/>
+		<msg @l="237" char="11" flags="0" index="110" line="237" name="亮"
+		   text="「なるほど。ぺろぺろ好きな紗々ちゃんらしい\n:シチュエーションだな」" timeout="" voices=""/>
+		<chgbg @l="239" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="240" char="2" flags="17" index="112" line="240" name="紗々"
+		   text="「それじゃあ、はじめますね……ぺぇろ、れぇろ、ワンちゃんは\n:こうやって舐めて、愛情を伝えてるんですよ」" timeout=""
+		   voices="sas17517"/>
+		<wait @l="242" flags="5" time="3000"/>
+		<chgbg @l="243" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01h" type="99"/>
+		<pause @l="244" flags="-2147483648" index="114" timeout=""/>
+		<play_sound @l="247" buf="5" fadeout="0" intro="0" src="sas80000" type="6"
+		   volume="1."/>
+		<msg @l="248" char="-1" flags="0" index="115" line="248" name=""
+		   text="犬のようなペロペロでなく、じっくり丹念に亀頭を舐められる。" timeout="" voices=""/>
+		<msg @l="249" char="-1" flags="0" index="117" line="249" name=""
+		   text="耳はふわふわで愛らしく、時折首輪がカチャカチャ鳴ってなんともエロい。" timeout="" voices=""/>
+		<play_sound @l="250" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="252" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01g" type="99"/>
+		<msg @l="254" char="2" flags="0" index="119" line="254" name="紗々"
+		   text="「ご主人さまのおち○ちん、おいしいです。ぺろ、れろろ……\n:次はどこをお舐めしましょうか？」" timeout=""
+		   voices="sas17518"/>
+		<msg @l="256" char="11" flags="0" index="121" line="256" name="亮"
+		   text="「ご主人様！？」" timeout="" voices=""/>
+		<chgbg @l="258" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="259" char="2" flags="0" index="123" line="259" name="紗々"
+		   text="「今日の私はワンちゃんなので、ご主人様のご命令にはなんでも\n:従いますわん\x;heart:」" timeout=""
+		   voices="sas17519"/>
+		<msg @l="261" char="-1" flags="0" index="125" line="261" name=""
+		   text="なんたる僥倖！　何の気なしに犬のコスプレを勧めてみたら、\n:いつの間にかご主人様に！！" timeout="" voices=""/>
+		<msg @l="262" char="-1" flags="0" index="127" line="262" name=""
+		   text="嬉しそうにぱたぱたと尻尾を振って、頬を舐めながら指示を待つ\n:紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="264" char="11" flags="0" index="129" line="264" name="亮"
+		   text="「ん？　尻尾？？」" timeout="" voices=""/>
+		<msg @l="266" char="-1" flags="0" index="131" line="266" name=""
+		   text="はて？　裸なのにどうやってあの尻尾が付いてるんだ？？" timeout="" voices=""/>
+		<msg @l="267" char="-1" flags="0" index="133" line="267" name=""
+		   text="犬耳はカチューシャ、首輪ははめるだけ。しかし尻尾はどうやって装着してるのか不思議だった。" timeout="" voices=""/>
+		<msg @l="269" char="11" flags="0" index="135" line="269" name="亮"
+		   text="「ところで、その尻尾はどうなってるんだ？」" timeout="" voices=""/>
+		<chgbg @l="271" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01c" type="99"/>
+		<msg @l="273" char="2" flags="0" index="137" line="273" name="紗々"
+		   text="「それはもちろんお尻から生えてますよ。ですから、ご主人様がエッチなこの格好になるように勧めたんですよね？」" timeout=""
+		   voices="sas17520"/>
+		<msg @l="275" char="-1" flags="0" index="139" line="275" name=""
+		   text="お尻から……生える！？" timeout="" voices=""/>
+		<msg @l="277" char="11" flags="0" index="141" line="277" name="亮"
+		   text="「…………………」" timeout="" voices=""/>
+		<msg @l="279" char="11" flags="0" index="143" line="279" name="亮"
+		   text="（ぶはああぁぁっっ！！！？　尻から生えるってまさか、そういう大人の玩具だったのか！）" timeout="" voices=""/>
+		<msg @l="281" char="11" flags="0" index="145" line="281" name="亮"
+		   text="（なんつーもん寄付してるんだ！！　アナルプラグに尻尾が\n:ついてるヤツじゃねーか！！）" timeout="" voices=""/>
+		<msg @l="283" char="-1" flags="0" index="147" line="283" name=""
+		   text="なるほど、道理でコスプレをがんばると言いだしたわけだ。" timeout="" voices=""/>
+		<msg @l="284" char="-1" flags="0" index="149" line="284" name=""
+		   text="僕よ、ナイスプレー！　まさかの展開に発展するとは\n:予想外だった。" timeout="" voices=""/>
+		<msg @l="285" char="-1" flags="0" index="151" line="285" name=""
+		   text="でも、本人もノリノリだしここは僕も乗っかってこのプレイを\n:楽しもう。" timeout="" voices=""/>
+		<msg @l="287" char="11" flags="0" index="153" line="287" name="亮"
+		   text="「とっても似合ってるぞ。犬チックな紗々にピッタリだ」" timeout="" voices=""/>
+		<chgbg @l="289" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="292" char="2" flags="0" index="155" line="292" name="紗々"
+		   text="「ありがとうございます、ご主人様ぁぁ……紗々って呼ばれて\n:キュンてします」" timeout=""
+		   voices="sas17521"/>
+		<msg @l="294" char="-1" flags="0" index="157" line="294" name=""
+		   text="紗々ちゃんがプリプリとしたお尻を、フサフサの尻尾と\n:ともに振る。" timeout="" voices=""/>
+		<msg @l="295" char="-1" flags="0" index="159" line="295" name=""
+		   text="見なれない光景だが、紗々ちゃんの状態を考えるとそれだけで\n:興奮してくる。" timeout="" voices=""/>
+		<chgbg @l="297" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01f" type="99"/>
+		<msg @l="298" char="2" flags="0" index="161" line="298" name="紗々"
+		   text="「ちゅ、ちゅ……ちゅ、ちゅ、ちゅ、ちゅ、ちゅうぅぅっ\x;hearts:」" timeout="" voices="sas17522"/>
+		<play_sound @l="300" buf="5" fadeout="0" intro="0" src="sas80028" type="6"
+		   volume="1."/>
+		<msg @l="301" char="-1" flags="0" index="163" line="301" name=""
+		   text="紗々ちゃんがまた顔を近づけて、亀頭にキスの嵐をふらせてくる。" timeout="" voices=""/>
+		<msg @l="302" char="-1" flags="0" index="165" line="302" name=""
+		   text="おっぱいの間に挟まれた肉竿がそのたびにヒクヒクと震える。" timeout="" voices=""/>
+		<play_sound @l="303" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="305" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01c" type="99"/>
+		<msg @l="306" char="2" flags="0" index="167" line="306" name="紗々"
+		   text="「ああ、すみませんご主人様。いつもの調子でやっちゃって\n:ました。今日はご命令を聞かないといけなかったのに……」"
+		   timeout="" voices="sas17523"/>
+		<msg @l="308" char="11" flags="0" index="169" line="308" name="亮"
+		   text="「気にしないでいいぞ。ちょうどキスしてほしいって思ってた\n:ところだからな」" timeout="" voices=""/>
+		<chgbg @l="311" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="312" char="2" flags="0" index="171" line="312" name="紗々"
+		   text="「あはっ、こんな駄犬のことを気遣って……ご主人様は\n:優しいですぅ」" timeout="" voices="sas17524"/>
+		<msg @l="315" char="2" flags="0" index="173" line="315" name="紗々"
+		   text="「そんな優しいご主人様にご奉仕しますね……あ、わん\x;hearts:」" timeout="" voices="sas17525"/>
+		<msg @l="317" char="11" flags="0" index="175" line="317" name="亮"
+		   text="「わん？」" timeout="" voices=""/>
+		<chgbg @l="319" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="321" char="2" flags="0" index="177" line="321" name="紗々"
+		   text="「紗々わんこなので！」" timeout="" voices="sas17526"/>
+		<msg @l="323" char="-1" flags="0" index="179" line="323" name=""
+		   text="急にとってつけたように語尾を変えたのに、なぜドヤ顔！？" timeout="" voices=""/>
+		<msg @l="326" char="-1" flags="0" index="181" line="326" name=""
+		   text="そしてそのまま紗々ちゃんがおっぱいでペニスをやわやわと\n:刺激してくる。" timeout="" voices=""/>
+		<msg @l="328" char="11" flags="0" index="183" line="328" name="亮"
+		   text="「うっ！！」" timeout="" voices=""/>
+		<msg @l="330" char="-1" flags="0" index="185" line="330" name=""
+		   text="想像以上の柔らかさと暖かさに包まれ、思わず声を\n:上げてしまった。" timeout="" voices=""/>
+		<chgbg @l="332" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="333" char="2" flags="0" index="187" line="333" name="紗々"
+		   text="「いつもぺろぺろばかりしてたので、今日はおっぱいもつかって\n:ご奉仕しますわん」" timeout=""
+		   voices="sas17527"/>
+		<msg @l="335" char="11" flags="0" index="189" line="335" name="亮"
+		   text="「おお！　パイズリフェラってやつか！」" timeout="" voices=""/>
+		<msg @l="337" char="-1" flags="0" index="191" line="337" name=""
+		   text="興味はあったものの、なんとなく恥ずかしくてお願い\n:できなかったんだよな。" timeout="" voices=""/>
+		<msg @l="338" char="-1" flags="0" index="193" line="338" name=""
+		   text="これもコスプレ効果なのか！？　いいですぞー！　期待で胸も\n:股間も膨らんできますなあ。" timeout="" voices=""/>
+		<chgbg @l="340" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="342" char="2" flags="0" index="195" line="342" name="紗々"
+		   text="「ネットでお勉強はしてあるんで、いっぱい気持ちよくなって\n:くださいね」" timeout="" voices="sas17528"/>
+		<chgbg @l="344" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="346" char="2" flags="0" index="197" line="346" name="紗々"
+		   text="「でも私も初めてなので、どうしたらいいのか言ってくれると\n:助かります」" timeout="" voices="sas17529"/>
+		<msg @l="348" char="-1" flags="0" index="199" line="348" name=""
+		   text="いつも僕のためにお勉強してくれるし、僕のしてほしいことに\n:応えてくれる。" timeout="" voices=""/>
+		<msg @l="349" char="-1" flags="0" index="201" line="349" name=""
+		   text="しかも今は首輪をつけてのパイズリ状態だ。奉仕感と支配感が\n:半端ない！" timeout="" voices=""/>
+		<chgbg @l="351" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="352" char="2" flags="0" index="203" line="352" name="紗々"
+		   text="「んしょんしょ、どうですか？　たしかこんな動きをしてたと\n:思うんですけど……」" timeout=""
+		   voices="sas17530"/>
+		<play_sound @l="354" buf="1" fadeout="0" intro="-1" src="hse103" type="1"
+		   volume="1."/>
+		<play_sound @l="356" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<msg @l="357" char="-1" flags="0" index="205" line="357" name=""
+		   text="紗々ちゃんは両手で自分の胸を寄せ、それを上下に揺さぶる。" timeout="" voices=""/>
+		<msg @l="358" char="-1" flags="0" index="207" line="358" name=""
+		   text="むにゅりと形を変えたおっぱいが、ペニスをぴったり包み込んで\n:さらに圧を与えてくる。" timeout="" voices=""/>
+		<play_sound @l="359" buf="5" fadeout="0" type="1"/>
+		<msg @l="361" char="2" flags="0" index="209" line="361" name="紗々"
+		   text="「んしょ、おっぱいでぎゅってして、しーこしこ、こすこすっと」" timeout="" voices="sas17531"/>
+		<play_sound @l="363" buf="5" fadeout="0" intro="0" src="sas80016" type="6"
+		   volume="1."/>
+		<msg @l="364" char="-1" flags="0" index="211" line="364" name=""
+		   text="すべすべの肌が肉棒を滑らかに擦っていく感触が、なんとも\n:心地いい。" timeout="" voices=""/>
+		<msg @l="365" char="-1" flags="0" index="213" line="365" name=""
+		   text="見た目以上にボリュームのある乳房はふにふにとちょうどいい\n:圧迫感を肉竿に与えてくれる。" timeout="" voices=""/>
+		<play_sound @l="367" buf="1" fadeout="0" type="1"/>
+		<msg @l="369" char="11" flags="0" index="215" line="369" name="亮"
+		   text="「柔らかいだけじゃなくって、硬くなった乳首も当たって、\n:変化があって気持ちいいぞ」" timeout="" voices=""/>
+		<play_sound @l="370" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="372" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01d" type="99"/>
+		<msg @l="373" char="2" flags="0" index="217" line="373" name="紗々"
+		   text="「はぁ、んっ！　おち○ちん挟んでるだけで、乳首硬く\n:なっちゃって……だらしないワンちゃんでごめんなさい……」"
+		   timeout="" voices="sas17532"/>
+		<play_sound @l="375" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<msg @l="376" char="11" flags="0" index="219" line="376" name="亮"
+		   text="「なに言ってるんだ、そういうエッチなところが\n:いいんじゃないか」" timeout="" voices=""/>
+		<msg @l="378" char="-1" flags="0" index="221" line="378" name=""
+		   text="頭を撫でると、サラサラの髪の毛とふかふかの犬耳が\n:同時に触れた。" timeout="" voices=""/>
+		<msg @l="380" char="11" flags="0" index="223" line="380" name="亮"
+		   text="「毛並みがいい犬だ……紗々のふわふわ髪の毛はいつ触っても\n:気持ちいいな」" timeout="" voices=""/>
+		<play_sound @l="381" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="383" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="384" char="2" flags="0" index="225" line="384" name="紗々"
+		   text="「はふぅ。ご主人様のなでなで……紗々は世界一の\n:幸せ犬だわん\x;heart:」" timeout=""
+		   voices="sas17533"/>
+		<chgbg @l="386" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01c" type="99"/>
+		<msg @l="387" char="2" flags="0" index="227" line="387" name="紗々"
+		   text="「私も、んふっ、はぁはぁ……おっぱいでご主人様に\n:応えますわん」" timeout="" voices="sas17534"/>
+		<play_sound @l="389" buf="1" fadeout="0" intro="-1" src="hse103" type="1"
+		   volume="1."/>
+		<play_sound @l="391" buf="5" fadeout="0" intro="0" src="sas80016" type="6"
+		   volume="1."/>
+		<msg @l="392" char="-1" flags="0" index="229" line="392" name=""
+		   text="紗々ちゃんが胸で扱きつつ、片方の乳首で鈴口をほじってくる。" timeout="" voices=""/>
+		<play_sound @l="393" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="395" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="396" char="2" flags="0" index="231" line="396" name="紗々"
+		   text="「どうですか？　んふっ、くふぅぅ……こうすると\n:気持ちいいですか？」" timeout="" voices="sas17535"/>
+		<play_sound @l="398" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<msg @l="399" char="11" flags="0" index="233" line="399" name="亮"
+		   text="「うぅっ、それいい……っ！」" timeout="" voices=""/>
+		<msg @l="401" char="-1" flags="0" index="235" line="401" name=""
+		   text="コリコリした乳首が尿道を拡げて周辺をマッサージしてきた。" timeout="" voices=""/>
+		<msg @l="402" char="-1" flags="0" index="237" line="402" name=""
+		   text="ゾクゾクした快感が背中を駆け抜ける。" timeout="" voices=""/>
+		<play_sound @l="403" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="405" buf="1" fadeout="0" type="1"/>
+		<msg @l="407" char="2" flags="0" index="239" line="407" name="紗々"
+		   text="「あはっ、それじゃもっとご主人様のために、ご奉仕しちゃいますわん」" timeout="" voices="sas17536"/>
+		<chgbg @l="409" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="410" char="2" flags="0" index="241" line="410" name="紗々"
+		   text="「くにっくに、ほじっほじ、んしょんしょ……」" timeout="" voices="sas17537"/>
+		<chgbg @l="412" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01c" type="99"/>
+		<msg @l="413" char="2" flags="0" index="243" line="413" name="紗々"
+		   text="「こうしてると私まで乳首がジンジンして、気持ちいいです……」" timeout="" voices="sas17538"/>
+		<play_sound @l="415" buf="5" fadeout="0" intro="0" src="sas80017" type="6"
+		   volume="1."/>
+		<msg @l="416" char="-1" flags="0" index="245" line="416" name=""
+		   text="鈴口を一所懸命、刺激していると、次第に汗をかきだして肌を\n:濡らす紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="417" char="-1" flags="0" index="247" line="417" name=""
+		   text="汗が彼女の身体を伝いおっぱいを濡らす。一気にすべりが\n:よくなって、更なる快感がペニス全体を包んでくる。" timeout=""
+		   voices=""/>
+		<msg @l="419" char="11" flags="0" index="249" line="419" name="亮"
+		   text="「くっ、おっぱいが吸いついてくるようで気持ちいいよ」" timeout="" voices=""/>
+		<play_sound @l="420" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="422" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="423" char="2" flags="0" index="251" line="423" name="紗々"
+		   text="「え？　今度は先っぽじゃなくて、こっちがよくなったん\n:ですか？」" timeout="" voices="sas17539"/>
+		<msg @l="425" char="11" flags="0" index="253" line="425" name="亮"
+		   text="「ああ。汗で濡れたおかげで動きがスムーズになって、刺激が\n:ダイレクトに快感に変わってる」" timeout=""
+		   voices=""/>
+		<msg @l="427" char="2" flags="0" index="255" line="427" name="紗々"
+		   text="「なるほど！　濡らせば、ご主人様が気持ちよくなるわんね！」" timeout="" voices="sas17540"/>
+		<msg @l="429" char="-1" flags="0" index="257" line="429" name=""
+		   text="紗々ちゃんが、まるで獲物を見つけたかの様に目をらんらんと\n:輝かす。" timeout="" voices=""/>
+		<play_sound @l="431" buf="1" fadeout="0" intro="-1" src="hse101" type="1"
+		   volume="1."/>
+		<msg @l="433" char="-1" flags="0" index="259" line="433" name=""
+		   text="そして、またおっぱいでふわりとペニスを挟みこむ。" timeout="" voices=""/>
+		<play_sound @l="435" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="437" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="438" char="2" flags="0" index="261" line="438" name="紗々"
+		   text="「こうして包み込めば、谷間に集まった汗で、おち○ちんを\n:よく濡らせますよね？」" timeout=""
+		   voices="sas17541"/>
+		<msg @l="440" char="11" flags="0" index="263" line="440" name="亮"
+		   text="「ああ、そうだな。紗々はかしこいなぁ」" timeout="" voices=""/>
+		<play_sound @l="442" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<msg @l="443" char="-1" flags="0" index="265" line="443" name=""
+		   text="頭を撫でると、嬉しそうにまた尻尾が揺れる。" timeout="" voices=""/>
+		<msg @l="444" char="-1" flags="0" index="267" line="444" name=""
+		   text="時々、語尾を忘れているのはご愛敬。そのマイペースな感じも、\n:ほんとの犬のようで愛らしい。" timeout=""
+		   voices=""/>
+		<play_sound @l="445" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="447" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01c" type="99"/>
+		<msg @l="448" char="2" flags="0" index="269" line="448" name="紗々"
+		   text="「んふぅぅ、はぁぁん……っ、しっかり挟んだら、ご主人様の\n:おち○ちんがビクンってしてるのがわかります……」" timeout=""
+		   voices="sas17542"/>
+		<msg @l="450" char="2" flags="0" index="271" line="450" name="紗々"
+		   text="「いっぱい濡らすと、ふぁ、はぁはぁ、ご主人様がよろこんで\n:くれるんですよね……それじゃあ、あーーん\x;heart:」"
+		   timeout="" voices="sas17543"/>
+		<play_sound @l="452" buf="5" fadeout="0" intro="0" src="sas80016" type="6"
+		   volume="1."/>
+		<msg @l="453" char="-1" flags="0" index="273" line="453" name=""
+		   text="大きく口を開けた紗々ちゃんが、上目づかいで亀頭にそっと\n:顔を寄せる。" timeout="" voices=""/>
+		<play_sound @l="454" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="456" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="457" char="2" flags="0" index="275" line="457" name="紗々"
+		   text="「いただきます……ちゅっ\x;hearts:」" timeout="" voices="sas17544"/>
+		<play_sound @l="459" buf="5" fadeout="0" intro="0" src="sas80028" type="6"
+		   volume="1."/>
+		<msg @l="460" char="-1" flags="0" index="277" line="460" name=""
+		   text="手を合わせるように胸を寄せて、ペニスに乳圧を加えて亀頭に\n:キスをする。" timeout="" voices=""/>
+		<msg @l="461" char="-1" flags="0" index="279" line="461" name=""
+		   text="このいつも当たり前にしている行為だが、まるでペニスに\n:敬意を払ってくれているかのようで、ものすごく気分がいい。"
+		   timeout="" voices=""/>
+		<play_sound @l="462" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="464" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01h" type="99"/>
+		<msg @l="465" char="2" flags="0" index="281" line="465" name="紗々"
+		   text="「んちゅ。……れろれろ、ぺろ、れろ……はぁ、ご主人様の味、\n:いつもおいしいです」" timeout=""
+		   voices="sas17545"/>
+		<play_sound @l="467" buf="5" fadeout="0" intro="0" src="sas80000" type="6"
+		   volume="1."/>
+		<msg @l="468" char="-1" flags="0" index="283" line="468" name=""
+		   text="丹念にじっくりと、味わい尽くすようにゆっくりと舐め上げる\n:紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="469" char="-1" flags="0" index="285" line="469" name=""
+		   text="舌先でちろちろと亀頭を隅々まで舐められる。本当に愛情を持って尽くされているという実感に、胸一杯に幸せが広がっていく。"
+		   timeout="" voices=""/>
+		<play_sound @l="470" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="472" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01i" type="99"/>
+		<msg @l="473" char="2" flags="0" index="287" line="473" name="紗々"
+		   text="「れろれろっ、ぴちゅっ、それにご主人様の匂いが、お口から\n:直接来て……本能に響いてくるみたいです……」" timeout=""
+		   voices="sas17546"/>
+		<msg @l="475" char="2" flags="0" index="289" line="475" name="紗々"
+		   text="「ああ、ご主人様。ぺろぺろっ、ぴちゅ……っ、もっとおち○ちんペロペロしたいです。ちゅっ、ちゅぷ……もっと、おち○ちん\n:ください」"
+		   timeout="" voices="sas17547"/>
+		<chgbg @l="477" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01f" type="99"/>
+		<msg @l="478" char="2" flags="0" index="291" line="478" name="紗々"
+		   text="「れーろ、チロチロ、ちゅっぱ……味も匂いも大好きで、\n:紗々まっしぐらわん……ちゅるる、ちゅばばっ\x;heart:」"
+		   timeout="" voices="sas17548"/>
+		<play_sound @l="480" buf="5" fadeout="0" intro="0" src="sas80002" type="6"
+		   volume="1."/>
+		<msg @l="481" char="-1" flags="0" index="293" line="481" name=""
+		   text="バキュームで吸い付いてくる紗々ちゃんに、腰を引きつらせながら耐える。" timeout="" voices=""/>
+		<msg @l="483" char="11" flags="0" index="295" line="483" name="亮"
+		   text="「待った待った！　これじゃいつもと同じだろ？」" timeout="" voices=""/>
+		<play_sound @l="484" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="486" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01b" type="99"/>
+		<msg @l="487" char="2" flags="0" index="297" line="487" name="紗々"
+		   text="「はっ！？　そうでした……つい夢中になっちゃって。おっぱいも使って気持ちよくしないと」" timeout=""
+		   voices="sas17549"/>
+		<play_sound @l="489" buf="1" fadeout="0" intro="-1" src="hse103" type="1"
+		   volume="1."/>
+		<play_sound @l="491" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<chgbg @l="492" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_01a" type="99"/>
+		<msg @l="493" char="-1" flags="0" index="299" line="493" name=""
+		   text="身体を揺らしながらおっぱいを両手で中央へ寄せていく\n:紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="494" char="-1" flags="0" index="301" line="494" name=""
+		   text="唾液でべとべとになった肉棒に汗ばんだ乳房が合わさり、その上に彼女の舌が蓋をしていく。" timeout="" voices=""/>
+		<play_sound @l="495" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="499" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02a" type="99"/>
+		<msg @l="501" char="2" flags="0" index="303" line="501" name="紗々"
+		   text="「しーこしこ、ぺろぺろっ……ちゅっ、れろっ、濡れてきて滑りがよくなってきましたよ、ちゅっ」" timeout=""
+		   voices="sas17550"/>
+		<chgbg @l="503" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02c" type="99"/>
+		<msg @l="504" char="2" flags="0" index="305" line="504" name="紗々"
+		   text="「んんっ！　はっ、はぁ……しこしこ、ぺろぺろぉ……しこしこ、ぺーろぺーろぉ」" timeout=""
+		   voices="sas17551"/>
+		<play_sound @l="506" buf="5" fadeout="0" intro="0" src="sas80001" type="6"
+		   volume="1."/>
+		<msg @l="507" char="11" flags="0" index="307" line="507" name="亮"
+		   text="「ううっ、おっぱいの感触がすごくじれったくて……」" timeout="" voices=""/>
+		<play_sound @l="509" buf="1" fadeout="0" type="1"/>
+		<msg @l="511" char="-1" flags="0" index="309" line="511" name=""
+		   text="おっぱいは、圧はあるのにペニス全体を包み込んでくるような\n:温かさで、絞り取るような膣内とはまた違う優しい刺激を\n:与えてくれる。"
+		   timeout="" voices=""/>
+		<msg @l="512" char="-1" flags="0" index="311" line="512" name=""
+		   text="濡れてすべりがよくなったおかげで上下する度に、にゅこにゅことおっぱいから亀頭が飛び出しては引っこんでを繰り返している。"
+		   timeout="" voices=""/>
+		<play_sound @l="513" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="515" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02b" type="99"/>
+		<msg @l="516" char="2" flags="0" index="313" line="516" name="紗々"
+		   text="「はぁはぁ、ご主人様のおち○ちん。おっきくって硬くって、\n:すてきです……」" timeout=""
+		   voices="sas17552"/>
+		<chgbg @l="518" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02a" type="99"/>
+		<msg @l="519" char="2" flags="0" index="315" line="519" name="紗々"
+		   text="「先っぽからカウパーが出てきて……はぁはぁ、この匂い、もう私、ノドが乾いて……ごくっ」" timeout=""
+		   voices="sas17553"/>
+		<play_sound @l="521" buf="1" fadeout="0" intro="-1" src="hse103" type="1"
+		   volume="1."/>
+		<play_sound @l="523" buf="5" fadeout="0" intro="0" src="sas80017" type="6"
+		   volume="1."/>
+		<msg @l="524" char="-1" flags="0" index="317" line="524" name=""
+		   text="口を開けて今にも咥えそうな体勢のまま、おっぱいを上下に擦る\n:紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="525" char="-1" flags="0" index="319" line="525" name=""
+		   text="はぁはぁと熱い吐息が亀頭にかかってこそばゆい。" timeout="" voices=""/>
+		<play_sound @l="527" buf="1" fadeout="300" type="1"/>
+		<msg @l="529" char="11" flags="0" index="321" line="529" name="亮"
+		   text="「おあづけをよく待てたな。それじゃあ、ぺろぺろしてもいいぞ」" timeout="" voices=""/>
+		<play_sound @l="530" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="532" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02b" type="99"/>
+		<msg @l="533" char="2" flags="0" index="323" line="533" name="紗々"
+		   text="「ほんとですか！？　はふぅ……待ってました、もうぺろぺろ\n:したくてずぅっとうずうずしてたんですぅ」" timeout=""
+		   voices="sas17554"/>
+		<chgbg @l="535" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02a" type="99"/>
+		<msg @l="536" char="2" flags="17" index="325" line="536" name="紗々"
+		   text="「まずはぁ、先っぽから……あーむ。じゅるるるっ\x;heart:\x;hearts:」" timeout=""
+		   voices="sas17555"/>
+		<wait @l="538" flags="5" time="3000"/>
+		<chgbg @l="539" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02h" type="99"/>
+		<pause @l="540" flags="-2147483648" index="327" timeout=""/>
+		<play_sound @l="543" buf="5" fadeout="0" intro="0" src="sas80002" type="6"
+		   volume="1."/>
+		<msg @l="544" char="11" flags="0" index="328" line="544" name="亮"
+		   text="「…………っ！！！」" timeout="" voices=""/>
+		<msg @l="546" char="-1" flags="0" index="330" line="546" name=""
+		   text="いきなり来ることは覚悟してたので、なんとか耐えきった。" timeout="" voices=""/>
+		<msg @l="547" char="-1" flags="0" index="332" line="547" name=""
+		   text="それにしてもすごいバキュームだ。どれだけぺろぺろ好きなんだと冷や汗すら浮かんでくる。" timeout="" voices=""/>
+		<play_sound @l="548" buf="5" fadeout="0" type="1"/>
+		<msg @l="550" char="2" flags="0" index="334" line="550" name="紗々"
+		   text="「次はぁ……センパイの大好きなカリ首のところを……はーむ、\n:れろろろっ」" timeout=""
+		   voices="sas17556"/>
+		<play_sound @l="552" buf="5" fadeout="0" intro="0" src="sas80001" type="6"
+		   volume="1."/>
+		<msg @l="553" char="11" flags="0" index="336" line="553" name="亮"
+		   text="「くぁ！？　……ああぁ！！」" timeout="" voices=""/>
+		<msg @l="555" char="-1" flags="0" index="338" line="555" name=""
+		   text="覚悟を決めてても、腰ごと持っていかれそうな吸い付きを\n:こらえるのは一苦労だ。" timeout="" voices=""/>
+		<msg @l="556" char="-1" flags="0" index="340" line="556" name=""
+		   text="そのまま亀頭をすっぽり口内にくわえ込むと、満足そうに舌を\n:絡めてくる。" timeout="" voices=""/>
+		<play_sound @l="557" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="559" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02f" type="99"/>
+		<msg @l="560" char="2" flags="0" index="342" line="560" name="紗々"
+		   text="「ちゅっ、れろっ……舌先でおち○ちんの先っぽの穴を\n:ほじほじ……ちゅっ、れろっ」" timeout=""
+		   voices="sas17557"/>
+		<chgbg @l="562" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02g" type="99"/>
+		<msg @l="563" char="2" flags="0" index="344" line="563" name="紗々"
+		   text="「裏筋も……ぜーんぶ、ぺろーぺろっ、この血管が浮いてる部分を甘噛みするのが好きなんですよね？」" timeout=""
+		   voices="sas17558"/>
+		<chgbg @l="565" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02h" type="99"/>
+		<msg @l="566" char="2" flags="0" index="346" line="566" name="紗々"
+		   text="「はーむ\x;hearts:　はむはむ、んまんま……ちゅる、れっろっ、\n:れろろっ、ちゅばっ」" timeout=""
+		   voices="sas17559"/>
+		<msg @l="568" char="2" flags="0" index="348" line="568" name="紗々"
+		   text="「んっ、はぁ……おち○ちんビクッってなりました……っ、\n:んっちゅるっ、ご主人様、上手にできてますわん？」" timeout=""
+		   voices="sas17560"/>
+		<play_sound @l="570" buf="5" fadeout="0" intro="0" src="sas80001" type="6"
+		   volume="1."/>
+		<msg @l="571" char="11" flags="0" index="350" line="571" name="亮"
+		   text="「ああ、すごい上手だ。舌がぐるぐる回って……うぅっ、\n:気持ちいいぞ」" timeout="" voices=""/>
+		<msg @l="573" char="-1" flags="0" index="352" line="573" name=""
+		   text="僕のツボを心得ている舌づかいで亀頭全体をぺろぺろと舐め\n:回していく紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="574" char="-1" flags="0" index="354" line="574" name=""
+		   text="ぷはっと一旦息継ぎすると、次は口を離し、竿の部分を横から\n:舐めていく。" timeout="" voices=""/>
+		<play_sound @l="575" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="577" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02f" type="99"/>
+		<msg @l="578" char="2" flags="0" index="356" line="578" name="紗々"
+		   text="「ぺろぺろ、れろれろ……はぁ、おち○ちんの味と、れろちゅっ、私の汗の味が混じってて変な感じです、れろろっ、ちゅぷぷっ」"
+		   timeout="" voices="sas17561"/>
+		<msg @l="580" char="2" flags="0" index="358" line="580" name="紗々"
+		   text="「でも、ご主人様から……んぅ、れろっ、ぺろちゅちゅっ、\n:私の味がするってうれしくなっちゃいます」" timeout=""
+		   voices="sas17562"/>
+		<play_sound @l="582" buf="5" fadeout="0" intro="0" src="sas80000" type="6"
+		   volume="1."/>
+		<msg @l="583" char="-1" flags="0" index="360" line="583" name=""
+		   text="夢中になって、自分の汗と唾液を混ぜていく紗々ちゃん。" timeout="" voices=""/>
+		<msg @l="584" char="-1" flags="0" index="362" line="584" name=""
+		   text="とろーんとした顔でち○ぽを美味しそうに頬張る様はいつ見ても\n:かわいくていやらしい。" timeout="" voices=""/>
+		<play_sound @l="585" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="587" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02h" type="99"/>
+		<msg @l="588" char="2" flags="0" index="364" line="588" name="紗々"
+		   text="「れーろれろ、ご主人様のおち○ちん、最後までちゃんと\n:濡らしますから、待っててください、ちゅばっ」" timeout=""
+		   voices="sas17563"/>
+		<play_sound @l="590" buf="5" fadeout="0" intro="0" src="sas80001" type="6"
+		   volume="1."/>
+		<msg @l="591" char="11" flags="0" index="366" line="591" name="亮"
+		   text="「いっ……！？」" timeout="" voices=""/>
+		<msg @l="593" char="-1" flags="0" index="368" line="593" name=""
+		   text="今度は玉袋の付け根に舌が伸びてきた。" timeout="" voices=""/>
+		<msg @l="594" char="-1" flags="0" index="370" line="594" name=""
+		   text="上目使いでタマまで舐める姿勢に、エロさと献身性は\n:両立するのだと感心する。" timeout="" voices=""/>
+		<play_sound @l="595" buf="5" fadeout="0" type="1"/>
+		<msg @l="597" char="2" flags="0" index="372" line="597" name="紗々"
+		   text="「ちゅぴ……っ、ちゅぷっ、タマタマも仲間はずれにしたら\n:かわいそうですから……んちゅっ、れろちゅっ、全部、\n:愛させてください」"
+		   timeout="" voices="sas17564"/>
+		<play_sound @l="599" buf="5" fadeout="0" intro="0" src="sas80028" type="6"
+		   volume="1."/>
+		<msg @l="600" char="-1" flags="0" index="374" line="600" name=""
+		   text="玉袋を舌でツンツン突かれる。ぐにっと柔らかい舌先の感触が\n:心地良い。" timeout="" voices=""/>
+		<play_sound @l="601" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="603" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02f" type="99"/>
+		<msg @l="604" char="2" flags="0" index="376" line="604" name="紗々"
+		   text="「次は、キワとスジの間を舌でつつーっと……」" timeout="" voices="sas17565"/>
+		<play_sound @l="606" buf="5" fadeout="0" intro="0" src="sas80029" type="6"
+		   volume="1."/>
+		<msg @l="607" char="11" flags="0" index="378" line="607" name="亮"
+		   text="「うっ、うぅっ……」" timeout="" voices=""/>
+		<msg @l="609" char="-1" flags="0" index="380" line="609" name=""
+		   text="ゾリゾリとした快感に思わず声が出る。" timeout="" voices=""/>
+		<msg @l="610" char="-1" flags="0" index="382" line="610" name=""
+		   text="ねっとりじっくり、急所である金玉を痛めないように、たっぷり\n:唾液を絡めて袋を舐めあげる。" timeout=""
+		   voices=""/>
+		<play_sound @l="611" buf="5" fadeout="0" type="1"/>
+		<msg @l="613" char="2" flags="0" index="384" line="613" name="紗々"
+		   text="「れろろっっ、ぺろぉ……タマタマのしわの間からいっぱい濃い\n:匂いがしてきて、ぺろぺろっ、ちゅっ、くちゅ、クラクラ\n:しちゃいそうです」"
+		   timeout="" voices="sas17566"/>
+		<chgbg @l="615" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02g" type="99"/>
+		<msg @l="616" char="2" flags="0" index="386" line="616" name="紗々"
+		   text="「ご主人様も気持ちよさそうな顔して……はぁはぁ、タマタマ\n:お口の中に、あーーん、っと」" timeout=""
+		   voices="sas17567"/>
+		<play_sound @l="618" buf="5" fadeout="0" intro="0" src="sas80002" type="6"
+		   volume="1."/>
+		<chgbg @l="619" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02f" type="99"/>
+		<msg @l="620" char="-1" flags="0" index="388" line="620" name=""
+		   text="玉を口の中に吸い込まれてポン！　と出されると、玉がクイっと\n:持ち上がる。" timeout="" voices=""/>
+		<play_sound @l="621" buf="5" fadeout="0" type="1"/>
+		<msg @l="623" char="2" flags="0" index="390" line="623" name="紗々"
+		   text="「もっとぺろぺろさせてください……ちゅるっ、れる、\n:れろちゅっ、いっぱい気持ちよくなってほしいんです」" timeout=""
+		   voices="sas17568"/>
+		<play_sound @l="625" buf="1" fadeout="0" intro="-1" src="hse103" type="1"
+		   volume="1."/>
+		<play_sound @l="627" buf="5" fadeout="0" intro="0" src="sas80003" type="6"
+		   volume="1."/>
+		<msg @l="628" char="-1" flags="0" index="392" line="628" name=""
+		   text="玉を口に含まれて、おっぱいでゆっくり竿をしごかれる。さらに\n:開いた左手でカリをなぞられる。" timeout=""
+		   voices=""/>
+		<msg @l="630" char="11" flags="0" index="394" line="630" name="亮"
+		   text="「それ、やば……っ！」" timeout="" voices=""/>
+		<msg @l="632" char="-1" flags="0" index="396" line="632" name=""
+		   text="三点攻めに、声とともにカウパーがあふれ出す。" timeout="" voices=""/>
+		<play_sound @l="633" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="635" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="637" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02a" type="99"/>
+		<msg @l="638" char="2" flags="0" index="398" line="638" name="紗々"
+		   text="「あはっ、おててが濡れちゃいましたわん。ふあぁっ、はぁ、\n:はぁはぁ……いっぱい気持ちよくなってくれたんですね」"
+		   timeout="" voices="sas17569"/>
+		<play_sound @l="640" buf="5" fadeout="0" intro="0" src="sas80017" type="6"
+		   volume="1."/>
+		<msg @l="641" char="11" flags="0" index="400" line="641" name="亮"
+		   text="「ああ、紗々が、一所懸命奉仕してくれたからな」" timeout="" voices=""/>
+		<play_sound @l="642" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="644" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02b" type="99"/>
+		<msg @l="645" char="2" flags="0" index="402" line="645" name="紗々"
+		   text="「じゃ、ご褒美ってことで、おち○ちんいただいていいですか？」" timeout="" voices="sas17570"/>
+		<play_sound @l="647" buf="5" fadeout="0" intro="0" src="sas80015" type="6"
+		   volume="1."/>
+		<msg @l="648" char="11" flags="0" index="404" line="648" name="亮"
+		   text="「ああ、もっと舐めてくれ」" timeout="" voices=""/>
+		<play_sound @l="649" buf="5" fadeout="0" type="1"/>
+		<msg @l="651" char="2" flags="0" index="406" line="651" name="紗々"
+		   text="「それじゃあ、練習してたのをしてみますね……あーーむっ\x;heart:」" timeout="" voices="sas17571"/>
+		<chgbg @l="653" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02h" type="99"/>
+		<play_sound @l="654" buf="5" fadeout="0" intro="0" src="sas80002" type="6"
+		   volume="1."/>
+		<msg @l="655" char="-1" flags="0" index="408" line="655" name=""
+		   text="そう言って大きく口開けてペニスを咥えこむ。" timeout="" voices=""/>
+		<play_sound @l="656" buf="5" fadeout="0" type="1"/>
+		<msg @l="658" char="2" flags="0" index="410" line="658" name="紗々"
+		   text="「んんんんっ！！！　ずるるるるるっっ！」" timeout="" voices="sas17572"/>
+		<play_sound @l="660" buf="5" fadeout="0" intro="0" src="sas80007" type="6"
+		   volume="1."/>
+		<msg @l="661" char="-1" flags="0" index="412" line="661" name=""
+		   text="ペニスが口内の奥の方まで一気に引き込まれ、視覚的にはまるで\n:食べられたかのような状態だ。" timeout=""
+		   voices=""/>
+		<msg @l="662" char="-1" flags="0" index="414" line="662" name=""
+		   text="目の前が一気に白ばみ、チカチカと星のようなものが点滅して\n:くるほどだった。" timeout="" voices=""/>
+		<msg @l="664" char="11" flags="0" index="416" line="664" name="亮"
+		   text="「くうおぉぉぉっ！！！！！？　な、なにそれ！？」" timeout="" voices=""/>
+		<msg @l="666" char="-1" flags="0" index="418" line="666" name=""
+		   text="今までのバキュームとは比べものにならない衝撃に\n:なすすべもない僕。" timeout="" voices=""/>
+		<msg @l="667" char="-1" flags="0" index="420" line="667" name=""
+		   text="マジで腰から下がなくなったかと思った……。" timeout="" voices=""/>
+		<play_sound @l="668" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="670" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evsas17_02g" type="99"/>
+		<goto script="紗々_H7_1"/>
+	</code>
+</xscript>

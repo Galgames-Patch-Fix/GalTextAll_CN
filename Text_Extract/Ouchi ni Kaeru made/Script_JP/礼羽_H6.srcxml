@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="12" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="13" duration="500" show="0"/>
+		<chgbg @l="14" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<chgbg @l="15" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="bg04a" type="201"/>
+		<play_sound @l="16" buf="0" fadeout="500" intro="-1" src="bgm25" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="18" char="-1" flags="0" index="0" line="18" name="" text="――今日は休日。"
+		   timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="19" char="-1" flags="0" index="2" line="19" name=""
+		   text="礼羽がケーキ作りの練習をしたいとのことで、\n:店でそれに付き合うことになった。" timeout="" voices=""/>
+		<chgbs async="0" duration="0" priority="0" screen="0" src="rai04h"
+		   transparency="256" x="810"/>
+		<waitbs @l="21" flags="0" screen="0"/>
+		<face src="frai04h"/>
+		<msg @l="22" char="3" flags="17" index="4" line="22" name="礼羽"
+		   text="「ゴメンね。つきあわせちゃって」" timeout="" voices="rai17500"/>
+		<movebs duration="1000" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="23" flags="0" screen="0"/>
+		<pause @l="24" flags="0" index="6" timeout=""/>
+		<face src="f"/>
+		<msg @l="26" char="11" flags="0" index="7" line="26" name="亮"
+		   text="「礼羽の手伝いだったらいくらでもするさ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai02h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="28" flags="0" screen="0"/>
+		<face src="frai02h"/>
+		<msg @l="29" char="3" flags="17" index="9" line="29" name="礼羽"
+		   text="「ふふっ、優しいんだね。ありがとう\x;heart:」" timeout="" voices="rai17501"/>
+		<emotion @l="30" id="rai" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="rai_2" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="31" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="32" flags="0" screen="0"/>
+		<pause @l="33" flags="0" index="11" timeout=""/>
+		<clremt @l="34" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="36" char="-1" flags="0" index="12" line="36" name=""
+		   text="お礼を言われはしたが、彼女のためというより\n:僕のためなんだよなぁ。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="37" char="-1" flags="0" index="14" line="37" name=""
+		   text="営業時はホールにいることが多いし、こうやって\n:じっくり彼女がケーキを作るところを見る機会もないからな。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="38" char="-1" flags="0" index="16" line="38" name=""
+		   text="もちろん、彼女の傍にいられるというのもある。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="40" flags="0" screen="0"/>
+		<face src="frai01h"/>
+		<msg @l="41" char="3" flags="0" index="18" line="41" name="礼羽"
+		   text="「今の作業は私ひとりで出来るから、とりあえず\n:そこで見学してて」" timeout="" voices="rai17502"/>
+		<face src=""/>
+		<msg @l="43" char="-1" flags="0" index="20" line="43" name=""
+		   text="話しながらだというのに背筋をピンと伸ばし、\n:淀みなく美しい所作で作業を進めている。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="44" char="-1" flags="0" index="22" line="44" name=""
+		   text="かき混ぜ終えたクリームの入ったボウルを作業台の上に置き、\n:早くも生地作りへと取りかかっている。" timeout=""
+		   voices=""/>
+		<face src="f"/>
+		<msg @l="46" char="11" flags="0" index="24" line="46" name="亮"
+		   text="「ところで、アシスタントなら朝霞さんに頼んだ方が\n:よかったんじゃないか？　僕じゃ試食も出来ないしさ」" timeout=""
+		   voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="48" flags="0" screen="0"/>
+		<face src="frai00h"/>
+		<msg @l="49" char="3" flags="17" index="26" line="49" name="礼羽"
+		   text="「ちっちっち。それがそうもいかないんだなー。\n:最近、汐がメキメキ力をつけてきたでしょ？」" timeout=""
+		   voices="rai17503"/>
+		<wait @l="52" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="53" flags="-2147483648" screen="0"/>
+		<setface @l="54" src="frai11h"/>
+		<pause @l="55" flags="-2147483648" index="28" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="58" flags="0" screen="0"/>
+		<face src="frai27h"/>
+		<msg @l="59" char="3" flags="17" index="29" line="59" name="礼羽"
+		   text="「せっかく私を目標にしてくれてるんだから、もっと高みに行かないと失望されちゃうかも。つってね」" timeout=""
+		   voices="rai17504"/>
+		<wait @l="62" flags="5" time="7000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="63" flags="-2147483648" screen="0"/>
+		<setface @l="64" src="frai25h"/>
+		<pause @l="65" flags="-2147483648" index="31" timeout=""/>
+		<face src="f"/>
+		<msg @l="68" char="11" flags="0" index="32" line="68" name="亮"
+		   text="「それで秘密の特訓か。世界一なのに\n:そこまでやらなくてもよさそうなもんだが」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai07h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="70" flags="0" screen="0"/>
+		<face src="frai07h"/>
+		<msg @l="71" char="3" flags="0" index="34" line="71" name="礼羽"
+		   text="「安心は慢心を産むんだよ。そうやって現在の繁栄に\n:あぐらをかいていると――」" timeout=""
+		   voices="rai17505"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai13h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="73" flags="0" screen="0"/>
+		<face src="frai13h"/>
+		<msg @l="74" char="3" flags="0" index="36" line="74" name="礼羽"
+		   text="「後から追いかけてきた人たちにすぐ追い落とされて、\n:たちまち過去の人になっちゃうんだから」" timeout=""
+		   voices="rai17506"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai09h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="76" flags="0" screen="0"/>
+		<face src="frai09h"/>
+		<msg @l="77" char="3" flags="0" index="38" line="77" name="礼羽"
+		   text="「それに腕が落ちたら、お客さんも離れていって売上も落ちて、\n:それがお店の業績不振にも直結する」" timeout=""
+		   voices="rai17507"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai27h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="79" flags="0" screen="0"/>
+		<face src="frai27h"/>
+		<msg @l="80" char="3" flags="17" index="40" line="80" name="礼羽"
+		   text="「たゆまぬ努力こそ商売繁盛の秘訣ってね。それに私だって、\n:このお店に貢献したいからね」" timeout=""
+		   voices="rai17508"/>
+		<wait @l="83" flags="5" time="4500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="84" flags="-2147483648" screen="0"/>
+		<setface @l="85" src="frai22h"/>
+		<pause @l="86" flags="-2147483648" index="42" timeout=""/>
+		<face src=""/>
+		<msg @l="89" char="-1" flags="0" index="43" line="89" name=""
+		   text="もう充分してると思うけど。スヴニール時代からの礼羽ファンが\n:今も彼女を慕ってお店に来てくれているし。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="90" char="-1" flags="0" index="45" line="90" name=""
+		   text="広告効果としても店の格としても、これ以上ないくらい\n:頼もしい戦力だ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai01h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="92" flags="0" screen="0"/>
+		<face src="frai01h"/>
+		<msg @l="93" char="3" flags="17" index="47" line="93" name="礼羽"
+		   text="「と、言うわけで買ってきた材料ドーン！」" timeout="" voices="rai17509"/>
+		<wait @l="96" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="97" flags="-2147483648" screen="0"/>
+		<setface @l="98" src="frai10h"/>
+		<wait @l="100" flags="5" time="500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai16h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="101" flags="-2147483648" screen="0"/>
+		<setface @l="102" src="frai16h"/>
+		<emotion @l="103" id="rai" loop="1" screen="0" src="emotion_19" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<pause @l="104" flags="-2147483648" index="49" timeout=""/>
+		<clremt @l="106" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="108" char="-1" flags="0" index="50" line="108" name=""
+		   text="テーブルの上に買い物袋いっぱいの食材が置かれる。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="109" char="-1" flags="0" index="52" line="109" name=""
+		   text="松茸や塩辛、コロッケや刺身など選んだ基準が\n:よくわからないものばかりだ。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="111" char="11" flags="17" index="54" line="111" name="亮"
+		   text="「今どこから出した！？」" timeout="" voices=""/>
+		<shakescrn @l="112" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="113" flags="0" index="56" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="115" flags="0" screen="0"/>
+		<face src="frai22h"/>
+		<msg @l="116" char="3" flags="17" index="57" line="116" name="礼羽"
+		   text="「ふふっ、一流パティシエは準備の段階から一流なんだよ」" timeout="" voices="rai17510"/>
+		<emotion @l="117" id="rai" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<pause @l="118" flags="0" index="59" timeout=""/>
+		<clremt @l="119" id="rai" screen="0"/>
+		<face src=""/>
+		<msg @l="121" char="-1" flags="0" index="60" line="121" name=""
+		   text="結局どこから出したかは聞けなかったが、見てみると、\n:どれも店の在庫にはない食材ばかりだった。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="122" char="-1" flags="0" index="62" line="122" name=""
+		   text="しかもケーキを作るというよりは、どちらかというと\n:食事を作る材料にしか見えないんだが。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="124" char="11" flags="0" index="64" line="124" name="亮"
+		   text="「うーん、いい匂いだ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai19h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="126" flags="0" screen="0"/>
+		<face src="frai19h"/>
+		<msg @l="127" char="3" flags="17" index="66" line="127" name="礼羽"
+		   text="「食欲を刺激された！？」" timeout="" voices="rai17511"/>
+		<emotion @l="128" id="rai" loop="1" screen="0" src="emotion_10" time="-1"
+		   type="rai_1" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="129" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="130" flags="0" screen="0"/>
+		<pause @l="131" flags="0" index="68" timeout=""/>
+		<clremt @l="132" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="134" char="11" flags="0" index="69" line="134" name="亮"
+		   text="「ああ、見てるだけでうまそうだからな」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="136" char="-1" flags="0" index="71" line="136" name=""
+		   text="今にも腹の虫がグーグー鳴り出しそうだ。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="138" flags="0" screen="0"/>
+		<face src="frai10h"/>
+		<msg @l="139" char="3" flags="17" index="73" line="139" name="礼羽"
+		   text="「そっかそっか。じゃあ、えっちなことしよっか？」" timeout="" voices="rai17512"/>
+		<wait @l="142" flags="5" time="1700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="143" flags="-2147483648" screen="0"/>
+		<setface @l="144" src="frai22h"/>
+		<pause @l="145" flags="-2147483648" index="75" timeout=""/>
+		<face src="f"/>
+		<msg @l="148" char="11" flags="17" index="76" line="148" name="亮"
+		   text="「なんでそうなった！？」" timeout="" voices=""/>
+		<shakescrn @l="149" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="150" flags="0" index="78" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="152" flags="0" screen="0"/>
+		<face src="frai11h"/>
+		<msg @l="153" char="3" flags="17" index="79" line="153" name="礼羽"
+		   text="「人間には三大欲求があるでしょ？　休日で睡眠は\n:しっかりとれてる。食事……ケーキはまだ作ってない」" timeout=""
+		   voices="rai17513"/>
+		<wait @l="156" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai00h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="157" flags="-2147483648" screen="0"/>
+		<setface @l="158" src="frai00h"/>
+		<wait @l="160" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="161" flags="-2147483648" screen="0"/>
+		<setface @l="162" src="frai11h"/>
+		<pause @l="163" flags="-2147483648" index="81" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="166" flags="0" screen="0"/>
+		<face src="frai10h"/>
+		<msg @l="167" char="3" flags="17" index="82" line="167" name="礼羽"
+		   text="「と、きたら先に欲求を満たせるのは性欲しかないじゃない」" timeout="" voices="rai17514"/>
+		<wait @l="170" flags="5" time="1300"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22h"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="171" flags="-2147483648" screen="0"/>
+		<setface @l="172" src="frai22h"/>
+		<pause @l="173" flags="-2147483648" index="84" timeout=""/>
+		<face src="f"/>
+		<msg @l="177" char="11" flags="0" index="85" line="177" name="亮"
+		   text="「よくわからん理論だが、お前がセックスしたいってのは\n:わかった」" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="179" char="-1" flags="0" index="87" line="179" name=""
+		   text="礼羽らしいといえば礼羽らしい突然の申し出に戸惑いつつも、\n:だんだん乗り気になってくる僕である。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="180" char="-1" flags="0" index="89" line="180" name=""
+		   text="こういうのにも慣れたもんだ。セックスフレンドとして\n:だいぶ経験を積んできたからかもな。" timeout="" voices=""/>
+		<clr_allbs duration="200" screen="0"/>
+		<waitbs @l="182" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="184" char="11" flags="0" index="91" line="184" name="亮"
+		   text="（今日はお客さんはもちろん、スタッフもいない）" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="186" char="-1" flags="0" index="93" line="186" name=""
+		   text="店内には僕と礼羽ふたりきり――" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="188" char="11" flags="0" index="95" line="188" name="亮"
+		   text="（よし、バッチリオッケーな流れだな）" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="190" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="192" char="-1" flags="17" index="97" line="192" name=""
+		   text="などと考えていると、礼羽がテキパキと服を脱ぎ始めていた。" timeout="" voices=""/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="10"/>
+		<waitbs @l="193" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="194" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="10"/>
+		<waitbs @l="195" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="rai" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="196" flags="0" screen="0"/>
+		<pause @l="197" flags="0" index="99" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai10hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="199" flags="0" screen="0"/>
+		<face src="frai10h"/>
+		<msg @l="200" char="3" flags="17" index="100" line="200" name="礼羽"
+		   text="「思い立ったが休日だっけ？　とにかくすぐ行動しないとね\x;hearts:」" timeout=""
+		   voices="rai17515"/>
+		<emotion @l="201" id="rai" loop="1" screen="0" src="emotion_19z" time="-1"
+		   type="rai_1z" x="0" y="0"/>
+		<wait @l="204" flags="5" time="2000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="205" flags="-2147483648" screen="0"/>
+		<setface @l="206" src="frai25h"/>
+		<pause @l="207" flags="-2147483648" index="102" timeout=""/>
+		<clremt @l="209" id="rai" screen="0"/>
+		<face src="f"/>
+		<msg @l="211" char="11" flags="17" index="103" line="211" name="亮"
+		   text="「吉日だ！　ってか、キッチンでエロいことするのは、\n:衛生的にまずくないか」" timeout="" voices=""/>
+		<shakescrn @l="212" amp="20" cycle="20" duration="500" flags="2" screen="0"/>
+		<pause @l="213" flags="0" index="105" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai11hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="215" flags="0" screen="0"/>
+		<face src="frai11h"/>
+		<msg @l="216" char="3" flags="17" index="106" line="216" name="礼羽"
+		   text="「まずくないって。私の身体、味見してみる？」" timeout="" voices="rai17516"/>
+		<wait @l="219" flags="5" time="2200"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="220" flags="-2147483648" screen="0"/>
+		<setface @l="221" src="frai22h"/>
+		<pause @l="222" flags="-2147483648" index="108" timeout=""/>
+		<face src=""/>
+		<msg @l="225" char="-1" flags="0" index="109" line="225" name=""
+		   text="くすくす笑いながら僕ににじり寄ってくる礼羽。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai25hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="227" flags="0" screen="0"/>
+		<face src="frai25h"/>
+		<msg @l="228" char="3" flags="17" index="111" line="228" name="礼羽"
+		   text="「終わった後でお掃除すれば大丈夫。それに、どっちみち\n:ケーキを作った後にお掃除する予定だったんだから、\n:１回が２回に増えたところで大した問題じゃないよ」"
+		   timeout="" voices="rai17517"/>
+		<wait @l="231" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="rai22hz"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="232" flags="-2147483648" screen="0"/>
+		<setface @l="233" src="frai22h"/>
+		<pause @l="234" flags="-2147483648" index="113" timeout=""/>
+		<clremt @l="236" id="rai" screen="0"/>
+		<label @l="243" id="scene_3_06"/>
+		<play_sound @l="245" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="246" duration="500" show="0"/>
+		<loadimage @l="251" bg="0" fit="0" screen="1" src="evrai16_01c"/>
+		<scroll @l="252" async="0" center_x="45" center_y="45" duration="0"
+		   flags="0" rev="0." screen="1" transparency="0" v0="0." v1="0."
+		   wait_flags="0" x="0" y="0" zoom="1."/>
+		<chgscrn @l="253" duration="2500" flags="4608" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="10"/>
+		<play_sound @l="254" buf="0" fadeout="500" intro="-1" src="bgm18" type="0"
+		   volume="1."/>
+		<msg @l="260" char="3" flags="0" index="114" line="260" name="礼羽"
+		   text="「ほ～ら、こんな格好しちゃった。どうかな？」" timeout="" voices="rai17518"/>
+		<msg @l="262" char="-1" flags="0" index="116" line="262" name=""
+		   text="礼羽がキッチンの床で大きく脚を広げて、その場にしゃがみ込む。" timeout="" voices=""/>
+		<msg @l="263" char="-1" flags="0" index="118" line="263" name=""
+		   text="すでにパンツは太ももまでおろされ、片側に\n:引っかかっている状態。いわゆるＭ字開脚の姿勢で\n:おま○こを見せつけてくる。"
+		   timeout="" voices=""/>
+		<msg @l="265" char="11" flags="0" index="120" line="265" name="亮"
+		   text="「や、どうとか言われても……その……」" timeout="" voices=""/>
+		<msg @l="267" char="3" flags="0" index="122" line="267" name="礼羽"
+		   text="「ふふっ。顔を真っ赤にしてるくせにガン見してきちゃって、\n:かーわいんだぁ\x;hearts:」" timeout=""
+		   voices="rai17519"/>
+		<msg @l="269" char="3" flags="0" index="124" line="269" name="礼羽"
+		   text="「そのままちゃんと見てて。最後まで目をそらさずに、ね」" timeout="" voices="rai17520"/>
+		<msg @l="271" char="-1" flags="0" index="126" line="271" name=""
+		   text="勤務服をはだけた礼羽の、肌の白さがまぶしい。" timeout="" voices=""/>
+		<msg @l="272" char="-1" flags="0" index="128" line="272" name=""
+		   text="むき出しになった乳房と股間の陰りが、艶めかしい\n:コントラストをなしている。" timeout="" voices=""/>
+		<msg @l="274" char="11" flags="0" index="130" line="274" name="亮"
+		   text="「……ゴクリ」" timeout="" voices=""/>
+		<msg @l="276" char="3" flags="0" index="132" line="276" name="礼羽"
+		   text="「ふふっ。生唾飲んじゃって、わかりやすいんだから」" timeout="" voices="rai17521"/>
+		<msg @l="278" char="3" flags="0" index="134" line="278" name="礼羽"
+		   text="「ほらココ、私の大事な場所。貴方が大好きなと・こ・ろ\x;note:」" timeout="" voices="rai17522"/>
+		<play_sound @l="280" buf="1" fadeout="0" intro="-1" src="hse104" type="1"
+		   volume="1."/>
+		<msg @l="282" char="-1" flags="0" index="136" line="282" name=""
+		   text="いたずらっ子のようにニヤリと笑うと、おま○こを、\n:くぱぁと指先で開き見せつけてくる。" timeout="" voices=""/>
+		<play_sound @l="284" buf="1" fadeout="0" type="1"/>
+		<msg @l="286" char="3" flags="0" index="138" line="286" name="礼羽"
+		   text="「こうして拡げたら中まで見えちゃうかも。ん、くう……んはあ」" timeout="" voices="rai17523"/>
+		<play_sound @l="288" buf="1" fadeout="0" intro="-1" src="hse102" type="1"
+		   volume="1."/>
+		<msg @l="290" char="-1" flags="0" index="140" line="290" name=""
+		   text="陰唇を、ぱくぱくと開いたり閉じたりする指の動きがいやらしい。" timeout="" voices=""/>
+		<play_sound @l="292" buf="1" fadeout="300" type="1"/>
+		<msg @l="294" char="3" flags="0" index="142" line="294" name="礼羽"
+		   text="「ふふっ。目を見開いて……ギラギラしてる……」" timeout="" voices="rai17524"/>
+		<msg @l="296" char="11" flags="0" index="144" line="296" name="亮"
+		   text="「そりゃ、いつも気持ちよくしてもらってるところだからな」" timeout="" voices=""/>
+		<msg @l="298" char="3" flags="0" index="146" line="298" name="礼羽"
+		   text="「あぁん。そう、貴方がいつも入れてる場所だよ」" timeout="" voices="rai17525"/>
+		<msg @l="300" char="3" flags="0" index="148" line="300" name="礼羽"
+		   text="「ふふっ。もっと見て……貴方に見られてるだけで、\n:指がいやらしく動いて止まらないの」" timeout=""
+		   voices="rai17526"/>
+		<play_sound @l="302" buf="1" fadeout="0" intro="-1" src="hse101" type="1"
+		   volume="1."/>
+		<chgbg @l="303" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01e" type="99"/>
+		<play_sound @l="305" buf="5" fadeout="0" intro="0" src="rai80015" type="6"
+		   volume="1."/>
+		<msg @l="306" char="-1" flags="0" index="150" line="306" name=""
+		   text="そう言って、白い指先がサーモンピンクの秘裂をいじりはじめる。" timeout="" voices=""/>
+		<msg @l="308" char="11" flags="0" index="152" line="308" name="亮"
+		   text="「おおっ、礼羽の指がおま○こをくぱくぱってして……\n:いやらしすぎるっ」" timeout="" voices=""/>
+		<play_sound @l="309" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="311" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="313" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01c" type="99"/>
+		<msg @l="315" char="3" flags="0" index="154" line="315" name="礼羽"
+		   text="「そんなふうに言われるとうれしくなって、\n:もっと見てほしくなっちゃう」" timeout="" voices="rai17527"/>
+		<msg @l="317" char="3" flags="0" index="156" line="317" name="礼羽"
+		   text="「おま○こ、開けたり閉じたりするだけで……んんっ、\n:ぞくぞくしちゃうっ……奥に空気が触れるのが……んんっ\x;hearts:」"
+		   timeout="" voices="rai17528"/>
+		<play_sound @l="319" buf="1" fadeout="0" intro="-1" src="hse102" type="1"
+		   volume="1."/>
+		<chgbg @l="320" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01e" type="99"/>
+		<play_sound @l="322" buf="5" fadeout="0" intro="0" src="rai80016" type="6"
+		   volume="1."/>
+		<msg @l="323" char="-1" flags="0" index="158" line="323" name=""
+		   text="だんだんと礼羽の指の動きにも熱が入ってくる。" timeout="" voices=""/>
+		<msg @l="324" char="-1" flags="0" index="160" line="324" name=""
+		   text="開閉する陰唇の向こうで、膣口がだらしなく口を開けていた。" timeout="" voices=""/>
+		<play_sound @l="325" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="327" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01c" type="99"/>
+		<msg @l="329" char="3" flags="0" index="162" line="329" name="礼羽"
+		   text="「濡れてきちゃた……んふうっ！　ぁぁん、\n:こうやって濡れてるおま○こはどう？」" timeout=""
+		   voices="rai17529"/>
+		<play_sound @l="331" buf="1" fadeout="0" type="1"/>
+		<play_sound @l="333" buf="5" fadeout="0" intro="0" src="rai80015" type="6"
+		   volume="1."/>
+		<msg @l="334" char="11" flags="0" index="164" line="334" name="亮"
+		   text="「てらてら光って……もっといやらしくなってる」" timeout="" voices=""/>
+		<msg @l="336" char="-1" flags="0" index="166" line="336" name=""
+		   text="くぱくぱと秘唇が動く度に、中からぬらぬらした液体が\n:わき出してくる。" timeout="" voices=""/>
+		<msg @l="337" char="-1" flags="0" index="168" line="337" name=""
+		   text="粘度の高い液体が礼羽の細い指にまとわりつき、指の間に\n:透明な糸が引いている。" timeout="" voices=""/>
+		<play_sound @l="338" buf="5" fadeout="0" type="1"/>
+		<msg @l="340" char="3" flags="0" index="170" line="340" name="礼羽"
+		   text="「今日は……はぁん、もう濡れちゃった。ふふ、\n:貴方に見られてると……ぁん、こんなに早く感じちゃうんだね」" timeout=""
+		   voices="rai17530"/>
+		<play_sound @l="342" buf="5" fadeout="0" intro="0" src="rai80017" type="6"
+		   volume="1."/>
+		<msg @l="343" char="11" flags="0" index="172" line="343" name="亮"
+		   text="「今日はって……こんなこと、よくしてるのか！？」" timeout="" voices=""/>
+		<play_sound @l="344" buf="5" fadeout="0" type="1"/>
+		<msg @l="346" char="3" flags="0" index="174" line="346" name="礼羽"
+		   text="「オナニーのこと？　ふふっ、どっちだったかな。\n:つってね……ぁんっ」" timeout="" voices="rai17531"/>
+		<play_sound @l="348" buf="5" fadeout="0" intro="0" src="rai80016" type="6"
+		   volume="1."/>
+		<msg @l="349" char="-1" flags="0" index="176" line="349" name=""
+		   text="キッチンという場所のせいかオナニーをしてるはずなのに、\n:慣れた手つきで調理しているように見えてしまうのが不思議だ。"
+		   timeout="" voices=""/>
+		<play_sound @l="351" buf="1" fadeout="0" intro="-1" src="hse102" type="1"
+		   volume="1."/>
+		<msg @l="353" char="-1" flags="0" index="178" line="353" name=""
+		   text="にちゃにちゃという水音が、水飴をこねているようにも\n:聞こえるが、まぎれもなく礼羽のマン汁によるものだ。" timeout=""
+		   voices=""/>
+		<play_sound @l="354" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="356" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01e" type="99"/>
+		<msg @l="358" char="3" flags="0" index="180" line="358" name="礼羽"
+		   text="「やっ、恥ずかしい音がしてる……んんんっ！」" timeout="" voices="rai17532"/>
+		<chgbg @l="360" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01d" type="99"/>
+		<msg @l="362" char="3" flags="0" index="182" line="362" name="礼羽"
+		   text="「でも指っ、止められない……ああ、エッチな音\n:出ちゃってるのに」" timeout="" voices="rai17533"/>
+		<play_sound @l="364" buf="5" fadeout="0" intro="0" src="rai80017" type="6"
+		   volume="1."/>
+		<msg @l="365" char="-1" flags="0" index="184" line="365" name=""
+		   text="音だけじゃない。照明に照らされて、陰唇も膣口も\n:てらてらと妖しく光り輝いていた。" timeout="" voices=""/>
+		<play_sound @l="366" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="368" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="370" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01b" type="99"/>
+		<msg @l="372" char="3" flags="0" index="186" line="372" name="礼羽"
+		   text="「んはっ、あはぁっ、あなたに見られて……っ、\n:どんどんぐちゅぐちゅになっちゃうっ！」" timeout=""
+		   voices="rai17534"/>
+		<play_sound @l="374" buf="5" fadeout="0" intro="0" src="rai80018" type="6"
+		   volume="1."/>
+		<msg @l="375" char="-1" flags="0" index="188" line="375" name=""
+		   text="指先で糸を引くそれは、まるで食材にも似ていて――" timeout="" voices=""/>
+		<msg @l="377" char="11" flags="0" index="190" line="377" name="亮"
+		   text="「なんだかメープルシロップみたいだ……」" timeout="" voices=""/>
+		<play_sound @l="378" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="380" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01c" type="99"/>
+		<msg @l="382" char="3" flags="0" index="192" line="382" name="礼羽"
+		   text="「ふふっ、おいしそう？」" timeout="" voices="rai17535"/>
+		<play_sound @l="384" buf="5" fadeout="0" intro="0" src="rai80015" type="6"
+		   volume="1."/>
+		<msg @l="385" char="11" flags="0" index="194" line="385" name="亮"
+		   text="「ああ、さっきから口の中で生唾がどんどん出てきてる」" timeout="" voices=""/>
+		<msg @l="387" char="-1" flags="0" index="196" line="387" name=""
+		   text="礼羽のオナニー姿は極上の食材そのもので、脳を溶かすような\n:女の子の甘い匂いと相まってオカズとして脳に刻まれていく。"
+		   timeout="" voices=""/>
+		<play_sound @l="388" buf="5" fadeout="0" type="1"/>
+		<msg @l="390" char="3" flags="0" index="198" line="390" name="礼羽"
+		   text="「それなら私も……あふっ、がんばった甲斐があったよ」" timeout="" voices="rai17536"/>
+		<msg @l="392" char="3" flags="0" index="200" line="392" name="礼羽"
+		   text="「おま○こから貴方だけのための特濃シロップ、\n:こんなに出てる……ぁん、んんっ、んふ」" timeout=""
+		   voices="rai17537"/>
+		<play_sound @l="394" buf="1" fadeout="0" intro="-1" src="hse104" type="1"
+		   volume="1."/>
+		<chgbg @l="395" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01d" type="99"/>
+		<play_sound @l="397" buf="5" fadeout="0" intro="0" src="rai80016" type="6"
+		   volume="1."/>
+		<msg @l="398" char="-1" flags="0" index="202" line="398" name=""
+		   text="ピンク色の膣口がくぱくぱと開いたり閉じたりを繰り返し、\n:その度に奥から半透明の液体がドロッと流れ出てきた。" timeout=""
+		   voices=""/>
+		<play_sound @l="399" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="401" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01e" type="99"/>
+		<msg @l="403" char="3" flags="0" index="204" line="403" name="礼羽"
+		   text="「はぁはぁ……どうかな、おいしそうに見える？……あぁん」" timeout="" voices="rai17538"/>
+		<play_sound @l="405" buf="5" fadeout="0" intro="0" src="rai80017" type="6"
+		   volume="1."/>
+		<msg @l="406" char="11" flags="0" index="206" line="406" name="亮"
+		   text="「そりゃもう！　今すぐ食いつきたいぐらいだっ！」" timeout="" voices=""/>
+		<play_sound @l="408" buf="1" fadeout="0" type="1"/>
+		<msg @l="410" char="-1" flags="0" index="208" line="410" name=""
+		   text="はしたなく愛液を垂れ流すおま○こを見ているうちに、\n:僕もガマンできなくなってくる。" timeout="" voices=""/>
+		<msg @l="412" char="11" flags="0" index="210" line="412" name="亮"
+		   text="「くぅっ、もう……っ！」" timeout="" voices=""/>
+		<play_sound @l="413" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="415" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01c" type="99"/>
+		<msg @l="417" char="3" flags="0" index="212" line="417" name="礼羽"
+		   text="「ん？　なあに、したくなったの？」" timeout="" voices="rai17539"/>
+		<msg @l="419" char="11" flags="0" index="214" line="419" name="亮"
+		   text="「ああ、礼羽がえっちすぎて……限界だ！」" timeout="" voices=""/>
+		<msg @l="421" char="3" flags="0" index="216" line="421" name="礼羽"
+		   text="「ふふっ、がっついちゃって……ガマンできないって顔、\n:かわいい。でも今は見ててね」" timeout=""
+		   voices="rai17540"/>
+		<msg @l="423" char="11" flags="0" index="218" line="423" name="亮"
+		   text="「ちょ、生殺しかよ！？」" timeout="" voices=""/>
+		<msg @l="425" char="3" flags="0" index="220" line="425" name="礼羽"
+		   text="「だって、私がイクとこを見てて欲しいんだもん、\n:だから離れて見ててちょうだい」" timeout=""
+		   voices="rai17541"/>
+		<msg @l="427" char="3" flags="0" index="222" line="427" name="礼羽"
+		   text="「ふふっ、こんな美少女のオナニーを見れる機会なんて、\n:そうそうないでしょ？」" timeout=""
+		   voices="rai17542"/>
+		<msg @l="429" char="11" flags="0" index="224" line="429" name="亮"
+		   text="「どんなプレイなんだよ！」" timeout="" voices=""/>
+		<msg @l="431" char="3" flags="0" index="226" line="431" name="礼羽"
+		   text="「イクとこを見て……それを脳裏に焼き付けて。貴方が\n:ひとりエッチする時に、思いだしてシコシコして欲しいの」" timeout=""
+		   voices="rai17543"/>
+		<msg @l="433" char="3" flags="0" index="228" line="433" name="礼羽"
+		   text="「私のエッチな姿を忘れないように、\n:余すとこ無く見てて……ね？」" timeout="" voices="rai17544"/>
+		<play_sound @l="435" buf="5" fadeout="0" intro="0" src="rai80016" type="6"
+		   volume="1."/>
+		<msg @l="436" char="-1" flags="0" index="230" line="436" name=""
+		   text="まるで、どこかに行ってしまうような口ぶり。" timeout="" voices=""/>
+		<msg @l="437" char="-1" flags="0" index="232" line="437" name=""
+		   text="でも、礼羽の淫らな顔を見ると、僕も無条件に従ってしまう。" timeout="" voices=""/>
+		<msg @l="439" char="11" flags="0" index="234" line="439" name="亮"
+		   text="「うう、くやしいけどエロい……」" timeout="" voices=""/>
+		<play_sound @l="440" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="442" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01b" type="99"/>
+		<msg @l="444" char="3" flags="0" index="236" line="444" name="礼羽"
+		   text="「気持ちいいっ\x;heart:　ふぁぁん、指っ、いやらしく動いちゃう！」" timeout="" voices="rai17545"/>
+		<play_sound @l="446" buf="1" fadeout="0" intro="-1" src="hse102" type="1"
+		   volume="1."/>
+		<play_sound @l="448" buf="5" fadeout="0" intro="0" src="rai80018" type="6"
+		   volume="1."/>
+		<msg @l="449" char="-1" flags="0" index="238" line="449" name=""
+		   text="彼女の指がくねくねと妖しくくねり、秘唇の上を\n:つつーと移動していく。" timeout="" voices=""/>
+		<msg @l="451" char="11" flags="0" index="240" line="451" name="亮"
+		   text="「ご、ごくっ……」" timeout="" voices=""/>
+		<msg @l="453" char="-1" flags="0" index="242" line="453" name=""
+		   text="見ててと言われても、こんなにエロい姿を見せつけられて\n:ガマン出来るはずもなく。" timeout="" voices=""/>
+		<play_sound @l="455" buf="1" fadeout="0" type="1"/>
+		<msg @l="457" char="11" flags="0" index="244" line="457" name="亮"
+		   text="「やっぱり、もうがまんできないっ」" timeout="" voices=""/>
+		<msg @l="459" char="-1" flags="0" index="246" line="459" name=""
+		   text="挑発する礼羽に反抗するように、ガバッと\n:下着ごとズボンを脱いだ。" timeout="" voices=""/>
+		<msg @l="461" char="11" flags="0" index="248" line="461" name="亮"
+		   text="「そっちがそのつもりなら僕だって。\n:ここで付き合わせてもらうぞ」" timeout="" voices=""/>
+		<play_sound @l="462" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="464" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01c" type="99"/>
+		<msg @l="466" char="3" flags="0" index="250" line="466" name="礼羽"
+		   text="「ふふっ。オナニーの見せ合いっこってこと？」" timeout="" voices="rai17546"/>
+		<msg @l="468" char="3" flags="0" index="252" line="468" name="礼羽"
+		   text="「いいよ、貴方がするところ見せて。もちろん、\n:私がするところも見ながらだよ」" timeout=""
+		   voices="rai17547"/>
+		<msg @l="470" char="11" flags="0" index="254" line="470" name="亮"
+		   text="「もちろんだ。礼羽もちゃんと見ててくれ」" timeout="" voices=""/>
+		<msg @l="472" char="-1" flags="0" index="256" line="472" name=""
+		   text="すでにそそり立った肉棒を掴んで、礼羽のように\n:その場にしゃがみこむ。" timeout="" voices=""/>
+		<msg @l="473" char="-1" flags="0" index="258" line="473" name=""
+		   text="視線が礼羽と同じ高さになって、お互いのオナニーを\n:見せ合う体勢が出来上がった。" timeout="" voices=""/>
+		<chgbg @l="475" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01e" type="99"/>
+		<msg @l="477" char="3" flags="0" index="260" line="477" name="礼羽"
+		   text="「貴方のち○ぽ、いつ見ても素敵\x;hearts:　すっごく逞しい……」" timeout="" voices="rai17548"/>
+		<msg @l="479" char="3" flags="0" index="262" line="479" name="礼羽"
+		   text="「バキバキに硬くなって、そんなに大きくなって……\n:はあ、血管も浮いててすごく凶悪な面構えだよ」" timeout=""
+		   voices="rai17549"/>
+		<play_sound @l="481" buf="5" fadeout="0" intro="0" src="rai80015" type="6"
+		   volume="1."/>
+		<msg @l="482" char="-1" flags="0" index="264" line="482" name=""
+		   text="うっとりとした視線が股間に注がれる。" timeout="" voices=""/>
+		<msg @l="483" char="-1" flags="0" index="266" line="483" name=""
+		   text="なんだかペニスがむずむずして、それだけで\n:さらに固く充血していく。" timeout="" voices=""/>
+		<play_sound @l="484" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="486" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01b" type="99"/>
+		<msg @l="488" char="3" flags="0" index="268" line="488" name="礼羽"
+		   text="「さらに大きくなった！？　あぁ、はぁはぁ……\n:こんなのがいままで私のおま○こに\n:入ってたなんてぇ……っ、んふっ、ふぅぅんっ！」"
+		   timeout="" voices="rai17550"/>
+		<chgbg @l="490" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_01d" type="99"/>
+		<msg @l="492" char="3" flags="0" index="270" line="492" name="礼羽"
+		   text="「想像するだけで濡れちゃうっ、あぁ、ここいっぱい\n:濡れてきちゃうっ！」" timeout="" voices="rai17551"/>
+		<play_sound @l="494" buf="1" fadeout="0" intro="-1" src="hse102" type="1"
+		   volume="1."/>
+		<play_sound @l="496" buf="5" fadeout="0" intro="0" src="rai80018" type="6"
+		   volume="1."/>
+		<msg @l="497" char="-1" flags="0" index="272" line="497" name=""
+		   text="彼女の指が秘裂を行き来するたびに愛液が増してきて、\n:指先をぬらぬらと湿らせていく。" timeout="" voices=""/>
+		<play_sound @l="499" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="503" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="505" char="11" flags="0" index="274" line="505" name="亮"
+		   text="「おま○こすごい……べとべとに濡れて、アイスクリームでも\n:溶かしたみたいだ……」" timeout="" voices=""/>
+		<msg @l="507" char="-1" flags="0" index="276" line="507" name=""
+		   text="礼羽のオナニー姿を見ながら、しゅっしゅっと肉棒を擦る。" timeout="" voices=""/>
+		<play_sound @l="508" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="510" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="512" char="3" flags="0" index="278" line="512" name="礼羽"
+		   text="「はぁはぁ、シコシコ見せられて、んはぁぁ……\n:指が止まらないっ！　くふぅ、んふぅぅ……っ、\n:おま○こから恥ずかしい音がいっぱい出てるのっ」"
+		   timeout="" voices="rai17552"/>
+		<chgbg @l="514" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="516" char="3" flags="0" index="280" line="516" name="礼羽"
+		   text="「指で触ってるだけで、ぐじゅぐじゅになってるよぉっ……\n:んふう、ほら見てえっ！」" timeout=""
+		   voices="rai17553"/>
+		<msg @l="518" char="3" flags="0" index="282" line="518" name="礼羽"
+		   text="「私も見るからっ、硬くて大きくて素敵なち○ぽっ！\n:ああ、もっと見せつけて！」" timeout=""
+		   voices="rai17554"/>
+		<play_sound @l="520" buf="2" fadeout="0" intro="-1" src="hse106" type="1"
+		   volume="1."/>
+		<play_sound @l="522" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="523" char="-1" flags="0" index="284" line="523" name=""
+		   text="僕にあてられたのか、礼羽が指先をさらに激しく動かしだす。" timeout="" voices=""/>
+		<msg @l="524" char="-1" flags="0" index="286" line="524" name=""
+		   text="そのたびにくちゅくちゅと水音が大きくなってきて、膣口から\n:透明な液体がお尻まで垂れるくらい漏れ出してきていた。"
+		   timeout="" voices=""/>
+		<play_sound @l="525" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="527" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="529" char="3" flags="0" index="288" line="529" name="礼羽"
+		   text="「あはぁ、貴方の硬いおち○ちんが欲しい……あぁん、\n:いつもみたいに、硬いので私の中をかき回して欲しいのお！」"
+		   timeout="" voices="rai17555"/>
+		<play_sound @l="531" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="532" char="11" flags="0" index="290" line="532" name="亮"
+		   text="「ぼ、僕も……っ、はぁはぁ、礼羽のおま○こにぶち込みたい！」" timeout="" voices=""/>
+		<play_sound @l="533" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="535" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="537" char="3" flags="0" index="292" line="537" name="礼羽"
+		   text="「はぁはぁ、ぶち込むだなんて言われちゃったら\n:がまんできないっ……ち○ぽが欲しくて手がどんどん動いちゃう！\n:この手が貴方のだって想像するだけで……くひぃん！」"
+		   timeout="" voices="rai17556"/>
+		<play_sound @l="539" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="540" char="-1" flags="0" index="294" line="540" name=""
+		   text="オナニーを見せつけあいながらセックスを想像するだけで、\n:手の動きが激しくなっていく。" timeout="" voices=""/>
+		<msg @l="541" char="-1" flags="0" index="296" line="541" name=""
+		   text="目の前にいるのにあえてふれあえないもどかしさが、\n:より想像を膨らませていく。" timeout="" voices=""/>
+		<msg @l="543" char="11" flags="0" index="298" line="543" name="亮"
+		   text="「ああっ、礼羽のおま○こ気持ちいいっ……！\n:いつもペニスをキュッキュッって締め付けてくるんだ」" timeout=""
+		   voices=""/>
+		<msg @l="545" char="-1" flags="0" index="300" line="545" name=""
+		   text="膣内の感覚を思い出しながら、肉棒を行き来させていく。" timeout="" voices=""/>
+		<play_sound @l="546" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="548" buf="2" fadeout="0" type="1"/>
+		<chgbg @l="550" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="552" char="3" flags="0" index="302" line="552" name="礼羽"
+		   text="「すごい、ち○ぽを一所懸命しごいてる……んああっ、手の動きが\n:どんどん速くなって、私のおま○こを想像してるんだね！」"
+		   timeout="" voices="rai17557"/>
+		<chgbg @l="554" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="556" char="3" flags="0" index="304" line="556" name="礼羽"
+		   text="「んはぁぁんっ、私のおま○この中、あんな風に\n:一所懸命行ったり来たりしてるんだ……すごいぃ！！！」" timeout=""
+		   voices="rai17558"/>
+		<play_sound @l="558" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="559" char="-1" flags="0" index="306" line="559" name=""
+		   text="ふたりの反応がどんどん高まっていく。" timeout="" voices=""/>
+		<msg @l="560" char="-1" flags="0" index="308" line="560" name=""
+		   text="お互いの淫らな姿から目が離せない。そして\n:ますます昂ぶっていってしまう。" timeout="" voices=""/>
+		<play_sound @l="561" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="563" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="565" char="3" flags="0" index="310" line="565" name="礼羽"
+		   text="「ち○ぽの出っ張りを必死で擦ってる……そこ、\n:感じる場所だったよね……はあん」" timeout=""
+		   voices="rai17559"/>
+		<play_sound @l="567" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="568" char="11" flags="0" index="312" line="568" name="亮"
+		   text="「ああ、すごく興奮してる。こんなに、\n:いやらしい礼羽を見たことない」" timeout="" voices=""/>
+		<play_sound @l="569" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="571" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="573" char="3" flags="0" index="314" line="573" name="礼羽"
+		   text="「ひゃん！　そんなこと言われたら、言葉でも感じちゃう」" timeout="" voices="rai17560"/>
+		<play_sound @l="575" buf="2" fadeout="0" intro="-1" src="hse106" type="1"
+		   volume="1."/>
+		<play_sound @l="577" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="578" char="-1" flags="0" index="316" line="578" name=""
+		   text="興奮が止まらない様子の礼羽は、Ｍ字開脚の姿勢のまま\n:激しく身体を揺り動かす。" timeout="" voices=""/>
+		<msg @l="579" char="-1" flags="0" index="318" line="579" name=""
+		   text="むき出しになったおっぱいが、ぶるんぶるんと重そうに揺れた。" timeout="" voices=""/>
+		<msg @l="581" char="11" flags="0" index="320" line="581" name="亮"
+		   text="「いやらしいだけじゃなくって、すっごくかわいいよ」" timeout="" voices=""/>
+		<play_sound @l="582" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="584" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="586" char="3" flags="0" index="322" line="586" name="礼羽"
+		   text="「キュンってしちゃう……んはぁっ\x;heart:　貴方に\n:かわいいって言われただけで、胸の奥も\n:おま○こもキュンキュンってなっちゃうよぉ\x;hearts:」"
+		   timeout="" voices="rai17561"/>
+		<chgbg @l="588" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="590" char="3" flags="0" index="324" line="590" name="礼羽"
+		   text="「指止まらないっ！　褒められると……んああ！\n:おま○こ恥ずかしいくらい広がってるのに……止められないっ！」" timeout=""
+		   voices="rai17562"/>
+		<play_sound @l="592" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="593" char="11" flags="0" index="326" line="593" name="亮"
+		   text="「うう、こっちも止まらない！」" timeout="" voices=""/>
+		<msg @l="595" char="-1" flags="0" index="328" line="595" name=""
+		   text="いつもひとりでするように、人差し指と親指で輪っかを作り、\n:それでカリ首を刺激する。" timeout="" voices=""/>
+		<msg @l="596" char="-1" flags="0" index="330" line="596" name=""
+		   text="指の腹でカリの付け根の部分を擦るたびに、声が漏れてしまう。" timeout="" voices=""/>
+		<msg @l="598" char="11" flags="0" index="332" line="598" name="亮"
+		   text="「うぐっ、くうぅ、これ……ヤバすぎるっ！？」" timeout="" voices=""/>
+		<play_sound @l="599" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="601" buf="2" fadeout="0" type="1"/>
+		<chgbg @l="602" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="604" char="3" flags="0" index="334" line="604" name="礼羽"
+		   text="「あはっ、気持ちよさそうな声。……それにえっちな顔してる」" timeout="" voices="rai17563"/>
+		<play_sound @l="606" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="607" char="11" flags="0" index="336" line="607" name="亮"
+		   text="「そっちだって。さっきからすごくエロい声出してるぞ」" timeout="" voices=""/>
+		<play_sound @l="608" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="610" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="612" char="3" flags="0" index="338" line="612" name="礼羽"
+		   text="「だって声、ガマンできないもの……んはぁっ、はぁはぁ、\n:ふたりで気持ちよくなって、まるでセックスしてるみたい……\n:ふあぁぁっ」"
+		   timeout="" voices="rai17564"/>
+		<play_sound @l="614" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="615" char="-1" flags="0" index="340" line="615" name=""
+		   text="決して、相手には触れあうことがないオナニーの見せ合い。" timeout="" voices=""/>
+		<msg @l="616" char="-1" flags="0" index="342" line="616" name=""
+		   text="それなのにお互いがお互いを高めあい、まるで\n:疑似的なセックスをしているような錯覚さえおぼえる。" timeout=""
+		   voices=""/>
+		<msg @l="618" char="11" flags="0" index="344" line="618" name="亮"
+		   text="「はぁはぁ……んくっ、もうこれ、オナニーじゃないかも」" timeout="" voices=""/>
+		<play_sound @l="619" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="621" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="623" char="3" flags="0" index="346" line="623" name="礼羽"
+		   text="「はぁはぁ、ある意味そうだよね。たまには、\n:こういうのもいいかも……あふっ、んくぅぅ、\n:ちょっとクセになっちゃいそう……」"
+		   timeout="" voices="rai17565"/>
+		<msg @l="625" char="3" flags="0" index="348" line="625" name="礼羽"
+		   text="「なんだか本当に……んあっ、はぁはぁ、\n:セックスしてるみたいで……はっ、はふぅ、んはあぁぁっ！？」" timeout=""
+		   voices="rai17566"/>
+		<chgbg @l="627" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="629" char="3" flags="0" index="350" line="629" name="礼羽"
+		   text="「貴方が欲しい、んはあ……ち○ぽ、ビクビクして素敵ぃ\x;note:」" timeout="" voices="rai17567"/>
+		<play_sound @l="631" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="632" char="-1" flags="0" index="352" line="632" name=""
+		   text="礼羽が悩ましい顔で、腰を突き出してくる。" timeout="" voices=""/>
+		<msg @l="633" char="-1" flags="0" index="354" line="633" name=""
+		   text="その姿がまるで僕の肉棒を求めているようで、思わず\n:前のめりになりながら僕も腰を突き出す。" timeout=""
+		   voices=""/>
+		<msg @l="635" char="11" flags="0" index="356" line="635" name="亮"
+		   text="「見てくれ！　ち○ぽが礼羽の中で動いてるのを\n:想像しながら見てくれっ！！」" timeout="" voices=""/>
+		<play_sound @l="636" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="638" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="640" char="3" flags="0" index="358" line="640" name="礼羽"
+		   text="「すごっ……ステキぃ、ゴリゴリってひっかかって、\n:私の中をめちゃくちゃにかき回すの」" timeout=""
+		   voices="rai17568"/>
+		<msg @l="642" char="3" flags="0" index="360" line="642" name="礼羽"
+		   text="「血管がビクビクしてておいしそう……ぺろ、れろ、\n:ここで食べちゃいたいくらい……」" timeout=""
+		   voices="rai17569"/>
+		<chgbg @l="644" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02a" type="99"/>
+		<play_sound @l="646" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="647" char="-1" flags="0" index="362" line="647" name=""
+		   text="舌なめずりをして、物欲しそうな目で見つめてくる礼羽。" timeout="" voices=""/>
+		<msg @l="649" char="11" flags="0" index="364" line="649" name="亮"
+		   text="「ああ、食べてくれ。僕も礼羽に食べてもらいたい！」" timeout="" voices=""/>
+		<play_sound @l="650" buf="5" fadeout="0" type="1"/>
+		<msg @l="652" char="3" flags="0" index="366" line="652" name="礼羽"
+		   text="「うんっ！　食べちゃう……あーん。れろっ、あむっ……\n:ふはあ、はむ、むれろお……」" timeout=""
+		   voices="rai17570"/>
+		<msg @l="654" char="3" flags="0" index="368" line="654" name="礼羽"
+		   text="「ちゅば、ちゅばっ……ちゅるるる……ちゅばっ」" timeout="" voices="rai17571"/>
+		<play_sound @l="656" buf="5" fadeout="0" intro="0" src="rai80003" type="6"
+		   volume="1."/>
+		<msg @l="657" char="-1" flags="0" index="370" line="657" name=""
+		   text="限界まで伸ばされた桃色の舌が、まるで肉棒をしゃぶるように、\n:宙空をなめ回す。" timeout="" voices=""/>
+		<msg @l="658" char="-1" flags="0" index="372" line="658" name=""
+		   text="普段、しゃぶってもらっている時は決して見えない口内の奥まで\n:ハッキリと確認出来る。" timeout="" voices=""/>
+		<msg @l="659" char="-1" flags="0" index="374" line="659" name=""
+		   text="エアフェラならではの楽しみ方を発見し、よりハマッていく。" timeout="" voices=""/>
+		<msg @l="661" char="11" flags="0" index="376" line="661" name="亮"
+		   text="「すごい……はぁはぁ、舌ってあんなに\n:自在に動かせるもんなんだな」" timeout="" voices=""/>
+		<msg @l="663" char="-1" flags="0" index="378" line="663" name=""
+		   text="のどち○こまで見えるくらい大きく開けた口の中で、\n:別の生き物のようにピンク色の舌がうねうねと上下している。" timeout=""
+		   voices=""/>
+		<msg @l="664" char="-1" flags="0" index="380" line="664" name=""
+		   text="口内にたまった唾液が舌に絡まり、動きに合わせて\n:だらだらと口角から垂れてくる。" timeout="" voices=""/>
+		<play_sound @l="665" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="667" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02c" type="99"/>
+		<msg @l="669" char="3" flags="0" index="382" line="669" name="礼羽"
+		   text="「こんどは吸ってあげる……はぁぁ、じゅるる、ち○ぽ吸われると\n:いっつも腰をビクビクさせて、んはっ、はぁはぁ、かわいいから」"
+		   timeout="" voices="rai17572"/>
+		<chgbg @l="671" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02a" type="99"/>
+		<msg @l="673" char="3" flags="0" index="384" line="673" name="礼羽"
+		   text="「れろれろ、ちゅちゅっ……じゅるるる、はぁん、おいしいよ、\n:貴方のち○ぽ……」" timeout=""
+		   voices="rai17573"/>
+		<play_sound @l="675" buf="5" fadeout="0" intro="0" src="rai80001" type="6"
+		   volume="1."/>
+		<msg @l="676" char="-1" flags="0" index="386" line="676" name=""
+		   text="礼羽の疑似フェラ姿を見てるだけで、僕の動きも激しくなる。" timeout="" voices=""/>
+		<msg @l="677" char="-1" flags="0" index="388" line="677" name=""
+		   text="まるで、その舌で本当にしゃぶられているような錯覚に、\n:肉棒が思わず反応してしまう。" timeout="" voices=""/>
+		<msg @l="679" char="11" flags="0" index="390" line="679" name="亮"
+		   text="「くそっ、どんどん興奮してきたっ！」" timeout="" voices=""/>
+		<msg @l="681" char="-1" flags="0" index="392" line="681" name=""
+		   text="彼女の舌の動きに合わせるように、手を小刻みに動かしていく。" timeout="" voices=""/>
+		<msg @l="682" char="-1" flags="0" index="394" line="682" name=""
+		   text="尻に力をぎゅっと入れると、肉棒がぎゅんと硬さを増した。" timeout="" voices=""/>
+		<play_sound @l="683" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="685" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02e" type="99"/>
+		<msg @l="687" char="3" flags="0" index="396" line="687" name="礼羽"
+		   text="「っ！　ち○ぽが……あぁん、ぐんって大きくなった……」" timeout="" voices="rai17574"/>
+		<play_sound @l="689" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="690" char="11" flags="0" index="398" line="690" name="亮"
+		   text="「礼羽のフェラが気持ちいいからな、はぁはぁ……\n:あったかくてぬるぬるで、熱いくらいだ」" timeout="" voices=""/>
+		<play_sound @l="691" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="693" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="695" char="3" flags="0" index="400" line="695" name="礼羽"
+		   text="「嬉しいっ！　んああっ！　私も止まらないの……んん、はあ、\n:身体が火照って……おま○こが熱くなっちゃってるっ！」"
+		   timeout="" voices="rai17575"/>
+		<play_sound @l="697" buf="1" fadeout="0" intro="-1" src="hse104" type="1"
+		   volume="1."/>
+		<chgbg @l="698" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<play_sound @l="700" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="701" char="-1" flags="0" index="402" line="701" name=""
+		   text="ぶしゅっと膣口から愛液が垂れ落ちる。" timeout="" voices=""/>
+		<msg @l="702" char="-1" flags="0" index="404" line="702" name=""
+		   text="気がつけば、礼羽の股間の下で、愛液が小さな水たまりを\n:作っていた。" timeout="" voices=""/>
+		<play_sound @l="703" buf="5" fadeout="0" type="1"/>
+		<play_sound @l="705" buf="1" fadeout="0" type="1"/>
+		<chgbg @l="706" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="708" char="3" flags="0" index="406" line="708" name="礼羽"
+		   text="「いっぱい垂れてる……私、こんなに興奮してるんだ……\n:はぁはぁ、あぁん！」" timeout=""
+		   voices="rai17576"/>
+		<play_sound @l="710" buf="5" fadeout="0" intro="0" src="rai80019" type="6"
+		   volume="1."/>
+		<msg @l="711" char="-1" flags="0" index="408" line="711" name=""
+		   text="礼羽が身体をリズミカルにグラインドさせる。" timeout="" voices=""/>
+		<msg @l="712" char="-1" flags="0" index="410" line="712" name=""
+		   text="指をカギ状に折り曲げて、膣口へと差し込み\n:小刻みに揺らしていた。" timeout="" voices=""/>
+		<play_sound @l="713" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="715" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02d" type="99"/>
+		<msg @l="717" char="3" flags="0" index="412" line="717" name="礼羽"
+		   text="「気持ちいいっ！　気持ちよくてふわふわしてくるぅ……\n:んあっ、ああっ、見られてオナニーするの、気持ちいいのぉ！」"
+		   timeout="" voices="rai17577"/>
+		<chgbg @l="719" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02b" type="99"/>
+		<msg @l="721" char="3" flags="0" index="414" line="721" name="礼羽"
+		   text="「見て見てえ\x;hearts:　はしたないおま○こ……貴方の視線で\n:犯してぇっ\x;heart:\x;hearts:」"
+		   timeout="" voices="rai17578"/>
+		<play_sound @l="723" buf="5" fadeout="0" intro="0" src="rai80020" type="6"
+		   volume="1."/>
+		<msg @l="724" char="-1" flags="0" index="416" line="724" name=""
+		   text="ツインテを振り乱しながら絶頂へと向かう礼羽と\n:シンクロするように、僕の欲望も高まっていく。" timeout=""
+		   voices=""/>
+		<msg @l="725" char="-1" flags="0" index="418" line="725" name=""
+		   text="ペニスがより気持ちよくなるよう、肉棒を根元から強く握り直す。" timeout="" voices=""/>
+		<msg @l="727" char="11" flags="0" index="420" line="727" name="亮"
+		   text="「くっ、くううっ！　すごいぞこれ……っ、本当に\n:礼羽を犯してるみたいだっ！」" timeout="" voices=""/>
+		<msg @l="729" char="-1" flags="0" index="422" line="729" name=""
+		   text="根元からカリ、亀頭までしゅっしゅっと手を動かし\n:血流を高めていく。" timeout="" voices=""/>
+		<msg @l="730" char="-1" flags="0" index="424" line="730" name=""
+		   text="睾丸がドクドクと脈打ち、次々と新しい精液が\n:製造されているのが肉棒に伝わってくる。" timeout="" voices=""/>
+		<play_sound @l="731" buf="5" fadeout="0" type="1"/>
+		<chgbg @l="733" duration="300" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="evrai16_02e" type="99"/>
+		<goto script="礼羽_H6_1"/>
+	</code>
+</xscript>

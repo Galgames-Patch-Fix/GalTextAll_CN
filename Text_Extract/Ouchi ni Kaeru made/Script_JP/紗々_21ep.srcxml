@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xscript>
+	<code>
+		<play_sound @l="6" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="7" duration="500" show="0"/>
+		<chgbg @l="8" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="white" type="99"/>
+		<loadimage @l="10" bg="0" fit="0" screen="1" src="bg70a_c1"/>
+		<loadimage @l="11" bg="1" fit="0" screen="1" src="bg70a_c2"/>
+		<scroll_infinite @l="12" bg_index="1" screen="1" speed_x="10" speed_y="0"/>
+		<chgscrn @l="13" duration="1000" flags="0" flip="-1" flip_flags="0"
+		   param="0" screen="1" type="0"/>
+		<play_sound @l="14" buf="0" fadeout="500" intro="-1" src="bgm16" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="16" char="-1" flags="0" index="0" line="16" name=""
+		   text="あれからしばらくの時が過ぎた。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="17" char="-1" flags="0" index="2" line="17" name=""
+		   text="紗々ちゃんの新作絵本は瞬く間に大ベストセラーになり、\n:大きな賞まで取ることが出来た。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="18" char="-1" flags="0" index="4" line="18" name=""
+		   text="さらに、絵本のモデルという情報が口コミで広がったことで\n:マシュマロツリーも大賑わいになっている。" timeout=""
+		   voices=""/>
+		<face src=""/>
+		<msg @l="19" char="-1" flags="0" index="6" line="19" name=""
+		   text="自然と人が集まり、誰もが笑顔になれる場所。\n:僕たちの居場所がそこにあった。" timeout="" voices=""/>
+		<play_sound @l="25" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="26" duration="500" show="0"/>
+		<chgbg @l="27" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="99"/>
+		<loadimage @l="28" bg="0" fit="0" screen="1" src="bg02a"/>
+		<chgbs async="0" duration="0" priority="61441" screen="1" src="sas02b"
+		   transparency="0" x="960"/>
+		<waitbs @l="31" flags="0" screen="1"/>
+		<chgscrn @l="32" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="34" buf="0" fadeout="500" intro="-1" src="bgm06" type="0"
+		   volume="1."/>
+		<chgbs async="0" duration="0" priority="61442" screen="0" src="kan11b"
+		   transparency="256" x="1642"/>
+		<waitbs @l="36" flags="0" screen="0"/>
+		<face src="fkan11b"/>
+		<msg @l="37" char="0" flags="17" index="8" line="37" name="花音"
+		   text="「今日の閉店後に新作メニューの試食会をやろうと思うんだけど、２人はどうかな？」" timeout=""
+		   voices="kan16900"/>
+		<movebs duration="1000" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="1492" y="0"/>
+		<waitbs @l="38" flags="0" screen="0"/>
+		<pause @l="39" flags="0" index="10" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas04b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="41" flags="0" screen="0"/>
+		<face src="fsas04b"/>
+		<msg @l="42" char="2" flags="17" index="11" line="42" name="紗々"
+		   text="「ごめんなさい。実は今日はこの後大事な約束があって」" timeout="" voices="sas15700"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="43" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="44" flags="0" screen="0"/>
+		<pause @l="45" flags="0" index="13" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan02b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="47" flags="0" screen="0"/>
+		<face src="fkan02b"/>
+		<msg @l="48" char="0" flags="0" index="14" line="48" name="花音"
+		   text="「あっ、もしかしてデート？」" timeout="" voices="kan16901"/>
+		<face src="f"/>
+		<msg @l="50" char="11" flags="0" index="16" line="50" name="亮"
+		   text="「違う違う。\n:紗々ちゃんの担当編集さんと次回の打ち合わせがあるんだ」" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="52" flags="0" screen="0"/>
+		<face src="fkan10b"/>
+		<msg @l="53" char="0" flags="17" index="18" line="53" name="花音"
+		   text="「そっかぁ！　\n:また新しい絵本を出すってこの前話してたもんね！」" timeout="" voices="kan16902"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="54" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="55" flags="0" screen="0"/>
+		<wait @l="58" flags="5" time="1000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan01b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="59" flags="-2147483648" screen="0"/>
+		<setface @l="60" src="fkan01b"/>
+		<pause @l="61" flags="-2147483648" index="20" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan23b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="64" flags="0" screen="0"/>
+		<face src="fkan23b"/>
+		<msg @l="65" char="0" flags="17" index="21" line="65" name="花音"
+		   text="「ふふっ、またひとつお店の本棚に\n:紗々ちゃんの絵本が増えるんだね」" timeout="" voices="kan16903"/>
+		<emotion @l="66" id="kan" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="kan_3" x="0" y="0"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="67" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="68" flags="0" screen="0"/>
+		<pause @l="69" flags="0" index="23" timeout=""/>
+		<clremt @l="70" id="kan" screen="0"/>
+		<chgbs async="0" duration="0" priority="61443" screen="0" src="jcc10b"
+		   transparency="256" x="278"/>
+		<waitbs @l="76" flags="0" screen="0"/>
+		<face src="fjcc10b"/>
+		<msg @l="77" char="4" flags="17" index="24" line="77" name="ＪＣ"
+		   text="「絵本作家が自分の本を朗読してくれるなんて、\n:世界広しといえどもウチくらいなもんだろうからな」" timeout=""
+		   voices="jei14400"/>
+		<movebs duration="1000" flags="0" id="jcc" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="428" y="0"/>
+		<waitbs @l="78" flags="0" screen="0"/>
+		<pause @l="79" flags="0" index="26" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="kan10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="81" flags="0" screen="0"/>
+		<face src="fkan10b"/>
+		<msg @l="82" char="0" flags="17" index="27" line="82" name="花音"
+		   text="「次の新作も、みんなと楽しみにしてるからね！」" timeout="" voices="kan16904"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="83" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="kan" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="84" flags="0" screen="0"/>
+		<pause @l="85" flags="0" index="29" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10b"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="87" flags="0" screen="0"/>
+		<face src="fsas10b"/>
+		<msg @l="88" char="2" flags="17" index="30" line="88" name="紗々"
+		   text="「はい！　次もバッチリパーフェクトに\n:期待して待っててください！」" timeout="" voices="sas15701"/>
+		<emotion @l="89" id="sas" loop="1" screen="0" src="emotion_06" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<movebs duration="250" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="75"/>
+		<waitbs @l="90" flags="0" screen="0"/>
+		<movebs duration="250" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="91" flags="0" screen="0"/>
+		<pause @l="92" flags="0" index="32" timeout=""/>
+		<clremt @l="93" id="sas" screen="0"/>
+		<face src=""/>
+		<msg @l="95" char="-1" flags="0" index="33" line="95" name=""
+		   text="紗々ちゃんの代名詞とも言えた\n:ネガティブな発言はもう見なくなった。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="96" char="-1" flags="0" index="35" line="96" name=""
+		   text="もう大人も子供も分け隔て無い、\n:自信に満ち溢れた笑顔こそが彼女の新たな代名詞だ。" timeout="" voices=""/>
+		<play_sound @l="103" buf="0" fadeout="2500" type="0"/>
+		<showmsg @l="104" duration="500" show="0"/>
+		<chgbg @l="105" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" src="black" type="201"/>
+		<loadimage @l="106" bg="0" fit="0" screen="1" src="bg45a"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="sas02a"
+		   transparency="256" x="810"/>
+		<waitbs @l="107" flags="0" screen="1"/>
+		<chgscrn @l="108" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="201"/>
+		<play_sound @l="109" buf="0" fadeout="500" intro="-1" src="bgm24" type="0"
+		   volume="1."/>
+		<face src="f"/>
+		<msg @l="111" char="11" flags="17" index="37" line="111" name="亮"
+		   text="「すみません、今日もついて来ちゃって」" timeout="" voices=""/>
+		<movebs duration="1000" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="960" y="0"/>
+		<waitbs @l="112" flags="0" screen="0"/>
+		<pause @l="113" flags="0" index="39" timeout=""/>
+		<face src="f"/>
+		<msg @l="115" char="10" flags="0" index="40" line="115" name="女性編集者"
+		   text="「構いませんよ。\n:作家のモチベーションアップに繋がるならむしろ大歓迎ですから」" timeout=""
+		   voices="mowd03600"/>
+		<face src=""/>
+		<msg @l="117" char="-1" flags="0" index="42" line="117" name=""
+		   text="いつもの喫茶店で、いつもの編集さんと顔を合わせる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="119" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="120" char="2" flags="17" index="44" line="120" name="紗々"
+		   text="「次回作の内容をまとめてきました。よろしくお願いします」" timeout="" voices="sas15702"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="121" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="122" flags="0" screen="0"/>
+		<pause @l="123" flags="0" index="46" timeout=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="125" flags="0" screen="0"/>
+		<face src="f"/>
+		<msg @l="126" char="10" flags="0" index="47" line="126" name="女性編集者"
+		   text="「拝見させていただきます」" timeout="" voices="mowd03601"/>
+		<clr_allbs duration="400" screen="0"/>
+		<waitbs @l="128" flags="0" screen="0"/>
+		<face src=""/>
+		<msg @l="130" char="-1" flags="0" index="49" line="130" name=""
+		   text="編集さんは受け取った次回作の草案を静かに読み進める。" timeout="" voices=""/>
+		<face src=""/>
+		<msg @l="132" char="-1" flags="0" index="51" line="132" name=""
+		   text="そして、絵本の世界から帰ってくる頃には穏やかな様子で\n:頬を綻ばせていた。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="134" char="10" flags="0" index="53" line="134" name="女性編集者"
+		   text="「皇鈴先生――いえ、皇鈴さん。貴女は本当に変わりましたね」" timeout="" voices="mowd03602"/>
+		<face src="f"/>
+		<msg @l="136" char="10" flags="0" index="55" line="136" name="女性編集者"
+		   text="「作風も以前はどこか悲しいところがあって、\n:それによって感情を揺さぶるようなものでした」" timeout=""
+		   voices="mowd03603"/>
+		<face src="f"/>
+		<msg @l="138" char="10" flags="0" index="57" line="138" name="女性編集者"
+		   text="「でも今はヒューマニズムによって感動をもたらされます。\n:どちらがいいというものではありませんが、\n:私は今の作風が好きですよ」"
+		   timeout="" voices="mowd03604"/>
+		<face src="f"/>
+		<msg @l="140" char="10" flags="0" index="59" line="140" name="女性編集者"
+		   text="「それに以前より子供に喜ばれるものになると思います」" timeout="" voices="mowd03605"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas15a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="142" flags="0" screen="0"/>
+		<face src="fsas15a"/>
+		<msg @l="143" char="2" flags="17" index="61" line="143" name="紗々"
+		   text="「たはは……昔のネガティブなところが作品にも\n:出ちゃってたんですね」" timeout="" voices="sas15703"/>
+		<emotion @l="144" id="sas" loop="1" screen="0" src="emotion_02" time="-1"
+		   type="sas_2" x="0" y="0"/>
+		<pause @l="145" flags="0" index="63" timeout=""/>
+		<clremt @l="146" id="sas" screen="0"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="148" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="149" char="2" flags="17" index="64" line="149" name="紗々"
+		   text="「……だけど、はい。ようやく変わることが出来ました」" timeout="" voices="sas15704"/>
+		<wait @l="152" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="153" flags="-2147483648" screen="0"/>
+		<setface @l="154" src="fsas10a"/>
+		<pause @l="155" flags="-2147483648" index="66" timeout=""/>
+		<face src="f"/>
+		<msg @l="160" char="10" flags="0" index="67" line="160" name="女性編集者"
+		   text="「これもまた、愛のなせるワザというやつでしょうか？」" timeout="" voices="mowd03606"/>
+		<face src=""/>
+		<msg @l="162" char="-1" flags="0" index="69" line="162" name=""
+		   text="口元を手で隠した編集さんがムフフと僕に視線を向けた。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas16a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="164" flags="0" screen="0"/>
+		<face src="fsas16a"/>
+		<msg @l="165" char="2" flags="17" index="71" line="165" name="紗々"
+		   text="「はいっ！　今は世界で一番大好きな人が\n:一緒にいてくれますから！」" timeout="" voices="sas15705"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="166" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="167" flags="0" screen="0"/>
+		<wait @l="170" flags="5" time="100"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10a"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="171" flags="-2147483648" screen="0"/>
+		<setface @l="172" src="fsas10a"/>
+		<emotion @l="173" id="sas" loop="1" screen="0" src="emotion_04" time="-1"
+		   type="sas_1" x="0" y="0"/>
+		<pause @l="174" flags="-2147483648" index="73" timeout=""/>
+		<clremt @l="176" id="sas" screen="0"/>
+		<play_sound @l="178" buf="0" fadeout="2500" type="0"/>
+		<face src="f"/>
+		<msg @l="180" char="11" flags="0" index="74" line="180" name="亮"
+		   text="「僕も紗々ちゃんと同じ気持ちです。\n:彼女の想う気持ちなら誰にも負けません」" timeout="" voices=""/>
+		<showmsg @l="182" duration="500" show="0"/>
+		<loadimage @l="183" bg="0" fit="0" screen="1" src="bg45az"/>
+		<chgbs async="0" duration="0" priority="0" screen="1" src="sas10az"
+		   transparency="0" x="960"/>
+		<waitbs @l="184" flags="0" screen="1"/>
+		<chgscrn @l="185" duration="1000" flags="256" flip="-1" flip_flags="0"
+		   param="16" screen="1" type="99"/>
+		<play_sound @l="187" buf="0" fadeout="500" intro="-1" src="bgm15" type="0"
+		   volume="1."/>
+		<face src=""/>
+		<msg @l="189" char="-1" flags="0" index="76" line="189" name=""
+		   text="しっかりと繋がり絡み合った手を、たしかな絆として見せる。" timeout="" voices=""/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas02az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="191" flags="0" screen="0"/>
+		<face src="fsas02a"/>
+		<msg @l="192" char="2" flags="0" index="78" line="192" name="紗々"
+		   text="「今はひとりじゃないんで。\n:ふたりでいればどんな壁も超えていけますし、\n:怖いものもありません」" timeout=""
+		   voices="sas15706"/>
+		<face src="f"/>
+		<msg @l="194" char="10" flags="0" index="80" line="194" name="女性編集者"
+		   text="「あらあら、お熱いことで」" timeout="" voices="mowd03607"/>
+		<face src="f"/>
+		<msg @l="196" char="10" flags="0" index="82" line="196" name="女性編集者"
+		   text="「ふふっ。これからも貴女が思い描く、\n:貴女たちの世界を私たちに見せてくださいね」" timeout=""
+		   voices="mowd03608"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas10az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="198" flags="0" screen="0"/>
+		<face src="fsas10a"/>
+		<msg @l="199" char="2" flags="17" index="84" line="199" name="紗々"
+		   text="「はいっ、見ててください……ちゅっ\x;heart:」" timeout="" voices="sas15707"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="45"/>
+		<waitbs @l="200" flags="0" screen="0"/>
+		<movebs duration="200" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="201" flags="0" screen="0"/>
+		<wait @l="204" flags="5" time="2500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="205" flags="-2147483648" screen="0"/>
+		<setface @l="206" src="fsas12a"/>
+		<pause @l="207" flags="-2147483648" index="86" timeout=""/>
+		<face src=""/>
+		<msg @l="210" char="-1" flags="0" index="87" line="210" name=""
+		   text="急に抱き着かれ、頬にキスをされた。" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="212" char="10" flags="0" index="89" line="212" name="女性編集者"
+		   text="「えっ！？　今見せつけられるの！？」" timeout="" voices="mowd03609"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas22az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="214" flags="0" screen="0"/>
+		<face src="fsas22a"/>
+		<msg @l="215" char="2" flags="17" index="91" line="215" name="紗々"
+		   text="「すみません、私って思い込みが激しいので！　\n:てっきり今かと！」" timeout="" voices="sas15708"/>
+		<emotion @l="216" id="sas" loop="1" screen="0" src="emotion_03z" time="-1"
+		   type="sas_2z" x="0" y="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="-75"/>
+		<waitbs @l="217" flags="0" screen="0"/>
+		<movebs duration="150" flags="0" id="sas" rev="0." screen="0"
+		   transparency="0" v0="0." v1="0." x="2147483648" y="0"/>
+		<waitbs @l="218" flags="0" screen="0"/>
+		<wait @l="221" flags="5" time="1700"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas24az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="222" flags="-2147483648" screen="0"/>
+		<setface @l="223" src="fsas24a"/>
+		<emotion @l="224" id="sas" loop="1" screen="0" src="emotion_03z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<pause @l="225" flags="-2147483648" index="93" timeout=""/>
+		<clremt @l="227" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="229" char="10" flags="0" index="94" line="229" name="女性編集者"
+		   text="「あははー、まあいいんですけどね」" timeout="" voices="mowd03610"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas25az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="231" flags="0" screen="0"/>
+		<face src="fsas25a"/>
+		<msg @l="232" char="2" flags="17" index="96" line="232" name="紗々"
+		   text="「いちゃいちゃしてもいいってお許しが出ましたよセンパイ。\n:んーちゅっ」" timeout="" voices="sas15709"/>
+		<wait @l="235" flags="5" time="5500"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas12az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="236" flags="-2147483648" screen="0"/>
+		<setface @l="237" src="fsas12a"/>
+		<pause @l="238" flags="-2147483648" index="98" timeout=""/>
+		<face src="f"/>
+		<msg @l="241" char="11" flags="0" index="99" line="241" name="亮"
+		   text="「ははっ、こいつぅ」" timeout="" voices=""/>
+		<face src="f"/>
+		<msg @l="243" char="10" flags="17" index="101" line="243" name="女性編集者"
+		   text="「なにこれ！？　なんでノロケを見せつけられてるのっ！！？」" timeout="" voices="mowd03611"/>
+		<shakescrn @l="244" amp="20" cycle="20" duration="1000" flags="2" screen="0"/>
+		<pause @l="245" flags="0" index="103" timeout=""/>
+		<face src="f"/>
+		<msg @l="247" char="10" flags="0" index="104" line="247" name="女性編集者"
+		   text="「独身の私に対する挑戦！？　\n:それとも先生なりに何か考えがあって！？」" timeout=""
+		   voices="mowd03612"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas08az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="249" flags="0" screen="0"/>
+		<face src="fsas08a"/>
+		<msg @l="250" char="2" flags="17" index="106" line="250" name="紗々"
+		   text="「センパァイ……だいちゅき！」" timeout="" voices="sas15710"/>
+		<wait @l="253" flags="5" time="3000"/>
+		<chgbs async="0" duration="200" priority="0" screen="0" src="sas26az"
+		   transparency="0" x="2147483648"/>
+		<waitbs @l="254" flags="-2147483648" screen="0"/>
+		<setface @l="255" src="fsas26a"/>
+		<emotion @l="256" id="sas" loop="1" screen="0" src="emotion_05z" time="-1"
+		   type="sas_1z" x="0" y="0"/>
+		<pause @l="257" flags="-2147483648" index="108" timeout=""/>
+		<clremt @l="259" id="sas" screen="0"/>
+		<face src="f"/>
+		<msg @l="261" char="10" flags="17" index="109" line="261" name="女性編集者"
+		   text="「どっちでもない！　これただのバカップルだーーっ！！」" timeout="" voices="mowd03613"/>
+		<shakescrn @l="262" amp="20" cycle="100" duration="1000" flags="2"
+		   screen="0"/>
+		<pause @l="263" flags="0" index="111" timeout=""/>
+		<return/>
+	</code>
+</xscript>
